@@ -1,0 +1,392 @@
+[
+  {
+    "tag": "SECTION",
+    "cl": "about_area position-relative hme-abt",
+    "text": "DNA Genetics now offers THCa Flower\n          \n   ",
+    "w": 1440,
+    "h": 358,
+    "css": {
+      "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "fontSize": "14px",
+      "lineHeight": "24px",
+      "padding": "20px 0px 50px",
+      "margin": "-7px 0px 0px",
+      "display": "block"
+    }
+  },
+  {
+    "tag": "DIV",
+    "cl": "row newProBlogSec my-5",
+    "text": "DNA Genetics now offers THCa Flower\n          \n   ",
+    "w": 0,
+    "h": 0,
+    "css": {
+      "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "fontSize": "14px",
+      "lineHeight": "24px",
+      "padding": "0px",
+      "margin": "30px -7.5px",
+      "display": "none"
+    }
+  },
+  {
+    "tag": "P",
+    "cl": "text-center",
+    "text": "Choco Mintz",
+    "w": 0,
+    "h": 0,
+    "css": {
+      "fontFamily": "\"Knockout HTF49-Liteweight\"",
+      "fontSize": "25px",
+      "lineHeight": "25px",
+      "padding": "0px",
+      "margin": "7px 0px 0px",
+      "display": "block"
+    }
+  },
+  {
+    "tag": "P",
+    "cl": "text-center",
+    "text": "GAZ Money",
+    "w": 0,
+    "h": 0,
+    "css": {
+      "fontFamily": "\"Knockout HTF49-Liteweight\"",
+      "fontSize": "25px",
+      "lineHeight": "25px",
+      "padding": "0px",
+      "margin": "7px 0px 0px",
+      "display": "block"
+    }
+  },
+  {
+    "tag": "P",
+    "cl": "text-center",
+    "text": "Guavanade",
+    "w": 0,
+    "h": 0,
+    "css": {
+      "fontFamily": "\"Knockout HTF49-Liteweight\"",
+      "fontSize": "25px",
+      "lineHeight": "25px",
+      "padding": "0px",
+      "margin": "7px 0px 0px",
+      "display": "block"
+    }
+  },
+  {
+    "tag": "P",
+    "cl": "text-center",
+    "text": "Honey Beez",
+    "w": 0,
+    "h": 0,
+    "css": {
+      "fontFamily": "\"Knockout HTF49-Liteweight\"",
+      "fontSize": "25px",
+      "lineHeight": "25px",
+      "padding": "0px",
+      "margin": "7px 0px 0px",
+      "display": "block"
+    }
+  },
+  {
+    "tag": "DIV",
+    "cl": "row newProBlogSec my-5 hidden",
+    "text": "Choco Mintz \n            \n          \n          \n  ",
+    "w": 0,
+    "h": 0,
+    "css": {
+      "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "fontSize": "14px",
+      "lineHeight": "24px",
+      "padding": "0px 7.5px",
+      "margin": "30px -7.5px",
+      "display": "flex"
+    }
+  },
+  {
+    "tag": "P",
+    "cl": "text-center",
+    "text": "Choco Mintz",
+    "w": 0,
+    "h": 0,
+    "css": {
+      "fontFamily": "\"Knockout HTF49-Liteweight\"",
+      "fontSize": "25px",
+      "lineHeight": "25px",
+      "padding": "0px",
+      "margin": "7px 0px 0px",
+      "display": "block"
+    }
+  },
+  {
+    "tag": "P",
+    "cl": "text-center",
+    "text": "GAZ Money",
+    "w": 0,
+    "h": 0,
+    "css": {
+      "fontFamily": "\"Knockout HTF49-Liteweight\"",
+      "fontSize": "25px",
+      "lineHeight": "25px",
+      "padding": "0px",
+      "margin": "7px 0px 0px",
+      "display": "block"
+    }
+  },
+  {
+    "tag": "P",
+    "cl": "text-center",
+    "text": "Guavanade",
+    "w": 0,
+    "h": 0,
+    "css": {
+      "fontFamily": "\"Knockout HTF49-Liteweight\"",
+      "fontSize": "25px",
+      "lineHeight": "25px",
+      "padding": "0px",
+      "margin": "7px 0px 0px",
+      "display": "block"
+    }
+  },
+  {
+    "tag": "P",
+    "cl": "text-center",
+    "text": "Honey Beez",
+    "w": 0,
+    "h": 0,
+    "css": {
+      "fontFamily": "\"Knockout HTF49-Liteweight\"",
+      "fontSize": "25px",
+      "lineHeight": "25px",
+      "padding": "0px",
+      "margin": "7px 0px 0px",
+      "display": "block"
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "cl": "btn custom_btn about_btn green-btn shop_sheed_btn mt-0",
+    "text": "SHOP THCA FLOWER",
+    "w": 0,
+    "h": 0,
+    "css": {
+      "fontFamily": "din-2014, sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "40px",
+      "padding": "0px 25px",
+      "margin": "0px",
+      "display": "flex"
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "cl": "btn custom_btn about_btn green-btn shop_sheed_btn mt-0",
+    "text": "SHOP THCA FLOWER",
+    "w": 0,
+    "h": 0,
+    "css": {
+      "fontFamily": "din-2014, sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "40px",
+      "padding": "0px 25px",
+      "margin": "0px",
+      "display": "flex"
+    }
+  },
+  {
+    "tag": "DIV",
+    "cl": "row newProBlogSec my-5",
+    "text": "PURPLE CHOCOLOPE\n            \n          \n         ",
+    "w": 0,
+    "h": 0,
+    "css": {
+      "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "fontSize": "14px",
+      "lineHeight": "24px",
+      "padding": "0px",
+      "margin": "30px -7.5px",
+      "display": "none"
+    }
+  },
+  {
+    "tag": "P",
+    "cl": "text-center",
+    "text": "PURPLE CHOCOLOPE",
+    "w": 0,
+    "h": 0,
+    "css": {
+      "fontFamily": "\"Knockout HTF49-Liteweight\"",
+      "fontSize": "25px",
+      "lineHeight": "25px",
+      "padding": "0px",
+      "margin": "7px 0px 0px",
+      "display": "block"
+    }
+  },
+  {
+    "tag": "P",
+    "cl": "text-center",
+    "text": "CHOCOLOPE FEM",
+    "w": 0,
+    "h": 0,
+    "css": {
+      "fontFamily": "\"Knockout HTF49-Liteweight\"",
+      "fontSize": "25px",
+      "lineHeight": "25px",
+      "padding": "0px",
+      "margin": "7px 0px 0px",
+      "display": "block"
+    }
+  },
+  {
+    "tag": "P",
+    "cl": "text-center",
+    "text": "STRAWBERRY BANANA",
+    "w": 0,
+    "h": 0,
+    "css": {
+      "fontFamily": "\"Knockout HTF49-Liteweight\"",
+      "fontSize": "25px",
+      "lineHeight": "25px",
+      "padding": "0px",
+      "margin": "7px 0px 0px",
+      "display": "block"
+    }
+  },
+  {
+    "tag": "P",
+    "cl": "text-center",
+    "text": "BRUISED BANANAS",
+    "w": 0,
+    "h": 0,
+    "css": {
+      "fontFamily": "\"Knockout HTF49-Liteweight\"",
+      "fontSize": "25px",
+      "lineHeight": "25px",
+      "padding": "0px",
+      "margin": "7px 0px 0px",
+      "display": "block"
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "cl": "btn custom_btn about_btn green-btn shop_sheed_btn mt-0",
+    "text": "Shop Feminized Seeds",
+    "w": 0,
+    "h": 0,
+    "css": {
+      "fontFamily": "din-2014, sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "40px",
+      "padding": "0px 25px",
+      "margin": "0px",
+      "display": "flex"
+    }
+  },
+  {
+    "tag": "DIV",
+    "cl": "row",
+    "text": "Proven and Trusted Premium Genetics \n\n            ",
+    "w": 1320,
+    "h": 288,
+    "css": {
+      "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "fontSize": "14px",
+      "lineHeight": "24px",
+      "padding": "0px",
+      "margin": "0px -7.5px",
+      "display": "flex"
+    }
+  },
+  {
+    "tag": "H2",
+    "cl": "title white",
+    "text": "Proven and Trusted Premium Genetics",
+    "w": 730,
+    "h": 76,
+    "css": {
+      "fontFamily": "\"Knockout HTF49-Liteweight\"",
+      "fontSize": "45px",
+      "lineHeight": "50px",
+      "padding": "0px",
+      "margin": "0px 0px 12px",
+      "display": "block"
+    }
+  },
+  {
+    "tag": "P",
+    "cl": "",
+    "text": "With over 20 years of experience in the cannabis i",
+    "w": 730,
+    "h": 36,
+    "css": {
+      "fontFamily": "Roboto, sans-serif",
+      "fontSize": "15px",
+      "lineHeight": "18px",
+      "padding": "0px",
+      "margin": "7px 0px 0px",
+      "display": "block"
+    }
+  },
+  {
+    "tag": "P",
+    "cl": "",
+    "text": "Our passion and goal of providing the best genetic",
+    "w": 730,
+    "h": 36,
+    "css": {
+      "fontFamily": "Roboto, sans-serif",
+      "fontSize": "15px",
+      "lineHeight": "18px",
+      "padding": "0px",
+      "margin": "7px 0px 0px",
+      "display": "block"
+    }
+  },
+  {
+    "tag": "P",
+    "cl": "",
+    "text": "Our commitment to quality, consistency and custome",
+    "w": 730,
+    "h": 54,
+    "css": {
+      "fontFamily": "Roboto, sans-serif",
+      "fontSize": "15px",
+      "lineHeight": "18px",
+      "padding": "0px",
+      "margin": "7px 0px 0px",
+      "display": "block"
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "cl": "btn custom_btn about_btn green-btn shop_sheed_btn arrow-rht",
+    "text": "Shop Feminized Seeds Now",
+    "w": 280.21875,
+    "h": 42,
+    "css": {
+      "fontFamily": "din-2014, sans-serif",
+      "fontSize": "14px",
+      "lineHeight": "40px",
+      "padding": "0px 25px",
+      "margin": "18px 0px 0px",
+      "display": "flex"
+    }
+  },
+  {
+    "tag": "IMG",
+    "cl": "aron_pic",
+    "text": "",
+    "w": 280,
+    "h": 247.09375,
+    "css": {
+      "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "fontSize": "14px",
+      "lineHeight": "24px",
+      "padding": "0px",
+      "margin": "0px 0px 35px",
+      "display": "block"
+    }
+  }
+]

@@ -1,0 +1,13 @@
+import { test, expect } from '@playwright/test';
+test('dashboard reviews publish to homepage and stay private as drafts',async({page,request})=>{
+ const denied=await request.post('/api/admin/reviews',{data:{author:'Denied',text:'No access',rating:5,published:true}});expect(denied.status()).toBe(403);
+ await page.goto('/account');await page.getByLabel('Email',{exact:true}).fill('admin@example.test');await page.getByLabel('Password',{exact:true}).fill('classroom-admin-password');await page.getByRole('button',{name:'Sign in',exact:true}).click();await page.getByRole('link',{name:'Open dashboard'}).click();await page.getByRole('link',{name:'Reviews',exact:true}).click();
+ await page.getByLabel('Reviewer name').fill('Review QA');await page.getByLabel('Review text').fill('Review lifecycle test text');await page.getByRole('button',{name:'Save review',exact:true}).click();await expect(page.getByRole('status')).toHaveText('Review saved.');
+ let list=await (await page.request.get('/api/admin/reviews')).json();const row=list.find(r=>r.author==='Review QA');expect(row.published).toBe(false);expect((await (await request.get('/api/reviews')).json()).some(r=>r.id===row.id)).toBe(false);
+ const invalid=await page.request.put('/api/admin/reviews/'+row.id,{data:{author:'Review QA',text:'Bad rating',rating:6,published:true}});expect(invalid.status()).toBe(400);
+ await page.getByRole('row').filter({hasText:'Review QA'}).getByRole('button',{name:'Edit',exact:true}).click();await page.getByLabel('Publish on homepage').check();await page.getByRole('button',{name:'Save review',exact:true}).click();await expect(page.getByRole('row').filter({hasText:'Review QA'})).toContainText('Published');
+ await page.reload();await expect(page.getByRole('row').filter({hasText:'Review QA'})).toContainText('Published');
+ await page.goto('/');await expect(page.getByRole('heading',{name:'The Crowd Has Spoken'})).toBeVisible();await expect(page.locator('.dna-review')).toContainText('Review lifecycle test text');await expect(page.getByRole('heading',{name:'The DNA Way',exact:true})).toHaveCount(0);
+ await page.getByRole('button',{name:'Which payment options do you accept?'}).click();await expect(page.getByRole('region',{name:'Which payment options do you accept?'})).toContainText('simulated checkout');
+ await page.goto('/admin/reviews');page.once('dialog',d=>d.accept());await page.getByRole('row').filter({hasText:'Review QA'}).getByRole('button',{name:'Delete',exact:true}).click();await expect(page.getByRole('status')).toHaveText('Review deleted.');expect((await (await request.get('/api/reviews')).json()).some(r=>r.id===row.id)).toBe(false);
+});

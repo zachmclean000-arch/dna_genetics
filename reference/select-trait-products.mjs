@@ -1,0 +1,7 @@
+﻿import {chromium} from '@playwright/test';import fs from 'node:fs';
+const all=await(await fetch('http://127.0.0.1:3001/api/products')).json();
+const groups=[{name:'Indoor Seeds',attribute:'Indoor',slug:'indoor-seeds',limit:15},{name:'High Yield Seeds',attribute:'High Yield',slug:'high-yield-seeds',limit:10},{name:'High THC Seeds',attribute:'High THC',slug:'high-thc-seeds',limit:19}];
+const b=await chromium.launch({channel:'msedge'});
+try{const c=await b.newContext({javaScriptEnabled:false});const p=await c.newPage();for(const group of groups){const selected=[];const seen=new Set();for(let n=1;n<=5&&selected.length<group.limit;n++){const url=`https://dnagenetics.com/product-category/${group.slug}/`+(n===1?'':`page/${n}/`);const r=await c.request.get(url);if(!r.ok())break;const html=await r.text();fs.writeFileSync(`reference/${group.slug}-${n}.html`,html);await p.setContent(html);const urls=await p.locator('ul.products > li a[href*="/product/"]').evaluateAll(ns=>ns.map(n=>n.href));for(const url of urls){if(seen.has(url))continue;seen.add(url);const match=all.find(product=>product.sourceUrl===url);if(match&&selected.length<group.limit)selected.push({id:match.id,slug:match.slug,name:match.name,sourceUrl:url});}}
+if(selected.length!==group.limit)throw Error(`${group.name}: found ${selected.length} of ${group.limit} existing source-matched products`);group.products=selected;console.log(group.name,selected.length,selected.map(p=>p.name));}
+fs.writeFileSync('reference/curated-trait-selections.json',JSON.stringify(groups,null,2));}finally{await b.close();}

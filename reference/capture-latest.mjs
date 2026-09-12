@@ -1,0 +1,7 @@
+import {chromium} from '@playwright/test';
+import fs from 'node:fs';
+const b=await chromium.launch({channel:'msedge'});
+try{const c=await b.newContext();const p=await c.newPage();await p.goto('https://dnagenetics.com/',{waitUntil:'domcontentloaded'});await p.addStyleTag({content:'#landing-age-popup,.landing_bg,.modal-backdrop{display:none!important}[data-aos]{opacity:1!important;transform:none!important}*{scroll-behavior:auto!important}'});const s=p.locator('section').filter({has:p.locator('h2').filter({hasText:'Latest DNA Genetics Cannabis Seeds'})});await s.scrollIntoViewIfNeeded();await p.waitForTimeout(1000);const items=await s.locator('.slick-slide:not(.slick-cloned) .seds_product_box').evaluateAll(ns=>ns.map(n=>({name:n.querySelector('h5').textContent.trim(),url:n.querySelector('img').getAttribute('realsrc')||n.querySelector('img').src})));
+fs.mkdirSync('frontend/public/assets/images/latest',{recursive:true});for(const [i,item]of items.entries()){const r=await c.request.get(item.url);if(!r.ok())throw Error(item.url);item.image=`/assets/images/latest/seed-${i}.webp`;fs.writeFileSync('frontend/public'+item.image,await r.body());}fs.writeFileSync('frontend/src/data/latestSeeds.json',JSON.stringify(items,null,2));
+for(const width of [1440,390]){await p.setViewportSize({width,height:1000});await p.evaluate(()=>document.fonts.ready);await s.screenshot({path:`reference/latest-${width}.png`});}console.log('Saved '+items.length+' reference images.');}finally{await b.close();}
+

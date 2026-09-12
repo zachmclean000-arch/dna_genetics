@@ -1,0 +1,384 @@
+[
+  {
+    "name": "Best Cannabis Seeds",
+    "collection": "bestSeller",
+    "flag": "bestSeller",
+    "slug": "best-cannabis-seeds",
+    "limit": 16,
+    "products": [
+      {
+        "id": "eb0feb57-03f0-42d9-a342-e94a31895199",
+        "slug": "blue-dream-feminized",
+        "name": "Blue Dream Feminized Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/blue-dream-feminized/"
+      },
+      {
+        "id": "989f96fd-cee2-416a-914a-87f9ccea64b0",
+        "slug": "white-widow-feminized",
+        "name": "White Widow Feminized Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/white-widow-feminized/"
+      },
+      {
+        "id": "4f2b091d-9f99-4756-a33a-804674adacca",
+        "slug": "chocolope-fem",
+        "name": "Chocolope Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/chocolope-fem/"
+      },
+      {
+        "id": "b524dc89-01db-49e1-adff-b350aaef08ab",
+        "slug": "kosher-kush-fem",
+        "name": "Kosher Kush Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/kosher-kush-fem/"
+      },
+      {
+        "id": "d52787c7-6770-416e-be9a-ad67a1d4f6e8",
+        "slug": "green-crack-feminized",
+        "name": "Green Crack Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/green-crack-feminized/"
+      },
+      {
+        "id": "5fcac808-269a-43e6-951c-b4dde640c68b",
+        "slug": "24k-x-chocolope-kush-seeds",
+        "name": "Tangielope Kush Reg Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/24k-x-chocolope-kush-seeds/"
+      },
+      {
+        "id": "9625d7fa-8eab-4cb9-9e93-b0ee8acfbeaf",
+        "slug": "swiss-miss-fem",
+        "name": "Swiss Miss Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/swiss-miss-fem/"
+      },
+      {
+        "id": "acb6026f-b5ba-4b60-a3bc-4aa32fb02912",
+        "slug": "tangie-reg",
+        "name": "TANGIE REG Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/tangie-reg/"
+      },
+      {
+        "id": "167edee7-aa44-4788-8909-b66107b585d5",
+        "slug": "elons-x-reg",
+        "name": "Elons-X Reg Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/elons-x-reg/"
+      },
+      {
+        "id": "31b895a2-7973-43f5-bb81-c407c94242c5",
+        "slug": "skywalker-kush-fem",
+        "name": "Skywalker Kush Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/skywalker-kush-fem/"
+      },
+      {
+        "id": "266dce51-f48a-40f0-8886-92b484d86a4f",
+        "slug": "chocolate-truffle-shuffle-fem",
+        "name": "Chocolate Truffle Shuffle Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/chocolate-truffle-shuffle-fem/"
+      },
+      {
+        "id": "1e0ecc7c-0a9e-4129-9c69-ed12db1690cc",
+        "slug": "you-whoo-reg",
+        "name": "You Whoo Reg Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/you-whoo-reg/"
+      },
+      {
+        "id": "107856da-93b3-4756-bd86-ad238cf34de7",
+        "slug": "honey-banana-s1",
+        "name": "Honey Banana S1 Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/honey-banana-s1/"
+      },
+      {
+        "id": "84a1968d-8a33-402f-b22d-cb5b9beff92e",
+        "slug": "the-big-mac-auto",
+        "name": "The Big Mac Auto Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/the-big-mac-auto/"
+      },
+      {
+        "id": "e3e2e21c-d129-4511-bbfa-c12922b6cb33",
+        "slug": "purple-chocolope",
+        "name": "Purple Chocolope Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/purple-chocolope/"
+      },
+      {
+        "id": "2f2d5aef-f8cc-4b99-bb49-9f0421f1c316",
+        "slug": "four-prophets-fem",
+        "name": "Four Prophets Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/four-prophets-fem/"
+      }
+    ],
+    "sourceUrls": [
+      "https://dnagenetics.com/product/blue-dream-feminized/",
+      "https://dnagenetics.com/product/white-widow-feminized/",
+      "https://dnagenetics.com/product/chocolope-fem/",
+      "https://dnagenetics.com/product/kosher-kush-fem/",
+      "https://dnagenetics.com/product/green-crack-feminized/",
+      "https://dnagenetics.com/product/24k-x-chocolope-kush-seeds/",
+      "https://dnagenetics.com/product/swiss-miss-fem/",
+      "https://dnagenetics.com/product/tangie-reg/",
+      "https://dnagenetics.com/product/elons-x-reg/",
+      "https://dnagenetics.com/product/skywalker-kush-fem/",
+      "https://dnagenetics.com/product/chocolate-truffle-shuffle-fem/",
+      "https://dnagenetics.com/product/you-whoo-reg/",
+      "https://dnagenetics.com/product/honey-banana-s1/",
+      "https://dnagenetics.com/product/the-big-mac-auto/",
+      "https://dnagenetics.com/product/purple-chocolope/",
+      "https://dnagenetics.com/product/four-prophets-fem/"
+    ]
+  },
+  {
+    "name": "Classic Strains",
+    "collection": "featured",
+    "flag": "featured",
+    "slug": "classic-strains",
+    "limit": 4,
+    "products": [
+      {
+        "id": "989f96fd-cee2-416a-914a-87f9ccea64b0",
+        "slug": "white-widow-feminized",
+        "name": "White Widow Feminized Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/white-widow-feminized/"
+      },
+      {
+        "id": "d52787c7-6770-416e-be9a-ad67a1d4f6e8",
+        "slug": "green-crack-feminized",
+        "name": "Green Crack Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/green-crack-feminized/"
+      },
+      {
+        "id": "a838b644-8f1f-4f8c-9d9d-edaac8864681",
+        "slug": "gorilla-glue-4-feminized",
+        "name": "GG4 Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/gorilla-glue-4-feminized/"
+      },
+      {
+        "id": "eb0feb57-03f0-42d9-a342-e94a31895199",
+        "slug": "blue-dream-feminized",
+        "name": "Blue Dream Feminized Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/blue-dream-feminized/"
+      }
+    ],
+    "sourceUrls": [
+      "https://dnagenetics.com/product/white-widow-feminized/",
+      "https://dnagenetics.com/product/green-crack-feminized/",
+      "https://dnagenetics.com/product/gorilla-glue-4-feminized/",
+      "https://dnagenetics.com/product/blue-dream-feminized/"
+    ]
+  },
+  {
+    "name": "New Strains",
+    "collection": "newArrival",
+    "flag": "newArrival",
+    "slug": "new-cannabis-seed-strains-premium-genetics-by-dna-genetics",
+    "limit": 2,
+    "products": [
+      {
+        "id": "4026abd9-9559-485b-95bb-723904f5fc40",
+        "slug": "chocolate-truffle-shuffle-reg",
+        "name": "Chocolate Truffle Shuffle Reg Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/chocolate-truffle-shuffle-reg/"
+      },
+      {
+        "id": "266dce51-f48a-40f0-8886-92b484d86a4f",
+        "slug": "chocolate-truffle-shuffle-fem",
+        "name": "Chocolate Truffle Shuffle Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/chocolate-truffle-shuffle-fem/"
+      }
+    ],
+    "sourceUrls": [
+      "https://dnagenetics.com/product/chocolate-truffle-shuffle-reg/",
+      "https://dnagenetics.com/product/chocolate-truffle-shuffle-fem/"
+    ]
+  },
+  {
+    "name": "Mix Packs",
+    "attribute": "Mix Packs",
+    "slug": "cannabis-seed-mix-packs",
+    "limit": 2,
+    "products": [
+      {
+        "id": "a6f73e43-6d96-45ff-9d64-e39fa51208f0",
+        "slug": "dna-auto-mystery-pack-cannabis-seeds",
+        "name": "DNA Auto Mystery Pack Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/dna-auto-mystery-pack-cannabis-seeds/"
+      },
+      {
+        "id": "b5a9b750-c274-4385-8f63-15a4b002a40c",
+        "slug": "dna-mystery-pack",
+        "name": "DNA Mystery Pack Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/dna-mystery-pack/"
+      }
+    ],
+    "sourceUrls": [
+      "https://dnagenetics.com/product/dna-auto-mystery-pack-cannabis-seeds/",
+      "https://dnagenetics.com/product/dna-mystery-pack/"
+    ]
+  },
+  {
+    "name": "Cheap Weed Seeds",
+    "collection": "cheapSeeds",
+    "slug": "cheap-weed-seeds",
+    "limit": 23,
+    "products": [
+      {
+        "id": "a6f73e43-6d96-45ff-9d64-e39fa51208f0",
+        "slug": "dna-auto-mystery-pack-cannabis-seeds",
+        "name": "DNA Auto Mystery Pack Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/dna-auto-mystery-pack-cannabis-seeds/"
+      },
+      {
+        "id": "e2b4f00e-238a-4fb9-bec1-66c68f6f8307",
+        "slug": "kosher-dawg-autoflower-cannabis-seeds",
+        "name": "Kosher Dawg Autoflower Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/kosher-dawg-autoflower-cannabis-seeds/"
+      },
+      {
+        "id": "a4766c68-e980-4403-9976-07434375c380",
+        "slug": "skywalker-kush-auto",
+        "name": "Skywalker Kush Auto Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/skywalker-kush-auto/"
+      },
+      {
+        "id": "c92cd0f8-b9d0-4710-950f-408bff8c14d5",
+        "slug": "mac-n-me",
+        "name": "Mac n Me Autoflower Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/mac-n-me/"
+      },
+      {
+        "id": "c58b24d7-a6e6-40d5-a75d-d6222087d2c8",
+        "slug": "swiss-miss",
+        "name": "Swiss Miss Reg Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/swiss-miss/"
+      },
+      {
+        "id": "bc6cf2c8-9293-470a-b5e9-6117d0658b5e",
+        "slug": "strawberry-sorbet",
+        "name": "Strawberry Sorbet Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/strawberry-sorbet/"
+      },
+      {
+        "id": "f3c81095-768f-4127-8892-206f485e0ee9",
+        "slug": "gmo-kosher",
+        "name": "GMO Kosher Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/gmo-kosher/"
+      },
+      {
+        "id": "d53a9031-8d57-483e-9ac4-b4aeaedc6aea",
+        "slug": "gelato-sorbet",
+        "name": "Gelato Sorbet Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/gelato-sorbet/"
+      },
+      {
+        "id": "99f4dcbd-158d-4329-9725-3b1e20e5629e",
+        "slug": "bakers-delight",
+        "name": "Bakers Delight Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/bakers-delight/"
+      },
+      {
+        "id": "4026abd9-9559-485b-95bb-723904f5fc40",
+        "slug": "chocolate-truffle-shuffle-reg",
+        "name": "Chocolate Truffle Shuffle Reg Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/chocolate-truffle-shuffle-reg/"
+      },
+      {
+        "id": "7708a647-37cd-4566-a609-ba30d0578837",
+        "slug": "chocolope-256-fem",
+        "name": "Chocolope 256 Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/chocolope-256-fem/"
+      },
+      {
+        "id": "1e0ecc7c-0a9e-4129-9c69-ed12db1690cc",
+        "slug": "you-whoo-reg",
+        "name": "You Whoo Reg Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/you-whoo-reg/"
+      },
+      {
+        "id": "ea1cd5f5-9930-4206-8b89-ea17116188bb",
+        "slug": "dna-cake-auto",
+        "name": "DNA Cake Auto Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/dna-cake-auto/"
+      },
+      {
+        "id": "df60794c-ba62-47af-a54e-fbbb36fde794",
+        "slug": "golden-fortunes-reg",
+        "name": "Golden Fortunes Reg Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/golden-fortunes-reg/"
+      },
+      {
+        "id": "db34f22e-e58e-4369-aafa-e1a4595ea2fa",
+        "slug": "white-chocolope",
+        "name": "White Chocolope Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/white-chocolope/"
+      },
+      {
+        "id": "4f6da6d1-4e90-4afc-94cc-db5c55c08bd0",
+        "slug": "generation-x-18-reg",
+        "name": "Generation X-18 Reg Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/generation-x-18-reg/"
+      },
+      {
+        "id": "107856da-93b3-4756-bd86-ad238cf34de7",
+        "slug": "honey-banana-s1",
+        "name": "Honey Banana S1 Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/honey-banana-s1/"
+      },
+      {
+        "id": "167edee7-aa44-4788-8909-b66107b585d5",
+        "slug": "elons-x-reg",
+        "name": "Elons-X Reg Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/elons-x-reg/"
+      },
+      {
+        "id": "4be52674-924e-4aea-b04d-ccaf86d7d7b2",
+        "slug": "challah-bread",
+        "name": "Challah Bread Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/challah-bread/"
+      },
+      {
+        "id": "8a2af0d4-b903-4566-a4e5-f22cbbbcaf0f",
+        "slug": "you-whoo-fem",
+        "name": "You Whoo Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/you-whoo-fem/"
+      },
+      {
+        "id": "7095483e-fb6a-4c93-a48b-3bd09b7037a2",
+        "slug": "four-prophets-reg",
+        "name": "Four Prophets Reg Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/four-prophets-reg/"
+      },
+      {
+        "id": "48e351ce-f3e9-44b3-a2a8-627b98ef3620",
+        "slug": "3peat",
+        "name": "3Peat Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/3peat/"
+      },
+      {
+        "id": "6cc0588d-7e4f-41a9-bdd4-c2a2427000fd",
+        "slug": "rp-43-aka-richard-petty",
+        "name": "RP 43 AKA RICHARD PETTY Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/rp-43-aka-richard-petty/"
+      }
+    ],
+    "sourceUrls": [
+      "https://dnagenetics.com/product/dna-auto-mystery-pack-cannabis-seeds/",
+      "https://dnagenetics.com/product/kosher-dawg-autoflower-cannabis-seeds/",
+      "https://dnagenetics.com/product/skywalker-kush-auto/",
+      "https://dnagenetics.com/product/mac-n-me/",
+      "https://dnagenetics.com/product/swiss-miss/",
+      "https://dnagenetics.com/product/strawberry-sorbet/",
+      "https://dnagenetics.com/product/gmo-kosher/",
+      "https://dnagenetics.com/product/gelato-sorbet/",
+      "https://dnagenetics.com/product/bakers-delight/",
+      "https://dnagenetics.com/product/chocolate-truffle-shuffle-reg/",
+      "https://dnagenetics.com/product/chocolope-256-fem/",
+      "https://dnagenetics.com/product/you-whoo-reg/",
+      "https://dnagenetics.com/product/dna-cake-auto/",
+      "https://dnagenetics.com/product/golden-fortunes-reg/",
+      "https://dnagenetics.com/product/white-chocolope/",
+      "https://dnagenetics.com/product/generation-x-18-reg/",
+      "https://dnagenetics.com/product/honey-banana-s1/",
+      "https://dnagenetics.com/product/elons-x-reg/",
+      "https://dnagenetics.com/product/challah-bread/",
+      "https://dnagenetics.com/product/you-whoo-fem/",
+      "https://dnagenetics.com/product/four-prophets-reg/",
+      "https://dnagenetics.com/product/3peat/",
+      "https://dnagenetics.com/product/rp-43-aka-richard-petty/"
+    ]
+  }
+]

@@ -1,0 +1,234 @@
+[
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2023/11/photo_2026-09-01_12-08-12.jpg",
+    "active": true,
+    "description": "A complimentary pack of 3 feminized 3Peat seeds accompanies eligible seed orders above $120.",
+    "image": "/assets/images/promotions/offer-0.jpg",
+    "id": "offer-0",
+    "title": "3Peat"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2023/12/Free-Shipping-Over-120.webp",
+    "active": true,
+    "description": "US orders of $120 or more qualify for free delivery. Choose the free shipping option during checkout.",
+    "image": "/assets/images/promotions/offer-1.webp",
+    "id": "offer-1",
+    "title": "Free shipping"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2026/08/2026-08-18-01.14.06.jpg",
+    "active": false,
+    "description": "Orders above $120 qualified for 3 complimentary feminized Strawberry Banana Cake seeds.",
+    "image": "/assets/images/promotions/offer-2.jpg",
+    "id": "offer-2",
+    "title": "Strawberry Banana Cake"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2023/11/photo_2026-06-30_16-40-34.jpg",
+    "active": false,
+    "description": "Orders above $120 qualified for 3 complimentary feminized RP43 (Richard Petty) seeds.",
+    "image": "/assets/images/promotions/offer-3.jpg",
+    "id": "offer-3",
+    "title": "RP43 (Richard Petty)"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2026/06/photo_2026-06-01_13-38-37-2.jpg",
+    "active": false,
+    "description": "Orders above $120 qualified for 3 complimentary feminized DNA Mystery Pack seeds.",
+    "image": "/assets/images/promotions/offer-4.jpg",
+    "id": "offer-4",
+    "title": "DNA Mystery Pack"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2026/03/photo_2026-04-03_15-34-58.jpg",
+    "active": false,
+    "description": "Orders above $120 qualified for 3 complimentary feminized Green Crack seeds.",
+    "image": "/assets/images/promotions/offer-5.jpg",
+    "id": "offer-5",
+    "title": "Green Crack"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2026/02/promo-Feb2026.webp",
+    "active": false,
+    "description": "Orders above $120 qualified for 3 complimentary feminized Challah Bread seeds.",
+    "image": "/assets/images/promotions/offer-6.webp",
+    "id": "offer-6",
+    "title": "Challah Bread"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2025/12/promo-dec.webp",
+    "active": false,
+    "description": "Orders above $120 qualified for 3 complimentary feminized Bakers Delight seeds.",
+    "image": "/assets/images/promotions/offer-7.webp",
+    "id": "offer-7",
+    "title": "Bakers Delight"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2025/11/promo-aug.webp",
+    "active": false,
+    "description": "Orders above $120 qualified for 3 complimentary feminized RP43 (Richard Petty) seeds.",
+    "image": "/assets/images/promotions/offer-8.webp",
+    "id": "offer-8",
+    "title": "RP43 (Richard Petty)"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2025/10/promo-October.webp",
+    "active": false,
+    "description": "Orders above $120 qualified for 3 complimentary feminized Strawberry Banana seeds.",
+    "image": "/assets/images/promotions/offer-9.webp",
+    "id": "offer-9",
+    "title": "Strawberry Banana"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2023/11/promo-sep.webp",
+    "active": false,
+    "description": "Orders above $120 qualified for 3 complimentary feminized DNA Mix Pack seeds.",
+    "image": "/assets/images/promotions/offer-10.webp",
+    "id": "offer-10",
+    "title": "DNA Mix Pack"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2025/08/promo-aug.webp",
+    "active": false,
+    "description": "Orders above $120 qualified for 3 complimentary feminized Challah Bread seeds.",
+    "image": "/assets/images/promotions/offer-11.webp",
+    "id": "offer-11",
+    "title": "Challah Bread"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2025/07/whitechocolate-promo.webp",
+    "active": false,
+    "description": "Orders above $120 qualified for 5 complimentary feminized White Chocolope seeds.",
+    "image": "/assets/images/promotions/offer-12.webp",
+    "id": "offer-12",
+    "title": "White Chocolope"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2025/06/honeybanana-promo-1.webp",
+    "active": false,
+    "description": "Orders above $120 qualified for 5 complimentary feminized Honey Banana S1 seeds.",
+    "image": "/assets/images/promotions/offer-13.webp",
+    "id": "offer-13",
+    "title": "Honey Banana S1"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2025/04/image-2-removebg-preview.webp",
+    "active": false,
+    "description": "Orders above $120 qualified for 5 complimentary feminized Chocolate Truffle Shuffle seeds.",
+    "image": "/assets/images/promotions/offer-14.webp",
+    "id": "offer-14",
+    "title": "Chocolate Truffle Shuffle"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2025/01/image-2.jpg",
+    "active": false,
+    "description": "Orders above $120 qualified for 5 complimentary feminized Kosher Dawg seeds.",
+    "image": "/assets/images/promotions/offer-15.jpg",
+    "id": "offer-15",
+    "title": "Kosher Dawg"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2024/09/DNA-Cake-Promo.jpg",
+    "active": false,
+    "description": "Orders above $120 qualified for 5 complimentary feminized DNA Cake seeds.",
+    "image": "/assets/images/promotions/offer-16.jpg",
+    "id": "offer-16",
+    "title": "DNA Cake"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2023/11/DNA_Strawberry_Sorbet_Promo_S.jpg",
+    "active": false,
+    "description": "Orders above $120 qualified for 6 complimentary feminized Strawberry Sorbet seeds.",
+    "image": "/assets/images/promotions/offer-17.jpg",
+    "id": "offer-17",
+    "title": "Strawberry Sorbet"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2023/12/Nov-Promo-Pack-Banner.webp",
+    "active": false,
+    "description": "The first 100 qualifying orders above $100 included three Jelly Donut seeds and three Snow Cone seeds.",
+    "image": "/assets/images/promotions/offer-18.webp",
+    "id": "offer-18",
+    "title": "November promo pack"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2023/12/DNA_December_Promo.webp",
+    "active": false,
+    "description": "Seed orders above $150 included three Auto Strawberry Banana seeds.",
+    "image": "/assets/images/promotions/offer-19.webp",
+    "id": "offer-19",
+    "title": "Auto Strawberry Banana"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2023/12/DNA-Genetics-Seed-Vault-Club-Banner-1.webp",
+    "active": false,
+    "description": "An annual membership featuring a different mystery seed box each month.",
+    "image": "/assets/images/promotions/offer-20.webp",
+    "id": "offer-20",
+    "title": "Seed Vault Club"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2023/12/Clifford-Box_DNA_Genetics.webp",
+    "active": false,
+    "description": "Qualifying orders above $100 included three feminized Clifford seeds, subject to availability.",
+    "image": "/assets/images/promotions/offer-21.webp",
+    "id": "offer-21",
+    "title": "Clifford"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2023/12/Elons-X-Myalr.webp",
+    "active": false,
+    "description": "Orders above $120 included six regular seeds of this variety.",
+    "image": "/assets/images/promotions/offer-22.webp",
+    "id": "offer-22",
+    "title": "Elon\u2019s X"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2023/12/DNA_Genetics_Cannabis_Seeds_in_usa.webp",
+    "active": false,
+    "description": "Retail orders above $120 included a 13-seed regular pack, limited to one per order.",
+    "image": "/assets/images/promotions/offer-23.webp",
+    "id": "offer-23",
+    "title": "24K Gold x Chocolope Kush"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2023/12/DNA-Genetics-Free-Seeds-Box.webp",
+    "active": false,
+    "description": "Retail orders above $120 included 13 regular seeds of this cross.",
+    "image": "/assets/images/promotions/offer-24.webp",
+    "id": "offer-24",
+    "title": "Burmese Thai x Kosher Kush"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2023/12/box-1.webp",
+    "active": false,
+    "description": "Retail orders above $120 included three feminized seeds of this cross.",
+    "image": "/assets/images/promotions/offer-25.webp",
+    "id": "offer-25",
+    "title": "Miss DNA x Kosher Kush"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2023/12/hb-promo-sq1.webp",
+    "active": false,
+    "description": "Retail orders above $120 included three feminized seeds of this cross.",
+    "image": "/assets/images/promotions/offer-26.webp",
+    "id": "offer-26",
+    "title": "X18 Clementine x Honey Banana"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2023/12/DNA-Genetics-Loyalty-DNA-Points-Scheme-Banner.webp",
+    "active": false,
+    "description": "A rewards programme that let customers collect points towards later purchases.",
+    "image": "/assets/images/promotions/offer-27.webp",
+    "id": "offer-27",
+    "title": "DNA Points"
+  },
+  {
+    "source": "https://dnagenetics.com/wp-content/uploads/2023/12/bonus-seed-square-1.webp",
+    "active": false,
+    "description": "Bonus quantities increased packs of 5, 10, 15 and 20 seeds to 6, 12, 18 and 24 respectively.",
+    "image": "/assets/images/promotions/offer-28.webp",
+    "id": "offer-28",
+    "title": "Bonus seeds"
+  }
+]

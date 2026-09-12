@@ -1,0 +1,83 @@
+.dna-awards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.dna-awards-panel {
+  background: #151a18 url("/assets/images/awards/background.webp") center /
+    cover no-repeat;
+  padding: 50px 59px 46px 10px;
+}
+.dna-awards-copy {
+  max-width: 580px;
+  margin-left: auto;
+}
+.dna-awards .dna-awards-eyebrow {
+  margin: 0 0 8px;
+  color: #d79e00;
+  font:
+    400 16px/32px "DNA Knockout",
+    sans-serif;
+  text-transform: uppercase;
+}
+.dna-awards h2 {
+  margin: 0 0 20px;
+  color: #fff;
+  font:
+    500 45px/52px "DNA Knockout",
+    sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+.dna-awards p {
+  margin: 0 0 20px;
+  color: #fff;
+  font:
+    400 16px/24px "DNA Roboto",
+    sans-serif;
+}
+.dna-awards a {
+  color: #d79e00;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.dna-awards a:hover {
+  color: #fff;
+}
+.dna-awards a:focus-visible {
+  outline: 2px solid #ffcb00;
+  outline-offset: 3px;
+}
+.dna-awards .dna-awards-note,
+.dna-awards-note a {
+  color: #c7beaf;
+}
+.dna-awards-photo {
+  min-width: 0;
+}
+.dna-awards-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+}
+@media (max-width: 991px) {
+  .dna-awards-panel {
+    padding: 30px 25px 10px;
+  }
+  .dna-awards .dna-awards-eyebrow {
+    line-height: 24px;
+  }
+}
+@media (max-width: 600px) {
+  .dna-awards {
+    grid-template-columns: 1fr;
+  }
+  .dna-awards-panel {
+    padding: 40px 25px 20px;
+  }
+  .dna-awards-photo img {
+    height: auto;
+    object-position: center;
+  }
+}

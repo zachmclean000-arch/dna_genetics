@@ -1,0 +1,71 @@
+.dna-award-logo-carousel {
+  position: relative;
+  max-width: 1100px;
+  padding: 25px 45px 35px;
+  margin: 0 auto;
+}
+.dna-award-logo-track {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+.dna-award-logo-track::-webkit-scrollbar {
+  display: none;
+}
+.dna-award-logo-slide {
+  flex: 0 0 calc(100% / 7);
+  min-width: 0;
+  padding: 0 10px;
+  scroll-snap-align: start;
+}
+.dna-award-logo-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+.dna-award-logo-carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  border: 0;
+  color: #0b4d3c;
+  background: transparent;
+  font:
+    28px/35px Arial,
+    sans-serif;
+  cursor: pointer;
+}
+.dna-award-logo-prev {
+  left: 0;
+}
+.dna-award-logo-next {
+  right: 0;
+}
+.dna-award-logo-carousel button:hover {
+  color: #d79e00;
+}
+.dna-award-logo-carousel :focus-visible {
+  outline: 2px solid #d79e00;
+  outline-offset: -2px;
+}
+@media (max-width: 991px) {
+  .dna-award-logo-slide {
+    flex-basis: 20%;
+  }
+}
+@media (max-width: 600px) {
+  .dna-award-logo-carousel {
+    padding: 20px 35px 30px;
+  }
+  .dna-award-logo-slide {
+    flex-basis: 50%;
+    padding: 0 8px;
+  }
+}

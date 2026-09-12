@@ -1,0 +1,772 @@
+[
+  {
+    "name": "Swiss Miss Reg Cannabis Seeds",
+    "sourceId": "29586",
+    "facts": {
+      "Genetics": "Chocolope Kush x OG #18",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "8 - 9 weeks",
+      "Yield": "14–16 oz./m²",
+      "Type": "Regular Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/Swiss_Miss_DNA_Genetics-600x600-1.webp"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-SWM-REG5",
+        "price": 100.15,
+        "salePrice": 80.12,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-SWM-REG10",
+        "price": 129.51,
+        "salePrice": 95.23,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-SWM-REG15",
+        "price": 194.75,
+        "salePrice": 135.24,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-SWM-REG20",
+        "price": 256.14,
+        "salePrice": 170.76,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "swiss-miss",
+    "sourceUrl": "https://dnagenetics.com/product/swiss-miss/",
+    "sourceCheckedAt": "2026-09-10T16:04:07.737Z",
+    "localImages": [
+      "/assets/images/catalogue/swiss-miss-0.webp"
+    ]
+  },
+  {
+    "name": "DNA Mystery Pack Cannabis Seeds",
+    "sourceId": "29548",
+    "facts": {
+      "Genetics": "Various",
+      "Genotype": "N/A",
+      "Flowering Time": "Various",
+      "Yield": "Various",
+      "Type": "Feminized Seeds/Regular Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2024/07/photo_2026-01-22_02-47-26.webp",
+      "https://dnagenetics.com/wp-content/uploads/2024/12/dna-genetics-seed-placeholde-1-768x803-1.webp"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-DMP-FEMP5",
+        "price": 100.15,
+        "salePrice": 80.12,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-DMP-FEMP10",
+        "price": 129.51,
+        "salePrice": 95.23,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-DMP-FEMP15",
+        "price": 194.75,
+        "salePrice": 135.24,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-DMP-FEMP20",
+        "price": 256.14,
+        "salePrice": 170.76,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "dna-mystery-pack",
+    "sourceUrl": "https://dnagenetics.com/product/dna-mystery-pack/",
+    "sourceCheckedAt": "2026-09-10T16:04:12.844Z",
+    "localImages": [
+      "/assets/images/catalogue/dna-mystery-pack-0.webp",
+      "/assets/images/catalogue/dna-mystery-pack-1.webp"
+    ]
+  },
+  {
+    "name": "Chocolate Truffle Shuffle Reg Cannabis Seeds",
+    "sourceId": "3023",
+    "facts": {
+      "Genetics": "GPK x Chocolope Kush (Gorilla Glue x Pure Kush)",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "9 weeks",
+      "Yield": "14–16 oz./m²",
+      "Type": "Regular Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/CTS_DNA_Genetics-1-600x600-1.webp",
+      "https://dnagenetics.com/wp-content/uploads/2024/02/DNA_Genetics_C.T.S-768x768-1.webp"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-CTS-REGP5",
+        "price": 100.05,
+        "salePrice": 80.12,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-CTS-REGP10",
+        "price": 149.6,
+        "salePrice": 95.23,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-CTS-REGP15",
+        "price": 239.92,
+        "salePrice": 135.24,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-CTS-REGP20",
+        "price": 340,
+        "salePrice": 170.76,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "chocolate-truffle-shuffle-reg",
+    "sourceUrl": "https://dnagenetics.com/product/chocolate-truffle-shuffle-reg/",
+    "sourceCheckedAt": "2026-09-10T16:04:15.720Z",
+    "localImages": [
+      "/assets/images/catalogue/chocolate-truffle-shuffle-reg-0.webp",
+      "/assets/images/catalogue/chocolate-truffle-shuffle-reg-1.webp"
+    ]
+  },
+  {
+    "name": "You Whoo Reg Cannabis Seeds",
+    "sourceId": "3002",
+    "facts": {
+      "Genetics": "Super Silver L.A. x Chocolope Kush",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "9 weeks",
+      "Yield": "15–17 oz./m²",
+      "Type": "Regular Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/You_Whoo_DNA_Genetics-2-600x600-1.webp",
+      "https://dnagenetics.com/wp-content/uploads/2024/02/DNA_Genetics_You_Whoo.jpeg"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-YUW-REGP5",
+        "price": 79.99,
+        "salePrice": 65.59,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-YUW-REGP10",
+        "price": 95.11,
+        "salePrice": 77.99,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-YUW-REGP15",
+        "price": 135.08,
+        "salePrice": 110.76,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-YUW-REGP20",
+        "price": 170.65,
+        "salePrice": 139.93,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "you-whoo-reg",
+    "sourceUrl": "https://dnagenetics.com/product/you-whoo-reg/",
+    "sourceCheckedAt": "2026-09-10T16:04:19.936Z",
+    "localImages": [
+      "/assets/images/catalogue/you-whoo-reg-0.webp",
+      "/assets/images/catalogue/you-whoo-reg-1.jpeg"
+    ]
+  },
+  {
+    "name": "Golden Fortunes Reg Cannabis Seeds",
+    "sourceId": "585",
+    "facts": {
+      "Genetics": "Cookies x Kosher Kush",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "9 Weeks",
+      "Yield": "350-400 g/m2",
+      "Type": "Regular Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/Golden_Fortunes_S1_DNA_Genetics-1-600x600-1.webp"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-GFS-REGP5",
+        "price": 77.96,
+        "salePrice": 63.92,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-GFS-REGP10",
+        "price": 95.08,
+        "salePrice": 77.96,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-GFS-REGP15",
+        "price": 135.08,
+        "salePrice": 110.76,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-GFS-REGP20",
+        "price": 170.58,
+        "salePrice": 139.87,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "golden-fortunes-reg",
+    "sourceUrl": "https://dnagenetics.com/product/golden-fortunes-reg/",
+    "sourceCheckedAt": "2026-09-10T16:04:26.496Z",
+    "localImages": [
+      "/assets/images/catalogue/golden-fortunes-reg-0.webp"
+    ]
+  },
+  {
+    "name": "Generation X-18 Reg Cannabis Seeds",
+    "sourceId": "436",
+    "facts": {
+      "Genetics": "Banana Stardawg x X18 Pure Pakistani",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "8–9 weeks",
+      "Yield": "12–14 oz./m²",
+      "Type": "Regular Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/Generation-X18_DNA_Genetics-1-600x600-1.webp",
+      "https://dnagenetics.com/wp-content/uploads/2023/11/DNA_Genetics_Generation_X18.jpeg"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-G18-REGP5",
+        "price": 80.18,
+        "salePrice": 65.75,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-G18-REGP10",
+        "price": 95.31,
+        "salePrice": 78.15,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-G18-REGP15",
+        "price": 110.99,
+        "salePrice": 91.01,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-G18-REGP20",
+        "price": 140.15,
+        "salePrice": 114.93,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "generation-x-18-reg",
+    "sourceUrl": "https://dnagenetics.com/product/generation-x-18-reg/",
+    "sourceCheckedAt": "2026-09-10T16:04:30.142Z",
+    "localImages": [
+      "/assets/images/catalogue/generation-x-18-reg-0.webp",
+      "/assets/images/catalogue/generation-x-18-reg-1.jpeg"
+    ]
+  },
+  {
+    "name": "Elons-X Reg Cannabis Seeds",
+    "sourceId": "408",
+    "facts": {
+      "Genetics": "Strawberry Banana x X18 Pure Pakistani",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "8–9 Weeks",
+      "Yield": "12–14 oz./m²",
+      "Type": "Regular Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/Elons-X_DNA_Genetics-1-600x600-1.webp",
+      "https://dnagenetics.com/wp-content/uploads/2023/12/Elons-X-Myalr.webp"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-ELX-REGP5",
+        "price": 100.75,
+        "salePrice": 80.06,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-ELX-REGP10",
+        "price": 149.46,
+        "salePrice": 95.14,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-ELX-REGP15",
+        "price": 239.8,
+        "salePrice": 135.17,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-ELX-REGP20",
+        "price": 342.18,
+        "salePrice": 170.71,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "elons-x-reg",
+    "sourceUrl": "https://dnagenetics.com/product/elons-x-reg/",
+    "sourceCheckedAt": "2026-09-10T16:04:36.968Z",
+    "localImages": [
+      "/assets/images/catalogue/elons-x-reg-0.webp",
+      "/assets/images/catalogue/elons-x-reg-1.webp"
+    ]
+  },
+  {
+    "name": "Tangielope Kush Reg Cannabis Seeds",
+    "sourceId": "388",
+    "facts": {
+      "Genetics": "24K Gold x Chocolope Kush",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "8–9 weeks",
+      "Yield": "13–17 oz./m²",
+      "Type": "Regular Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2023/11/Tangilope_DNA_Genetics-1.webp",
+      "https://dnagenetics.com/wp-content/uploads/2023/11/DNA-Genetics-Seed-Placeholder-600x600-1.jpg"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-TLK-REGP5",
+        "price": 100.05,
+        "salePrice": 79.98,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-TLK-REGP10",
+        "price": 149.6,
+        "salePrice": 95.13,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-TLK-REGP15",
+        "price": 239.92,
+        "salePrice": 135.14,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-TLK-REGP20",
+        "price": 340,
+        "salePrice": 170.66,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "24k-x-chocolope-kush-seeds",
+    "sourceUrl": "https://dnagenetics.com/product/24k-x-chocolope-kush-seeds/",
+    "sourceCheckedAt": "2026-09-10T16:04:41.168Z",
+    "localImages": [
+      "/assets/images/catalogue/24k-x-chocolope-kush-seeds-0.webp",
+      "/assets/images/catalogue/24k-x-chocolope-kush-seeds-1.jpg"
+    ]
+  },
+  {
+    "name": "Kosher Kush Reg Cannabis Seeds",
+    "sourceId": "179",
+    "facts": {
+      "Genetics": "Kosher Kush x Kosher Kush",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "9–10 weeks",
+      "Yield": "16–19 oz./m²",
+      "Type": "Regular Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2023/11/Kosher_Kush_Reg_DNA_Genetics-1-600x600-2.webp"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-KKH-REGP5",
+        "price": 100.05,
+        "salePrice": 80.12,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-KKH-REGP10",
+        "price": 149.6,
+        "salePrice": 95.23,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-KKH-REGP15",
+        "price": 239.92,
+        "salePrice": 135.24,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-KKH-REGP20",
+        "price": 340,
+        "salePrice": 170.76,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "kosher-kush-reg",
+    "sourceUrl": "https://dnagenetics.com/product/kosher-kush-reg/",
+    "sourceCheckedAt": "2026-09-10T16:04:44.382Z",
+    "localImages": [
+      "/assets/images/catalogue/kosher-kush-reg-0.webp"
+    ]
+  },
+  {
+    "name": "Chocolope Kush Reg Cannabis Seeds",
+    "sourceId": "375",
+    "facts": {
+      "Genetics": "OG Kush x Chocolope",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "8–9 weeks",
+      "Yield": "12–14 oz./m²",
+      "Type": "Regular Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2023/11/DNA_Genetics_Chocolope_Kush.webp"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-CHK-REGP5",
+        "price": 100.05,
+        "salePrice": 80.12,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-CHK-REGP10",
+        "price": 149.6,
+        "salePrice": 95.23,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-CHK-REGP15",
+        "price": 239.92,
+        "salePrice": 135.24,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-CHK-REGP20",
+        "price": 340,
+        "salePrice": 170.76,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "chocolope-kush-reg",
+    "sourceUrl": "https://dnagenetics.com/product/chocolope-kush-reg/",
+    "sourceCheckedAt": "2026-09-10T16:04:50.545Z",
+    "localImages": [
+      "/assets/images/catalogue/chocolope-kush-reg-0.webp"
+    ]
+  },
+  {
+    "name": "Chocolope 256 Reg Cannabis Seeds",
+    "sourceId": "306",
+    "facts": {
+      "Genetics": "Lemon Skunk 256 (Emerald Cup Winning Cut ) x Chocolope",
+      "Genotype": "Sativa-dominant Cannabis",
+      "Flowering Time": "9 Weeks",
+      "Yield": "12–14 oz./m²",
+      "Type": "Regular Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/Chocolope_256_DNA_Genetics-1-600x600-1.webp",
+      "https://dnagenetics.com/wp-content/uploads/2023/11/DNA_Genetics_Chocolope_256.jpeg"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-CHO-REGP5",
+        "price": 100.75,
+        "salePrice": 80.14,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-CHO-REGP10",
+        "price": 149.46,
+        "salePrice": 95.27,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-CHO-REGP15",
+        "price": 239.8,
+        "salePrice": 135.3,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-CHO-REGP20",
+        "price": 342.18,
+        "salePrice": 170.84,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "chocolope-256-reg",
+    "sourceUrl": "https://dnagenetics.com/product/chocolope-256-reg/",
+    "sourceCheckedAt": "2026-09-10T16:04:54.221Z",
+    "localImages": [
+      "/assets/images/catalogue/chocolope-256-reg-0.webp",
+      "/assets/images/catalogue/chocolope-256-reg-1.jpeg"
+    ]
+  },
+  {
+    "name": "TANGIE REG Cannabis Seeds",
+    "sourceId": "185",
+    "facts": {
+      "Genetics": "Clone Only x Crockett’s Selection",
+      "Genotype": "Sativa-dominant Cannabis",
+      "Flowering Time": "9+ weeks",
+      "Yield": "16–19 oz./m2",
+      "Type": "Regular Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2023/11/DNA_Genetics_Tangie-1.webp"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-TAN-REGP5",
+        "price": 100.75,
+        "salePrice": 80.14,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-TAN-REGP10",
+        "price": 149.46,
+        "salePrice": 95.27,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-TAN-REGP15",
+        "price": 239.8,
+        "salePrice": 135.3,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-TAN-REGP20",
+        "price": 342.18,
+        "salePrice": 170.84,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "tangie-reg",
+    "sourceUrl": "https://dnagenetics.com/product/tangie-reg/",
+    "sourceCheckedAt": "2026-09-10T16:05:01.138Z",
+    "localImages": [
+      "/assets/images/catalogue/tangie-reg-0.webp"
+    ]
+  },
+  {
+    "name": "Four Prophets Reg Cannabis Seeds",
+    "sourceId": "181",
+    "facts": {
+      "Genetics": "3X Crazy x Kosher Kush",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "8–9 weeks",
+      "Yield": "16–18 oz./m²",
+      "Type": "Regular Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/DNA_Genetics_Four_Prophets-1-600x600-1.webp"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-FPT-REGP5",
+        "price": 100.75,
+        "salePrice": 80.05,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-FPT-REGP10",
+        "price": 149.46,
+        "salePrice": 95.18,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-FPT-REGP15",
+        "price": 239.8,
+        "salePrice": 135.21,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-FPT-REGP20",
+        "price": 342.18,
+        "salePrice": 170.75,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "four-prophets-reg",
+    "sourceUrl": "https://dnagenetics.com/product/four-prophets-reg/",
+    "sourceCheckedAt": "2026-09-10T16:05:12.757Z",
+    "localImages": [
+      "/assets/images/catalogue/four-prophets-reg-0.webp"
+    ]
+  },
+  {
+    "name": "Skywalker Kush Reg Cannabis Seeds",
+    "sourceId": "88",
+    "facts": {
+      "Genetics": "Skywalker x OG Kush",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "8–9 Weeks",
+      "Yield": "18–21 oz./m2",
+      "Type": "Regular Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2023/11/DNA_Genetics_Skywalker_Kush-600x600-2.webp"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-SWK-REGP5",
+        "price": 100.05,
+        "salePrice": 79.97,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-SWK-REGP10",
+        "price": 149.6,
+        "salePrice": 95.14,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-SWK-REGP15",
+        "price": 239.92,
+        "salePrice": 135.12,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-SWK-REGP20",
+        "price": 340,
+        "salePrice": 170.61,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "skylwalker-kush-reg",
+    "sourceUrl": "https://dnagenetics.com/product/skylwalker-kush-reg/",
+    "sourceCheckedAt": "2026-09-10T16:05:19.570Z",
+    "localImages": [
+      "/assets/images/catalogue/skylwalker-kush-reg-0.webp"
+    ]
+  }
+]

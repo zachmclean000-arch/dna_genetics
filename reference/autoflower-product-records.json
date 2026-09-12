@@ -1,0 +1,976 @@
+[
+  {
+    "name": "DNA Auto Mystery Pack Cannabis Seeds",
+    "sourceId": "58944",
+    "facts": {
+      "Genetics": "Various",
+      "Genotype": "N/A",
+      "Flowering Time": "Various",
+      "Yield": "Various",
+      "Type": "Autoflower Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/dna-genetics-seed-placeholder.webp",
+      "https://dnagenetics.com/wp-content/uploads/2024/12/dna-genetics-seed-placeholde-1-768x803-1.webp"
+    ],
+    "variants": [
+      {
+        "size": 3,
+        "sku": "DNA-DMP-FAUTP3",
+        "price": 50,
+        "salePrice": 45,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 5,
+        "sku": "DNA-DMP-FAUTP5",
+        "price": 100.15,
+        "salePrice": 80.12,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-DMP-FAUTP10",
+        "price": 129.51,
+        "salePrice": 95.23,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-DMP-FAUTP15",
+        "price": 194.75,
+        "salePrice": 135.24,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-DMP-FAUTP20",
+        "price": 256.14,
+        "salePrice": 170.76,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "dna-auto-mystery-pack-cannabis-seeds",
+    "sourceUrl": "https://dnagenetics.com/product/dna-auto-mystery-pack-cannabis-seeds/",
+    "sourceCheckedAt": "2026-09-10T15:57:08.668Z",
+    "localImages": [
+      "/assets/images/catalogue/dna-auto-mystery-pack-cannabis-seeds-0.webp",
+      "/assets/images/catalogue/dna-auto-mystery-pack-cannabis-seeds-1.webp"
+    ]
+  },
+  {
+    "name": "Kosher Dawg Autoflower Cannabis Seeds",
+    "sourceId": "58895",
+    "facts": {
+      "Genetics": "Kosher Dawg x Ruderalis",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "9 weeks",
+      "Yield": "1–2 oz./m²",
+      "Type": "Autoflower Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/DNA_Genetics_Kosher_Dawg-768x768-1.webp"
+    ],
+    "variants": [
+      {
+        "size": 3,
+        "sku": "DNA-KD-FAUTP3",
+        "price": 50,
+        "salePrice": 45,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 5,
+        "sku": "DNA-KD-FAUTP5",
+        "price": 100.15,
+        "salePrice": 80.12,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-KD-FAUTP10",
+        "price": 129.51,
+        "salePrice": 95.23,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-KD-FAUTP15",
+        "price": 194.75,
+        "salePrice": 135.24,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-KD-FAUTP20",
+        "price": 256.14,
+        "salePrice": 170.76,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "kosher-dawg-autoflower-cannabis-seeds",
+    "sourceUrl": "https://dnagenetics.com/product/kosher-dawg-autoflower-cannabis-seeds/",
+    "sourceCheckedAt": "2026-09-10T15:57:10.017Z",
+    "localImages": [
+      "/assets/images/catalogue/kosher-dawg-autoflower-cannabis-seeds-0.webp"
+    ]
+  },
+  {
+    "name": "Skywalker Kush Auto Cannabis Seeds",
+    "sourceId": "29594",
+    "facts": {
+      "Genetics": "Skywalker OG x OG Kush Auto",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "8–10 weeks",
+      "Yield": "1–1.4 oz./m2",
+      "Type": "Autoflower Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/DNA_Genetics_Skywalker_Kush-768x768-1.webp",
+      "https://dnagenetics.com/wp-content/uploads/2024/07/DNA_Genetics_Skywalker_Kush-768x768-1.webp"
+    ],
+    "variants": [
+      {
+        "size": 3,
+        "sku": "DNA-SWK-FAUTP3",
+        "price": 50,
+        "salePrice": 45,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 5,
+        "sku": "DNA-SWK-FAUTP5",
+        "price": 100.15,
+        "salePrice": 80.12,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-SWK-FAUTP10",
+        "price": 129.51,
+        "salePrice": 95.23,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-SWK-FAUTP15",
+        "price": 194.75,
+        "salePrice": 135.24,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-SWK-FAUTP20",
+        "price": 256.14,
+        "salePrice": 170.76,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "skywalker-kush-auto",
+    "sourceUrl": "https://dnagenetics.com/product/skywalker-kush-auto/",
+    "sourceCheckedAt": "2026-09-10T15:57:10.803Z",
+    "localImages": [
+      "/assets/images/catalogue/skywalker-kush-auto-0.webp",
+      "/assets/images/catalogue/skywalker-kush-auto-1.webp"
+    ]
+  },
+  {
+    "name": "Mac n Me Autoflower Cannabis Seeds",
+    "sourceId": "29592",
+    "facts": {
+      "Genetics": "Mac x MAC Auto",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "60-70 days",
+      "Yield": "28-40 g/m2",
+      "Type": "Autoflower Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/Mac_n_Me_Auto_Flower_DNA_Genetics-768x768-1.webp"
+    ],
+    "variants": [
+      {
+        "size": 3,
+        "sku": "DNA-MNM-FAUTP3",
+        "price": 50,
+        "salePrice": 45,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 5,
+        "sku": "DNA-MNM-FAUTP5",
+        "price": 100.15,
+        "salePrice": 80.13,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-MNM-FAUTP10",
+        "price": 129.99,
+        "salePrice": 95.22,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-MNM-FAUTP15",
+        "price": 194.79,
+        "salePrice": 135.29,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-MNM-FAUTP20",
+        "price": 256.14,
+        "salePrice": 170.76,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "mac-n-me",
+    "sourceUrl": "https://dnagenetics.com/product/mac-n-me/",
+    "sourceCheckedAt": "2026-09-10T15:57:11.919Z",
+    "localImages": [
+      "/assets/images/catalogue/mac-n-me-0.webp"
+    ]
+  },
+  {
+    "name": "Purple Wreck Auto Cannabis Seeds",
+    "sourceId": "29574",
+    "facts": {
+      "Genetics": "Purple Wreck x Ruderalis",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "9 weeks",
+      "Yield": "1–1.41 oz./m2",
+      "Type": "Autoflower Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/imgpsh_fullsize_anim-min-768x768-1.webp"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-PUW-FAUTP5",
+        "price": 100.05,
+        "salePrice": 79.05,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-PUW-FAUTP10",
+        "price": 149.6,
+        "salePrice": 95.13,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-PUW-FAUTP15",
+        "price": 239.92,
+        "salePrice": 135.15,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-PUW-FAUTP20",
+        "price": 340,
+        "salePrice": 170.67,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "purple-wreck",
+    "sourceUrl": "https://dnagenetics.com/product/purple-wreck/",
+    "sourceCheckedAt": "2026-09-10T15:57:12.785Z",
+    "localImages": [
+      "/assets/images/catalogue/purple-wreck-0.webp"
+    ]
+  },
+  {
+    "name": "Miss DNA Auto Cannabis Seeds",
+    "sourceId": "29568",
+    "facts": {
+      "Genetics": "Miss DNA x Ruderalis",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "9–10 weeks",
+      "Yield": "1– 1.40 oz./m2",
+      "Type": "Autoflower Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/Miss-DNA-DNA-Genetics-768x768-1.webp"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-MS-FAUTP5",
+        "price": 100.05,
+        "salePrice": 79.05,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-MS-FAUTP10",
+        "price": 149.6,
+        "salePrice": 95.13,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-MS-FAUTP15",
+        "price": 239.92,
+        "salePrice": 135.15,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-MS-FAUTP20",
+        "price": 340,
+        "salePrice": 170.67,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "miss-dna",
+    "sourceUrl": "https://dnagenetics.com/product/miss-dna/",
+    "sourceCheckedAt": "2026-09-10T15:57:13.551Z",
+    "localImages": [
+      "/assets/images/catalogue/miss-dna-0.webp"
+    ]
+  },
+  {
+    "name": "DNA Cake Auto Cannabis Seeds",
+    "sourceId": "2748",
+    "facts": {
+      "Genetics": "Gelato Sorbet x Lava Cake",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "9 weeks",
+      "Yield": "12–14 oz./m²",
+      "Type": "Autoflower Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/DNA_Genetics_DNA_Cake-min-1-768x768-1.webp",
+      "https://dnagenetics.com/wp-content/uploads/2024/02/Four-Prophets-by-DNA-Genetics-300x300@2x-1.png",
+      "https://dnagenetics.com/wp-content/uploads/2024/02/DNA_Genetics_Challah_Bread-768x768-1.jpeg"
+    ],
+    "variants": [
+      {
+        "size": 3,
+        "sku": "DNA-DCK-FAUTP3",
+        "price": 50,
+        "salePrice": 45,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 5,
+        "sku": "DNA-DCK-FAUTP5",
+        "price": 100.05,
+        "salePrice": 79.97,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-DCK-FAUTP10",
+        "price": 149.6,
+        "salePrice": 95.14,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-DCK-FAUTP15",
+        "price": 239.92,
+        "salePrice": 135.15,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-DCK-FAUTP20",
+        "price": 340,
+        "salePrice": 170.61,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "dna-cake-auto",
+    "sourceUrl": "https://dnagenetics.com/product/dna-cake-auto/",
+    "sourceCheckedAt": "2026-09-10T15:57:21.583Z",
+    "localImages": [
+      "/assets/images/catalogue/dna-cake-auto-0.webp",
+      "/assets/images/catalogue/dna-cake-auto-1.png",
+      "/assets/images/catalogue/dna-cake-auto-2.jpeg"
+    ]
+  },
+  {
+    "name": "MacMelon Auto Cannabis Seeds",
+    "sourceId": "471",
+    "facts": {
+      "Genetics": "Watermelon x MAC Auto",
+      "Genotype": "Hybrid Cannabis",
+      "Flowering Time": "9–10 weeks",
+      "Yield": "18 oz./m²",
+      "Type": "Autoflower Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/MacMelon_Auto_Flower_DNA_Genetics-1-768x768-1.webp"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-MCM-FAUTP5",
+        "price": 100.05,
+        "salePrice": 80.18,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-MCM-FAUTP10",
+        "price": 149.6,
+        "salePrice": 95.31,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-MCM-FAUTP15",
+        "price": 239.92,
+        "salePrice": 135.36,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-MCM-FAUTP20",
+        "price": 340,
+        "salePrice": 170.92,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "macmelon-auto",
+    "sourceUrl": "https://dnagenetics.com/product/macmelon-auto/",
+    "sourceCheckedAt": "2026-09-10T15:57:23.168Z",
+    "localImages": [
+      "/assets/images/catalogue/macmelon-auto-0.webp"
+    ]
+  },
+  {
+    "name": "CheMACal Romance Auto Cannabis Seeds",
+    "sourceId": "466",
+    "facts": {
+      "Genetics": "Chem x MAC Auto",
+      "Genotype": "Balanced Hybrid Cannabis",
+      "Flowering Time": "6–7 weeks",
+      "Yield": "1.5–4 oz./m²",
+      "Type": "Autoflower Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/CheMACal_Romance_Auto_Flower_DNA_Genetics-768x768-1.webp"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-MAR-FAUTP5",
+        "price": 100.05,
+        "salePrice": 80.18,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-MAR-FAUTP10",
+        "price": 149.6,
+        "salePrice": 95.31,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-MAR-FAUTP15",
+        "price": 239.92,
+        "salePrice": 135.36,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-MAR-FAUTP20",
+        "price": 340,
+        "salePrice": 170.92,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "chemacal-romance-auto",
+    "sourceUrl": "https://dnagenetics.com/product/chemacal-romance-auto/",
+    "sourceCheckedAt": "2026-09-10T15:57:24.051Z",
+    "localImages": [
+      "/assets/images/catalogue/chemacal-romance-auto-0.webp"
+    ]
+  },
+  {
+    "name": "Return of the Mac Auto Cannabis Seeds",
+    "sourceId": "465",
+    "facts": {
+      "Genetics": "OG Kush Auto x Mac",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "8–9 weeks",
+      "Yield": "28-40 g/m2",
+      "Type": "Autoflower Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/Return_of_the_Mac_Auto_Flower_DNA_Genetics-1-768x768-1.webp"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-ROM-FAUTP5",
+        "price": 100.05,
+        "salePrice": 80.17,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-ROM-FAUTP10",
+        "price": 149.6,
+        "salePrice": 95.24,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-ROM-FAUTP15",
+        "price": 239.92,
+        "salePrice": 135.29,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-ROM-FAUTP20",
+        "price": 340,
+        "salePrice": 170.83,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "return-of-the-mac-auto",
+    "sourceUrl": "https://dnagenetics.com/product/return-of-the-mac-auto/",
+    "sourceCheckedAt": "2026-09-10T15:57:25.597Z",
+    "localImages": [
+      "/assets/images/catalogue/return-of-the-mac-auto-0.webp"
+    ]
+  },
+  {
+    "name": "Patrick Swayze Auto Cannabis Seeds",
+    "sourceId": "463",
+    "facts": {
+      "Genetics": "Ghost OG x MAC Auto",
+      "Genotype": "Hybrid Cannabis",
+      "Flowering Time": "8–10 weeks",
+      "Yield": "11 oz./m²",
+      "Type": "Autoflower Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/dna-genetics-seed-placeholder.webp"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-PSZ-FAUTP5",
+        "price": 100.05,
+        "salePrice": 80.18,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-PSZ-FAUTP10",
+        "price": 149.6,
+        "salePrice": 95.31,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-PSZ-FAUTP15",
+        "price": 239.92,
+        "salePrice": 135.36,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-PSZ-FAUTP20",
+        "price": 340,
+        "salePrice": 170.92,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "patrick-swayze-auto",
+    "sourceUrl": "https://dnagenetics.com/product/patrick-swayze-auto/",
+    "sourceCheckedAt": "2026-09-10T15:57:27.157Z",
+    "localImages": [
+      "/assets/images/catalogue/patrick-swayze-auto-0.webp"
+    ]
+  },
+  {
+    "name": "The Big Mac Auto Cannabis Seeds",
+    "sourceId": "446",
+    "facts": {
+      "Genetics": "Mac x OG Kush Auto",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "7–9 weeks",
+      "Yield": "Moderate",
+      "Type": "Autoflower Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/The_Big_Mac_DNA_Genetics-1-768x768-1.webp"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-MCD-FAUTP5",
+        "price": 100.05,
+        "salePrice": 80.16,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-MCD-FAUTP10",
+        "price": 149.6,
+        "salePrice": 95.29,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-MCD-FAUTP15",
+        "price": 239.92,
+        "salePrice": 135.34,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-MCD-FAUTP20",
+        "price": 340,
+        "salePrice": 170.88,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "the-big-mac-auto",
+    "sourceUrl": "https://dnagenetics.com/product/the-big-mac-auto/",
+    "sourceCheckedAt": "2026-09-10T15:57:30.297Z",
+    "localImages": [
+      "/assets/images/catalogue/the-big-mac-auto-0.webp"
+    ]
+  },
+  {
+    "name": "MacNana auto Cannabis Seeds",
+    "sourceId": "434",
+    "facts": {
+      "Genetics": "Strawberry Banana x MAC Auto",
+      "Genotype": "Hybrid Cannabis",
+      "Flowering Time": "8–9 weeks",
+      "Yield": "14–19 oz./m²",
+      "Type": "Autoflower Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/MacNana_Auto_Flower_DNA_Genetics-1-768x768-1.webp"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-MCN-FAUTP5",
+        "price": 100.05,
+        "salePrice": 80.18,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-MCN-FAUTP10",
+        "price": 149.6,
+        "salePrice": 95.31,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-MCN-FAUTP15",
+        "price": 239.92,
+        "salePrice": 135.36,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-MCN-FAUTP20",
+        "price": 340,
+        "salePrice": 170.92,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "macnana-auto-seeds",
+    "sourceUrl": "https://dnagenetics.com/product/macnana-auto-seeds/",
+    "sourceCheckedAt": "2026-09-10T15:57:31.270Z",
+    "localImages": [
+      "/assets/images/catalogue/macnana-auto-seeds-0.webp"
+    ]
+  },
+  {
+    "name": "Canelo auto Cannabis Seeds",
+    "sourceId": "428",
+    "facts": {
+      "Genetics": "Strawberry Banana x OG Kush Auto",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "8–9 weeks",
+      "Yield": "14–17 oz./m²",
+      "Type": "Autoflower Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2023/11/Canelo_Auto_Flower_DNA_Genetics-1-768x768-2.webp",
+      "https://dnagenetics.com/wp-content/uploads/2023/11/3peat-tree-1-1.png",
+      "https://dnagenetics.com/wp-content/uploads/2023/11/Four-Prophets-by-DNA-Genetics-300x300@2x-2.png",
+      "https://dnagenetics.com/wp-content/uploads/2023/11/Four-Prophets-by-DNA-Genetics-300x300-1-1.png"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-CNA-FAUTP5",
+        "price": 100.05,
+        "salePrice": 80.16,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-CNA-FAUTP10",
+        "price": 149.6,
+        "salePrice": 95.29,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-CNA-FAUTP15",
+        "price": 239.92,
+        "salePrice": 135.34,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-CNA-FAUTP20",
+        "price": 340,
+        "salePrice": 170.88,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "canelo-auto-seeds",
+    "sourceUrl": "https://dnagenetics.com/product/canelo-auto-seeds/",
+    "sourceCheckedAt": "2026-09-10T15:57:32.882Z",
+    "localImages": [
+      "/assets/images/catalogue/canelo-auto-seeds-0.webp",
+      "/assets/images/catalogue/canelo-auto-seeds-1.png",
+      "/assets/images/catalogue/canelo-auto-seeds-2.png",
+      "/assets/images/catalogue/canelo-auto-seeds-3.png"
+    ]
+  },
+  {
+    "name": "Watermelon Man Auto Cannabis Seeds",
+    "sourceId": "426",
+    "facts": {
+      "Genetics": "Watermelon x OG Kush Auto",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "8–9 weeks",
+      "Yield": "18 oz./m²",
+      "Type": "Autoflower Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2023/11/Watermelon_Man_Auto_Flower_DNA_Genetics-1-768x768-1.webp"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-WMM-FAUTP5",
+        "price": 100.05,
+        "salePrice": 80.16,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-WMM-FAUTP10",
+        "price": 149.6,
+        "salePrice": 95.29,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-WMM-FAUTP15",
+        "price": 239.92,
+        "salePrice": 135.34,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-WMM-FAUTP20",
+        "price": 340,
+        "salePrice": 170.88,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "watermelon-man-auto-seeds",
+    "sourceUrl": "https://dnagenetics.com/product/watermelon-man-auto-seeds/",
+    "sourceCheckedAt": "2026-09-10T15:57:34.418Z",
+    "localImages": [
+      "/assets/images/catalogue/watermelon-man-auto-seeds-0.webp"
+    ]
+  },
+  {
+    "name": "Purple People Eater Auto Cannabis Seeds",
+    "sourceId": "183",
+    "facts": {
+      "Genetics": "Sweet & Sour Purple x OG Kush Auto",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "8–9 weeks",
+      "Yield": "14–18 oz./m²",
+      "Type": "Autoflower Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/Purple_People_Eater_Auto_Flower_DNA_Genetics-1-768x768-1.webp"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-PPE-FAUTP5",
+        "price": 100.05,
+        "salePrice": 80.16,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-PPE-FAUTP10",
+        "price": 149.6,
+        "salePrice": 95.29,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-PPE-FAUTP15",
+        "price": 239.92,
+        "salePrice": 135.34,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-PPE-FAUTP20",
+        "price": 340,
+        "salePrice": 170.88,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "purple-people-eater-auto-seeds",
+    "sourceUrl": "https://dnagenetics.com/product/purple-people-eater-auto-seeds/",
+    "sourceCheckedAt": "2026-09-10T15:57:35.286Z",
+    "localImages": [
+      "/assets/images/catalogue/purple-people-eater-auto-seeds-0.webp"
+    ]
+  },
+  {
+    "name": "HG23 AKA MICHAEL JORDAN AUTO Cannabis Seeds",
+    "sourceId": "90",
+    "facts": {
+      "Genetics": "HG23 x OG Kush Auto",
+      "Genotype": "Indica-dominant Cannabis",
+      "Flowering Time": "8–9 weeks",
+      "Yield": "18 oz./m²",
+      "Type": "Autoflower Cannabis Seeds"
+    },
+    "images": [
+      "https://dnagenetics.com/wp-content/uploads/2025/10/HG23_Michael_Jordan_Auto_Flower_DNA_Genetics-1-768x768-1.webp",
+      "https://dnagenetics.com/wp-content/uploads/2023/12/hg23-pic-300x276-min.png"
+    ],
+    "variants": [
+      {
+        "size": 5,
+        "sku": "DNA-MJK-FAUTP5",
+        "price": 100.05,
+        "salePrice": 80.12,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 10,
+        "sku": "DNA-MJK-FAUTP10",
+        "price": 149.6,
+        "salePrice": 95.23,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 15,
+        "sku": "DNA-MJK-FAUTP15",
+        "price": 239.92,
+        "salePrice": 135.24,
+        "stock": 0,
+        "sourceAvailable": true
+      },
+      {
+        "size": 20,
+        "sku": "DNA-MJK-FAUTP20",
+        "price": 340,
+        "salePrice": 170.76,
+        "stock": 0,
+        "sourceAvailable": true
+      }
+    ],
+    "slug": "hg23-aka-michael-jordan-auto",
+    "sourceUrl": "https://dnagenetics.com/product/hg23-aka-michael-jordan-auto/",
+    "sourceCheckedAt": "2026-09-10T15:57:36.218Z",
+    "localImages": [
+      "/assets/images/catalogue/hg23-aka-michael-jordan-auto-0.webp",
+      "/assets/images/catalogue/hg23-aka-michael-jordan-auto-1.png"
+    ]
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Beginner-Friendly Seeds",
+    "attribute": "Beginner-Friendly",
+    "slug": "beginner-friendly-seeds",
+    "limit": 10,
+    "products": [
+      {
+        "id": "45d602d8-e4be-41bf-afb4-5e4d69f6c308",
+        "slug": "banana-sorbet-feminized-cannabis-seeds",
+        "name": "Banana Sorbet Feminized Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/banana-sorbet-feminized-cannabis-seeds/"
+      },
+      {
+        "id": "e2b4f00e-238a-4fb9-bec1-66c68f6f8307",
+        "slug": "kosher-dawg-autoflower-cannabis-seeds",
+        "name": "Kosher Dawg Autoflower Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/kosher-dawg-autoflower-cannabis-seeds/"
+      },
+      {
+        "id": "a4766c68-e980-4403-9976-07434375c380",
+        "slug": "skywalker-kush-auto",
+        "name": "Skywalker Kush Auto Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/skywalker-kush-auto/"
+      },
+      {
+        "id": "c58b24d7-a6e6-40d5-a75d-d6222087d2c8",
+        "slug": "swiss-miss",
+        "name": "Swiss Miss Reg Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/swiss-miss/"
+      },
+      {
+        "id": "f826d31d-6579-449a-94c7-2d9846c29df5",
+        "slug": "miss-dna",
+        "name": "Miss DNA Auto Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/miss-dna/"
+      },
+      {
+        "id": "dc1eb9fb-c268-43d6-9142-2da7aa2484fe",
+        "slug": "kosher-pie",
+        "name": "Kosher Pie Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/kosher-pie/"
+      },
+      {
+        "id": "eb0feb57-03f0-42d9-a342-e94a31895199",
+        "slug": "blue-dream-feminized",
+        "name": "Blue Dream Feminized Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/blue-dream-feminized/"
+      },
+      {
+        "id": "4026abd9-9559-485b-95bb-723904f5fc40",
+        "slug": "chocolate-truffle-shuffle-reg",
+        "name": "Chocolate Truffle Shuffle Reg Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/chocolate-truffle-shuffle-reg/"
+      },
+      {
+        "id": "4f2b091d-9f99-4756-a33a-804674adacca",
+        "slug": "chocolope-fem",
+        "name": "Chocolope Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/chocolope-fem/"
+      },
+      {
+        "id": "b524dc89-01db-49e1-adff-b350aaef08ab",
+        "slug": "kosher-kush-fem",
+        "name": "Kosher Kush Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/kosher-kush-fem/"
+      }
+    ],
+    "sourceUrls": [
+      "https://dnagenetics.com/product/banana-sorbet-feminized-cannabis-seeds/",
+      "https://dnagenetics.com/product/kosher-dawg-autoflower-cannabis-seeds/",
+      "https://dnagenetics.com/product/skywalker-kush-auto/",
+      "https://dnagenetics.com/product/swiss-miss/",
+      "https://dnagenetics.com/product/miss-dna/",
+      "https://dnagenetics.com/product/kosher-pie/",
+      "https://dnagenetics.com/product/blue-dream-feminized/",
+      "https://dnagenetics.com/product/chocolate-truffle-shuffle-reg/",
+      "https://dnagenetics.com/product/chocolope-fem/",
+      "https://dnagenetics.com/product/kosher-kush-fem/",
+      "https://dnagenetics.com/product/return-of-the-mac-auto/",
+      "https://dnagenetics.com/product/patrick-swayze-auto/",
+      "https://dnagenetics.com/product/swiss-miss-fem/",
+      "https://dnagenetics.com/product/honey-banana-s1/",
+      "https://dnagenetics.com/product/kosher-kush-reg/",
+      "https://dnagenetics.com/product/challah-bread/"
+    ]
+  },
+  {
+    "name": "Fast-Flowering Seeds",
+    "attribute": "Fast-Flowering",
+    "slug": "fast-flowering-seeds",
+    "limit": 12,
+    "products": [
+      {
+        "id": "b1ffd5c5-c9f8-40a5-b049-201bb9c20553",
+        "slug": "cataract-cake-feminized-cannabis-seeds",
+        "name": "Cataract Cake Feminized Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/cataract-cake-feminized-cannabis-seeds/"
+      },
+      {
+        "id": "45d602d8-e4be-41bf-afb4-5e4d69f6c308",
+        "slug": "banana-sorbet-feminized-cannabis-seeds",
+        "name": "Banana Sorbet Feminized Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/banana-sorbet-feminized-cannabis-seeds/"
+      },
+      {
+        "id": "bc6cf2c8-9293-470a-b5e9-6117d0658b5e",
+        "slug": "strawberry-sorbet",
+        "name": "Strawberry Sorbet Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/strawberry-sorbet/"
+      },
+      {
+        "id": "dc1eb9fb-c268-43d6-9142-2da7aa2484fe",
+        "slug": "kosher-pie",
+        "name": "Kosher Pie Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/kosher-pie/"
+      },
+      {
+        "id": "99f4dcbd-158d-4329-9725-3b1e20e5629e",
+        "slug": "bakers-delight",
+        "name": "Bakers Delight Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/bakers-delight/"
+      },
+      {
+        "id": "7708a647-37cd-4566-a609-ba30d0578837",
+        "slug": "chocolope-256-fem",
+        "name": "Chocolope 256 Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/chocolope-256-fem/"
+      },
+      {
+        "id": "4f2b091d-9f99-4756-a33a-804674adacca",
+        "slug": "chocolope-fem",
+        "name": "Chocolope Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/chocolope-fem/"
+      },
+      {
+        "id": "2f2d5aef-f8cc-4b99-bb49-9f0421f1c316",
+        "slug": "four-prophets-fem",
+        "name": "Four Prophets Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/four-prophets-fem/"
+      },
+      {
+        "id": "8a25aecf-9f83-468a-9f1f-8dbe09a3df4e",
+        "slug": "chemacal-romance-auto",
+        "name": "CheMACal Romance Auto Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/chemacal-romance-auto/"
+      },
+      {
+        "id": "84a1968d-8a33-402f-b22d-cb5b9beff92e",
+        "slug": "the-big-mac-auto",
+        "name": "The Big Mac Auto Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/the-big-mac-auto/"
+      },
+      {
+        "id": "ee712b1a-30be-4ca0-a03f-780a10f7f471",
+        "slug": "canelo-auto-seeds",
+        "name": "Canelo auto Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/canelo-auto-seeds/"
+      },
+      {
+        "id": "892475c3-ae22-4387-8779-95f362bfed52",
+        "slug": "auto-bahn",
+        "name": "Auto bahn Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/auto-bahn/"
+      }
+    ],
+    "sourceUrls": [
+      "https://dnagenetics.com/product/cataract-cake-feminized-cannabis-seeds/",
+      "https://dnagenetics.com/product/banana-sorbet-feminized-cannabis-seeds/",
+      "https://dnagenetics.com/product/strawberry-sorbet/",
+      "https://dnagenetics.com/product/kosher-pie/",
+      "https://dnagenetics.com/product/bakers-delight/",
+      "https://dnagenetics.com/product/chocolope-256-fem/",
+      "https://dnagenetics.com/product/chocolope-fem/",
+      "https://dnagenetics.com/product/four-prophets-fem/",
+      "https://dnagenetics.com/product/chemacal-romance-auto/",
+      "https://dnagenetics.com/product/the-big-mac-auto/",
+      "https://dnagenetics.com/product/canelo-auto-seeds/",
+      "https://dnagenetics.com/product/auto-bahn/",
+      "https://dnagenetics.com/product/chocolope-256-reg/",
+      "https://dnagenetics.com/product/purple-people-eater-auto-seeds/",
+      "https://dnagenetics.com/product/four-prophets-reg/",
+      "https://dnagenetics.com/product/hg23-aka-michael-jordan-auto/"
+    ]
+  },
+  {
+    "name": "Medicinal Seeds",
+    "attribute": "Medicinal",
+    "slug": "medicinal-cannabis-seeds",
+    "limit": 14,
+    "products": [
+      {
+        "id": "45d602d8-e4be-41bf-afb4-5e4d69f6c308",
+        "slug": "banana-sorbet-feminized-cannabis-seeds",
+        "name": "Banana Sorbet Feminized Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/banana-sorbet-feminized-cannabis-seeds/"
+      },
+      {
+        "id": "a4766c68-e980-4403-9976-07434375c380",
+        "slug": "skywalker-kush-auto",
+        "name": "Skywalker Kush Auto Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/skywalker-kush-auto/"
+      },
+      {
+        "id": "f3c81095-768f-4127-8892-206f485e0ee9",
+        "slug": "gmo-kosher",
+        "name": "GMO Kosher Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/gmo-kosher/"
+      },
+      {
+        "id": "99f4dcbd-158d-4329-9725-3b1e20e5629e",
+        "slug": "bakers-delight",
+        "name": "Bakers Delight Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/bakers-delight/"
+      },
+      {
+        "id": "a838b644-8f1f-4f8c-9d9d-edaac8864681",
+        "slug": "gorilla-glue-4-feminized",
+        "name": "GG4 Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/gorilla-glue-4-feminized/"
+      },
+      {
+        "id": "4c3a04f4-5144-44a7-8fc3-080e03af6ecb",
+        "slug": "patrick-swayze-auto",
+        "name": "Patrick Swayze Auto Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/patrick-swayze-auto/"
+      },
+      {
+        "id": "84a1968d-8a33-402f-b22d-cb5b9beff92e",
+        "slug": "the-big-mac-auto",
+        "name": "The Big Mac Auto Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/the-big-mac-auto/"
+      },
+      {
+        "id": "9625d7fa-8eab-4cb9-9e93-b0ee8acfbeaf",
+        "slug": "swiss-miss-fem",
+        "name": "Swiss Miss Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/swiss-miss-fem/"
+      },
+      {
+        "id": "c5ea98ba-de5a-46fb-9b9e-41b2f4c25a69",
+        "slug": "recon-2-0",
+        "name": "Recon 2.0 Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/recon-2-0/"
+      },
+      {
+        "id": "ee712b1a-30be-4ca0-a03f-780a10f7f471",
+        "slug": "canelo-auto-seeds",
+        "name": "Canelo auto Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/canelo-auto-seeds/"
+      },
+      {
+        "id": "107856da-93b3-4756-bd86-ad238cf34de7",
+        "slug": "honey-banana-s1",
+        "name": "Honey Banana S1 Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/honey-banana-s1/"
+      },
+      {
+        "id": "167edee7-aa44-4788-8909-b66107b585d5",
+        "slug": "elons-x-reg",
+        "name": "Elons-X Reg Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/elons-x-reg/"
+      },
+      {
+        "id": "4be52674-924e-4aea-b04d-ccaf86d7d7b2",
+        "slug": "challah-bread",
+        "name": "Challah Bread Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/challah-bread/"
+      },
+      {
+        "id": "db9a4be9-e04c-4e27-a085-b7afd17ec64a",
+        "slug": "purple-people-eater-auto-seeds",
+        "name": "Purple People Eater Auto Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/purple-people-eater-auto-seeds/"
+      }
+    ],
+    "sourceUrls": [
+      "https://dnagenetics.com/product/banana-sorbet-feminized-cannabis-seeds/",
+      "https://dnagenetics.com/product/skywalker-kush-auto/",
+      "https://dnagenetics.com/product/gmo-kosher/",
+      "https://dnagenetics.com/product/bakers-delight/",
+      "https://dnagenetics.com/product/gorilla-glue-4-feminized/",
+      "https://dnagenetics.com/product/patrick-swayze-auto/",
+      "https://dnagenetics.com/product/the-big-mac-auto/",
+      "https://dnagenetics.com/product/swiss-miss-fem/",
+      "https://dnagenetics.com/product/recon-2-0/",
+      "https://dnagenetics.com/product/canelo-auto-seeds/",
+      "https://dnagenetics.com/product/honey-banana-s1/",
+      "https://dnagenetics.com/product/elons-x-reg/",
+      "https://dnagenetics.com/product/challah-bread/",
+      "https://dnagenetics.com/product/purple-people-eater-auto-seeds/"
+    ]
+  },
+  {
+    "name": "Outdoor Seeds",
+    "attribute": "Outdoor",
+    "slug": "outdoor-seeds",
+    "limit": 3,
+    "products": [
+      {
+        "id": "dc1eb9fb-c268-43d6-9142-2da7aa2484fe",
+        "slug": "kosher-pie",
+        "name": "Kosher Pie Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/kosher-pie/"
+      },
+      {
+        "id": "4f2b091d-9f99-4756-a33a-804674adacca",
+        "slug": "chocolope-fem",
+        "name": "Chocolope Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/chocolope-fem/"
+      },
+      {
+        "id": "52cfcd60-e8c9-4d98-9836-586be4f80cb7",
+        "slug": "strawberry-banana-s1",
+        "name": "Strawberry Banana Fem Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/strawberry-banana-s1/"
+      }
+    ],
+    "sourceUrls": [
+      "https://dnagenetics.com/product/kosher-pie/",
+      "https://dnagenetics.com/product/chocolope-fem/",
+      "https://dnagenetics.com/product/strawberry-banana-s1/"
+    ]
+  },
+  {
+    "name": "High CBD Seeds",
+    "attribute": "High CBD",
+    "slug": "high-cbd-seeds",
+    "limit": 1,
+    "products": [
+      {
+        "id": "db9a4be9-e04c-4e27-a085-b7afd17ec64a",
+        "slug": "purple-people-eater-auto-seeds",
+        "name": "Purple People Eater Auto Cannabis Seeds",
+        "sourceUrl": "https://dnagenetics.com/product/purple-people-eater-auto-seeds/"
+      }
+    ],
+    "sourceUrls": [
+      "https://dnagenetics.com/product/purple-people-eater-auto-seeds/"
+    ]
+  }
+]

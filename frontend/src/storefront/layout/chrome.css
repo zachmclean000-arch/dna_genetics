@@ -1,0 +1,819 @@
+@font-face {
+  font-family: "DNA Knockout";
+  src: url("/assets/fonts/knockout.woff2") format("woff2");
+  font-weight: 400 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DNA Oswald";
+  src: url("/assets/fonts/google-0.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DNA Roboto";
+  src: url("/assets/fonts/google-1.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DNA Roboto";
+  src: url("/assets/fonts/google-2.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DNA Roboto";
+  src: url("/assets/fonts/google-3.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DNA Icons";
+  src: url("/assets/fonts/fontawesome.woff2") format("woff2");
+  font-weight: 400;
+  font-display: block;
+}
+.dna-icon {
+  font-family: "DNA Icons";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1;
+  display: inline-block;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.dna-header-shell {
+  position: sticky;
+  top: -30px;
+  z-index: 50;
+  color: #222;
+}
+.dna-announcement {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  background: #0b4d3c;
+  color: #fff;
+  font:
+    700 14px/20px "DNA Roboto",
+    Arial,
+    sans-serif;
+}
+.dna-announcement span {
+  color: #ffcb00;
+}
+.dna-header {
+  display: block;
+  position: relative;
+  background: #faf7f2;
+  color: #222;
+  padding: 6px;
+  box-shadow: 0 3px 6px #00000021;
+  z-index: 10;
+}
+.dna-header-inner {
+  max-width: 1320px;
+  margin: auto;
+  padding: 0 15px;
+  min-height: 48.875px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dna-brand {
+  display: block;
+  flex: none;
+  width: 60px;
+  height: 46.875px;
+}
+.dna-brand img {
+  display: block;
+  width: 60px;
+  height: auto;
+}
+.dna-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex: 1;
+}
+.dna-header .dna-nav-link {
+  display: block;
+  font:
+    500 14.5px/20px "DNA Oswald",
+    sans-serif;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: #222;
+  border: 0;
+  padding: 0 5px;
+  background: none;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.dna-nav-link:hover,
+.dna-nav-link:focus-visible {
+  color: #0b4d3c;
+}
+.dna-nav-link .dna-icon {
+  font-size: 13px;
+  margin-left: 5px;
+}
+.dna-shop-trigger {
+  padding: 14px 0;
+}
+.dna-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: none;
+  padding-right: 10px;
+}
+.dna-header-actions > button,
+.dna-header-actions > a {
+  border: 0;
+  padding: 0;
+  color: #000;
+  background: transparent;
+  display: block;
+  position: relative;
+  width: 25px;
+  height: 30px;
+  line-height: 30px;
+}
+.dna-header-actions .dna-icon {
+  font-size: 25px;
+}
+.dna-cart-count {
+  position: absolute;
+  font:
+    400 12px/24px "DNA Oswald",
+    sans-serif;
+  background: #0b4d3c;
+  color: white;
+  border-radius: 50px;
+  min-width: 18px;
+  padding: 0 6px;
+  top: -10px;
+  right: -10px;
+  text-align: center;
+}
+.dna-menu-toggle,
+.dna-mobile-links {
+  display: none;
+}
+.dna-search {
+  position: absolute;
+  right: max(15px, calc((100vw - 1320px) / 2));
+  top: 100%;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 2px 28px #0002;
+  display: flex;
+  width: 400px;
+  max-width: calc(100vw - 30px);
+}
+.dna-search input {
+  font:
+    400 16px/24px "DNA Roboto",
+    sans-serif;
+  border: 1px solid #ddd;
+  padding: 12px 18px;
+  flex: 1;
+  min-width: 0;
+}
+.dna-search button {
+  border: 0;
+  background: #fff;
+  color: #0b4d3c;
+  padding: 10px;
+  font-size: 20px;
+}
+.dna-mega {
+  position: absolute;
+  top: 100%;
+  left: -6px;
+  right: -6px;
+  background: #fff;
+  box-shadow: 0 5px 9px #0003;
+  color: #222;
+  text-align: left;
+  padding: 30px 0;
+}
+.dna-mega-inner {
+  width: 834px;
+  max-width: calc(100vw - 30px);
+  margin: auto;
+  position: relative;
+  min-height: 390px;
+}
+@media (min-width: 992px) {
+  /* Keep the pointer inside the dropdown while crossing the header padding. */
+  .dna-mega::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    height: 10px;
+  }
+}
+.dna-menu-groups {
+  display: grid;
+  grid-template-columns: repeat(4, 114px);
+  gap: 30px;
+}
+.dna-menu-groups h3 {
+  font:
+    700 16px/19.2px system-ui,
+    sans-serif;
+  letter-spacing: 0;
+  text-transform: none;
+  padding: 0 0 5px;
+  margin: 0 0 10px;
+  color: #222;
+}
+.dna-menu-groups ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.dna-menu-groups li {
+  margin: 0;
+  padding: 0;
+}
+.dna-menu-groups a {
+  font:
+    400 14px/18px "DNA Roboto",
+    sans-serif;
+  text-transform: none;
+  display: block;
+  color: #222;
+  padding: 5px 0;
+  text-decoration: none;
+}
+.dna-menu-groups a:hover {
+  text-decoration: underline;
+  color: #0b4d3c;
+}
+.dna-menu-feature {
+  position: absolute;
+  left: 432px;
+  top: 266px;
+  width: 360px;
+  min-height: 125px;
+  border: 8px solid #fff;
+  background: #c4d5b380;
+  display: flex;
+  align-items: end;
+  text-align: center;
+  box-shadow: 0 10px 20px #0002;
+}
+.dna-menu-feature img {
+  width: 30px;
+  max-height: 75px;
+  object-fit: contain;
+}
+.dna-menu-feature > div {
+  flex: 1;
+  min-width: 0;
+  padding: 4px 0 8px;
+}
+.dna-menu-feature p {
+  font:
+    400 14px/18px "DNA Roboto",
+    sans-serif;
+  margin: 0 0 10px;
+  white-space: nowrap;
+}
+.dna-menu-feature a {
+  display: inline-block;
+  background: #ffcb00;
+  border: 1px solid #0b4d3c;
+  border-radius: 30px;
+  padding: 11px 25px;
+  font:
+    700 14px/18px "DNA Roboto",
+    sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+.dna-menu-back {
+  display: none;
+}
+.dna-container {
+  max-width: 1320px;
+  padding: 0 7.5px;
+  margin: 0 auto;
+}
+.dna-newsletter {
+  background: #f6c740;
+  color: #212529;
+  padding: 40px 0 0;
+  text-align: center;
+}
+.dna-newsletter h2 {
+  font:
+    500 40px/45px "DNA Knockout",
+    Arial,
+    sans-serif;
+  letter-spacing: 0;
+  color: #0b4d3c;
+  margin: 0 0 15px;
+}
+.dna-newsletter p {
+  font:
+    400 16px/24px "DNA Roboto",
+    Arial,
+    sans-serif;
+  margin: 0 0 15px;
+}
+.dna-newsletter strong {
+  font-weight: 700;
+}
+.dna-newsletter form {
+  display: flex;
+  gap: 12px;
+  margin: 55px 7px 50px;
+}
+.dna-newsletter input,
+.dna-newsletter button {
+  width: 33.333%;
+  height: 45px;
+  border: 1px solid #eee;
+  border-radius: 28px;
+  padding: 10px 16px;
+  font:
+    400 18px/24px "DNA Roboto",
+    sans-serif;
+  background: #fff;
+}
+.dna-newsletter button {
+  background: #0b4d3c;
+  border-color: #0b4d3c;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+.dna-newsletter input:focus-visible {
+  outline: 2px solid #0b4d3c;
+  outline-offset: 3px;
+}
+.dna-forest {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+.dna-footer {
+  display: block;
+  position: relative;
+  background: #000;
+  color: #bfbfbf;
+  padding: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    sans-serif;
+  font-size: 12px;
+}
+.dna-footer-grid {
+  display: grid;
+  grid-template-columns: 5fr 1.75fr 1.75fr 3.5fr;
+  gap: 0;
+  margin: 0 -7.5px;
+  padding: 45px 0 15px;
+}
+.dna-footer-legal {
+  padding-right: 87.5px;
+  padding-left: 7.5px;
+}
+.dna-footer-useful,
+.dna-footer-shop,
+.dna-footer-articles {
+  padding: 0 7.5px;
+}
+.dna-footer a {
+  display: inline-block;
+  margin: 0;
+  text-decoration: none;
+}
+.dna-footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+.dna-footer .dna-footer-brand {
+  display: block;
+  width: 128px;
+  margin: 0 0 46px !important;
+}
+.dna-footer-brand img {
+  display: block;
+  width: 128px;
+  height: auto;
+}
+.dna-footer-legal p {
+  font:
+    400 9px/18px Arial,
+    sans-serif;
+  text-transform: uppercase;
+  margin: 0 0 15px;
+  color: #bfbfbf;
+  overflow-wrap: anywhere;
+}
+.dna-footer-legal a {
+  color: #0d6efd;
+  display: inline-block;
+  max-width: 100%;
+}
+.dna-footer-legal strong {
+  font-weight: 700;
+}
+.dna-footer h3 {
+  font:
+    500 22px/23px "DNA Knockout",
+    Arial,
+    sans-serif;
+  color: #fff;
+  letter-spacing: 0;
+  margin: 0 0 25px;
+}
+.dna-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.dna-footer li {
+  margin: 0 0 10px;
+  line-height: 24px;
+}
+.dna-footer li:last-child {
+  margin-bottom: 0;
+}
+.dna-footer li a {
+  font:
+    400 12px/20px system-ui,
+    -apple-system,
+    "Segoe UI",
+    sans-serif;
+  color: #bfbfbf;
+}
+.dna-footer h3.dna-footer-secondary-title {
+  margin: 50px 0 25px;
+}
+.dna-social,
+.dna-payments {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.dna-social a,
+.dna-payments > span {
+  font-size: 20px;
+  color: #fff;
+  line-height: 20px;
+}
+.dna-payments .dna-icon {
+  font-size: 20px;
+}
+.dna-copyright {
+  border-top: 1px solid #4c4c4c;
+  text-align: center;
+  padding: 25px 0;
+}
+.dna-copyright h3 {
+  margin: 0 0 6px;
+}
+.dna-copyright p {
+  font:
+    400 12px/18px "DNA Roboto",
+    Arial,
+    sans-serif;
+  color: #bfbfbf;
+  margin: 0;
+}
+.dna-copyright strong {
+  color: #fff;
+}
+.dna-copyright .dna-project-note {
+  font-size: 10px;
+  margin-top: 8px;
+}
+@media (min-width: 1700px) {
+  .dna-container,
+  .dna-header-inner {
+    max-width: 1640px;
+  }
+  .dna-search {
+    right: calc((100vw - 1640px) / 2);
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .dna-container,
+  .dna-header-inner {
+    max-width: 1140px;
+  }
+  .dna-header .dna-nav-link {
+    font-size: 13px;
+  }
+  .dna-navigation {
+    gap: 8px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .dna-container,
+  .dna-header-inner {
+    max-width: 960px;
+  }
+  .dna-header .dna-nav-link {
+    font-size: 12px;
+    padding: 0 3px;
+  }
+  .dna-navigation {
+    gap: 7px;
+  }
+  .dna-header-actions {
+    gap: 12px;
+  }
+  .dna-footer-legal {
+    padding-right: 25px;
+  }
+}
+@media (max-width: 991px) {
+  .dna-header {
+    padding: 0;
+    height: 60px;
+  }
+  .dna-header-inner {
+    min-height: 60px;
+    height: 60px;
+    max-width: 720px;
+    padding: 0 15px;
+  }
+  .dna-brand {
+    position: absolute;
+    left: 50%;
+    top: 6px;
+    transform: translateX(-50%);
+  }
+  .dna-header-actions {
+    gap: 25px;
+    padding-right: 13px;
+    margin-left: auto;
+    align-self: center;
+  }
+  .dna-menu-toggle {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    width: 30px;
+    height: 40px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    margin-left: 15px;
+  }
+  .dna-menu-toggle span {
+    display: block;
+    background: #555;
+    width: 30px;
+    height: 4px;
+  }
+  .dna-menu-toggle.is-open span:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+  }
+  .dna-menu-toggle.is-open span:nth-child(2) {
+    opacity: 0;
+  }
+  .dna-menu-toggle.is-open span:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+  .dna-navigation {
+    display: none;
+  }
+  .dna-navigation.is-open {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 5px;
+    background: #ececec;
+    padding: 20px;
+    max-height: calc(100dvh - 90px);
+    overflow: auto;
+    z-index: 20;
+  }
+  .dna-navigation.is-open:has(.dna-mega) {
+    height: calc(100dvh - 90px);
+  }
+  .dna-navigation .dna-nav-link {
+    font:
+      400 20px/26px "DNA Knockout",
+      Arial,
+      sans-serif;
+    letter-spacing: 0.5px;
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    color: #000;
+  }
+  .dna-shop-trigger {
+    padding: 0;
+  }
+  .dna-shop-trigger > .dna-nav-link {
+    width: 100%;
+    text-align: left;
+  }
+  .dna-shop-trigger > .dna-nav-link .dna-icon {
+    float: right;
+    transform: rotate(-90deg);
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .dna-mega {
+    position: absolute;
+    inset: 0;
+    background: #ececec;
+    padding: 0 20px;
+    box-shadow: none;
+    min-height: 100%;
+    overflow: auto;
+    z-index: 5;
+  }
+  .dna-mega-inner {
+    width: 100%;
+    max-width: none;
+    padding-bottom: 20px;
+  }
+  .dna-menu-back {
+    display: block;
+    background: #fff;
+    color: #222;
+    text-align: left;
+    width: calc(100% + 40px);
+    margin: 0 -20px 15px;
+    padding: 15px 20px;
+    border: 0;
+    font:
+      400 16px/20px "DNA Roboto",
+      sans-serif;
+  }
+  .dna-menu-groups {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+  .dna-menu-groups section {
+    background: #fff;
+    border-radius: 3px;
+    padding: 15px;
+  }
+  .dna-menu-groups h3 {
+    font:
+      400 20px/24px "DNA Knockout",
+      sans-serif;
+    margin: 0 0 8px;
+  }
+  .dna-menu-groups a {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .dna-menu-feature {
+    position: static;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 15px;
+  }
+  .dna-menu-feature p {
+    white-space: normal;
+  }
+  .dna-mobile-links {
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    white-space: nowrap;
+    gap: 22px;
+    padding: 4px 20px 8px;
+    background: #fff;
+    scrollbar-width: none;
+    box-shadow: 0 3px 6px #0001;
+  }
+  .dna-mobile-links::-webkit-scrollbar {
+    display: none;
+  }
+  .dna-mobile-links a,
+  .dna-mobile-links button {
+    font:
+      500 14px/20px "DNA Roboto",
+      sans-serif;
+    border: 0;
+    padding: 0;
+    background: none;
+    color: #535353;
+  }
+  .dna-mobile-links .dna-icon {
+    margin-left: 5px;
+  }
+  .dna-container {
+    max-width: 720px;
+    padding: 0 15px;
+  }
+  .dna-footer-grid {
+    grid-template-columns: 5fr 3.5fr 3.5fr;
+    gap: 15px;
+  }
+  .dna-footer-legal {
+    padding-right: 15px;
+    grid-row: 1/3;
+  }
+  .dna-footer-articles {
+    grid-column: 2/4;
+  }
+  .dna-newsletter h2 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+}
+@media (max-width: 767px) {
+  .dna-container {
+    max-width: 540px;
+  }
+  .dna-footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .dna-footer-legal {
+    grid-column: 1/-1;
+    grid-row: auto;
+    padding: 0 7.5px;
+  }
+  .dna-footer-articles {
+    grid-column: 1/-1;
+  }
+  .dna-newsletter {
+    text-align: left;
+  }
+  .dna-newsletter h2 {
+    text-align: center;
+  }
+  .dna-newsletter form {
+    flex-direction: column;
+    margin: 27px 4px 10px;
+    gap: 10px;
+  }
+  .dna-newsletter input,
+  .dna-newsletter button {
+    width: 100%;
+  }
+  .dna-newsletter p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .dna-footer-legal p {
+    font-size: 9px;
+    line-height: 18px;
+  }
+  .dna-footer .dna-footer-brand {
+    margin-bottom: 46px !important;
+  }
+  .dna-footer-grid {
+    padding-top: 45px;
+    gap: 0;
+  }
+  .dna-footer h3 {
+    font-size: 22px;
+  }
+  .dna-copyright h3 {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .dna-copyright {
+    padding: 25px 0 15px;
+  }
+}
+@media (max-width: 575px) {
+  .dna-container {
+    max-width: none;
+  }
+  .dna-announcement {
+    font-size: 14px;
+  }
+  .dna-header-inner {
+    max-width: none;
+  }
+  .dna-header-actions {
+    gap: 25px;
+  }
+  .dna-footer li a {
+    font-size: 12px;
+  }
+}

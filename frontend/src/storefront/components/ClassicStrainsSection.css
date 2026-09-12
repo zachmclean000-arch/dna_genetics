@@ -1,0 +1,114 @@
+.dna-classics {
+  padding: 50px 0;
+  background: #fff;
+  text-align: center;
+}
+.dna-classics-container {
+  max-width: 1320px;
+  padding: 0 7.5px;
+  margin: auto;
+}
+.dna-classics h2 {
+  margin: 0 0 15px;
+  color: #0b4d3c;
+  font:
+    500 45px/50px "DNA Knockout",
+    sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+.dna-classics-description {
+  margin: 0 0 30px;
+  color: #212529;
+  font:
+    400 16px/24px "DNA Roboto",
+    sans-serif;
+}
+.dna-classics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 15px;
+}
+.dna-classics-card {
+  display: block;
+  min-width: 0;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+.dna-classics-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.dna-classics-card span {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-width: 150px;
+  margin: -20px auto 0;
+  padding: 0 15px;
+  border: 3px solid #fff;
+  border-radius: 25px;
+  background: #0b4d3c;
+  color: #fff;
+  font:
+    600 14px/38px "DNA Roboto",
+    sans-serif;
+  text-transform: uppercase;
+}
+.dna-classics-card:hover span {
+  background: #d79e00;
+  color: #000;
+}
+.dna-classics-card:focus-visible {
+  outline: 3px solid #d79e00;
+  outline-offset: 4px;
+  border-radius: 12px;
+}
+@media (max-width: 1199px) {
+  .dna-classics-container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 991px) {
+  .dna-classics-container {
+    max-width: 720px;
+  }
+  .dna-classics-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 601px) and (max-width: 767px) {
+  .dna-classics-container {
+    max-width: 540px;
+  }
+}
+@media (max-width: 600px) {
+  .dna-classics {
+    padding: 24px 0 20px;
+  }
+  .dna-classics-container {
+    padding: 0 15px;
+  }
+  .dna-classics h2 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .dna-classics-description {
+    text-align: left;
+  }
+  .dna-classics-description br {
+    display: none;
+  }
+  .dna-classics-card {
+    margin-bottom: 25px;
+  }
+  .dna-classics-card span {
+    min-width: 0;
+    font-size: 12px;
+    line-height: 28px;
+  }
+}

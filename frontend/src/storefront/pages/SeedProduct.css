@@ -1,0 +1,286 @@
+.dna-seed-detail {
+  display: grid;
+  grid-template-columns: 1fr 1.05fr;
+  gap: 30px;
+  align-items: start;
+}
+.dna-seed-main-image {
+  display: block;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.dna-seed-summary h1,
+.dna-seed-description h2,
+.dna-seed-related h2 {
+  font:
+    500 36px/40px "DNA Knockout",
+    sans-serif;
+  color: #0b4d3c;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  margin: 0 0 15px;
+}
+.dna-seed-summary dl {
+  display: block;
+  margin: 0;
+  font-size: 14px;
+  line-height: 22px;
+}
+.dna-seed-summary dl > div {
+  display: flex;
+  gap: 5px;
+}
+.dna-seed-summary dt {
+  flex-shrink: 0;
+  font-weight: 700;
+}
+.dna-seed-summary dd {
+  min-width: 0;
+  margin: 0;
+}
+.dna-seed-short {
+  font-size: 12px;
+  line-height: 18px !important;
+  border-top: 1px solid #bbb;
+  padding-top: 5px;
+  margin: 8px 0 12px;
+}
+.dna-seed-short a {
+  color: inherit;
+  font-weight: 700;
+}
+.dna-seed-packs {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+.dna-seed-packs legend {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+.dna-seed-packs > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.dna-seed-packs label {
+  width: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.dna-seed-packs input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+}
+.dna-seed-packs img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid #bbb;
+  border-radius: 7px;
+}
+.dna-pack-label {
+  align-self: flex-start;
+  padding: 2px 6px;
+  border: 2px solid #bbb;
+  border-bottom: 0;
+  border-radius: 12px 12px 0 0;
+  font-size: 12px;
+  line-height: 20px;
+}
+.dna-seed-packs .selected img,
+.dna-seed-packs .selected .dna-pack-label {
+  border-color: #2baa90;
+}
+.dna-seed-packs .selected .dna-pack-label {
+  background: #2baa90;
+  color: white;
+}
+.dna-seed-packs input:focus-visible ~ img {
+  outline: 3px solid #0b4d3c;
+  outline-offset: 3px;
+}
+.dna-seed-packs strong {
+  font-size: 18px;
+  line-height: 26px;
+}
+.dna-pack-discount {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 26px;
+}
+.dna-pack-discount del {
+  color: #777;
+  font-size: 13px;
+}
+.dna-pack-discount > span {
+  background: #cfae0c;
+  border-radius: 50%;
+  color: white;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 26px;
+  width: 26px;
+  text-align: center;
+}
+.dna-selected-pack {
+  font-size: 13px;
+  margin: 10px 0;
+}
+.dna-seed-purchase,
+.dna-seed-purchase:disabled {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 14px 20px;
+  border: 0;
+  border-radius: 30px;
+  background: #ffcb00;
+  color: #000;
+  font:
+    500 16px/20px "DNA Roboto",
+    sans-serif;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.dna-seed-stock-note {
+  font-size: 12px;
+  color: #555;
+  margin: 7px 0 15px;
+}
+.dna-seed-service-strip {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  flex-wrap: wrap;
+  background: #ede8e0;
+  border-radius: 12px;
+  padding: 14px;
+  font-size: 12px;
+}
+.dna-seed-description {
+  padding-top: 45px;
+}
+.dna-seed-description p {
+  line-height: 25px;
+}
+.dna-seed-thumbnails {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+.dna-seed-thumbnails button {
+  border: 1px solid #ccc;
+  background: white;
+  padding: 3px;
+}
+.dna-seed-thumbnails img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.dna-seed-tabs {
+  margin: 35px 0;
+}
+.dna-seed-tabs [role="tablist"] {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #ddd;
+  gap: 10px;
+}
+.dna-seed-tabs button {
+  padding: 12px 18px;
+  border: 0;
+  background: #f3f0ea;
+  color: #0b4d3c;
+  cursor: pointer;
+}
+.dna-seed-tabs button[aria-selected="true"] {
+  background: #0b4d3c;
+  color: white;
+}
+.dna-seed-tabs [role="tabpanel"] {
+  padding: 20px 0;
+}
+.dna-seed-tabs table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.dna-seed-tabs th,
+.dna-seed-tabs td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+.dna-seed-related {
+  padding: 20px 0 55px;
+}
+@media (max-width: 991px) {
+  .dna-seed-detail {
+    grid-template-columns: 1fr;
+  }
+  .dna-seed-summary {
+    grid-row: 2;
+  }
+  .dna-seed-description {
+    padding-top: 25px;
+  }
+  .dna-seed-main-image {
+    height: auto;
+    max-height: 600px;
+    object-fit: contain;
+    background: #000;
+  }
+  .dna-seed-summary h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+@media (max-width: 600px) {
+  .dna-seed-packs > div {
+    gap: 14px 8px;
+    justify-content: flex-start;
+  }
+  .dna-seed-packs label {
+    width: calc((100% - 24px) / 4);
+  }
+  .dna-seed-packs img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+  }
+  .dna-seed-packs strong {
+    font-size: 14px;
+  }
+  .dna-pack-discount {
+    gap: 3px;
+  }
+  .dna-pack-discount del {
+    font-size: 10px;
+  }
+  .dna-pack-discount > span {
+    width: 22px;
+    line-height: 22px;
+    font-size: 8px;
+  }
+  .dna-seed-summary h1 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .dna-seed-tabs button {
+    padding: 10px;
+    font-size: 12px;
+  }
+}

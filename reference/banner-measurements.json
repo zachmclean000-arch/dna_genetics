@@ -1,0 +1,257 @@
+{
+  "urls": [
+    "https://dnagenetics.com/wp-content/uploads/2023/11/photo_2026-01-05_12-43-29.jpg",
+    "https://dnagenetics.com/wp-content/uploads/2024/11/photo_2026-08-27_17-05-45.jpg"
+  ],
+  "measurements": [
+    {
+      "width": 1440,
+      "rect": {
+        "x": 0,
+        "y": 92,
+        "width": 1440,
+        "height": 320.625,
+        "top": 92,
+        "right": 1440,
+        "bottom": 412.625,
+        "left": 0
+      },
+      "images": [
+        {
+          "natural": [
+            1280,
+            285
+          ],
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "display": "none",
+          "fit": "fill",
+          "margin": "0px"
+        },
+        {
+          "natural": [
+            1280,
+            285
+          ],
+          "rect": {
+            "x": 0,
+            "y": 92,
+            "width": 1440,
+            "height": 320.625,
+            "top": 92,
+            "right": 1440,
+            "bottom": 412.625,
+            "left": 0
+          },
+          "display": "block",
+          "fit": "fill",
+          "margin": "0px"
+        }
+      ],
+      "controls": [
+        {
+          "rect": {
+            "x": 0,
+            "y": 92,
+            "width": 72,
+            "height": 320.625,
+            "top": 92,
+            "right": 72,
+            "bottom": 412.625,
+            "left": 0
+          },
+          "opacity": "0.9",
+          "display": "flex"
+        },
+        {
+          "rect": {
+            "x": 1368,
+            "y": 92,
+            "width": 72,
+            "height": 320.625,
+            "top": 92,
+            "right": 1440,
+            "bottom": 412.625,
+            "left": 1368
+          },
+          "opacity": "0.9",
+          "display": "flex"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "rect": {
+        "x": 0,
+        "y": 92,
+        "width": 768,
+        "height": 171,
+        "top": 92,
+        "right": 768,
+        "bottom": 263,
+        "left": 0
+      },
+      "images": [
+        {
+          "natural": [
+            1280,
+            285
+          ],
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "display": "none",
+          "fit": "fill",
+          "margin": "0px"
+        },
+        {
+          "natural": [
+            1280,
+            285
+          ],
+          "rect": {
+            "x": 0,
+            "y": 92,
+            "width": 768,
+            "height": 171,
+            "top": 92,
+            "right": 768,
+            "bottom": 263,
+            "left": 0
+          },
+          "display": "block",
+          "fit": "fill",
+          "margin": "0px"
+        }
+      ],
+      "controls": [
+        {
+          "rect": {
+            "x": 0,
+            "y": 92,
+            "width": 38.390625,
+            "height": 171,
+            "top": 92,
+            "right": 38.390625,
+            "bottom": 263,
+            "left": 0
+          },
+          "opacity": "0.9",
+          "display": "flex"
+        },
+        {
+          "rect": {
+            "x": 729.609375,
+            "y": 92,
+            "width": 38.390625,
+            "height": 171,
+            "top": 92,
+            "right": 768,
+            "bottom": 263,
+            "left": 729.609375
+          },
+          "opacity": "0.9",
+          "display": "flex"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "rect": {
+        "x": 0,
+        "y": 92,
+        "width": 390,
+        "height": 120,
+        "top": 92,
+        "right": 390,
+        "bottom": 212,
+        "left": 0
+      },
+      "images": [
+        {
+          "natural": [
+            1280,
+            285
+          ],
+          "rect": {
+            "x": 0,
+            "y": 122,
+            "width": 390,
+            "height": 90,
+            "top": 122,
+            "right": 390,
+            "bottom": 212,
+            "left": 0
+          },
+          "display": "block",
+          "fit": "cover",
+          "margin": "30px 0px 0px"
+        },
+        {
+          "natural": [
+            1280,
+            285
+          ],
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "display": "none",
+          "fit": "cover",
+          "margin": "30px 0px 0px"
+        }
+      ],
+      "controls": [
+        {
+          "rect": {
+            "x": 15,
+            "y": 92,
+            "width": 19.5,
+            "height": 120,
+            "top": 92,
+            "right": 34.5,
+            "bottom": 212,
+            "left": 15
+          },
+          "opacity": "0.9",
+          "display": "flex"
+        },
+        {
+          "rect": {
+            "x": 355.5,
+            "y": 92,
+            "width": 19.5,
+            "height": 120,
+            "top": 92,
+            "right": 375,
+            "bottom": 212,
+            "left": 355.5
+          },
+          "opacity": "0.9",
+          "display": "flex"
+        }
+      ]
+    }
+  ]
+}

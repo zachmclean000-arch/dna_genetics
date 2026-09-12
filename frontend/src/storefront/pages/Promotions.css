@@ -1,0 +1,168 @@
+.dna-promotions-page {
+  background: #fff;
+  color: #212529;
+  font:
+    400 16px/24px "DNA Roboto",
+    sans-serif;
+}
+.dna-promotions-banner {
+  min-height: 150px;
+  padding: 10px 24px 18px;
+  text-align: center;
+  background: url("/assets/images/collections/best-selling-bg.svg") center
+    bottom / cover no-repeat;
+}
+.dna-promotions-banner > div {
+  max-width: 1320px;
+  margin: auto;
+}
+.dna-promotions-banner h1 {
+  letter-spacing: normal;
+  font:
+    500 25px/30px "DNA Knockout",
+    sans-serif;
+  color: #212529;
+  text-transform: none;
+  margin: 0;
+}
+.dna-promotions-banner p {
+  line-height: 24px;
+  margin: 0;
+  padding: 10px 0 0;
+}
+.dna-promotions-container {
+  max-width: 1320px;
+  margin: auto;
+  padding: 0 7.5px;
+}
+.dna-promotions-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 0 22px;
+  font-size: 13px;
+}
+.dna-promotions-breadcrumb a {
+  color: #0b4d3c;
+  text-decoration: none;
+}
+.dna-promotions-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 30px 15px;
+}
+.dna-promotions-active {
+  padding-bottom: 48px;
+}
+.dna-promotions-closed {
+  border-top: 1px solid #dee2e6;
+  padding: 48px 0 25px;
+}
+.dna-promo-card {
+  min-width: 0;
+  text-align: center;
+}
+.dna-promo-card figure {
+  margin: 0;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.dna-promo-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease-in-out;
+}
+.dna-promo-card:hover img {
+  transform: scale(1.05);
+}
+.dna-promo-card.is-closed img {
+  opacity: 0.6;
+}
+.dna-promo-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 8px 15px;
+  margin-top: 18px;
+  background: #ffcb00;
+  border: 1px solid #212529;
+  color: #000;
+  font:
+    600 14px/18px "DNA Roboto",
+    sans-serif;
+  text-transform: uppercase;
+}
+.dna-promo-card.is-closed .dna-promo-status {
+  margin-top: 10px;
+  background: #ac0606;
+  color: #fff;
+}
+.dna-promo-card p {
+  line-height: 24px;
+  margin: 0;
+  padding: 20px 30px 0;
+}
+@media (max-width: 1399px) {
+  .dna-promotions-container {
+    max-width: 1140px;
+  }
+}
+@media (max-width: 1199px) {
+  .dna-promotions-container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 991px) {
+  .dna-promotions-container {
+    max-width: 720px;
+  }
+  .dna-promotions-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .dna-promotions-active {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .dna-promo-card p {
+    padding: 20px 0;
+  }
+}
+@media (max-width: 767px) {
+  .dna-promotions-container {
+    max-width: 540px;
+  }
+}
+@media (max-width: 600px) {
+  .dna-promotions-container {
+    padding: 0 15px;
+  }
+  .dna-promotions-banner {
+    min-height: 220px;
+    padding: 20px 24px;
+    text-align: left;
+  }
+  .dna-promotions-banner h1 {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .dna-promotions-banner p {
+    font-size: 13px;
+    line-height: 17px;
+    padding-top: 8px;
+  }
+  .dna-promotions-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .dna-promo-status {
+    padding: 8px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dna-promo-card img {
+    transition: none;
+  }
+  .dna-promo-card:hover img {
+    transform: none;
+  }
+}

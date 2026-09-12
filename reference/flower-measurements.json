@@ -1,0 +1,2019 @@
+[
+  {
+    "width": 1440,
+    "rect": {
+      "x": 0,
+      "y": 412.625,
+      "width": 1440,
+      "height": 592,
+      "top": 412.625,
+      "right": 1440,
+      "bottom": 1004.625,
+      "left": 0
+    },
+    "nodes": [
+      {
+        "tag": "SECTION",
+        "class": "seeds_area product-seed-home large-view",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 0,
+          "y": 412.625,
+          "width": 1440,
+          "height": 592,
+          "top": 412.625,
+          "right": 1440,
+          "bottom": 1004.625,
+          "left": 0
+        },
+        "style": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "25px 0px 40px",
+          "margin": "0px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "container custom-container position-relative",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 60,
+          "y": 437.625,
+          "width": 1320,
+          "height": 527,
+          "top": 437.625,
+          "right": 1380,
+          "bottom": 964.625,
+          "left": 60
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px 7.5px",
+          "margin": "0px 60px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "title_area text-center",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 67.5,
+          "y": 437.625,
+          "width": 1305,
+          "height": 158,
+          "top": 437.625,
+          "right": 1372.5,
+          "bottom": 595.625,
+          "left": 67.5
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "H2",
+        "class": "title crown-sec",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 416.15625,
+          "y": 437.625,
+          "width": 607.6875,
+          "height": 95,
+          "top": 437.625,
+          "right": 1023.84375,
+          "bottom": 532.625,
+          "left": 416.15625
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(11, 77, 60)",
+          "fontFamily": "\"Knockout HTF49-Liteweight\"",
+          "fontSize": "45px",
+          "fontWeight": "500",
+          "lineHeight": "50px",
+          "padding": "0px",
+          "margin": "0px 348.656px",
+          "border": "0px none rgb(11, 77, 60)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "crown-center",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/uploads/2024/01/crowh-h.png",
+        "rect": {
+          "x": 695,
+          "y": 437.625,
+          "width": 50,
+          "height": 35,
+          "top": 437.625,
+          "right": 745,
+          "bottom": 472.625,
+          "left": 695
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(11, 77, 60)",
+          "fontFamily": "\"Knockout HTF49-Liteweight\"",
+          "fontSize": "45px",
+          "fontWeight": "500",
+          "lineHeight": "50px",
+          "padding": "0px",
+          "margin": "0px 278.844px 10px",
+          "border": "0px none rgb(11, 77, 60)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "discover_para",
+        "text": "Shop our premium indoor-grown THCa flower, organically cultivated right here in the USA. Enjoy a hig",
+        "src": null,
+        "rect": {
+          "x": 200,
+          "y": 547.625,
+          "width": 1040,
+          "height": 48,
+          "top": 547.625,
+          "right": 1240,
+          "bottom": 595.625,
+          "left": 200
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "Roboto, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "15px 132.5px 35px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "row",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 60,
+          "y": 630.625,
+          "width": 1320,
+          "height": 334,
+          "top": 630.625,
+          "right": 1380,
+          "bottom": 964.625,
+          "left": 60
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px -7.5px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "flex"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "col-lg-3 col-md-6 col-6",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 60,
+          "y": 630.625,
+          "width": 330,
+          "height": 334,
+          "top": 630.625,
+          "right": 390,
+          "bottom": 964.625,
+          "left": 60
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px 7.5px",
+          "margin": "0px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "w-100",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/DNA-THCa-Choco-mintz-600x600.jpeg",
+        "rect": {
+          "x": 90,
+          "y": 630.625,
+          "width": 270,
+          "height": 270,
+          "top": 630.625,
+          "right": 360,
+          "bottom": 900.625,
+          "left": 90
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(13, 110, 253)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "0px none rgb(13, 110, 253)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "H5",
+        "class": "product_name",
+        "text": "DNA GENETICS – THCa FLOWER - CHOCO MINTZ",
+        "src": null,
+        "rect": {
+          "x": 67.5,
+          "y": 900.625,
+          "width": 315,
+          "height": 64,
+          "top": 900.625,
+          "right": 382.5,
+          "bottom": 964.625,
+          "left": 67.5
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "fontFamily": "\"Knockout HTF49-Liteweight\"",
+          "fontSize": "25px",
+          "fontWeight": "500",
+          "lineHeight": "25px",
+          "padding": "12px 0px 2px",
+          "margin": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "col-lg-3 col-md-6 col-6",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 390,
+          "y": 630.625,
+          "width": 330,
+          "height": 334,
+          "top": 630.625,
+          "right": 720,
+          "bottom": 964.625,
+          "left": 390
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px 7.5px",
+          "margin": "0px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "w-100",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/DNA-THCa-Gaz-Money-600x600.jpeg",
+        "rect": {
+          "x": 420,
+          "y": 630.625,
+          "width": 270,
+          "height": 270,
+          "top": 630.625,
+          "right": 690,
+          "bottom": 900.625,
+          "left": 420
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(13, 110, 253)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "0px none rgb(13, 110, 253)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "H5",
+        "class": "product_name",
+        "text": "Gaz Money THCa Flower",
+        "src": null,
+        "rect": {
+          "x": 397.5,
+          "y": 900.625,
+          "width": 315,
+          "height": 39,
+          "top": 900.625,
+          "right": 712.5,
+          "bottom": 939.625,
+          "left": 397.5
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "fontFamily": "\"Knockout HTF49-Liteweight\"",
+          "fontSize": "25px",
+          "fontWeight": "500",
+          "lineHeight": "25px",
+          "padding": "12px 0px 2px",
+          "margin": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "col-lg-3 col-md-6 col-6",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 720,
+          "y": 630.625,
+          "width": 330,
+          "height": 334,
+          "top": 630.625,
+          "right": 1050,
+          "bottom": 964.625,
+          "left": 720
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px 7.5px",
+          "margin": "0px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "w-100",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/DNA-THCa-Guavanade-600x600.jpeg",
+        "rect": {
+          "x": 750,
+          "y": 630.625,
+          "width": 270,
+          "height": 270,
+          "top": 630.625,
+          "right": 1020,
+          "bottom": 900.625,
+          "left": 750
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(13, 110, 253)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "0px none rgb(13, 110, 253)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "H5",
+        "class": "product_name",
+        "text": "Guavanade THCa Flower",
+        "src": null,
+        "rect": {
+          "x": 727.5,
+          "y": 900.625,
+          "width": 315,
+          "height": 39,
+          "top": 900.625,
+          "right": 1042.5,
+          "bottom": 939.625,
+          "left": 727.5
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "fontFamily": "\"Knockout HTF49-Liteweight\"",
+          "fontSize": "25px",
+          "fontWeight": "500",
+          "lineHeight": "25px",
+          "padding": "12px 0px 2px",
+          "margin": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "col-lg-3 col-md-6 col-6",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 1050,
+          "y": 630.625,
+          "width": 330,
+          "height": 334,
+          "top": 630.625,
+          "right": 1380,
+          "bottom": 964.625,
+          "left": 1050
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px 7.5px",
+          "margin": "0px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "w-100",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/DNA-THCa-Honey-beez-600x600.jpeg",
+        "rect": {
+          "x": 1080,
+          "y": 630.625,
+          "width": 270,
+          "height": 270,
+          "top": 630.625,
+          "right": 1350,
+          "bottom": 900.625,
+          "left": 1080
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(13, 110, 253)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "0px none rgb(13, 110, 253)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "H5",
+        "class": "product_name",
+        "text": "Honey Beez THCa Flower",
+        "src": null,
+        "rect": {
+          "x": 1057.5,
+          "y": 900.625,
+          "width": 315,
+          "height": 39,
+          "top": 900.625,
+          "right": 1372.5,
+          "bottom": 939.625,
+          "left": 1057.5
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "fontFamily": "\"Knockout HTF49-Liteweight\"",
+          "fontSize": "25px",
+          "fontWeight": "500",
+          "lineHeight": "25px",
+          "padding": "12px 0px 2px",
+          "margin": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "left-arw",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/themes/dnagenetics/images/arrow-grn-right.webp",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/themes/dnagenetics/images/arrow-grn-right.webp",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "rect": {
+      "x": 0,
+      "y": 263,
+      "width": 768,
+      "height": 906,
+      "top": 263,
+      "right": 768,
+      "bottom": 1169,
+      "left": 0
+    },
+    "nodes": [
+      {
+        "tag": "SECTION",
+        "class": "seeds_area product-seed-home large-view",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 0,
+          "y": 263,
+          "width": 768,
+          "height": 906,
+          "top": 263,
+          "right": 768,
+          "bottom": 1169,
+          "left": 0
+        },
+        "style": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "25px 0px 30px",
+          "margin": "0px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "container custom-container position-relative",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 24,
+          "y": 288,
+          "width": 720,
+          "height": 851,
+          "top": 288,
+          "right": 744,
+          "bottom": 1139,
+          "left": 24
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px 7.5px",
+          "margin": "0px 24px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "title_area text-center",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 31.5,
+          "y": 288,
+          "width": 705,
+          "height": 158,
+          "top": 288,
+          "right": 736.5,
+          "bottom": 446,
+          "left": 31.5
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "H2",
+        "class": "title crown-sec",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 80.15625,
+          "y": 288,
+          "width": 607.6875,
+          "height": 95,
+          "top": 288,
+          "right": 687.84375,
+          "bottom": 383,
+          "left": 80.15625
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(11, 77, 60)",
+          "fontFamily": "\"Knockout HTF49-Liteweight\"",
+          "fontSize": "45px",
+          "fontWeight": "500",
+          "lineHeight": "50px",
+          "padding": "0px",
+          "margin": "0px 48.6562px",
+          "border": "0px none rgb(11, 77, 60)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "crown-center",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/uploads/2024/01/crowh-h.png",
+        "rect": {
+          "x": 359,
+          "y": 288,
+          "width": 50,
+          "height": 35,
+          "top": 288,
+          "right": 409,
+          "bottom": 323,
+          "left": 359
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(11, 77, 60)",
+          "fontFamily": "\"Knockout HTF49-Liteweight\"",
+          "fontSize": "45px",
+          "fontWeight": "500",
+          "lineHeight": "50px",
+          "padding": "0px",
+          "margin": "0px 278.844px 10px",
+          "border": "0px none rgb(11, 77, 60)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "discover_para",
+        "text": "Shop our premium indoor-grown THCa flower, organically cultivated right here in the USA. Enjoy a hig",
+        "src": null,
+        "rect": {
+          "x": 31.5,
+          "y": 383,
+          "width": 705,
+          "height": 63,
+          "top": 383,
+          "right": 736.5,
+          "bottom": 446,
+          "left": 31.5
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "Roboto, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px 0px 15px",
+          "margin": "0px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "row",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 24,
+          "y": 446,
+          "width": 720,
+          "height": 693,
+          "top": 446,
+          "right": 744,
+          "bottom": 1139,
+          "left": 24
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px -7.5px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "flex"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "col-lg-3 col-md-6 col-6",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 24,
+          "y": 446,
+          "width": 360,
+          "height": 359,
+          "top": 446,
+          "right": 384,
+          "bottom": 805,
+          "left": 24
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px 7.5px",
+          "margin": "0px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "w-100",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/DNA-THCa-Choco-mintz-600x600.jpeg",
+        "rect": {
+          "x": 69,
+          "y": 446,
+          "width": 270,
+          "height": 270,
+          "top": 446,
+          "right": 339,
+          "bottom": 716,
+          "left": 69
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(13, 110, 253)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "0px none rgb(13, 110, 253)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "H5",
+        "class": "product_name",
+        "text": "DNA GENETICS – THCa FLOWER - CHOCO MINTZ",
+        "src": null,
+        "rect": {
+          "x": 31.5,
+          "y": 716,
+          "width": 345,
+          "height": 64,
+          "top": 716,
+          "right": 376.5,
+          "bottom": 780,
+          "left": 31.5
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "fontFamily": "\"Knockout HTF49-Liteweight\"",
+          "fontSize": "25px",
+          "fontWeight": "500",
+          "lineHeight": "25px",
+          "padding": "12px 0px 2px",
+          "margin": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "col-lg-3 col-md-6 col-6",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 384,
+          "y": 446,
+          "width": 360,
+          "height": 359,
+          "top": 446,
+          "right": 744,
+          "bottom": 805,
+          "left": 384
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px 7.5px",
+          "margin": "0px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "w-100",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/DNA-THCa-Gaz-Money-600x600.jpeg",
+        "rect": {
+          "x": 429,
+          "y": 446,
+          "width": 270,
+          "height": 270,
+          "top": 446,
+          "right": 699,
+          "bottom": 716,
+          "left": 429
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(13, 110, 253)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "0px none rgb(13, 110, 253)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "H5",
+        "class": "product_name",
+        "text": "Gaz Money THCa Flower",
+        "src": null,
+        "rect": {
+          "x": 391.5,
+          "y": 716,
+          "width": 345,
+          "height": 39,
+          "top": 716,
+          "right": 736.5,
+          "bottom": 755,
+          "left": 391.5
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "fontFamily": "\"Knockout HTF49-Liteweight\"",
+          "fontSize": "25px",
+          "fontWeight": "500",
+          "lineHeight": "25px",
+          "padding": "12px 0px 2px",
+          "margin": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "col-lg-3 col-md-6 col-6",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 24,
+          "y": 805,
+          "width": 360,
+          "height": 334,
+          "top": 805,
+          "right": 384,
+          "bottom": 1139,
+          "left": 24
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px 7.5px",
+          "margin": "0px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "w-100",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/DNA-THCa-Guavanade-600x600.jpeg",
+        "rect": {
+          "x": 69,
+          "y": 805,
+          "width": 270,
+          "height": 270,
+          "top": 805,
+          "right": 339,
+          "bottom": 1075,
+          "left": 69
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(13, 110, 253)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "0px none rgb(13, 110, 253)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "H5",
+        "class": "product_name",
+        "text": "Guavanade THCa Flower",
+        "src": null,
+        "rect": {
+          "x": 31.5,
+          "y": 1075,
+          "width": 345,
+          "height": 39,
+          "top": 1075,
+          "right": 376.5,
+          "bottom": 1114,
+          "left": 31.5
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "fontFamily": "\"Knockout HTF49-Liteweight\"",
+          "fontSize": "25px",
+          "fontWeight": "500",
+          "lineHeight": "25px",
+          "padding": "12px 0px 2px",
+          "margin": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "col-lg-3 col-md-6 col-6",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 384,
+          "y": 805,
+          "width": 360,
+          "height": 334,
+          "top": 805,
+          "right": 744,
+          "bottom": 1139,
+          "left": 384
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px 7.5px",
+          "margin": "0px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "w-100",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/DNA-THCa-Honey-beez-600x600.jpeg",
+        "rect": {
+          "x": 429,
+          "y": 805,
+          "width": 270,
+          "height": 270,
+          "top": 805,
+          "right": 699,
+          "bottom": 1075,
+          "left": 429
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(13, 110, 253)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "0px none rgb(13, 110, 253)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "H5",
+        "class": "product_name",
+        "text": "Honey Beez THCa Flower",
+        "src": null,
+        "rect": {
+          "x": 391.5,
+          "y": 1075,
+          "width": 345,
+          "height": 39,
+          "top": 1075,
+          "right": 736.5,
+          "bottom": 1114,
+          "left": 391.5
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "fontFamily": "\"Knockout HTF49-Liteweight\"",
+          "fontSize": "25px",
+          "fontWeight": "500",
+          "lineHeight": "25px",
+          "padding": "12px 0px 2px",
+          "margin": "0px",
+          "border": "0px none rgb(0, 0, 0)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "left-arw",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/themes/dnagenetics/images/arrow-grn-right.webp",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/themes/dnagenetics/images/arrow-grn-right.webp",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "rect": {
+      "x": 15,
+      "y": 234,
+      "width": 360,
+      "height": 544,
+      "top": 234,
+      "right": 375,
+      "bottom": 778,
+      "left": 15
+    },
+    "nodes": [
+      {
+        "tag": "DIV",
+        "class": "resp-view mb-5",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 15,
+          "y": 234,
+          "width": 360,
+          "height": 544,
+          "top": 234,
+          "right": 375,
+          "bottom": 778,
+          "left": 15
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px 0px 30px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "row newProBlogSec my-5",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 15,
+          "y": 234,
+          "width": 360,
+          "height": 544,
+          "top": 234,
+          "right": 375,
+          "bottom": 778,
+          "left": 15
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "5px 0px 0px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "flex"
+        }
+      },
+      {
+        "tag": "H1",
+        "class": "title white text-center",
+        "text": "DNA Genetics now offers THCa Flower",
+        "src": null,
+        "rect": {
+          "x": 22.5,
+          "y": 234,
+          "width": 345,
+          "height": 70,
+          "top": 234,
+          "right": 367.5,
+          "bottom": 304,
+          "left": 22.5
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Oswald, sans-serif",
+          "fontSize": "32px",
+          "fontWeight": "500",
+          "lineHeight": "35px",
+          "padding": "0px",
+          "margin": "0px 0px 4px",
+          "border": "0px none rgb(255, 255, 255)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "w-100",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/DNA-THCa-Choco-mintz-600x600.jpeg",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(13, 110, 253)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "3px solid rgb(255, 255, 255)",
+          "borderRadius": "20px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "text-center",
+        "text": "Choco Mintz",
+        "src": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 203, 0)",
+          "fontFamily": "\"Knockout HTF49-Liteweight\"",
+          "fontSize": "19px",
+          "fontWeight": "400",
+          "lineHeight": "25px",
+          "padding": "0px",
+          "margin": "7px 0px 0px",
+          "border": "0px none rgb(255, 203, 0)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "w-100",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/DNA-THCa-Gaz-Money-600x600.jpeg",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(13, 110, 253)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "3px solid rgb(255, 255, 255)",
+          "borderRadius": "20px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "text-center",
+        "text": "GAZ Money",
+        "src": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 203, 0)",
+          "fontFamily": "\"Knockout HTF49-Liteweight\"",
+          "fontSize": "19px",
+          "fontWeight": "400",
+          "lineHeight": "25px",
+          "padding": "0px",
+          "margin": "7px 0px 0px",
+          "border": "0px none rgb(255, 203, 0)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "w-100",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/DNA-THCa-Guavanade-600x600.jpeg",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(13, 110, 253)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "3px solid rgb(255, 255, 255)",
+          "borderRadius": "20px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "text-center",
+        "text": "Guavanade",
+        "src": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 203, 0)",
+          "fontFamily": "\"Knockout HTF49-Liteweight\"",
+          "fontSize": "19px",
+          "fontWeight": "400",
+          "lineHeight": "25px",
+          "padding": "0px",
+          "margin": "7px 0px 0px",
+          "border": "0px none rgb(255, 203, 0)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "w-100",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/DNA-THCa-Honey-beez-600x600.jpeg",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(13, 110, 253)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "3px solid rgb(255, 255, 255)",
+          "borderRadius": "20px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "text-center",
+        "text": "Honey Beez",
+        "src": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 203, 0)",
+          "fontFamily": "\"Knockout HTF49-Liteweight\"",
+          "fontSize": "19px",
+          "fontWeight": "400",
+          "lineHeight": "25px",
+          "padding": "0px",
+          "margin": "7px 0px 0px",
+          "border": "0px none rgb(255, 203, 0)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "row newProBlogSec my-5 hidden",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 15,
+          "y": 313,
+          "width": 360,
+          "height": 409,
+          "top": 313,
+          "right": 375,
+          "bottom": 722,
+          "left": 15
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px 7.5px",
+          "margin": "5px 0px 0px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "flex"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "col-6 mb-4 ",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 22.5,
+          "y": 313,
+          "width": 172.5,
+          "height": 189.5,
+          "top": 313,
+          "right": 195,
+          "bottom": 502.5,
+          "left": 22.5
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px 7.5px",
+          "margin": "0px 0px 15px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "w-100",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/DNA-THCa-Choco-mintz-600x600.jpeg",
+        "rect": {
+          "x": 30,
+          "y": 313,
+          "width": 157.5,
+          "height": 157.5,
+          "top": 313,
+          "right": 187.5,
+          "bottom": 470.5,
+          "left": 30
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(13, 110, 253)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "3px solid rgb(255, 255, 255)",
+          "borderRadius": "20px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "text-center",
+        "text": "Choco Mintz",
+        "src": null,
+        "rect": {
+          "x": 30,
+          "y": 477.5,
+          "width": 157.5,
+          "height": 25,
+          "top": 477.5,
+          "right": 187.5,
+          "bottom": 502.5,
+          "left": 30
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 203, 0)",
+          "fontFamily": "\"Knockout HTF49-Liteweight\"",
+          "fontSize": "19px",
+          "fontWeight": "400",
+          "lineHeight": "25px",
+          "padding": "0px",
+          "margin": "7px 0px 0px",
+          "border": "0px none rgb(255, 203, 0)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "col-6 mb-4",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 195,
+          "y": 313,
+          "width": 172.5,
+          "height": 189.5,
+          "top": 313,
+          "right": 367.5,
+          "bottom": 502.5,
+          "left": 195
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px 7.5px",
+          "margin": "0px 0px 15px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "w-100",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/DNA-THCa-Gaz-Money-600x600.jpeg",
+        "rect": {
+          "x": 202.5,
+          "y": 313,
+          "width": 157.5,
+          "height": 157.5,
+          "top": 313,
+          "right": 360,
+          "bottom": 470.5,
+          "left": 202.5
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(13, 110, 253)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "3px solid rgb(255, 255, 255)",
+          "borderRadius": "20px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "text-center",
+        "text": "GAZ Money",
+        "src": null,
+        "rect": {
+          "x": 202.5,
+          "y": 477.5,
+          "width": 157.5,
+          "height": 25,
+          "top": 477.5,
+          "right": 360,
+          "bottom": 502.5,
+          "left": 202.5
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 203, 0)",
+          "fontFamily": "\"Knockout HTF49-Liteweight\"",
+          "fontSize": "19px",
+          "fontWeight": "400",
+          "lineHeight": "25px",
+          "padding": "0px",
+          "margin": "7px 0px 0px",
+          "border": "0px none rgb(255, 203, 0)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "col-6 mb-4",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 22.5,
+          "y": 517.5,
+          "width": 172.5,
+          "height": 189.5,
+          "top": 517.5,
+          "right": 195,
+          "bottom": 707,
+          "left": 22.5
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px 7.5px",
+          "margin": "0px 0px 15px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "w-100",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/DNA-THCa-Guavanade-600x600.jpeg",
+        "rect": {
+          "x": 30,
+          "y": 517.5,
+          "width": 157.5,
+          "height": 157.5,
+          "top": 517.5,
+          "right": 187.5,
+          "bottom": 675,
+          "left": 30
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(13, 110, 253)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "3px solid rgb(255, 255, 255)",
+          "borderRadius": "20px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "text-center",
+        "text": "Guavanade",
+        "src": null,
+        "rect": {
+          "x": 30,
+          "y": 682,
+          "width": 157.5,
+          "height": 25,
+          "top": 682,
+          "right": 187.5,
+          "bottom": 707,
+          "left": 30
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 203, 0)",
+          "fontFamily": "\"Knockout HTF49-Liteweight\"",
+          "fontSize": "19px",
+          "fontWeight": "400",
+          "lineHeight": "25px",
+          "padding": "0px",
+          "margin": "7px 0px 0px",
+          "border": "0px none rgb(255, 203, 0)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "col-6 mb-4",
+        "text": "",
+        "src": null,
+        "rect": {
+          "x": 195,
+          "y": 517.5,
+          "width": 172.5,
+          "height": 189.5,
+          "top": 517.5,
+          "right": 367.5,
+          "bottom": 707,
+          "left": 195
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px 7.5px",
+          "margin": "0px 0px 15px",
+          "border": "0px none rgb(33, 37, 41)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "IMG",
+        "class": "w-100",
+        "text": "",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/DNA-THCa-Honey-beez-600x600.jpeg",
+        "rect": {
+          "x": 202.5,
+          "y": 517.5,
+          "width": 157.5,
+          "height": 157.5,
+          "top": 517.5,
+          "right": 360,
+          "bottom": 675,
+          "left": 202.5
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(13, 110, 253)",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "margin": "0px",
+          "border": "3px solid rgb(255, 255, 255)",
+          "borderRadius": "20px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "P",
+        "class": "text-center",
+        "text": "Honey Beez",
+        "src": null,
+        "rect": {
+          "x": 202.5,
+          "y": 682,
+          "width": 157.5,
+          "height": 25,
+          "top": 682,
+          "right": 360,
+          "bottom": 707,
+          "left": 202.5
+        },
+        "style": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 203, 0)",
+          "fontFamily": "\"Knockout HTF49-Liteweight\"",
+          "fontSize": "19px",
+          "fontWeight": "400",
+          "lineHeight": "25px",
+          "padding": "0px",
+          "margin": "7px 0px 0px",
+          "border": "0px none rgb(255, 203, 0)",
+          "borderRadius": "0px",
+          "display": "block"
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "class": "btn custom_btn about_btn green-btn shop_sheed_btn mt-0",
+        "text": "SHOP THCA FLOWER",
+        "src": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "style": {
+          "backgroundColor": "rgb(255, 203, 0)",
+          "color": "rgb(0, 0, 0)",
+          "fontFamily": "din-2014, sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "36px",
+          "padding": "0px 20px",
+          "margin": "0px auto",
+          "border": "1px solid rgb(11, 77, 60)",
+          "borderRadius": "25px",
+          "display": "flex"
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "class": "btn custom_btn about_btn green-btn shop_sheed_btn mt-0",
+        "text": "SHOP THCA FLOWER",
+        "src": null,
+        "rect": {
+          "x": 22.5,
+          "y": 732,
+          "width": 345,
+          "height": 36,
+          "top": 732,
+          "right": 367.5,
+          "bottom": 768,
+          "left": 22.5
+        },
+        "style": {
+          "backgroundColor": "rgb(255, 203, 0)",
+          "color": "rgb(0, 0, 0)",
+          "fontFamily": "din-2014, sans-serif",
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "36px",
+          "padding": "0px 20px",
+          "margin": "0px",
+          "border": "1px solid rgb(11, 77, 60)",
+          "borderRadius": "25px",
+          "display": "flex"
+        }
+      }
+    ]
+  }
+]

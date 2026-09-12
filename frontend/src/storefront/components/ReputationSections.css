@@ -1,0 +1,230 @@
+.dna-reputation-container {
+  max-width: 1320px;
+  padding: 0 7.5px;
+  margin: auto;
+}
+.dna-crowd h2,
+.dna-recommended h2,
+.dna-home-faq h2 {
+  margin: 0 0 30px;
+  font:
+    500 45px/50px "DNA Knockout",
+    sans-serif;
+  text-transform: uppercase;
+  color: #0b4d3c;
+  text-align: center;
+  letter-spacing: 0;
+}
+.dna-crowd {
+  position: relative;
+  padding: 50px 0;
+  background: #0b4d3c;
+  color: #fff;
+  isolation: isolate;
+}
+.dna-crowd::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/assets/images/reputation/PatternDNA-min.webp") center/cover;
+  opacity: 0.25;
+  z-index: -1;
+}
+.dna-crowd h2 {
+  color: #fff;
+}
+.dna-crowd-empty {
+  text-align: center;
+  padding: 45px 0;
+}
+.dna-crowd-track {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+.dna-review {
+  flex: 0 0 calc((100% - 48px) / 3);
+  min-width: 0;
+  scroll-snap-align: start;
+  background: #fff;
+  color: #212529;
+  border-radius: 12px;
+  padding: 25px;
+  min-height: 230px;
+}
+.dna-review header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.dna-review-avatar {
+  flex: 0 0 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #627853;
+  color: #fff;
+  font:
+    22px/1 "DNA Roboto",
+    sans-serif;
+}
+.dna-review h3 {
+  margin: 0;
+  font:
+    500 16px/22px "DNA Roboto",
+    sans-serif;
+  overflow-wrap: anywhere;
+}
+.dna-review time {
+  font:
+    12px/18px "DNA Roboto",
+    sans-serif;
+  margin-left: auto;
+}
+.dna-review-stars {
+  color: #ffcb00;
+  font-size: 20px;
+  white-space: nowrap;
+}
+.dna-review p {
+  font:
+    400 15px/24px "DNA Roboto",
+    sans-serif;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  margin: 20px 0 0;
+}
+.dna-reputation-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.dna-reputation-controls button {
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  font:
+    30px/1 Arial,
+    sans-serif;
+  cursor: pointer;
+}
+.dna-recommended {
+  padding: 40px 0;
+  background: #fff;
+}
+.dna-recommended h2 {
+  font-size: 40px;
+}
+.dna-recommended-logos {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  overflow-x: auto;
+  padding: 10px 0 20px;
+  scroll-snap-type: x mandatory;
+}
+.dna-recommended-logos img {
+  flex: 0 0 calc((100% - 160px) / 5);
+  min-width: 0;
+  width: calc((100% - 160px) / 5);
+  height: 70px;
+  object-fit: contain;
+  scroll-snap-align: start;
+}
+.dna-home-faq {
+  padding: 50px 0;
+  background: #faf7f2;
+}
+.dna-home-faq-item {
+  border-bottom: 1px solid #d7d2ca;
+  padding: 15px 0;
+}
+.dna-home-faq-item h3 {
+  margin: 0;
+}
+.dna-home-faq-item button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  padding: 10px 0;
+  border: 0;
+  background: transparent;
+  color: #0b4d3c;
+  font:
+    500 28px/34px "DNA Knockout",
+    sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  cursor: pointer;
+}
+.dna-home-faq-item button span {
+  font:
+    28px/1 Arial,
+    sans-serif;
+}
+.dna-home-faq-item p {
+  margin: 10px 0;
+  font:
+    400 16px/26px "DNA Roboto",
+    sans-serif;
+}
+.dna-home-faq a {
+  color: #0b4d3c;
+}
+.dna-home-faq :focus-visible,
+.dna-crowd :focus-visible {
+  outline: 3px solid #d79e00;
+  outline-offset: 3px;
+}
+@media (max-width: 1199px) {
+  .dna-reputation-container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 991px) {
+  .dna-reputation-container {
+    max-width: 720px;
+  }
+  .dna-review {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+}
+@media (min-width: 601px) and (max-width: 767px) {
+  .dna-reputation-container {
+    max-width: 540px;
+  }
+}
+@media (max-width: 600px) {
+  .dna-reputation-container {
+    padding: 0 20px;
+  }
+  .dna-crowd,
+  .dna-home-faq,
+  .dna-recommended {
+    padding: 30px 0;
+  }
+  .dna-crowd h2,
+  .dna-home-faq h2,
+  .dna-recommended h2 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .dna-review {
+    flex-basis: 100%;
+    padding: 20px;
+  }
+  .dna-recommended-logos img {
+    flex-basis: calc((100% - 40px) / 2);
+    width: calc((100% - 40px) / 2);
+  }
+  .dna-home-faq-item button {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}

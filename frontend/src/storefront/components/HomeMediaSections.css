@@ -1,0 +1,274 @@
+.dna-home-media-section h2 {
+  margin: 0 0 30px;
+  color: #0b4d3c;
+  text-align: center;
+  font:
+    500 45px/50px "DNA Knockout",
+    sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+.dna-home-media-section p {
+  color: #212529;
+  font:
+    400 16px/24px "DNA Roboto",
+    sans-serif;
+}
+.dna-home-media-section :focus-visible,
+.dna-home-skywalker a:focus-visible {
+  outline: 3px solid #d79e00;
+  outline-offset: 3px;
+}
+.dna-home-promotions {
+  padding: 32px 7.5px 30px;
+  background: #fff;
+}
+.dna-home-promotions-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 15px;
+}
+.dna-home-promotions-grid article {
+  min-width: 0;
+  text-align: center;
+}
+.dna-home-promotions-grid a {
+  display: block;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.dna-home-promotions-grid img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s;
+}
+.dna-home-promotions-grid a:hover img {
+  transform: scale(1.05);
+}
+.dna-home-promotions-grid p {
+  margin: 0;
+  padding: 20px 30px 0;
+}
+.dna-home-gallery {
+  padding: 30px 0;
+  background: #fff url("/assets/images/home-media/background.png") center top /
+    cover no-repeat;
+}
+.dna-home-media-container {
+  max-width: 1320px;
+  margin: auto;
+  padding: 0 7.5px;
+}
+.dna-home-media-crown {
+  display: block;
+  width: 50px;
+  height: 35px;
+  margin: 0 auto 10px;
+}
+.dna-home-gallery h2 {
+  margin-bottom: 15px;
+}
+.dna-home-gallery .dna-home-media-subtitle {
+  margin: 0 0 25px;
+  text-align: center;
+  font:
+    500 22px/25px "DNA Knockout",
+    sans-serif;
+  text-transform: uppercase;
+}
+.dna-home-media-track {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 15px;
+}
+.dna-home-media-track article {
+  min-width: 0;
+  text-align: center;
+}
+.dna-home-media-preview {
+  position: relative;
+  display: block;
+  width: 100%;
+  border: 0;
+  border-radius: 16px;
+  padding: 0;
+  overflow: hidden;
+  background: #000;
+  cursor: pointer;
+}
+.dna-home-media-thumbnail {
+  display: block;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.dna-home-media-play {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: #000;
+}
+.dna-home-media-track h3 {
+  margin: 10px 0 0;
+  color: #0b4d3c;
+  font:
+    500 25px/30px "DNA Knockout",
+    sans-serif;
+  text-transform: uppercase;
+}
+.dna-home-media-controls {
+  display: none;
+}
+.dna-home-media-dialog {
+  width: min(650px, 92vw);
+  max-width: 92vw;
+  padding: 48px 20px 20px;
+  background: #fff;
+  border: 0;
+  border-radius: 12px;
+  text-align: center;
+}
+.dna-home-media-dialog::backdrop {
+  background: rgb(0 0 0 / 0.8);
+}
+.dna-home-media-dialog > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.dna-home-media-dialog h3 {
+  margin: 20px 0 10px;
+  font:
+    500 28px/32px "DNA Knockout",
+    sans-serif;
+}
+.dna-home-media-dialog p {
+  margin: 0;
+}
+.dna-home-media-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 44px;
+  height: 44px;
+  background: transparent;
+  border: 0;
+  color: #000;
+  cursor: pointer;
+  font:
+    30px/1 Arial,
+    sans-serif;
+}
+.dna-home-skywalker {
+  position: relative;
+}
+.dna-home-skywalker picture,
+.dna-home-skywalker img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.dna-home-skywalker a {
+  position: absolute;
+  right: 20%;
+  bottom: 20px;
+  padding: 0 25px;
+  min-height: 42px;
+  border-radius: 25px;
+  background: #ffcb00;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font:
+    600 14px/42px "DNA Roboto",
+    sans-serif;
+}
+@media (max-width: 1199px) {
+  .dna-home-media-container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 991px) {
+  .dna-home-media-container {
+    max-width: 720px;
+  }
+  .dna-home-promotions-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .dna-home-media-track {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px 15px;
+  }
+}
+@media (min-width: 601px) and (max-width: 767px) {
+  .dna-home-media-container {
+    max-width: 540px;
+  }
+}
+@media (max-width: 600px) {
+  .dna-home-media-section h2 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .dna-home-promotions {
+    padding: 32px 20px 20px;
+  }
+  .dna-home-promotions-grid {
+    grid-template-columns: 1fr;
+  }
+  .dna-home-promotions-grid p {
+    padding: 20px 0;
+  }
+  .dna-home-media-container {
+    padding: 0 20px;
+  }
+  .dna-home-media-track {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+  .dna-home-media-track article {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+  }
+  .dna-home-media-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  .dna-home-media-controls button {
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 50%;
+    background: #0b4d3c;
+    color: #fff;
+    font:
+      30px/1 Arial,
+      sans-serif;
+    cursor: pointer;
+  }
+  .dna-home-gallery .dna-home-media-subtitle {
+    text-align: left;
+  }
+  .dna-home-skywalker a {
+    right: 5%;
+    width: 90%;
+    bottom: 15px;
+    text-align: center;
+    min-height: 36px;
+    font-size: 12px;
+    line-height: 36px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dna-home-promotions-grid img {
+    transition: none;
+  }
+}

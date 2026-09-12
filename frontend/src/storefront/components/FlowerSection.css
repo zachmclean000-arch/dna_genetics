@@ -1,0 +1,187 @@
+.dna-flower {
+  position: relative;
+  padding: 25px 0 40px;
+  background: #fff;
+  text-align: center;
+}
+.dna-flower-container {
+  max-width: 1320px;
+  padding: 0 7.5px;
+  margin: 0 auto;
+}
+.dna-flower h2 {
+  margin: 0;
+  color: #0b4d3c;
+  font:
+    500 45px/50px "DNA Knockout",
+    sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+.dna-flower-crown {
+  display: block;
+  width: 50px;
+  height: 35px;
+  margin: 0 auto 10px;
+}
+.dna-flower-description {
+  max-width: 1040px;
+  margin: 15px auto 35px;
+  color: #212529;
+  font:
+    400 16px/24px "DNA Roboto",
+    sans-serif;
+}
+.dna-flower-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 15px;
+}
+.dna-flower-card {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  min-width: 0;
+}
+.dna-flower-photo {
+  display: block;
+  max-width: 270px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 16px;
+}
+.dna-flower-photo img {
+  display: block;
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+.dna-flower-card:hover img {
+  transform: scale(1.05);
+}
+.dna-flower-card:focus-visible {
+  outline: 3px solid #0b4d3c;
+  outline-offset: 5px;
+  border-radius: 16px;
+}
+.dna-flower h3 {
+  margin: 0;
+  padding: 12px 0 2px;
+  color: #000;
+  font:
+    500 25px/25px "DNA Knockout",
+    sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+.dna-flower-short-name,
+.dna-flower-shop {
+  display: none;
+}
+.dna-flower-divider {
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: 240px;
+  height: auto;
+  pointer-events: none;
+}
+@media (max-width: 1199px) {
+  .dna-flower-container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 991px) {
+  .dna-flower-container {
+    max-width: 720px;
+  }
+  .dna-flower-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .dna-flower-description {
+    margin: 0;
+    padding-bottom: 15px;
+  }
+}
+@media (min-width: 601px) and (max-width: 767px) {
+  .dna-flower-container {
+    max-width: 540px;
+  }
+}
+@media (max-width: 600px) {
+  .dna-flower {
+    padding: 35px 0 40px;
+    background: #171e3a;
+  }
+  .dna-flower-container {
+    max-width: 540px;
+    padding: 0 22.5px;
+  }
+  .dna-flower h2 {
+    margin: 0 0 9px;
+    color: #fff;
+    font:
+      500 32px/35px "DNA Oswald",
+      sans-serif;
+  }
+  .dna-flower-crown,
+  .dna-flower-description,
+  .dna-flower-long-name,
+  .dna-flower-divider {
+    display: none;
+  }
+  .dna-flower-grid {
+    gap: 15px;
+    padding: 0 7.5px;
+  }
+  .dna-flower-photo {
+    max-width: none;
+    border: 3px solid #fff;
+    border-radius: 20px;
+  }
+  .dna-flower-photo img {
+    height: auto;
+    aspect-ratio: 1;
+  }
+  .dna-flower h3 {
+    margin-top: 7px;
+    padding: 0;
+    color: #ffcb00;
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 400;
+    text-transform: none;
+  }
+  .dna-flower-short-name {
+    display: inline;
+  }
+  .dna-flower-shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    margin-top: 25px;
+    border: 1px solid #0b4d3c;
+    border-radius: 25px;
+    background: #ffcb00;
+    color: #000;
+    font:
+      600 12px/1 "DNA Roboto",
+      sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .dna-flower-card:focus-visible,
+  .dna-flower-shop:focus-visible {
+    outline: 3px solid #ffcb00;
+    outline-offset: 4px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dna-flower-photo img {
+    transition: none;
+  }
+}

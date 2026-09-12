@@ -1,0 +1,68 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// Accounts, sessions, reviews and simulated orders retain their existing storage.
+model StoreState {
+  id   Int  @id
+  data Json
+
+  @@map("dna_genetics_state")
+}
+
+model Category {
+  id       String    @id @default(uuid()) @db.Uuid
+  name     String    @unique @db.VarChar(80)
+  products Product[] @relation("PrimaryCategory")
+  additionalProducts Product[] @relation("AdditionalCategories")
+}
+
+model Product {
+  id               String   @id @default(uuid()) @db.Uuid
+  name             String   @db.VarChar(150)
+  slug             String   @unique @db.VarChar(180)
+  sku              String   @unique @db.VarChar(80)
+  price            Decimal  @db.Decimal(12, 2)
+  salePrice        Decimal? @db.Decimal(12, 2)
+  categoryId       String   @db.Uuid
+  category         Category @relation("PrimaryCategory", fields: [categoryId], references: [id], onDelete: Restrict)
+  additionalCategories Category[] @relation("AdditionalCategories")
+  strainType       String   @default("")
+  description      String   @default("")
+  shortDescription String   @default("")
+  genetics         String   @default("")
+  thc              String   @default("")
+  floweringTime    String   @default("")
+  yield            String   @default("")
+  stock            Int      @default(0)
+  status           String   @default("draft")
+  images           String[]
+  featured         Boolean  @default(false)
+  bestSeller       Boolean  @default(false)
+  newArrival       Boolean  @default(false)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+  sourceUrl        String?
+  sourceCheckedAt  DateTime?
+  variants         ProductVariant[]
+
+  @@index([categoryId, status])
+}
+
+model ProductVariant {
+  id              String   @id @default(uuid()) @db.Uuid
+  productId       String   @db.Uuid
+  product         Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  size            Int
+  sku             String   @unique
+  price           Decimal  @db.Decimal(12, 2)
+  salePrice       Decimal? @db.Decimal(12, 2)
+  stock           Int      @default(0)
+  sourceAvailable Boolean?
+
+  @@unique([productId, size])
+}

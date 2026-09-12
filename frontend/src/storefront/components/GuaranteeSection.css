@@ -1,0 +1,119 @@
+.dna-guarantee {
+  padding: 50px 0;
+  background: #faf7ef url("/assets/images/guarantee/background.webp") center /
+    cover no-repeat;
+}
+.dna-guarantee-container {
+  max-width: 1320px;
+  padding: 0 7.5px;
+  margin: auto;
+}
+.dna-guarantee-copy {
+  max-width: 577px;
+  margin-left: 10px;
+}
+.dna-guarantee h2 {
+  margin: 0;
+  color: #0b4d3c;
+  font:
+    500 45px/50px "DNA Knockout",
+    sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+.dna-guarantee p {
+  margin: 13px 0 20px;
+  color: #212529;
+  font:
+    400 16px/24px "DNA Roboto",
+    sans-serif;
+}
+.dna-guarantee-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: fit-content;
+  min-height: 42px;
+  padding: 0 25px;
+  border-radius: 25px;
+  color: #fff;
+  background: #0b4d3c;
+  font:
+    600 14px/24px "DNA Roboto",
+    sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.dna-guarantee-button:hover {
+  background: #d79e00;
+  color: #000;
+}
+.dna-guarantee-button:focus-visible {
+  outline: 3px solid #d79e00;
+  outline-offset: 4px;
+}
+.dna-guarantee-seal,
+.dna-guarantee-art {
+  display: none;
+}
+@media (max-width: 1199px) {
+  .dna-guarantee-container {
+    max-width: 960px;
+  }
+  .dna-guarantee-copy {
+    max-width: 507px;
+  }
+}
+@media (max-width: 991px) {
+  .dna-guarantee-container {
+    max-width: 720px;
+  }
+  .dna-guarantee-copy {
+    max-width: 50%;
+  }
+  .dna-guarantee {
+    background-position: 35% center;
+  }
+}
+@media (max-width: 600px) {
+  .dna-guarantee {
+    padding: 15px 0;
+    background-image: url("/assets/images/guarantee/germination_bg-mbl-min.webp");
+    background-size: 100% 100%;
+  }
+  .dna-guarantee-container {
+    padding: 0 15px;
+  }
+  .dna-guarantee-copy {
+    max-width: none;
+    margin: 0;
+    padding-bottom: 30px;
+  }
+  .dna-guarantee h2 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .dna-guarantee-seal {
+    display: block;
+    width: 120px;
+    height: auto;
+    margin: 40px 40px 40px auto;
+  }
+  .dna-guarantee-button {
+    width: 100%;
+    min-height: 36px;
+    font-size: 12px;
+  }
+  .dna-guarantee-art {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+    align-items: center;
+  }
+  .dna-guarantee-art img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "dna_genetics",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently -k \"npm run dev -w backend\" \"npm run dev -w frontend\"",
+    "build": "npm run build -w frontend",
+    "start": "npm start -w backend",
+    "test": "npm test -w backend",
+    "test:browser": "playwright test",
+    "format": "prettier --write \"frontend/src/**/*.{js,jsx,css}\" \"frontend/*.js\" \"backend/**/*.js\" \"tests/*.js\" \"*.json\" \"*.js\"",
+    "dev:frontend": "npm run dev -w frontend",
+    "dev:backend": "npm run dev -w backend"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "concurrently": "^9.2.1",
+    "prettier": "^3.9.6"
+  }
+}

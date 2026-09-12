@@ -1,0 +1,174 @@
+.dna-trusted {
+  position: relative;
+  background: #171e3a;
+  color: #fff;
+  padding: 35px 0 36px;
+}
+.dna-trusted-container {
+  max-width: 1320px;
+  padding: 0 7.5px;
+  margin: auto;
+}
+.dna-trusted-content {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  gap: 15px;
+  align-items: center;
+}
+.dna-trusted-copy {
+  padding-right: 25px;
+}
+.dna-trusted h2 {
+  margin: 0 0 12px;
+  color: #fff;
+  font:
+    500 45px/50px "DNA Knockout",
+    sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+.dna-trusted h2 img {
+  display: block;
+  width: 30px;
+  height: 21px;
+  margin-bottom: 5px;
+}
+.dna-trusted p {
+  margin: 7px 0 0;
+  font:
+    400 15px/18px "DNA Roboto",
+    sans-serif;
+  color: #fff;
+}
+.dna-trusted-anniversary {
+  display: block;
+  width: 280px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 35px;
+}
+.dna-trusted-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: fit-content;
+  min-height: 42px;
+  padding: 0 25px;
+  margin-top: 18px;
+  border: 1px solid #0b4d3c;
+  border-radius: 25px;
+  color: #000;
+  background: #ffcb00;
+  text-decoration: none;
+  text-transform: uppercase;
+  font:
+    600 14px/20px "DNA Roboto",
+    sans-serif;
+}
+.dna-trusted-button:hover {
+  background: #fff;
+}
+.dna-trusted a:focus-visible {
+  outline: 3px solid #ffcb00;
+  outline-offset: 4px;
+}
+.dna-trusted-seeds {
+  display: none;
+}
+.dna-trusted-tear {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+}
+@media (max-width: 1199px) {
+  .dna-trusted-container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 991px) {
+  .dna-trusted-container {
+    max-width: 720px;
+  }
+  .dna-trusted-content {
+    grid-template-columns: 1fr;
+  }
+  .dna-trusted-copy {
+    padding-right: 0;
+  }
+}
+@media (min-width: 601px) and (max-width: 767px) {
+  .dna-trusted-container {
+    max-width: 540px;
+  }
+}
+@media (max-width: 600px) {
+  .dna-trusted {
+    padding: 0 0 30px;
+  }
+  .dna-trusted-container {
+    padding: 0 20px;
+  }
+  .dna-trusted-seeds {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 15px;
+    padding: 0 2.5px;
+    margin-bottom: 12px;
+  }
+  .dna-trusted-seeds a {
+    text-align: center;
+    text-decoration: none;
+    color: #ffcb00;
+    font:
+      400 19px/25px "DNA Knockout",
+      sans-serif;
+    text-transform: uppercase;
+  }
+  .dna-trusted-seeds img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 20px;
+  }
+  .dna-trusted-seeds span {
+    display: block;
+    margin-top: 7px;
+  }
+  .dna-trusted-seeds .dna-trusted-button {
+    grid-column: 1 / -1;
+    width: 100%;
+    margin-top: 0;
+    min-height: 36px;
+    color: #000;
+    font:
+      600 12px/20px "DNA Roboto",
+      sans-serif;
+  }
+  .dna-trusted h2 {
+    font-size: 30px;
+    line-height: 32px;
+    margin-bottom: 12px;
+  }
+  .dna-trusted h2 img {
+    margin-bottom: 10px;
+  }
+  .dna-trusted p {
+    font-size: 15px;
+    line-height: 27px;
+    margin-top: 10px;
+  }
+  .dna-trusted-desktop-button {
+    display: none;
+  }
+  .dna-trusted-anniversary {
+    width: 300px;
+    margin: 0 auto 0;
+  }
+}

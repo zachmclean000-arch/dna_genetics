@@ -1,0 +1,542 @@
+[
+  {
+    "width": 1440,
+    "nodes": [
+      {
+        "tag": "SECTION",
+        "cl": "inner_bnner",
+        "src": null,
+        "rect": {
+          "x": 0,
+          "y": 92,
+          "width": 1440,
+          "height": 150,
+          "top": 92,
+          "right": 1440,
+          "bottom": 242,
+          "left": 0
+        },
+        "css": {
+          "height": "150px",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "position": "relative",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "FIGURE",
+        "cl": "mb-0",
+        "src": null,
+        "rect": {
+          "x": 0,
+          "y": 92,
+          "width": 1440,
+          "height": 262.390625,
+          "top": 92,
+          "right": 1440,
+          "bottom": 354.390625,
+          "left": 0
+        },
+        "css": {
+          "height": "262.391px",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "position": "relative",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "IMG",
+        "cl": "w-100 img_innr_bn",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/about_bnner-sized.webp",
+        "rect": {
+          "x": 0,
+          "y": 92,
+          "width": 1440,
+          "height": 262.390625,
+          "top": 92,
+          "right": 1440,
+          "bottom": 354.390625,
+          "left": 0
+        },
+        "css": {
+          "height": "262.391px",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "position": "static",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "IMG",
+        "cl": "w-100 imghover_innr_bn",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/mob-abt_bnnr-1.webp",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "css": {
+          "height": "auto",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "none",
+          "position": "static",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cl": "inner_content",
+        "src": null,
+        "rect": {
+          "x": 0,
+          "y": 142,
+          "width": 1440,
+          "height": 50,
+          "top": 142,
+          "right": 1440,
+          "bottom": 192,
+          "left": 0
+        },
+        "css": {
+          "height": "50px",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "position": "absolute",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "H1",
+        "cl": "",
+        "src": null,
+        "rect": {
+          "x": 67.5,
+          "y": 142,
+          "width": 1305,
+          "height": 50,
+          "top": 142,
+          "right": 1372.5,
+          "bottom": 192,
+          "left": 67.5
+        },
+        "css": {
+          "height": "50px",
+          "fontFamily": "\"Knockout HTF49-Liteweight\", Arial, Helvetica, sans-serif",
+          "fontSize": "50px",
+          "lineHeight": "50px",
+          "fontWeight": "500",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "position": "static",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      }
+    ],
+    "overlay": "rgba(0, 0, 0, 0.48)"
+  },
+  {
+    "width": 768,
+    "nodes": [
+      {
+        "tag": "SECTION",
+        "cl": "inner_bnner",
+        "src": null,
+        "rect": {
+          "x": 0,
+          "y": 92,
+          "width": 768,
+          "height": 150,
+          "top": 92,
+          "right": 768,
+          "bottom": 242,
+          "left": 0
+        },
+        "css": {
+          "height": "150px",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "position": "relative",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "FIGURE",
+        "cl": "mb-0",
+        "src": null,
+        "rect": {
+          "x": 0,
+          "y": 92,
+          "width": 768,
+          "height": 250,
+          "top": 92,
+          "right": 768,
+          "bottom": 342,
+          "left": 0
+        },
+        "css": {
+          "height": "250px",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "position": "absolute",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "IMG",
+        "cl": "w-100 img_innr_bn",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/about_bnner-sized.webp",
+        "rect": {
+          "x": 0,
+          "y": 92,
+          "width": 768,
+          "height": 250,
+          "top": 92,
+          "right": 768,
+          "bottom": 342,
+          "left": 0
+        },
+        "css": {
+          "height": "250px",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "position": "static",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "IMG",
+        "cl": "w-100 imghover_innr_bn",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/mob-abt_bnnr-1.webp",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "css": {
+          "height": "100%",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "objectFit": "cover",
+          "objectPosition": "50% 50%",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "none",
+          "position": "static",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cl": "inner_content",
+        "src": null,
+        "rect": {
+          "x": 0,
+          "y": 92,
+          "width": 768,
+          "height": 105,
+          "top": 92,
+          "right": 768,
+          "bottom": 197,
+          "left": 0
+        },
+        "css": {
+          "height": "105px",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "padding": "30px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "position": "relative",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "H1",
+        "cl": "",
+        "src": null,
+        "rect": {
+          "x": 31.5,
+          "y": 122,
+          "width": 705,
+          "height": 45,
+          "top": 122,
+          "right": 736.5,
+          "bottom": 167,
+          "left": 31.5
+        },
+        "css": {
+          "height": "45px",
+          "fontFamily": "\"Knockout HTF49-Liteweight\", Arial, Helvetica, sans-serif",
+          "fontSize": "42px",
+          "lineHeight": "45px",
+          "fontWeight": "500",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "position": "static",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      }
+    ],
+    "overlay": "rgba(0, 0, 0, 0.48)"
+  },
+  {
+    "width": 390,
+    "nodes": [
+      {
+        "tag": "SECTION",
+        "cl": "inner_bnner",
+        "src": null,
+        "rect": {
+          "x": 0,
+          "y": 92,
+          "width": 390,
+          "height": 220,
+          "top": 92,
+          "right": 390,
+          "bottom": 312,
+          "left": 0
+        },
+        "css": {
+          "height": "220px",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "position": "relative",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "FIGURE",
+        "cl": "mb-0",
+        "src": null,
+        "rect": {
+          "x": 0,
+          "y": 92,
+          "width": 390,
+          "height": 250,
+          "top": 92,
+          "right": 390,
+          "bottom": 342,
+          "left": 0
+        },
+        "css": {
+          "height": "250px",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "position": "absolute",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "IMG",
+        "cl": "w-100 img_innr_bn",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/about_bnner-sized.webp",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "css": {
+          "height": "250px",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "objectFit": "cover",
+          "objectPosition": "0% 50%",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "none",
+          "position": "static",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "IMG",
+        "cl": "w-100 imghover_innr_bn",
+        "src": "https://dnagenetics.com/wp-content/uploads/2025/12/mob-abt_bnnr-1.webp",
+        "rect": {
+          "x": 0,
+          "y": 92,
+          "width": 390,
+          "height": 250,
+          "top": 92,
+          "right": 390,
+          "bottom": 342,
+          "left": 0
+        },
+        "css": {
+          "height": "250px",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "objectFit": "cover",
+          "objectPosition": "0% 50%",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "position": "static",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cl": "inner_content",
+        "src": null,
+        "rect": {
+          "x": 0,
+          "y": 92,
+          "width": 390,
+          "height": 120,
+          "top": 92,
+          "right": 390,
+          "bottom": 212,
+          "left": 0
+        },
+        "css": {
+          "height": "120px",
+          "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "fontSize": "14px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "padding": "30px 0px",
+          "margin": "0px",
+          "display": "flex",
+          "position": "relative",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "H1",
+        "cl": "",
+        "src": null,
+        "rect": {
+          "x": 15,
+          "y": 122,
+          "width": 360,
+          "height": 50,
+          "top": 122,
+          "right": 375,
+          "bottom": 172,
+          "left": 15
+        },
+        "css": {
+          "height": "50px",
+          "fontFamily": "\"Knockout HTF49-Liteweight\", Arial, Helvetica, sans-serif",
+          "fontSize": "45px",
+          "lineHeight": "50px",
+          "fontWeight": "500",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "padding": "0px",
+          "margin": "0px 0px 10px",
+          "display": "block",
+          "position": "static",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+      }
+    ],
+    "overlay": "rgba(0, 0, 0, 0.48)"
+  }
+]

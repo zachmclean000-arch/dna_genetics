@@ -1,0 +1,278 @@
+.dna-collection-container {
+  max-width: 1320px;
+  padding: 0 7.5px;
+  margin: auto;
+}
+.dna-collection-section h2 {
+  margin: 0;
+  font:
+    500 45px/50px "DNA Knockout",
+    sans-serif;
+  color: #0b4d3c;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+.dna-collection-section p {
+  font:
+    400 16px/24px "DNA Roboto",
+    sans-serif;
+  color: #212529;
+}
+.dna-collection-section a:focus-visible {
+  outline: 3px solid #d79e00;
+  outline-offset: 4px;
+}
+.dna-collection-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: fit-content;
+  min-height: 42px;
+  padding: 0 25px;
+  background: #0b4d3c;
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  font:
+    600 14px/24px "DNA Roboto",
+    sans-serif;
+  text-transform: uppercase;
+}
+.dna-collection-button:hover {
+  background: #d79e00;
+  color: #000;
+}
+.dna-quality {
+  padding: 42px 0 45px;
+  background: #faf7f2 url("/assets/images/collections/trusted-bg-min.webp")
+    center/cover no-repeat;
+  text-align: center;
+}
+.dna-quality-crown {
+  display: block;
+  width: 50px;
+  height: 35px;
+  margin: 0 auto 10px;
+}
+.dna-quality .dna-quality-intro {
+  margin: 23px 0 40px;
+  line-height: 27px;
+}
+.dna-quality-categories {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.dna-quality-categories li {
+  min-width: 0;
+}
+.dna-quality-categories a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+.dna-quality-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 170px;
+  margin: auto;
+  border-radius: 50%;
+  background: #0b4d3c;
+}
+.dna-quality-icon img {
+  width: 100px;
+  max-height: 120px;
+  object-fit: contain;
+  transition: transform 0.5s;
+}
+.dna-quality-categories a:hover img {
+  transform: scale(1.05);
+}
+.dna-quality h3 {
+  margin: 0;
+  padding: 8px 0;
+  font:
+    500 20px/25px "DNA Knockout",
+    sans-serif;
+  text-transform: uppercase;
+}
+.dna-chocolope {
+  position: relative;
+  padding: 70px 0 40px;
+  background: #361e13 url("/assets/images/collections/choco-bg1-mbl.webp")
+    center bottom/cover no-repeat;
+}
+.dna-chocolope-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+}
+.dna-chocolope-grid {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  gap: 15px;
+  align-items: center;
+}
+.dna-chocolope h2 {
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 46px;
+}
+.dna-chocolope h2 span {
+  color: #dfc7af;
+}
+.dna-chocolope p {
+  color: #fff;
+  padding-right: 15%;
+  margin: 0 0 15px;
+}
+.dna-chocolope .dna-collection-button {
+  margin: 20px 0;
+  background: #dfc7af;
+  color: #361e13;
+}
+.dna-chocolope .dna-collection-button:hover {
+  background: #fff;
+}
+.dna-chocolope-product {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.dna-wholesale {
+  padding: 50px 0;
+  background: #fff url("/assets/images/collections/best-selling-bg.svg") center
+    bottom/cover no-repeat;
+}
+.dna-wholesale-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 15px;
+  align-items: center;
+}
+.dna-wholesale-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+.dna-wholesale-copy {
+  margin-left: 40px;
+}
+.dna-wholesale h2 {
+  margin-bottom: 23px;
+}
+.dna-wholesale p {
+  margin: 0 0 20px;
+}
+.dna-wholesale p a {
+  color: #0b4d3c;
+  text-underline-offset: 3px;
+}
+@media (max-width: 1199px) {
+  .dna-collection-container {
+    max-width: 960px;
+  }
+  .dna-quality-icon {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (max-width: 991px) {
+  .dna-collection-container {
+    max-width: 720px;
+  }
+  .dna-quality-categories {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .dna-quality-categories li {
+    flex: 0 0 28%;
+  }
+  .dna-wholesale-copy {
+    margin-left: 0;
+  }
+}
+@media (min-width: 601px) and (max-width: 767px) {
+  .dna-collection-container {
+    max-width: 540px;
+  }
+}
+@media (max-width: 600px) {
+  .dna-collection-container {
+    padding: 0 15px;
+  }
+  .dna-collection-section h2 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .dna-quality {
+    padding: 20px 0 30px;
+  }
+  .dna-quality .dna-quality-intro {
+    margin: 23px 0 20px;
+    text-align: left;
+  }
+  .dna-quality-categories {
+    gap: 10px 0;
+  }
+  .dna-quality-categories li {
+    flex-basis: 50%;
+  }
+  .dna-quality-icon {
+    width: min(150px, 100%);
+    height: auto;
+    aspect-ratio: 1;
+  }
+  .dna-quality-icon img {
+    width: 90px;
+  }
+  .dna-chocolope {
+    padding: 70px 0 20px;
+    background-image: url("/assets/images/collections/choco-bg1-mbl-1.webp");
+  }
+  .dna-chocolope-edge {
+    height: 60px;
+  }
+  .dna-chocolope-grid,
+  .dna-wholesale-grid {
+    grid-template-columns: 1fr;
+  }
+  .dna-chocolope p {
+    padding-right: 0;
+  }
+  .dna-collection-button {
+    width: 100%;
+    min-height: 36px;
+    font-size: 12px;
+  }
+  .dna-chocolope-product {
+    max-width: 450px;
+    margin: auto;
+  }
+  .dna-wholesale {
+    padding: 34px 0 20px;
+  }
+  .dna-wholesale-copy {
+    grid-row: 1;
+    padding-bottom: 15px;
+  }
+  .dna-wholesale-image {
+    max-width: 500px;
+    margin: auto;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dna-quality-icon img {
+    transition: none;
+  }
+}

@@ -1,0 +1,141 @@
+.dna-brand-story {
+  padding: 50px 0;
+  background: #fff;
+}
+.dna-brand-story-grid {
+  max-width: 1320px;
+  padding: 0 7.5px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 15px;
+}
+.dna-brand-story h2 {
+  margin: 0;
+  color: #0b4d3c;
+  font:
+    500 45px/50px "DNA Knockout",
+    sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+.dna-brand-story p {
+  margin: 23px 0 26px;
+  color: #212529;
+  font:
+    400 16px/24px "DNA Roboto",
+    sans-serif;
+}
+.dna-brand-story-video {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  border-radius: 15px;
+  overflow: hidden;
+  background: #000;
+  cursor: pointer;
+}
+.dna-brand-story-poster {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+}
+.dna-brand-story-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  max-width: 20%;
+  height: auto;
+}
+.dna-brand-story-video:hover .dna-brand-story-poster {
+  opacity: 0.65;
+}
+.dna-brand-story-video:focus-visible {
+  outline: 3px solid #d79e00;
+  outline-offset: 4px;
+}
+.dna-brand-story-scene {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.dna-brand-story-dialog {
+  width: min(900px, 94vw);
+  max-width: 94vw;
+  padding: 42px 0 0;
+  border: 0;
+  border-radius: 8px;
+  background: #000;
+}
+.dna-brand-story-dialog::backdrop {
+  background: rgb(0 0 0 / 0.8);
+}
+.dna-brand-story-dialog iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+}
+.dna-brand-story-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 42px;
+  height: 42px;
+  border: 0;
+  background: #000;
+  color: #fff;
+  font:
+    30px/1 Arial,
+    sans-serif;
+  cursor: pointer;
+}
+.dna-brand-story-close:focus-visible {
+  outline: 2px solid #ffcb00;
+  outline-offset: -3px;
+}
+@media (max-width: 1199px) {
+  .dna-brand-story-grid {
+    max-width: 960px;
+  }
+}
+@media (max-width: 991px) {
+  .dna-brand-story-grid {
+    max-width: 720px;
+  }
+  .dna-brand-story p {
+    margin: 13px 0 16px;
+  }
+}
+@media (min-width: 601px) and (max-width: 767px) {
+  .dna-brand-story-grid {
+    max-width: 540px;
+  }
+}
+@media (max-width: 600px) {
+  .dna-brand-story {
+    padding: 24px 0 20px;
+  }
+  .dna-brand-story-grid {
+    padding: 0 15px;
+    grid-template-columns: 1fr;
+  }
+  .dna-brand-story h2 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .dna-brand-story-scene {
+    height: auto;
+  }
+  .dna-brand-story-play {
+    max-width: 80px;
+  }
+}

@@ -1,0 +1,2 @@
+import {chromium} from '@playwright/test';import fs from 'node:fs';
+const b=await chromium.launch({channel:'msedge'});try{const c=await b.newContext();const r=await c.request.get('https://dnagenetics.com/wp-content/uploads/2024/04/guranteed-bg-min-1.webp');if(!r.ok())throw Error(r.status());fs.mkdirSync('frontend/public/assets/images/guarantee',{recursive:true});fs.writeFileSync('frontend/public/assets/images/guarantee/background.webp',await r.body());}finally{await b.close();}
