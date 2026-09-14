@@ -76,11 +76,11 @@ export default function SeedCategory({
       ? `${trait} Seeds`
       : genetics
         ? `${genetics} Seeds`
-        : titles[category] || category;
+        : titles[category] || category || "Shop All Seeds";
   const collection = (
     trait ||
     genetics ||
-    category.replace(" Seeds", "")
+    category.replace(" Seeds", "") || "all"
   ).toLowerCase();
   const [params, setParams] = useSearchParams();
   const [products, setProducts] = useState([]),
@@ -93,7 +93,7 @@ export default function SeedCategory({
       .then(([p, c]) => {
         if (active) {
           setProducts(p);
-          setCategories(c);
+          setCategories(c.filter((name) => ["Feminized Seeds", "Autoflower Seeds", "Regular Seeds"].includes(name)));
         }
       })
       .catch((e) => active && setError(e.message))
@@ -106,6 +106,8 @@ export default function SeedCategory({
   const filtered = products
     .filter(
       (p) =>
+        (!params.get("q") || p.name.toLowerCase().includes(params.get("q").trim().toLowerCase())) &&
+        (!params.get("stock") || p.stock > 0) &&
         (!category ||
           p.category === category ||
           p.additionalCategories?.includes(category)) &&
@@ -136,6 +138,7 @@ export default function SeedCategory({
   const change = (key, value) => {
     const next = new URLSearchParams(params);
     if (curated) next.set("collection", curated);
+    else if (!category && !genetics && !trait) next.set("collection", "all");
     next.set(key, value);
     if (key !== "page") next.delete("page");
     setParams(next);
@@ -147,7 +150,7 @@ export default function SeedCategory({
         <p>
           {curated
             ? `Explore our ${title.toLowerCase()} collection.`
-            : `Explore the DNA Genetics ${collection} seed collection.`}
+            : collection === "all" ? "Explore the complete DNA Genetics seed collection." : `Explore the DNA Genetics ${collection} seed collection.`}
           <br />
           Compare varieties and pack sizes below.
         </p>
@@ -156,10 +159,16 @@ export default function SeedCategory({
         <nav className="dna-seed-breadcrumb" aria-label="Breadcrumb">
           <Link to="/">Home</Link>
           <span>›</span>
-          <Link to="/shop">Shop</Link>
-          <span>›</span>
+          {(category || genetics || trait || curated) && <><Link to="/shop">Shop</Link><span>›</span></>}
           <span aria-current="page">{title}</span>
         </nav>
+        {!category && !genetics && !trait && !curated && (
+          <form className="dna-shop-search" onSubmit={(event) => event.preventDefault()}>
+            <label htmlFor="shop-search">Search seeds</label>
+            <input id="shop-search" type="search" value={params.get("q") || ""} placeholder="Search by name" onChange={(event) => change("q", event.target.value)} />
+            {(params.get("q") || params.get("stock")) && <button type="button" onClick={() => setParams({ collection: "all" })}>Clear filters</button>}
+          </form>
+        )}
         <div className="dna-seed-toolbar">
           <p role="status">
             {loading
@@ -186,6 +195,7 @@ export default function SeedCategory({
             onChange={(e) => {
               const next = new URLSearchParams(params);
               if (curated) next.set("collection", curated);
+              else if (!genetics && !trait) next.set("collection", "all");
               e.target.value
                 ? next.set("category", e.target.value)
                 : next.delete("category");

@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import { useApp } from "../../hooks/context";
 import { api, money } from "../../services/api";
 export default function Account() {
+  const navigate = useNavigate();
+  const [params] = useSearchParams();
   const { user, setUser, loading } = useApp(),
     [register, setRegister] = useState(false),
     [error, setError] = useState(""),
@@ -51,7 +53,7 @@ export default function Account() {
                 {new Date(o.createdAt).toLocaleDateString()} · {o.status}
               </span>
               <p>
-                {o.items.map((i) => `${i.quantity} × ${i.name}`).join(", ")}
+                {o.items.map((i) => `${i.quantity} × ${i.name}${i.size ? ` (${i.size}-seed pack)` : ""}`).join(", ")}
               </p>
               <b>{money(o.total)}</b>
             </article>
@@ -83,6 +85,7 @@ export default function Account() {
                 body,
               }),
             );
+            if (params.get("returnTo") === "checkout") navigate("/checkout", { replace: true });
           } catch (e) {
             setError(e.message);
           } finally {

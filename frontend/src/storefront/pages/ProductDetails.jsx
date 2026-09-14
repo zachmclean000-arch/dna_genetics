@@ -83,14 +83,14 @@ export default function ProductDetails() {
                 <input
                   type="number"
                   min="1"
-                  max={Math.min(99, p.stock)}
+                  max={99}
                   value={qty}
                   onChange={(e) => setQty(Number(e.target.value))}
                   required
                 />
               </label>
-              <button className="button gold" disabled={!p.stock}>
-                {p.stock ? "Add to bag" : "Out of stock"}
+              <button className="button gold">
+                Add to bag
               </button>
             </form>
             {added && (

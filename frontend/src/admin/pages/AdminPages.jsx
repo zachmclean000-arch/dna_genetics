@@ -234,6 +234,37 @@ export default function AdminPages() {
                   <p>
                     {o.items.map((i) => `${i.quantity} × ${i.name}`).join(", ")}
                   </p>
+                  {o.contact && (
+                    <details>
+                      <summary>Campaign contact details</summary>
+                      <p>
+                        {o.contact.firstName} {o.contact.lastName}
+                        <br />
+                        {o.contact.email}
+                        <br />
+                        {o.contact.phone}
+                      </p>
+                      <p>
+                        {o.contact.address}
+                        <br />
+                        {o.contact.address2}
+                        <br />
+                        {o.contact.city}, {o.contact.region}{" "}
+                        {o.contact.postalCode}
+                        <br />
+                        {o.contact.country}
+                      </p>
+                      <p>
+                        Demonstration payment choice: {o.contact.paymentMethod}
+                      </p>
+                      <small>
+                        Optional campaign consent:{" "}
+                        {o.contact.consent
+                          ? `Provided${o.contact.consentRecordedAt ? ` on ${o.contact.consentRecordedAt}` : ""}`
+                          : "Not provided"}
+                      </small>
+                    </details>
+                  )}
                   <label>
                     Order status
                     <select

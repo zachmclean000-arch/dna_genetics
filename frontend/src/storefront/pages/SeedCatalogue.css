@@ -47,6 +47,29 @@
   gap: 20px;
   margin: 0 0 20px;
 }
+.dna-shop-search {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin: 8px 0 20px;
+}
+.dna-shop-search input {
+  box-sizing: border-box;
+  width: min(100%, 360px);
+  min-width: 0;
+  padding: 10px 16px;
+  border: 1px solid #999;
+  border-radius: 25px;
+  font: inherit;
+}
+.dna-shop-search button {
+  padding: 10px 16px;
+  background: #ffcb00;
+  border: 1px solid #0b4d3c;
+  border-radius: 25px;
+  cursor: pointer;
+}
 .dna-seed-toolbar p {
   margin: 0;
 }

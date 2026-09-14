@@ -3,8 +3,11 @@ import { Link, useSearchParams } from "react-router-dom";
 import { money } from "../../services/api";
 import { SeedCard } from "./FeminizedSeeds";
 import "./SeedProduct.css";
+import { useApp } from "../../hooks/context";
 
 export default function SeedProduct({ product: p, related }) {
+  const { add } = useApp();
+  const [added, setAdded] = useState(null);
   const [params] = useSearchParams();
   const [size, setSize] = useState(
     Number(params.get("size")) || p.variants[0].size,
@@ -105,7 +108,7 @@ export default function SeedProduct({ product: p, related }) {
             </p>
             <button
               className="dna-seed-purchase"
-              disabled
+              onClick={() => { add(p, 1, selected.id); setAdded(selected.id); }}
               aria-describedby="seed-stock-note"
             >
               <span>
@@ -116,8 +119,9 @@ export default function SeedProduct({ product: p, related }) {
             <p id="seed-stock-note" className="dna-seed-stock-note">
               {selected.stock === 0
                 ? "This pack has no local inventory yet."
-                : "Checkout for pack variants is not enabled yet."}
+                : "This pack is available for simulated checkout."}
             </p>
+            {added === selected.id && <p role="status">Added {selected.size}-seed pack to cart. <Link to="/cart">View cart →</Link></p>}
             <div className="dna-seed-service-strip">
               <span>Privacy Guarantee</span>
               <span>Germination Guarantee</span>

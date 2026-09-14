@@ -19,7 +19,9 @@ const state = () => ({
 test("orders use server prices and reduce inventory", () => {
   const s = state(),
     o = placeOrder(s, "user", { items: [{ id, quantity: 2, price: 0 }] });
-  assert.equal(o.total, 20.02);
+  assert.equal(o.subtotal, 20.02);
+  assert.equal(o.shipping, 1);
+  assert.equal(o.total, 21.02);
   assert.equal(s.products[0].stock, 0);
   assert.equal(o.simulated, true);
   assert.equal(o.status, "simulated");

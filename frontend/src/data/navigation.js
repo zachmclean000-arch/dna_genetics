@@ -1,8 +1,4 @@
 export const navigation = [
-  ["THCa Flower", "/thca-flower"],
-  ["Seed Vault Club", "/club"],
-  ["Merchandise", "/merchandise"],
-  ["Wholesale", "/wholesale"],
   ["About DNA", "/about"],
   ["Deals & Promos", "/promotions"],
 ];
@@ -68,10 +64,7 @@ export const shopLinks = [
     "Regular Cannabis Seeds: Grow Your Own High-Quality Cannabis",
     category("Regular Seeds"),
   ],
-  ["Seed Vault Club", "/club"],
   ["Promotions", "/promotions"],
-  ["Wholesale", "/wholesale"],
-  ["Merchandise", "/merchandise"],
   ["Best Cannabis Seeds", "/shop?collection=bestSeller"],
 ];
 export const articleLinks = [

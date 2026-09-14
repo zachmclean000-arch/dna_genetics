@@ -121,14 +121,6 @@ export function RecommendedSection() {
 
 const faqs = [
   [
-    "Do you offer bulk deals?",
-    <>
-      Visit our <Link to="/wholesale">wholesale information page</Link> to
-      explore that part of the project. No bulk orders are processed by this
-      educational storefront.
-    </>,
-  ],
-  [
     "Which payment options do you accept?",
     "This project uses simulated checkout only. It does not collect real payments.",
   ],

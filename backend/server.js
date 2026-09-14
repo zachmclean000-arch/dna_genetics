@@ -10,10 +10,17 @@ import { transaction } from "./store.js";
 import { mountReviews } from "./reviews.js";
 import { hashPassword, checkPassword, tokenHash, publicUser } from "./auth.js";
 import { credentials, productSchema, placeOrder } from "./validation.js";
+import { sendOrderNotification } from "./order-email.js";
 const app = express(),
   root = fileURLToPath(new URL(".", import.meta.url));
 mkdirSync(path.join(root, "uploads"), { recursive: true });
 app.disable("x-powered-by");
+const allowedOrigins = new Set(
+  (process.env.APP_ORIGINS || "http://127.0.0.1:5173,http://localhost:5173")
+    .split(",")
+    .map((origin) => origin.trim())
+    .filter(Boolean),
+);
 app.use((req, res, next) => {
   res.setHeader("X-Content-Type-Options", "nosniff");
   res.setHeader("Referrer-Policy", "same-origin");
@@ -21,7 +28,8 @@ app.use((req, res, next) => {
   if (
     !["GET", "HEAD", "OPTIONS"].includes(req.method) &&
     req.headers.origin &&
-    new URL(req.headers.origin).host !== req.headers.host
+    new URL(req.headers.origin).host !== req.headers.host &&
+    !allowedOrigins.has(new URL(req.headers.origin).origin)
   )
     return res.status(403).json({ error: "Cross-origin request rejected." });
   next();
@@ -56,6 +64,7 @@ const admin = (req, res, next) =>
     ? next()
     : res.status(403).json({ error: "Administrator access required." });
 const attempts = new Map();
+const campaignAttempts = new Map();
 mountReviews(app, { transaction, admin, wrap });
 app.use("/api/auth", (req, res, next) => {
   const now = Date.now();
@@ -293,6 +302,35 @@ app.post(
       .json(await transaction((s) => placeOrder(s, req.user.id, req.body))),
   ),
 );
+app.post(
+  "/api/campaign-orders",
+  (req, res, next) => {
+    const now = Date.now();
+    const key = req.ip;
+    const entry = campaignAttempts.get(key) || { count: 0, until: now + 60000 };
+    if (entry.until < now) {
+      entry.count = 0;
+      entry.until = now + 60000;
+    }
+    entry.count += 1;
+    campaignAttempts.set(key, entry);
+    if (entry.count > 10)
+      return res.status(429).json({ error: "Too many submissions. Try again in a minute." });
+    next();
+  },
+  wrap(async (req, res) => {
+    if (!req.body?.contact)
+      return res.status(400).json({ error: "Campaign contact details are required." });
+    const order = await transaction((s) => placeOrder(s, req.user?.id ?? null, req.body, { manageInventory: false }));
+    let notification;
+    try {
+      notification = await sendOrderNotification(order);
+    } catch {
+      notification = { sent: false, reason: "delivery-failed" };
+    }
+    res.status(201).json({ ...order, notification });
+  }),
+);
 app.get(
   "/api/orders",
   auth,
@@ -322,7 +360,8 @@ app.patch(
         if (status === "cancelled" && o.status !== "cancelled")
           o.items.forEach((i) => {
             const p = s.products.find((p) => p.id === i.id);
-            if (p) p.stock += i.quantity;
+            const inventory = i.variantId ? p?.variants?.find((v) => v.id === i.variantId) : p;
+            if (inventory) inventory.stock += i.quantity;
           });
         o.status = status;
         return o;
@@ -357,12 +396,34 @@ app.get("/{*path}", (req, res) =>
   res.sendFile(path.join(root, "../frontend/dist/index.html")),
 );
 app.use((err, req, res, next) => {
-  if (err instanceof z.ZodError)
+  if (err instanceof z.ZodError) {
+    const labels = {
+      firstName: "First name",
+      lastName: "Last name",
+      email: "Email address",
+      phone: "Phone number",
+      country: "Country or region",
+      address: "Street address",
+      city: "City or town",
+      postalCode: "Postcode or ZIP code",
+      paymentMethod: "Payment option",
+      termsAccepted: "Terms and Conditions agreement",
+      consent: "Campaign consent",
+    };
+    const fields = [
+      ...new Set(
+        err.issues
+          .map((issue) => labels[issue.path.at(-1)])
+          .filter(Boolean),
+      ),
+    ];
     return res.status(400).json({
-      error: err.issues
-        .map((i) => `${i.path.join(".")}: ${i.message}`)
-        .join("; "),
+      error: fields.length
+        ? `Please complete: ${fields.join(", ")}.`
+        : "Please check the information entered and try again.",
+      fields,
     });
+  }
   res.status(400).json({ error: err.message || "Request failed." });
 });
 app.listen(process.env.PORT || 3001, "127.0.0.1", () =>

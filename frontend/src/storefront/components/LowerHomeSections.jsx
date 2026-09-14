@@ -53,47 +53,6 @@ export function BestSellersSection() {
   );
 }
 
-export function SeedVaultSection() {
-  return (
-    <section
-      className="dna-lower dna-seedvault"
-      aria-labelledby="dna-seedvault-title"
-    >
-      <div className="dna-lower-container">
-        <h2 id="dna-seedvault-title">
-          <img className="dna-lower-crown" src={data[1].images[0]} alt="" />
-          Seed Vault Club
-        </h2>
-        <p className="dna-lower-intro">
-          Explore the DNA Genetics members’ club, its exclusive collection and
-          the benefits featured in the reference design.
-        </p>
-        <h3 className="dna-vault-heading">
-          What are the benefits for joining?
-        </h3>
-        <div className="dna-vault-benefits">
-          {[
-            "Quarterly exclusive collections",
-            "Limited membership",
-            "Member competitions",
-          ].map((label, i) => (
-            <div key={label}>
-              <span>
-                <img src={data[1].images[i + 1]} alt="" loading="lazy" />
-              </span>
-              <h3>{label}</h3>
-            </div>
-          ))}
-        </div>
-        <h3 className="dna-vault-heading">Membership Price: $620.00</h3>
-        <Link className="dna-lower-button" to="/club">
-          Read More
-        </Link>
-      </div>
-    </section>
-  );
-}
-
 export function MediaPressSection() {
   return (
     <section

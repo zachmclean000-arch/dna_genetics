@@ -8,7 +8,6 @@ const categories = [
   ["Feminized Seeds", "canabis1@2x.webp", "/shop?category=Feminized%20Seeds"],
   ["Regular Seeds", "canabis2.webp", "/shop?category=Regular%20Seeds"],
   ["Promos", "canabis5.webp", "/promotions"],
-  ["Seed Vault Club", "canabis4@2x.webp", "/club"],
 ];
 
 export function QualityCollectionSection() {
@@ -30,9 +29,8 @@ export function QualityCollectionSection() {
         </h2>
         <p className="dna-quality-intro">
           Explore a collection shaped by more than twenty years of DNA Genetics
-          history. From familiar seed categories to the Seed Vault Club,
-          discover the different parts of the brand and find your way around its
-          catalogue.
+          history. Browse familiar seed categories, discover the different parts
+          of the brand and find your way around its catalogue.
         </p>
         <ul className="dna-quality-categories">
           {categories.map(([name, file, href]) => (
@@ -95,50 +93,6 @@ export function FeaturedChocolopeSection() {
           alt="Chocolope packaging with chocolate-themed artwork"
           loading="lazy"
         />
-      </div>
-    </section>
-  );
-}
-
-export function WholesaleSection() {
-  return (
-    <section
-      className="dna-wholesale dna-collection-section"
-      aria-labelledby="dna-wholesale-title"
-    >
-      <div className="dna-collection-container dna-wholesale-grid">
-        <img
-          className="dna-wholesale-image"
-          src={assets + "best_wholesale_online.webp"}
-          alt="DNA Genetics wholesale collection"
-          loading="lazy"
-        />
-        <div className="dna-wholesale-copy">
-          <h2 id="dna-wholesale-title">
-            Best Marijuana Wholesale Seeds Online
-          </h2>
-          <p>
-            Discover another part of the DNA Genetics story: its wholesale
-            program and the relationships behind the brand.
-          </p>
-          <p>
-            The <Link to="/wholesale">wholesale information page</Link>{" "}
-            introduces this part of the collection. It provides a place to
-            explore the program as we build out the educational storefront.
-          </p>
-          <p>
-            DNA Genetics brings a long history of selection and development to
-            its range, with established varieties alongside newer additions.
-          </p>
-          <p>
-            Browse the brand’s catalogue to learn more about the names and
-            collections featured throughout the site.
-          </p>
-          <p>For further information, visit our contact page.</p>
-          <Link className="dna-collection-button" to="/contact">
-            Contact Us
-          </Link>
-        </div>
       </div>
     </section>
   );

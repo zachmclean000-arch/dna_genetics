@@ -31,19 +31,20 @@ export function Provider({ children }) {
       .catch(() => {});
   }, []);
   useEffect(() => localStorage.setItem(cartKey, JSON.stringify(cart)), [cart]);
-  function add(product, quantity = 1) {
+  function add(product, quantity = 1, variantId) {
     setCart((items) => {
-      const old = items.find((i) => i.id === product.id);
+      const matches = (i) => i.id === product.id && i.variantId === variantId;
+      const old = items.find(matches);
       return old
         ? items.map((i) =>
-            i.id === product.id
+              matches(i)
               ? {
                   ...i,
-                  quantity: Math.min(99, product.stock, i.quantity + quantity),
+                  quantity: Math.min(99, i.quantity + quantity),
                 }
               : i,
           )
-        : [...items, { id: product.id, quantity }];
+        : [...items, { id: product.id, quantity: Math.min(99, quantity), ...(variantId ? { variantId } : {}) }];
     });
   }
   return (

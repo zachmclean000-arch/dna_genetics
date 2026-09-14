@@ -61,7 +61,7 @@ export default function Header() {
       }}
     >
       <div className="dna-announcement">
-        FREE SHIPPING ON ORDERS OVER <span>$120</span>
+        FREE SHIPPING ON ORDERS <span>£120</span> AND OVER
       </div>
       <header className="dna-header">
         <div className="dna-header-inner">

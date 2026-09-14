@@ -9,16 +9,19 @@ import Cart from "./storefront/pages/Cart";
 import Information from "./storefront/pages/Information";
 import About from "./storefront/pages/About";
 import Promotions from "./storefront/pages/Promotions";
-import FlowerInformation from "./storefront/pages/FlowerInformation";
 import AdminLayout from "./admin/layout/AdminLayout";
 import AdminPages from "./admin/pages/AdminPages";
 import ProductEditor from "./admin/pages/ProductEditor";
 import ReviewsAdmin from "./admin/pages/ReviewsAdmin";
 export default function App() {
-  const { pathname } = useLocation();
-  React.useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
+  const { pathname, search } = useLocation();
+  React.useLayoutEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+    const frame = window.requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+    });
+    return () => window.cancelAnimationFrame(frame);
+  }, [pathname, search]);
   return (
     <Routes>
       <Route element={<StorefrontLayout />}>
@@ -27,12 +30,11 @@ export default function App() {
         <Route path="about" element={<About />} />
         <Route path="promotions" element={<Promotions />} />
         <Route path="promos" element={<Promotions />} />
-        <Route path="thca-flower" element={<FlowerInformation />} />
         <Route path="product/:slug" element={<ProductDetails />} />
         <Route path="cart" element={<Cart />} />
         <Route path="checkout" element={<Cart checkout />} />
         <Route path="account" element={<Account />} />
-        {["club", "merchandise", "wholesale", "privacy", "contact"].map((p) => (
+        {["privacy", "contact"].map((p) => (
           <Route key={p} path={p} element={<Information />} />
         ))}
         <Route path="*" element={<Information />} />
