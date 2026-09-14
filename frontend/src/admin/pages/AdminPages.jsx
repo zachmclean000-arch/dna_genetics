@@ -80,7 +80,7 @@ export default function AdminPages() {
                 ))}
               </div>
               <div className="panel">
-                <h2>Your classroom storefront</h2>
+                <h2>Your storefront</h2>
                 <p>
                   Manage the sample catalogue, upload local product images,
                   import JSON data, and review simulated orders.

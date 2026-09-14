@@ -9,7 +9,7 @@ const seeds = [
   ["Strawberry Banana", "DNA-Genetics-Strawberry-Banana-S1.webp"],
   ["Bruised Bananas", "Bruised_Bananas_DNA_Genetics-1-768x768-1.webp"],
 ];
-const shop = "/shop?category=Feminized%20Seeds";
+const shop = "/shop/feminized-seeds";
 
 export default function TrustedSection() {
   return (

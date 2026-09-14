@@ -4,9 +4,9 @@ import "./CollectionSections.css";
 
 const assets = "/assets/images/collections/";
 const categories = [
-  ["Autoflower Seeds", "canabis3@2x.webp", "/shop?category=Autoflower%20Seeds"],
-  ["Feminized Seeds", "canabis1@2x.webp", "/shop?category=Feminized%20Seeds"],
-  ["Regular Seeds", "canabis2.webp", "/shop?category=Regular%20Seeds"],
+  ["Autoflower Seeds", "canabis3@2x.webp", "/shop/autoflower-seeds"],
+  ["Feminized Seeds", "canabis1@2x.webp", "/shop/feminized-seeds"],
+  ["Regular Seeds", "canabis2.webp", "/shop/regular-seeds"],
   ["Promos", "canabis5.webp", "/promotions"],
 ];
 
@@ -83,7 +83,7 @@ export function FeaturedChocolopeSection() {
             The reference artwork brings together the Chocolope name, product
             packaging and chocolate imagery in a dedicated feature.
           </p>
-          <Link className="dna-collection-button" to="/shop?q=Chocolope">
+          <Link className="dna-collection-button" to="/shop/search/chocolope">
             Explore Chocolope <span aria-hidden="true">→</span>
           </Link>
         </div>

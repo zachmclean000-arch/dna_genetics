@@ -5,7 +5,7 @@ export function CategorySection() {
   return (
     <section className="categories">
       {["Feminized Seeds", "Autoflower Seeds", "Regular Seeds"].map((c, i) => (
-        <Link key={c} to={`/shop?category=${encodeURIComponent(c)}`}>
+        <Link key={c} to={`/shop/${c.toLowerCase().replaceAll(" ", "-")}`}>
           <span>0{i + 1} / THE COLLECTION</span>
           <h2>{c}</h2>
           <b>Explore category ↗</b>
@@ -67,7 +67,7 @@ export function PromoSection() {
         <br />
         An unmistakable identity.
       </h2>
-      <Link className="button gold" to="/shop?collection=bestSeller">
+      <Link className="button gold" to="/shop/best-cannabis-seeds">
         Explore classic strains ↗
       </Link>
     </section>
@@ -76,7 +76,7 @@ export function PromoSection() {
 export function ReviewsSection() {
   return (
     <section className="section reviews">
-      <p className="eyebrow">CLASSROOM REVIEW</p>
+      <p className="eyebrow">CUSTOMER REVIEWS</p>
       <h2>Built to explore. Designed to learn.</h2>
       <div className="review-grid">
         {[

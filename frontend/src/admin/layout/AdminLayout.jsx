@@ -9,7 +9,7 @@ export default function AdminLayout() {
       <section className="section">
         <h1>Administrator access required.</h1>
         <p>
-          Sign in with an administrator account to manage this classroom
+          Sign in with an administrator account to manage this demonstration
           project.
         </p>
         <Link className="button gold" to="/account">
@@ -44,7 +44,7 @@ export default function AdminLayout() {
       </aside>
       <main className="admin-main">
         <div className="admin-top">
-          CLASSROOM MANAGEMENT <span>{user.email}</span>
+          WEBSITE MANAGEMENT <span>{user.email}</span>
         </div>
         <Outlet />
       </main>

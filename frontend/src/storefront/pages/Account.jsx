@@ -53,7 +53,12 @@ export default function Account() {
                 {new Date(o.createdAt).toLocaleDateString()} · {o.status}
               </span>
               <p>
-                {o.items.map((i) => `${i.quantity} × ${i.name}${i.size ? ` (${i.size}-seed pack)` : ""}`).join(", ")}
+                {o.items
+                  .map(
+                    (i) =>
+                      `${i.quantity} × ${i.name}${i.size ? ` (${i.size}-seed pack)` : ""}`,
+                  )
+                  .join(", ")}
               </p>
               <b>{money(o.total)}</b>
             </article>
@@ -70,7 +75,9 @@ export default function Account() {
     <section className="section account">
       <p className="eyebrow">YOUR DNA ACCOUNT</p>
       <h1>{register ? "Create an account." : "Welcome back."}</h1>
-      <p>Use a test email and a unique password for this school project.</p>
+      <p>
+        Use a test email and a unique password for this demonstration website.
+      </p>
       <form
         className="form"
         onSubmit={async (e) => {
@@ -85,7 +92,8 @@ export default function Account() {
                 body,
               }),
             );
-            if (params.get("returnTo") === "checkout") navigate("/checkout", { replace: true });
+            if (params.get("returnTo") === "checkout")
+              navigate("/checkout", { replace: true });
           } catch (e) {
             setError(e.message);
           } finally {

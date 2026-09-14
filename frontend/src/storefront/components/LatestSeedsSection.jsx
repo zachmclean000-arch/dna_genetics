@@ -69,7 +69,7 @@ export default function LatestSeedsSection() {
           >
             {seeds.map((seed) => (
               <article className="dna-latest-card" key={seed.image}>
-                <Link to="/shop?collection=newArrival">
+                <Link to="/shop/new-strains">
                   <span className="dna-latest-photo">
                     <img
                       src={seed.image}

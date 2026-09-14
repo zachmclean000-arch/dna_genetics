@@ -5,7 +5,7 @@ import { useApp } from "../../hooks/context";
 import { ProductCollection } from "../components/HomeSections";
 import SeedProduct from "./SeedProduct";
 export default function ProductDetails() {
-  const { slug } = useParams(),
+  const { slug, packSize } = useParams(),
     { add } = useApp(),
     [p, setP] = useState(null),
     [related, setRelated] = useState([]),
@@ -37,7 +37,13 @@ export default function ProductDetails() {
   if (error) return <p className="section error">{error}</p>;
   if (!p) return <p className="section">Loading product…</p>;
   if (p.variants?.length)
-    return <SeedProduct key={p.id} product={p} related={related} />;
+    return (
+      <SeedProduct
+        key={`${p.id}-${packSize || "default"}`}
+        product={p}
+        related={related}
+      />
+    );
   return (
     <>
       <section className="section">
@@ -89,9 +95,7 @@ export default function ProductDetails() {
                   required
                 />
               </label>
-              <button className="button gold">
-                Add to bag
-              </button>
+              <button className="button gold">Add to bag</button>
             </form>
             {added && (
               <p role="status">

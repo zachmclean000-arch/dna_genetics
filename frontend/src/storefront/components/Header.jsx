@@ -4,6 +4,7 @@ import { useApp } from "../../hooks/context";
 import MegaMenu from "./MegaMenu";
 import Icon from "./Icon";
 import { navigation } from "../../data/navigation";
+import { searchPath } from "../../data/catalogueRoutes";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -164,7 +165,7 @@ export default function Header() {
             onSubmit={(event) => {
               event.preventDefault();
               const q = new FormData(event.currentTarget).get("q").trim();
-              navigate(`/shop?q=${encodeURIComponent(q)}`);
+              navigate(q ? searchPath(q) : "/shop");
               close();
             }}
           >

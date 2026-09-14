@@ -19,10 +19,9 @@ export default function AwardsSection() {
             The DNA Genetics USA collection brings together established
             favorites and newer varieties. Explore the range through our local
             catalogue, with dedicated collections for{" "}
-            <Link to="/shop?category=Feminized%20Seeds">Feminized</Link>,{" "}
-            <Link to="/shop?category=Regular%20Seeds">Regular</Link> and{" "}
-            <Link to="/shop?category=Autoflower%20Seeds">Autoflower</Link>{" "}
-            seeds.
+            <Link to="/shop/feminized-seeds">Feminized</Link>,{" "}
+            <Link to="/shop/regular-seeds">Regular</Link> and{" "}
+            <Link to="/shop/autoflower-seeds">Autoflower</Link> seeds.
           </p>
           <p className="dna-awards-note">
             This educational storefront presents the USA collection. Visit{" "}

@@ -9,6 +9,8 @@ import Cart from "./storefront/pages/Cart";
 import Information from "./storefront/pages/Information";
 import About from "./storefront/pages/About";
 import Promotions from "./storefront/pages/Promotions";
+import UsefulPages from "./storefront/pages/UsefulPages";
+import { ArticlePage, LocationsPage } from "./storefront/pages/Articles";
 import AdminLayout from "./admin/layout/AdminLayout";
 import AdminPages from "./admin/pages/AdminPages";
 import ProductEditor from "./admin/pages/ProductEditor";
@@ -27,15 +29,40 @@ export default function App() {
       <Route element={<StorefrontLayout />}>
         <Route index element={<Home />} />
         <Route path="shop" element={<Shop />} />
+        <Route path="shop/search/:query" element={<Shop />} />
+        <Route path="shop/:catalogueSlug" element={<Shop />} />
         <Route path="about" element={<About />} />
         <Route path="promotions" element={<Promotions />} />
         <Route path="promos" element={<Promotions />} />
         <Route path="product/:slug" element={<ProductDetails />} />
+        <Route path="product/:slug/:packSize" element={<ProductDetails />} />
         <Route path="cart" element={<Cart />} />
         <Route path="checkout" element={<Cart checkout />} />
         <Route path="account" element={<Account />} />
-        {["privacy", "contact"].map((p) => (
-          <Route key={p} path={p} element={<Information />} />
+        <Route path="articles/:slug" element={<ArticlePage />} />
+        <Route path="locations" element={<LocationsPage />} />
+        <Route path="locations/:city" element={<LocationsPage />} />
+        {[
+          "best-indica-autoflower-seeds",
+          "best-feminized-seeds",
+          "best-autoflower-seeds",
+          "feminized-seeds-vs-regular-seeds",
+          "autoflower-vs-feminized",
+          "seeds-vs-clones",
+        ].map((slug) => (
+          <Route key={slug} path={slug} element={<ArticlePage />} />
+        ))}
+        {[
+          "faqs",
+          "shipping-information",
+          "returns-refund-policy",
+          "privacy",
+          "terms-conditions",
+          "loyalty-dna-points",
+          "contact",
+          "cannabis-seed-brochure",
+        ].map((p) => (
+          <Route key={p} path={p} element={<UsefulPages />} />
         ))}
         <Route path="*" element={<Information />} />
       </Route>

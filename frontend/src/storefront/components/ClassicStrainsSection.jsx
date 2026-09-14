@@ -16,15 +16,13 @@ export default function ClassicStrainsSection() {
         <h2 id="dna-classics-title">Classic Strains the DNA Way</h2>
         <p className="dna-classics-description">
           Explore four familiar names from the DNA Genetics collection.
-          <br />
-          {" "}
-          Discover the varieties that have become part of its story.
+          <br /> Discover the varieties that have become part of its story.
         </p>
         <div className="dna-classics-grid">
           {strains.map(([name, file]) => (
             <Link
               className="dna-classics-card"
-              to="/shop?collection=bestSeller"
+              to="/shop/best-cannabis-seeds"
               key={file}
               aria-label={`Explore ${name}`}
             >

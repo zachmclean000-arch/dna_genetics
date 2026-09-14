@@ -2,8 +2,9 @@ export const navigation = [
   ["About DNA", "/about"],
   ["Deals & Promos", "/promotions"],
 ];
-const category = (name) => `/shop?category=${encodeURIComponent(name)}`;
-const attribute = (name) => `/shop?attribute=${encodeURIComponent(name)}`;
+import { cataloguePaths } from "./catalogueRoutes";
+const category = (name) => cataloguePaths[name];
+const attribute = (name) => cataloguePaths[name];
 export const menuGroups = [
   {
     title: "Shop by Seed Type",
@@ -37,11 +38,11 @@ export const menuGroups = [
   {
     title: "Featured & New",
     items: [
-      ["Best Cannabis Seeds (16)", "/shop?collection=bestSeller"],
-      ["Classic Strains (4)", "/shop?collection=featured"],
-      ["New Strains (2)", "/shop?collection=newArrival"],
-      ["Mix Packs (2)", attribute("Mix Packs")],
-      ["Cheap Weed Seeds (23)", "/shop?collection=cheapSeeds&sort=price-asc"],
+      ["Best Cannabis Seeds (16)", cataloguePaths.bestSeller],
+      ["Classic Strains (4)", cataloguePaths.featured],
+      ["New Strains (2)", cataloguePaths.newArrival],
+      ["Mix Packs (2)", cataloguePaths.mixPacks],
+      ["Cheap Weed Seeds (23)", cataloguePaths.cheapSeeds],
     ],
   },
 ];
@@ -53,8 +54,6 @@ export const usefulLinks = [
   ["Terms & Conditions", "/terms-conditions"],
   ["Loyalty DNA Points", "/loyalty-dna-points"],
   ["Contact", "/contact"],
-  ["Cannabis Articles", "/articles"],
-  ["Blog", "/blog"],
   ["About Us", "/about"],
   ["Cannabis Seed Brochure", "/cannabis-seed-brochure"],
 ];
@@ -65,7 +64,7 @@ export const shopLinks = [
     category("Regular Seeds"),
   ],
   ["Promotions", "/promotions"],
-  ["Best Cannabis Seeds", "/shop?collection=bestSeller"],
+  ["Best Cannabis Seeds", cataloguePaths.bestSeller],
 ];
 export const articleLinks = [
   [

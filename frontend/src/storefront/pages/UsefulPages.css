@@ -1,0 +1,406 @@
+.dna-useful-page {
+  max-width: 1180px;
+  padding-top: 72px;
+  padding-bottom: 100px;
+  background: #fff;
+}
+.dna-useful-page > h1,
+.dna-useful-contact h1 {
+  margin: 8px 0 22px;
+  color: #174d3c;
+  font-family: var(--heading-font, Impact, sans-serif);
+  font-size: clamp(44px, 6vw, 76px);
+  font-weight: 500;
+  line-height: 0.95;
+  text-transform: uppercase;
+}
+.dna-useful-kicker {
+  margin: 0;
+  color: #c69f25;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.dna-useful-intro {
+  max-width: 900px;
+  margin: 0 0 34px;
+  color: #414141;
+  font-size: 20px;
+  line-height: 1.65;
+}
+.dna-useful-notice {
+  max-width: 930px;
+  margin: 0 0 42px;
+  padding: 20px 24px;
+  border-left: 5px solid #f5ca3c;
+  background: #f6f2e7;
+  color: #2b3f37;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.dna-useful-copy {
+  max-width: 930px;
+}
+.dna-useful-copy section {
+  padding: 25px 0;
+  border-top: 1px solid #d8d8d1;
+}
+.dna-useful-copy h2,
+.dna-faq-group h2,
+.dna-useful-contact h2 {
+  margin: 0 0 16px;
+  color: #174d3c;
+  font-family: var(--heading-font, Impact, sans-serif);
+  font-size: 28px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.dna-useful-copy p,
+.dna-useful-copy a {
+  max-width: 880px;
+  color: #343434;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.dna-policy-list {
+  margin: 8px 0 0;
+  padding-left: 24px;
+  color: #343434;
+  font-size: 16px;
+  line-height: 1.9;
+}
+.dna-useful-copy a {
+  color: #174d3c;
+  font-weight: 800;
+}
+
+/* The original shipping page is a continuous policy article rather than a
+   stack of promotional content blocks. */
+.dna-shipping-page {
+  max-width: 1440px;
+  padding-top: 25px;
+  padding-right: 5.1%;
+  padding-bottom: 16px;
+  padding-left: 5.1%;
+}
+.dna-shipping-page .dna-useful-kicker {
+  display: none;
+}
+.dna-shipping-page > h1 {
+  margin: 0 0 27px;
+  color: #111;
+  font-size: 36px;
+  line-height: 1.08;
+  text-align: center;
+  text-transform: none;
+}
+.dna-shipping-page .dna-useful-intro {
+  display: none;
+}
+.dna-shipping-page .dna-useful-notice {
+  max-width: none;
+  margin: 10px 0 0;
+  padding: 6px 10px;
+  border-left: 2px solid #e0b52e;
+  background: #faf9f5;
+  color: #555;
+  font-size: 10px;
+  line-height: 1.4;
+}
+.dna-shipping-page .dna-useful-copy {
+  max-width: none;
+}
+.dna-shipping-page .dna-useful-copy section {
+  padding: 0;
+  border: 0;
+}
+.dna-shipping-page .dna-useful-copy h2 {
+  margin: 17px 0 1px;
+  color: #202020;
+  font-family: var(--body-font, Arial, Helvetica, sans-serif);
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.35;
+  text-transform: none;
+}
+.dna-shipping-page .dna-useful-copy section:first-child h2 {
+  margin-top: 0;
+  margin-bottom: 13px;
+  font-family: var(--heading-font, Impact, sans-serif);
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: none;
+}
+.dna-shipping-page .dna-useful-copy p,
+.dna-shipping-page .dna-useful-copy a {
+  max-width: none;
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #272727;
+  font-family: var(--body-font, Arial, Helvetica, sans-serif);
+  font-size: 16px;
+  line-height: 1.47;
+}
+.dna-shipping-page .dna-useful-copy a {
+  color: #c89f16;
+  font-weight: 700;
+  text-decoration: none;
+}
+.dna-shipping-page .dna-policy-list {
+  margin: 10px 0 40px;
+  padding-left: 16px;
+  color: #272727;
+  font-family: var(--body-font, Arial, Helvetica, sans-serif);
+  font-size: 16px;
+  line-height: 2.08;
+  list-style-position: outside;
+}
+.dna-shipping-page .dna-policy-list li::marker {
+  color: #c89f16;
+}
+.dna-shipping-page--shipping .dna-useful-copy section:last-child,
+.dna-loyalty-page .dna-useful-copy section:last-child {
+  margin-top: 0;
+  padding: 31px 37px 27px;
+  border: 1px solid #aaa;
+  text-align: center;
+}
+.dna-shipping-page--shipping .dna-useful-copy section:last-child > h2,
+.dna-loyalty-page .dna-useful-copy section:last-child > h2 {
+  display: none;
+}
+.dna-shipping-page--shipping .dna-useful-copy section:last-child p,
+.dna-loyalty-page .dna-useful-copy section:last-child p {
+  margin-bottom: 22px;
+  font-size: 12px;
+  line-height: 1.85;
+}
+.dna-shipping-page--shipping .dna-useful-copy section:last-child p:last-child,
+.dna-loyalty-page .dna-useful-copy section:last-child p:last-child {
+  margin-bottom: 0;
+}
+.dna-reference-faq-page .dna-faq-group {
+  max-width: none;
+  margin-top: 24px;
+}
+.dna-reference-faq-page .dna-faq-group:first-of-type {
+  margin-top: 0;
+}
+.dna-reference-faq-page .dna-faq-group h2 {
+  margin-bottom: 10px;
+  color: #202020;
+  font-family: var(--heading-font, Impact, sans-serif);
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: none;
+}
+.dna-reference-faq-page .dna-faq-group details {
+  border-color: #c5c5c0;
+}
+.dna-reference-faq-page .dna-faq-group summary {
+  padding: 18px 2px;
+  font-size: 16px;
+}
+.dna-reference-faq-page .dna-faq-group summary span {
+  color: #c89f16;
+}
+.dna-faq-group {
+  max-width: 970px;
+  margin-top: 48px;
+}
+.dna-faq-group details {
+  border-top: 1px solid #bebeb7;
+}
+.dna-faq-group details:last-child {
+  border-bottom: 1px solid #bebeb7;
+}
+.dna-faq-group summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 23px 4px;
+  color: #202020;
+  font-size: 19px;
+  font-weight: 800;
+  cursor: pointer;
+  list-style: none;
+}
+.dna-faq-group summary::-webkit-details-marker {
+  display: none;
+}
+.dna-faq-group summary span {
+  color: #174d3c;
+  font-size: 28px;
+  font-weight: 400;
+  transition: transform 0.2s ease;
+}
+.dna-faq-group details[open] summary span {
+  transform: rotate(45deg);
+}
+.dna-faq-group details p {
+  max-width: 850px;
+  margin: -4px 0 24px;
+  color: #4e4e4e;
+  font-size: 16px;
+  line-height: 1.7;
+}
+.dna-useful-contact {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(420px, 1.1fr);
+  gap: 80px;
+}
+.dna-useful-contact > div > p:not(.dna-useful-kicker) {
+  max-width: 500px;
+  color: #555;
+  font-size: 18px;
+  line-height: 1.65;
+}
+.dna-contact-card {
+  margin-top: 34px;
+  padding: 25px;
+  background: #f2f0e9;
+}
+.dna-contact-card p {
+  margin-bottom: 0;
+  line-height: 1.65;
+}
+.dna-useful-contact form {
+  padding: 34px;
+  border: 1px solid #d4d2ca;
+  background: #faf9f6;
+}
+.dna-useful-contact form > label,
+.dna-contact-grid label {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 18px;
+  color: #242424;
+  font-size: 13px;
+  font-weight: 800;
+}
+.dna-contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+.dna-useful-contact input,
+.dna-useful-contact select,
+.dna-useful-contact textarea {
+  width: 100%;
+  min-height: 48px;
+  padding: 11px 13px;
+  border: 1px solid #aaa;
+  border-radius: 0;
+  background: #fff;
+}
+.dna-useful-contact textarea {
+  resize: vertical;
+}
+.dna-useful-contact button {
+  min-width: 210px;
+  border-radius: 30px;
+  font-weight: 900;
+}
+.dna-contact-success {
+  margin: 20px 0 0;
+  padding: 15px;
+  border-left: 4px solid #174d3c;
+  background: #e8f0eb;
+  color: #174d3c;
+  line-height: 1.5;
+}
+.dna-brochure-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 0 0 28px;
+}
+.dna-brochure-actions p {
+  margin: 0;
+  color: #484848;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.dna-brochure-actions .button {
+  flex: 0 0 auto;
+  min-width: 190px;
+  border-radius: 30px;
+  text-align: center;
+  font-weight: 900;
+}
+.dna-brochure-viewer {
+  overflow: hidden;
+  border: 1px solid #c9c7bf;
+  background: #292929;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+.dna-brochure-viewer iframe {
+  display: block;
+  width: 100%;
+  height: min(78vh, 900px);
+  min-height: 620px;
+  border: 0;
+  background: #454545;
+}
+.dna-brochure-viewer > p {
+  display: none;
+  margin: 0;
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+}
+.dna-brochure-viewer a {
+  color: #174d3c;
+  font-weight: 800;
+}
+.dna-brochure-note {
+  margin-top: 30px;
+}
+@media (max-width: 760px) {
+  .dna-useful-page {
+    padding-top: 48px;
+    padding-bottom: 70px;
+  }
+  .dna-shipping-page {
+    padding-top: 30px;
+  }
+  .dna-shipping-page > h1 {
+    margin-bottom: 30px;
+    font-size: 34px;
+  }
+  .dna-shipping-page .dna-useful-notice {
+    margin-top: 10px;
+  }
+  .dna-shipping-page--shipping .dna-useful-copy section:last-child,
+  .dna-loyalty-page .dna-useful-copy section:last-child {
+    padding: 24px 18px;
+    text-align: left;
+  }
+  .dna-useful-contact {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+  .dna-useful-contact form {
+    padding: 24px 20px;
+  }
+  .dna-contact-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .dna-useful-intro {
+    font-size: 17px;
+  }
+  .dna-faq-group summary {
+    font-size: 17px;
+  }
+  .dna-brochure-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .dna-brochure-viewer iframe {
+    height: 70vh;
+    min-height: 480px;
+  }
+}

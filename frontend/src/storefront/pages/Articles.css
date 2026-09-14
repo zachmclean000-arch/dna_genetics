@@ -1,0 +1,277 @@
+.dna-article-page {
+  max-width: 1060px;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  background: #fff;
+}
+.dna-article-kicker {
+  margin: 0 0 12px;
+  color: #c49e27;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 1.7px;
+}
+.dna-article-page h1 {
+  max-width: 940px;
+  margin: 0;
+  color: #174d3c;
+  font-family: var(--heading-font, Impact, sans-serif);
+  font-size: clamp(42px, 6vw, 72px);
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.dna-article-meta {
+  display: flex;
+  gap: 13px;
+  margin: 24px 0 32px;
+  color: #666;
+  font-size: 14px;
+}
+.dna-article-meta strong {
+  color: #174d3c;
+}
+.dna-article-hero {
+  display: block;
+  width: 100%;
+  height: clamp(300px, 48vw, 560px);
+  object-fit: cover;
+}
+.dna-article-lead {
+  max-width: 900px;
+  margin: 38px auto;
+  color: #303030;
+  font-size: 20px;
+  line-height: 1.75;
+}
+.dna-article-copy {
+  max-width: 900px;
+  margin: auto;
+}
+.dna-article-copy section {
+  padding: 25px 0;
+  border-top: 1px solid #d9d7cf;
+}
+.dna-article-copy h2 {
+  margin: 0 0 13px;
+  color: #174d3c;
+  font-family: var(--heading-font, Impact, sans-serif);
+  font-size: 32px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.dna-article-copy p {
+  margin: 0;
+  color: #3e3e3e;
+  font-size: 17px;
+  line-height: 1.75;
+}
+.dna-article-actions {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  max-width: 900px;
+  margin: 30px auto 0;
+}
+.dna-article-actions .button {
+  border-radius: 28px;
+  font-weight: 900;
+}
+.dna-article-actions > a:last-child {
+  color: #174d3c;
+  font-weight: 900;
+}
+.dna-locations-hero {
+  min-height: 360px;
+  display: flex;
+  align-items: end;
+  padding: 70px 0;
+  color: #fff;
+  background:
+    linear-gradient(100deg, rgba(13, 65, 49, 0.96), rgba(13, 65, 49, 0.56)),
+    url("/assets/images/about/about_bnner-sized.webp") center/cover;
+}
+.dna-locations-hero p {
+  margin: 0 0 10px;
+  color: #f5ca3c;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+}
+.dna-locations-hero h1 {
+  margin: 0 0 14px;
+  font-family: var(--heading-font, Impact, sans-serif);
+  font-size: clamp(54px, 8vw, 94px);
+  font-weight: 500;
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+.dna-locations-hero span {
+  font-size: 18px;
+}
+.dna-locations-content {
+  padding-top: 65px;
+  padding-bottom: 95px;
+}
+.dna-locations-content > h2 {
+  margin: 0 0 15px;
+  color: #174d3c;
+  font-family: var(--heading-font, Impact, sans-serif);
+  font-size: 42px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.dna-locations-content > p {
+  max-width: 850px;
+  color: #4b4b4b;
+  font-size: 18px;
+  line-height: 1.7;
+}
+.dna-location-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin: 40px 0;
+}
+.dna-location-grid section {
+  padding: 25px;
+  background: #f1efe8;
+}
+.dna-location-grid h3 {
+  margin: 0 0 16px;
+  color: #174d3c;
+  font-family: var(--heading-font, Impact, sans-serif);
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.dna-location-grid ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.dna-location-grid li {
+  padding: 8px 0;
+  border-bottom: 1px solid #d5d2c8;
+  color: #444;
+}
+.dna-location-grid a {
+  display: block;
+  color: #34473f;
+  font-weight: 700;
+}
+.dna-city-content {
+  padding-top: 45px;
+  padding-bottom: 95px;
+}
+.dna-city-content > nav {
+  margin-bottom: 38px;
+  color: #777;
+  font-size: 14px;
+}
+.dna-city-content > nav a {
+  color: #174d3c;
+  font-weight: 800;
+}
+.dna-city-content > nav span {
+  margin: 0 8px;
+}
+.dna-city-content > h2,
+.dna-location-faq > h2 {
+  margin: 0 0 15px;
+  color: #174d3c;
+  font-family: var(--heading-font, Impact, sans-serif);
+  font-size: clamp(34px, 5vw, 52px);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.dna-city-content > p {
+  max-width: 900px;
+  color: #444;
+  font-size: 18px;
+  line-height: 1.75;
+}
+.dna-city-sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  margin: 40px 0 55px;
+}
+.dna-city-sections section {
+  padding: 30px;
+  background: #f1efe8;
+}
+.dna-city-sections h3 {
+  margin: 0 0 12px;
+  color: #174d3c;
+  font-family: var(--heading-font, Impact, sans-serif);
+  font-size: 27px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.dna-city-sections p {
+  color: #4b4b4b;
+  line-height: 1.65;
+}
+.dna-city-sections a {
+  color: #174d3c;
+  font-weight: 900;
+}
+.dna-location-faq {
+  max-width: 900px;
+  margin-bottom: 40px;
+}
+.dna-location-faq details {
+  border-top: 1px solid #d2d0c8;
+}
+.dna-location-faq details:last-child {
+  border-bottom: 1px solid #d2d0c8;
+}
+.dna-location-faq summary {
+  padding: 19px 0;
+  font-size: 17px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.dna-location-faq p {
+  margin: 0 0 20px;
+  color: #555;
+  line-height: 1.65;
+}
+.dna-locations-content > .button {
+  display: inline-block;
+  border-radius: 28px;
+  font-weight: 900;
+}
+@media (max-width: 760px) {
+  .dna-article-page {
+    padding-top: 48px;
+    padding-bottom: 70px;
+  }
+  .dna-article-meta {
+    flex-wrap: wrap;
+  }
+  .dna-article-hero {
+    height: 280px;
+  }
+  .dna-article-lead {
+    font-size: 17px;
+  }
+  .dna-article-actions {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .dna-location-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .dna-locations-hero {
+    min-height: 300px;
+  }
+  .dna-city-sections {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 480px) {
+  .dna-location-grid {
+    grid-template-columns: 1fr;
+  }
+}

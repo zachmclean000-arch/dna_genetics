@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { Link, useSearchParams } from "react-router-dom";
+import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import { api, money } from "../../services/api";
 import autoflowerArticle from "../../data/autoflowerArticle.json";
 import { seedCollections } from "../../data/seedCollections";
+import { cataloguePaths, searchPath } from "../../data/catalogueRoutes";
 import "./SeedCatalogue.css";
 
 export function SeedCard({ product }) {
@@ -42,7 +43,7 @@ export function SeedCard({ product }) {
         >
           {product.variants?.map((v) => (
             <li key={v.id}>
-              <Link to={`/product/${product.slug}?size=${v.size}`}>
+              <Link to={`/product/${product.slug}/${v.size}-seeds`}>
                 <strong>{v.size}x</strong> {money(v.salePrice ?? v.price)}
               </Link>
             </li>
@@ -63,6 +64,8 @@ export default function SeedCategory({
   genetics = "",
   trait = "",
   curated = "",
+  search = "",
+  initialSort = "",
 }) {
   const titles = {
     "Feminized Seeds": "Feminized Cannabis (Marijuana) Seeds",
@@ -80,20 +83,32 @@ export default function SeedCategory({
   const collection = (
     trait ||
     genetics ||
-    category.replace(" Seeds", "") || "all"
+    category.replace(" Seeds", "") ||
+    "all"
   ).toLowerCase();
   const [params, setParams] = useSearchParams();
+  const navigate = useNavigate();
+  const [searchTerm, setSearchTerm] = useState(search || params.get("q") || "");
   const [products, setProducts] = useState([]),
     [categories, setCategories] = useState([]),
     [error, setError] = useState(""),
     [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setSearchTerm(search || params.get("q") || "");
+  }, [search, params]);
   useEffect(() => {
     let active = true;
     Promise.all([api("/products"), api("/categories")])
       .then(([p, c]) => {
         if (active) {
           setProducts(p);
-          setCategories(c.filter((name) => ["Feminized Seeds", "Autoflower Seeds", "Regular Seeds"].includes(name)));
+          setCategories(
+            c.filter((name) =>
+              ["Feminized Seeds", "Autoflower Seeds", "Regular Seeds"].includes(
+                name,
+              ),
+            ),
+          );
         }
       })
       .catch((e) => active && setError(e.message))
@@ -102,11 +117,12 @@ export default function SeedCategory({
       active = false;
     };
   }, []);
-  const order = params.get("sort") || "latest";
+  const order = params.get("sort") || initialSort || "latest";
   const filtered = products
     .filter(
       (p) =>
-        (!params.get("q") || p.name.toLowerCase().includes(params.get("q").trim().toLowerCase())) &&
+        (!searchTerm ||
+          p.name.toLowerCase().includes(searchTerm.trim().toLowerCase())) &&
         (!params.get("stock") || p.stock > 0) &&
         (!category ||
           p.category === category ||
@@ -137,8 +153,6 @@ export default function SeedCategory({
   const visible = filtered.slice((page - 1) * 16, page * 16);
   const change = (key, value) => {
     const next = new URLSearchParams(params);
-    if (curated) next.set("collection", curated);
-    else if (!category && !genetics && !trait) next.set("collection", "all");
     next.set(key, value);
     if (key !== "page") next.delete("page");
     setParams(next);
@@ -150,7 +164,9 @@ export default function SeedCategory({
         <p>
           {curated
             ? `Explore our ${title.toLowerCase()} collection.`
-            : collection === "all" ? "Explore the complete DNA Genetics seed collection." : `Explore the DNA Genetics ${collection} seed collection.`}
+            : collection === "all"
+              ? "Explore the complete DNA Genetics seed collection."
+              : `Explore the DNA Genetics ${collection} seed collection.`}
           <br />
           Compare varieties and pack sizes below.
         </p>
@@ -159,14 +175,42 @@ export default function SeedCategory({
         <nav className="dna-seed-breadcrumb" aria-label="Breadcrumb">
           <Link to="/">Home</Link>
           <span>›</span>
-          {(category || genetics || trait || curated) && <><Link to="/shop">Shop</Link><span>›</span></>}
+          {(category || genetics || trait || curated) && (
+            <>
+              <Link to="/shop">Shop</Link>
+              <span>›</span>
+            </>
+          )}
           <span aria-current="page">{title}</span>
         </nav>
         {!category && !genetics && !trait && !curated && (
-          <form className="dna-shop-search" onSubmit={(event) => event.preventDefault()}>
+          <form
+            className="dna-shop-search"
+            onSubmit={(event) => {
+              event.preventDefault();
+              navigate(searchTerm.trim() ? searchPath(searchTerm) : "/shop");
+            }}
+          >
             <label htmlFor="shop-search">Search seeds</label>
-            <input id="shop-search" type="search" value={params.get("q") || ""} placeholder="Search by name" onChange={(event) => change("q", event.target.value)} />
-            {(params.get("q") || params.get("stock")) && <button type="button" onClick={() => setParams({ collection: "all" })}>Clear filters</button>}
+            <input
+              id="shop-search"
+              type="search"
+              value={searchTerm}
+              placeholder="Search by name"
+              onChange={(event) => setSearchTerm(event.target.value)}
+            />
+            <button type="submit">Search</button>
+            {(searchTerm || params.get("stock")) && (
+              <button
+                type="button"
+                onClick={() => {
+                  setSearchTerm("");
+                  navigate("/shop");
+                }}
+              >
+                Clear filters
+              </button>
+            )}
           </form>
         )}
         <div className="dna-seed-toolbar">
@@ -193,14 +237,9 @@ export default function SeedCategory({
             aria-label="Product category"
             value={category}
             onChange={(e) => {
-              const next = new URLSearchParams(params);
-              if (curated) next.set("collection", curated);
-              else if (!genetics && !trait) next.set("collection", "all");
-              e.target.value
-                ? next.set("category", e.target.value)
-                : next.delete("category");
-              next.delete("page");
-              setParams(next);
+              navigate(
+                e.target.value ? cataloguePaths[e.target.value] : "/shop",
+              );
             }}
           >
             <option value="">All Categories</option>

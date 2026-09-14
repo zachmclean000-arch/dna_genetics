@@ -31,10 +31,7 @@ export function BestSellersSection() {
               <img src={product.image} alt={product.name} loading="lazy" />
               <h3>{product.name}</h3>
               <p className="dna-bestseller-price">{product.price}</p>
-              <Link
-                className="dna-lower-button"
-                to="/shop?collection=bestSeller"
-              >
+              <Link className="dna-lower-button" to="/shop/best-cannabis-seeds">
                 Select Options
               </Link>
             </article>

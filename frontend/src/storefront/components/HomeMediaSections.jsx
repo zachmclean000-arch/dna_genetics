@@ -196,7 +196,7 @@ export function SkywalkerSection() {
           loading="lazy"
         />
       </picture>
-      <Link to="/shop?q=Skywalker%20Kush">Skywalker Kush</Link>
+      <Link to="/shop/search/skywalker-kush">Skywalker Kush</Link>
     </section>
   );
 }
