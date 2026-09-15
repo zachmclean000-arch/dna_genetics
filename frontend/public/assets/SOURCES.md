@@ -1,6 +1,6 @@
-# Locally stored reference assets
+﻿# Locally stored reference assets
 
-Collected on 2026-09-07 for the independent educational interface reconstruction.
+Collected on 2026-09-07 for the catalogue interface reconstruction.
 
 - `images/logo/site-logo.webp`: https://dnagenetics.com/wp-content/uploads/2025/12/site-logo.webp
 - `images/logo/footer-logo.webp`: https://dnagenetics.com/wp-content/uploads/2025/01/ft_logo.webp
@@ -13,7 +13,7 @@ Collected on 2026-09-07 for the independent educational interface reconstruction
 - `fonts/google-1.ttf`, `google-2.ttf`, `google-3.ttf`: Roboto 400, 500 and 700, Google Fonts.
 - `fonts/fontawesome.woff2`: Font Awesome 4.7 font, https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 (font licensed under SIL OFL 1.1).
 
-Reference branding and assets remain the property of their owners. Downloading these assets does not grant a commercial licence. They are served from this project, with no requests to the reference website at runtime. Original placeholder product packaging is separately generated SVG artwork in `images/products/`.
+Reference branding and assets remain the property of their owners. Downloading these assets does not grant a commercial licence. They are served from this website, with no requests to the reference website at runtime. Original placeholder product packaging is separately generated SVG artwork in `images/products/`.
 
 THCa section reference assets:
 - `images/flower/choco-mintz.jpeg`: https://dnagenetics.com/wp-content/uploads/2025/12/DNA-THCa-Choco-mintz-600x600.jpeg
@@ -37,7 +37,7 @@ Latest-seeds section:
 Awards / USA collection section:
 - `images/awards/genetics.webp`: https://dnagenetics.com/wp-content/uploads/2024/04/genetics-pic-min.webp
 - `images/awards/background.webp`: https://dnagenetics.com/wp-content/themes/dnagenetics/images/award-bg-min.webp
-- Headline and body copy are adapted for the educational storefront. Category links open the local catalogue; the reference's international purchase link is replaced with local brand information.
+- Headline and body copy are adapted for the catalogue storefront. Category links open the local catalogue; the reference's international purchase link is replaced with local brand information.
 
 Classic Strains section:
 - `images/classics/Blue_Dream.jpg`, `Green_Crack.jpg`, `White_Widow.jpg`, `GG4.jpg`: https://dnagenetics.com/wp-content/uploads/2024/04/DNA_Genetics_Blue_Dream-min.jpg and corresponding DNA_Genetics_{name}-min.jpg filenames.
@@ -46,7 +46,7 @@ Classic Strains section:
 Guarantee section:
 - `images/guarantee/background.webp`: https://dnagenetics.com/wp-content/uploads/2024/04/guranteed-bg-min-1.webp
 - Other `images/guarantee/` artwork retains source filenames from https://dnagenetics.com/wp-content/themes/dnagenetics/images/ .
-- Body copy is adapted for the educational storefront and makes no operational replacement promise. The button opens the local shop.
+- Body copy is adapted for the catalogue storefront and makes no operational replacement promise. The button opens the local shop.
 
 Brand story section:
 - `images/story/video.webp`: https://dnagenetics.com/wp-content/uploads/2024/02/Video-Overlay.webp
@@ -57,12 +57,12 @@ Brand story section:
 Category collection, featured Chocolope and wholesale sections:
 - `images/collections/` source image URLs are recorded in `reference/collection-assets.json`.
 - `trusted-bg-min.webp` and `best-selling-bg.svg` retain their original filenames from https://dnagenetics.com/wp-content/themes/dnagenetics/images/ .
-- Body copy is adapted for the educational storefront. Category, featured-product and contact links remain local. No wholesale submission or transaction is performed.
+- Body copy is adapted for the catalogue storefront. Category, featured-product and contact links remain local. No wholesale submission or transaction is performed.
 
 Promotions, guide thumbnail gallery, DNA Media and Skywalker banner:
 - Original source URLs and local filenames are recorded in `frontend/src/data/homeMediaAssets.json`.
 - `images/home-media/background.png`: https://dnagenetics.com/wp-content/themes/dnagenetics/images/marijuana-bg-min.png
-- Promotion descriptions are adapted; artwork may show reference offers that are not active offers in this educational storefront.
+- Promotion descriptions are adapted; artwork may show reference offers that are not active offers in this catalogue storefront.
 - Both galleries open thumbnail previews only. No cultivation instructions or video playback are connected. Skywalker and promotion links stay within the local app.
 
 Best sellers, Seed Vault Club, Media & Press, and The DNA Way:
@@ -74,7 +74,7 @@ Best sellers, Seed Vault Club, Media & Press, and The DNA Way:
 Reputation sections:
 - `images/reputation/` filenames match the source under https://dnagenetics.com/wp-content/themes/dnagenetics/images/ .
 - Review content is supplied by the local dashboard/database; reference customer reviews and verification badges are not copied.
-- Recommendation logos are reference design assets. FAQ wording is adapted for the educational project.
+- Recommendation logos are reference design assets. FAQ wording is adapted for the catalogue website.
 
 About DNA page (`/about`):
 - Source: https://dnagenetics.com/about/ . Original/local asset mappings and captured factual award records are in `frontend/src/data/aboutReference.json`.

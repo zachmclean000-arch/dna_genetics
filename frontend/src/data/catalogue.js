@@ -25,8 +25,8 @@ export const products = [
   category: index % 3 === 0 ? "Regular Seeds" : "Feminized Seeds",
   strainType: index % 2 ? "Sativa" : "Hybrid",
   description:
-    "Sample catalogue entry for this educational interface. Prices and inventory are illustrative.",
-  shortDescription: "DNA archive · educational catalogue",
+    "Explore this DNA Genetics catalogue entry, product details, and current availability.",
+  shortDescription: "DNA Genetics catalogue",
   genetics: "Sample data",
   stock: 20,
   status: "active",

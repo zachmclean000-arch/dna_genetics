@@ -1,55 +1,58 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { navigation, usefulLinks, articleLinks } from "../../data/navigation";
+
 const linkedPages = Object.fromEntries(
   [...navigation, ...usefulLinks, ...articleLinks].map(([title, path]) => [
     path.slice(1),
     [
       title,
-      "This page is part of the DNA Genetics educational project. Its content will be added as we build the remaining pages.",
+      "Explore DNA Genetics products, collections, and customer information.",
     ],
   ]),
 );
+
 const pages = {
   about: [
     "The D&A inside DNA.",
-    "DNA Genetics was founded by Don and Aaron in Amsterdam in 2004. This independent website studies the brand’s online catalogue and illustrates the software behind a storefront.",
-    "This independent educational replica is not operated or endorsed by DNA Genetics. Catalogue entries and prices are sample data.",
+    "DNA Genetics was founded by Don and Aaron in Amsterdam in 2004. Explore the brand’s history, online catalogue, and product collections.",
+    "This unofficial catalogue interface is not operated or endorsed by DNA Genetics.",
   ],
   promotions: [
     "Deals & promotions.",
-    "Explore the featured sample collection.",
-    "Administrators can set sale prices and featured flags in the product editor. All discounts are simulated.",
+    "Explore featured products and current promotions.",
+    "Sale prices and featured collections are updated through the product catalogue.",
   ],
   privacy: [
     "Website privacy.",
-    "This is an independent demonstration website, not the DNA Genetics business. If you submit the checkout form, your name, email, phone number and postal address are stored with your simulated order in this project's database. Website administrators can view them for the campaign. Your consent and the notice version are recorded with the submission.",
-    "Accounts, password hashes, locally submitted newsletter addresses and simulated orders are stored in the project database.",
-    "The website uses a session cookie for login and local browser storage for the bag. Checkout contact details are not stored in browser local storage. It has no analytics, external payment provider or marketing-email service. No order is sent to the original business, no payment is taken, and nothing is shipped. Ask the project organiser about access or removal of submitted contact details.",
+    "When you submit the checkout form, your name, email, phone number, postal address, and order information are stored in the website database and can be viewed by authorised administrators.",
+    "Accounts, password hashes, newsletter addresses, and order records are stored securely by the website.",
+    "The website uses a session cookie for login and local browser storage for the cart. Checkout contact details are not stored in browser local storage.",
   ],
   contact: [
-    "Project contact",
-    "This is a locally hosted demonstration website.",
-    "For website questions, contact the project author. This page does not submit messages to the original business.",
+    "Contact DNA Genetics",
+    "Use the contact page for general enquiries.",
+    "Include your order reference when contacting us about an existing order.",
   ],
 };
+
 export default function Information() {
-  const key = useLocation().pathname.slice(1),
-    data =
-      pages[key] ||
-      linkedPages[key] ||
-      (key.startsWith("social/")
-        ? [
-            `DNA Genetics on ${key.slice(7)}`,
-            "Social links are represented locally in this independent educational project.",
-          ]
-        : null);
+  const key = useLocation().pathname.slice(1);
+  const data =
+    pages[key] ||
+    linkedPages[key] ||
+    (key.startsWith("social/")
+      ? [
+          `DNA Genetics on ${key.slice(7)}`,
+          "Follow DNA Genetics news and product updates.",
+        ]
+      : null);
   return (
     <section className="section prose">
-      <p className="eyebrow">DNA GENETICS / EDUCATIONAL ARCHIVE</p>
+      <p className="eyebrow">DNA GENETICS</p>
       <h1>{data?.[0] || "Page not found."}</h1>
-      {data?.slice(1).map((p) => (
-        <p key={p}>{p}</p>
+      {data?.slice(1).map((paragraph) => (
+        <p key={paragraph}>{paragraph}</p>
       ))}
       <Link className="button gold" to="/shop">
         Explore the catalogue ↗

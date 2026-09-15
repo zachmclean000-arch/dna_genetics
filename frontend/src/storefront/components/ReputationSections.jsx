@@ -122,36 +122,39 @@ export function RecommendedSection() {
 const faqs = [
   [
     "Which payment options do you accept?",
-    "This project uses simulated checkout only. It does not collect real payments.",
+    "Available payment options are displayed during checkout.",
   ],
   [
     "How can I contact you?",
     <>
       The <Link to="/contact">contact page</Link> is available through the site
-      navigation. Live messaging will depend on the backend setup.
+      navigation.
     </>,
   ],
   [
     "What is your return policy?",
-    "There are no physical purchases or returns in this educational project. Any order records are simulated.",
+    <>
+      Read our <Link to="/returns-refund-policy">Returns & Refund Policy</Link>{" "}
+      for eligibility and return instructions.
+    </>,
   ],
   [
     "Can I change my order?",
-    "Order management is part of the local dashboard. Changes apply only to simulated order records.",
+    "Contact our team as soon as possible and include your order reference.",
   ],
   [
     "Where do you ship?",
-    "This local project does not dispatch products or arrange delivery.",
+    "We currently provide shipping information for customers in the United States and Canada.",
   ],
   [
     "When will my order be processed?",
-    "Simulated orders can be reviewed through the dashboard when the backend is connected. There is no physical fulfilment.",
+    "Order status updates are available after an order has been received and reviewed.",
   ],
   [
     "Can I track an order?",
     <>
       Visit <Link to="/account">your account</Link> to view the order
-      information available in the connected project.
+      information associated with your account.
     </>,
   ],
 ];

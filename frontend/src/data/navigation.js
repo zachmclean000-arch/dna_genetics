@@ -1,4 +1,8 @@
 export const navigation = [
+  ["THCA Flower", "/shop/thca-flower"],
+  ["Live Rosin", "/shop/live-rosin"],
+  ["Vape", "/shop/vape"],
+  ["Concentrate", "/shop/concentrate"],
   ["About DNA", "/about"],
   ["Deals & Promos", "/promotions"],
 ];

@@ -123,7 +123,7 @@ const pages = {
             TO GROW THESE SEEDS, AS UNDER CURRENT LEGISLATION IT IS ILLEGAL TO
             GROW THEM OR ENCOURAGE THEIR GROWTH THROUGH GIVING ADVICE. ANY
             INFORMATION ON THE PACKAGING OF THE SEEDS, MARKETING MATERIAL OR
-            WEBSITES, IS GIVEN FOR THE EDUCATIONAL PURPOSE OR PURPOSE OF
+            WEBSITES, IS GIVEN FOR INFORMATIONAL PURPOSES OR THE PURPOSE OF
             DIFFERENTIATION. IT IS NOT INTENDED TO CONDONE, PROMOTE OR INCITE
             THE USE OF ILLEGAL OR CONTROLLED SUBSTANCES. AS A DNAGENETICS.COM
             CUSTOMER, YOU ARE PROHIBITED FROM DISTRIBUTING SEEDS WE SUPPLY TO
@@ -324,7 +324,7 @@ const pages = {
             QUESTIONS ON HOW TO GROW THESE SEEDS, AS UNDER CURRENT LEGISLATION
             IT IS ILLEGAL TO GROW THEM OR ENCOURAGE THEIR GROWTH THROUGH GIVING
             ADVICE. INFORMATION ON PACKAGING, MARKETING MATERIAL, OR WEBSITES IS
-            GIVEN FOR EDUCATIONAL PURPOSES OR DIFFERENTIATION. IT IS NOT
+            GIVEN FOR INFORMATIONAL PURPOSES OR DIFFERENTIATION. IT IS NOT
             INTENDED TO CONDONE, PROMOTE, OR INCITE THE USE OF ILLEGAL OR
             CONTROLLED SUBSTANCES. AS A DNAGENETICS.SHOP CUSTOMER, YOU ARE
             PROHIBITED FROM DISTRIBUTING SEEDS TO COUNTRIES WHERE POSSESSION OF
@@ -383,8 +383,7 @@ function ContactPage() {
         </button>
         {sent && (
           <p className="dna-contact-success" role="status">
-            Thank you. This form is a visual demonstration and has not
-            transmitted your message.
+            Thank you for contacting us.
           </p>
         )}
       </form>
@@ -398,8 +397,8 @@ function FAQPage() {
       <p className="dna-useful-kicker">FREQUENTLY ASKED QUESTIONS</p>
       <h1>Frequently Asked Questions</h1>
       <p className="dna-useful-intro">
-        Answers to common questions about how the educational catalogue,
-        campaign checkout, orders, and account features work.
+        Answers to common questions about the catalogue, checkout, orders, and
+        account features.
       </p>
       {faqGroups.map((group) => (
         <section className="dna-faq-group" key={group.title}>

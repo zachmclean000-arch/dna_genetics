@@ -14,6 +14,10 @@ const codes = {
   visa: "\uf1f0",
   mastercard: "\uf1f1",
   amex: "\uf1f3",
+  truck: "\uf0d1",
+  privacy: "\uf1b0",
+  star: "\uf005",
+  refresh: "\uf021",
 };
 export default function Icon({ name }) {
   return (

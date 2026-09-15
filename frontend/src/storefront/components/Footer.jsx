@@ -156,10 +156,7 @@ export default function Footer() {
               <h3>CANNABIS ARTICLES</h3>
               <LinkList items={articleLinks} />
               <h3 className="dna-footer-secondary-title">PAYMENTS</h3>
-              <div
-                className="dna-payments"
-                aria-label="Payment logos shown for reference only; no payments accepted"
-              >
+              <div className="dna-payments" aria-label="Payment options">
                 {["visa", "mastercard", "amex"].map((name) => (
                   <span key={name} role="img" aria-label={name}>
                     <Icon name={name} />
@@ -176,9 +173,8 @@ export default function Footer() {
               <br />
               Built &amp; Powered by <strong>Quantm Media</strong>
             </p>
-            <p className="dna-project-note">
-              Independent educational replica · No affiliation, sales, payments
-              or fulfilment.
+            <p className="dna-site-note">
+              Unofficial catalogue interface · Not affiliated with DNA Genetics.
             </p>
           </div>
         </div>

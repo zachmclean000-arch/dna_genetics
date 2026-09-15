@@ -24,18 +24,22 @@ export function SeedCard({ product }) {
         {high !== low && <> – {money(high)}</>}
       </p>
       <div className="dna-seed-actions">
-        <button
-          aria-expanded={open}
-          aria-controls={`sizes-${product.id}`}
-          onClick={() => setOpen(!open)}
-        >
-          View Sizes
-        </button>
+        {product.variants?.length ? (
+          <button
+            aria-expanded={open}
+            aria-controls={`sizes-${product.id}`}
+            onClick={() => setOpen(!open)}
+          >
+            View Sizes
+          </button>
+        ) : (
+          <Link to={`/product/${product.slug}`}>View Product</Link>
+        )}
         <Link to={`/product/${product.slug}`}>
           Buy Now <span aria-hidden="true">▾</span>
         </Link>
       </div>
-      {open && (
+      {open && product.variants?.length > 0 && (
         <ul
           className="dna-seed-size-list"
           id={`sizes-${product.id}`}
@@ -48,11 +52,6 @@ export function SeedCard({ product }) {
               </Link>
             </li>
           ))}
-          {!product.variants?.length && (
-            <li>
-              <Link to={`/product/${product.slug}`}>View product</Link>
-            </li>
-          )}
         </ul>
       )}
     </article>

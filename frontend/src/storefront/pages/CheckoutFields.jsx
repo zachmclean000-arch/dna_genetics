@@ -96,7 +96,7 @@ export default function CheckoutFields({ user, busy }) {
         <div
           className="dna-payment-options"
           role="radiogroup"
-          aria-label="Demonstration payment method"
+          aria-label="Payment method"
         >
           {paymentOptions.map(([value, label, description]) => (
             <div
@@ -131,7 +131,7 @@ export default function CheckoutFields({ user, busy }) {
           name="orderNote"
           rows="4"
           maxLength="1000"
-          placeholder="Notes about your simulated order (optional)"
+          placeholder="Notes about your order (optional)"
         />
       </section>
       <label className="check dna-checkout-agreement">

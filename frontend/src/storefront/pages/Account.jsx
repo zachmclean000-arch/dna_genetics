@@ -44,7 +44,7 @@ export default function Account() {
           )}
         </div>
         {error && <p role="alert">{error}</p>}
-        <h2>Your simulated orders</h2>
+        <h2>Your orders</h2>
         {orders.length ? (
           orders.map((o) => (
             <article className="order" key={o.id}>
@@ -65,8 +65,7 @@ export default function Account() {
           ))
         ) : (
           <p>
-            No simulated orders yet.{" "}
-            <Link to="/shop">Explore the catalogue.</Link>
+            No orders yet. <Link to="/shop">Explore the catalogue.</Link>
           </p>
         )}
       </section>
@@ -75,9 +74,7 @@ export default function Account() {
     <section className="section account">
       <p className="eyebrow">YOUR DNA ACCOUNT</p>
       <h1>{register ? "Create an account." : "Welcome back."}</h1>
-      <p>
-        Use a test email and a unique password for this demonstration website.
-      </p>
+      <p>Sign in to view your account and order history.</p>
       <form
         className="form"
         onSubmit={async (e) => {

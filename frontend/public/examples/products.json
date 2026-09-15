@@ -1,1 +1,21 @@
-[{"name":"Classroom Sample","slug":"classroom-sample","sku":"CLASS-001","price":25,"salePrice":null,"category":"Feminized Seeds","strainType":"Sample","description":"Fictional product for testing catalogue imports.","shortDescription":"Educational sample","genetics":"Sample data","stock":10,"status":"draft","images":["/assets/images/products/seed-pack.svg"],"featured":false,"bestSeller":false,"newArrival":false}]
+[
+  {
+    "name": "Catalogue Sample",
+    "slug": "catalogue-sample",
+    "sku": "CAT-001",
+    "price": 25,
+    "salePrice": null,
+    "category": "Feminized Seeds",
+    "strainType": "Sample",
+    "description": "Example product for testing catalogue imports.",
+    "shortDescription": "Catalogue sample",
+    "genetics": "Sample data",
+    "stock": 10,
+    "status": "draft",
+    "images": ["/assets/images/products/seed-pack.svg"],
+    "featured": false,
+    "bestSeller": false,
+    "newArrival": false,
+    "variants": []
+  }
+]

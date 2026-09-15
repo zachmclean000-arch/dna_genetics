@@ -15,6 +15,7 @@ backend/uploads/*
 playwright-report/
 reference/comparison/
 reference/product-details/
+reference/*profile*/
 reference/*.html
 reference/*.png
 reference/*.jpg

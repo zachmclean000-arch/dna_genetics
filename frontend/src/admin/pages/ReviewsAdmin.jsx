@@ -1,14 +1,40 @@
 import React, { useEffect, useState } from "react";
 import { api } from "../../services/api";
 
-const empty = { author: "", text: "", rating: 5, published: false };
+const empty = {
+  productId: "",
+  author: "",
+  text: "",
+  rating: 5,
+  published: false,
+};
 export default function ReviewsAdmin() {
   const [reviews, setReviews] = useState([]),
+    [products, setProducts] = useState([]),
+    [productSearch, setProductSearch] = useState(""),
     [form, setForm] = useState(empty),
     [editing, setEditing] = useState(null),
     [busy, setBusy] = useState(false),
     [message, setMessage] = useState("");
-  const refresh = () => api("/admin/reviews").then(setReviews);
+  const normalizedSearch = productSearch.trim().toLowerCase();
+  const filteredProducts = products.filter(
+    (product) =>
+      product.id === form.productId ||
+      !normalizedSearch ||
+      [product.name, product.sku, product.category].some((value) =>
+        String(value || "")
+          .toLowerCase()
+          .includes(normalizedSearch),
+      ),
+  );
+  const refresh = async () => {
+    const [reviewRows, productRows] = await Promise.all([
+      api("/admin/reviews"),
+      api("/products?admin=1"),
+    ]);
+    setReviews(reviewRows);
+    setProducts(productRows);
+  };
   useEffect(() => {
     refresh().catch((e) => setMessage(e.message));
   }, []);
@@ -19,9 +45,10 @@ export default function ReviewsAdmin() {
     try {
       await api(`/admin/reviews${editing ? `/${editing}` : ""}`, {
         method: editing ? "PUT" : "POST",
-        body: form,
+        body: { ...form, productId: form.productId || null },
       });
       setForm(empty);
+      setProductSearch("");
       setEditing(null);
       await refresh();
       setMessage("Review saved.");
@@ -39,6 +66,7 @@ export default function ReviewsAdmin() {
       if (editing === review.id) {
         setEditing(null);
         setForm(empty);
+        setProductSearch("");
       }
       await refresh();
       setMessage("Review deleted.");
@@ -58,6 +86,36 @@ export default function ReviewsAdmin() {
       <p role="status">{message}</p>
       <form className="panel" onSubmit={save}>
         <h2>{editing ? "Edit review" : "Create review"}</h2>
+        <label className="admin-product-search">
+          Search products
+          <input
+            type="search"
+            value={productSearch}
+            placeholder="Search by product name, SKU or category"
+            onChange={(e) => setProductSearch(e.target.value)}
+          />
+          <small>
+            {filteredProducts.length} product
+            {filteredProducts.length === 1 ? "" : "s"} found
+          </small>
+        </label>
+        <label>
+          Product
+          <select
+            required
+            value={form.productId}
+            onChange={(e) => setForm({ ...form, productId: e.target.value })}
+          >
+            <option value="" disabled>
+              Select a product
+            </option>
+            {filteredProducts.map((product) => (
+              <option key={product.id} value={product.id}>
+                {product.name} ({product.sku})
+              </option>
+            ))}
+          </select>
+        </label>
         <label>
           Reviewer name
           <input
@@ -97,7 +155,7 @@ export default function ReviewsAdmin() {
             checked={form.published}
             onChange={(e) => setForm({ ...form, published: e.target.checked })}
           />{" "}
-          Publish on homepage
+          Publish review
         </label>
         <button className="button gold" disabled={busy}>
           Save review
@@ -109,6 +167,7 @@ export default function ReviewsAdmin() {
             onClick={() => {
               setEditing(null);
               setForm(empty);
+              setProductSearch("");
             }}
           >
             Cancel editing
@@ -120,6 +179,7 @@ export default function ReviewsAdmin() {
           <thead>
             <tr>
               <th>Reviewer</th>
+              <th>Product</th>
               <th>Rating</th>
               <th>Status</th>
               <th>Review</th>
@@ -130,6 +190,10 @@ export default function ReviewsAdmin() {
             {reviews.map((r) => (
               <tr key={r.id}>
                 <td>{r.author}</td>
+                <td>
+                  {products.find((product) => product.id === r.productId)
+                    ?.name || "Unassigned"}
+                </td>
                 <td>{r.rating}/5</td>
                 <td>{r.published ? "Published" : "Draft"}</td>
                 <td style={{ maxWidth: 400, overflowWrap: "anywhere" }}>
@@ -140,7 +204,9 @@ export default function ReviewsAdmin() {
                     disabled={busy}
                     onClick={() => {
                       setEditing(r.id);
+                      setProductSearch("");
                       setForm({
+                        productId: r.productId || "",
                         author: r.author,
                         text: r.text,
                         rating: r.rating,

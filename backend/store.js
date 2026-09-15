@@ -23,8 +23,8 @@ export const seed = () => ({
     category: i % 3 === 0 ? "Regular Seeds" : "Feminized Seeds",
     strainType: i % 2 ? "Sativa" : "Hybrid",
     description:
-      "Sample catalogue entry for this educational interface. All prices, inventory and orders are simulated.",
-    shortDescription: "DNA archive · educational catalogue",
+      "Explore this DNA Genetics catalogue entry, product details, and current availability.",
+    shortDescription: "DNA Genetics catalogue",
     genetics: "Sample data",
     thc: "",
     floweringTime: "",

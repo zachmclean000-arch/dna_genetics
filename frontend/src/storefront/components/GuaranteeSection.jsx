@@ -17,10 +17,8 @@ export default function GuaranteeSection() {
         <div className="dna-guarantee-copy">
           <h2 id="dna-guarantee-title">Germination Guarantee</h2>
           <p>
-            Quality and customer care are part of the DNA Genetics story. This
-            section presents the brand’s guarantee theme as part of our
-            educational storefront. Explore the collection to discover more of
-            the DNA range.
+            Quality and customer care are part of the DNA Genetics story.
+            Explore the collection to discover more of the DNA range.
           </p>
           <Link className="dna-guarantee-button" to="/shop">
             Shop Seeds Now <span aria-hidden="true">→</span>

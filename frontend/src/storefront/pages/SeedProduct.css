@@ -138,6 +138,19 @@
   font-size: 13px;
   margin: 10px 0;
 }
+.dna-single-product-price {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 18px 0 14px;
+}
+.dna-single-product-price strong {
+  color: #164c3c;
+  font-size: 25px;
+}
+.dna-single-product-price del {
+  color: #777;
+}
 .dna-seed-purchase,
 .dna-seed-purchase:disabled {
   display: flex;
@@ -154,21 +167,46 @@
     sans-serif;
   text-transform: uppercase;
   opacity: 1;
+  margin-bottom: 18px;
 }
 .dna-seed-stock-note {
   font-size: 12px;
   color: #555;
-  margin: 7px 0 15px;
+  margin: -8px 0 15px;
 }
 .dna-seed-service-strip {
   display: flex;
-  justify-content: space-around;
-  gap: 10px;
-  flex-wrap: wrap;
-  background: #ede8e0;
-  border-radius: 12px;
-  padding: 14px;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 44px;
+  margin-top: 4px;
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 16px;
+  background: #ebe9e3;
+  color: #292929;
   font-size: 12px;
+}
+.dna-seed-service-strip > span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+  padding: 0 12px;
+  border-right: 1px solid #bdb7aa;
+  white-space: nowrap;
+}
+.dna-seed-service-strip > span:first-child {
+  padding-left: 0;
+}
+.dna-seed-service-strip > span:last-child {
+  padding-right: 0;
+  border-right: 0;
+}
+.dna-seed-service-strip .dna-icon {
+  flex: none;
+  color: #181818;
+  font-size: 16px;
 }
 .dna-seed-description {
   padding-top: 45px;
@@ -214,6 +252,34 @@
 .dna-seed-tabs [role="tabpanel"] {
   padding: 20px 0;
 }
+.dna-product-reviews {
+  display: grid;
+  gap: 18px;
+}
+.dna-product-reviews article {
+  padding: 20px 0;
+  border-bottom: 1px solid #deded8;
+}
+.dna-product-reviews article:first-child {
+  padding-top: 0;
+}
+.dna-product-reviews header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.dna-product-reviews header span {
+  color: #d1a91c;
+  letter-spacing: 2px;
+}
+.dna-product-reviews time {
+  margin-left: auto;
+  color: #777;
+  font-size: 12px;
+}
+.dna-product-reviews article p {
+  margin: 10px 0 0;
+}
 .dna-seed-tabs table {
   width: 100%;
   border-collapse: collapse;
@@ -249,6 +315,20 @@
   }
 }
 @media (max-width: 600px) {
+  .dna-seed-service-strip {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 10px 12px;
+    border-radius: 16px;
+    row-gap: 10px;
+  }
+  .dna-seed-service-strip > span {
+    padding: 3px 8px;
+    white-space: normal;
+  }
+  .dna-seed-service-strip > span:nth-child(2) {
+    border-right: 0;
+  }
   .dna-seed-packs > div {
     gap: 14px 8px;
     justify-content: flex-start;

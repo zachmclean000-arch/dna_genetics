@@ -118,7 +118,7 @@ export function buildOrderEmail(order) {
     `Subtotal: ${money(order.subtotal)}`,
     `Shipping: ${order.shipping === 0 ? "FREE" : money(order.shipping)}`,
     `Total: ${money(order.total)}`,
-    ""
+    "",
   ].join("\n");
 
   const html = `<!doctype html>
@@ -175,7 +175,31 @@ export function buildOrderEmail(order) {
   };
 }
 
-export async function sendOrderNotification(order) {
+export function buildOrderStatusEmail(order, status) {
+  const labels = {
+    in_progress: "ORDER IN PROGRESS",
+    completed: "ORDER COMPLETED",
+  };
+  const headings = {
+    in_progress: "Your order is currently in progress",
+    completed: "Your order has been completed",
+  };
+  const label = labels[status];
+  const heading = headings[status];
+  if (!label || !heading) throw Error("Unsupported email status.");
+  const email = buildOrderEmail(order);
+  const reference = order.id.slice(0, 8).toUpperCase();
+  return {
+    ...email,
+    subject: `DNA GENETICS order ${reference}: ${heading}`,
+    text: `${heading}.\n\n${email.text}`,
+    html: email.html
+      .replace("ORDER RECEIVED", label)
+      .replace(">Your order</h1>", `>${heading}</h1>`),
+  };
+}
+
+async function deliverOrderEmail(order, email) {
   const user = process.env.SMTP_USER;
   const pass = process.env.SMTP_APP_PASSWORD;
   if (!user || !pass) return { sent: false, reason: "not-configured" };
@@ -187,7 +211,15 @@ export async function sendOrderNotification(order) {
     from: `DNA Genetics checkout <${user}>`,
     to: recipient,
     replyTo: order.contact.email,
-    ...buildOrderEmail(order),
+    ...email,
   });
   return { sent: true };
+}
+
+export async function sendOrderNotification(order) {
+  return deliverOrderEmail(order, buildOrderEmail(order));
+}
+
+export async function sendOrderStatusNotification(order, status) {
+  return deliverOrderEmail(order, buildOrderStatusEmail(order, status));
 }

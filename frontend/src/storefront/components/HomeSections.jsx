@@ -18,18 +18,14 @@ export function ProductCollection({ title, products }) {
   return (
     <section className="section">
       <div className="section-heading">
-        <div>
-          <p className="eyebrow">FROM THE DNA ARCHIVE</p>
-          <h2>{title}</h2>
-        </div>
-        <Link to="/shop">View all ↗</Link>
+        <h2>{title}</h2>
       </div>
       <div className="product-grid">
         {products.slice(0, 4).map((p) => (
           <ProductCard key={p.id} product={p} />
         ))}
       </div>
-      {!products.length && <p>No products in this collection yet.</p>}
+      {!products.length && <p>No related products yet.</p>}
     </section>
   );
 }
@@ -47,9 +43,8 @@ export function StorySection() {
           inside DNA.
         </h2>
         <p>
-          A design study of the DNA Genetics brand, its catalogue and its visual
-          identity. This independent project explores how a complete storefront
-          works.
+          Discover the DNA Genetics story, catalogue, and unmistakable visual
+          identity built around an award-winning collection.
         </p>
         <Link className="button" to="/about">
           Discover the story ↗
@@ -77,19 +72,18 @@ export function ReviewsSection() {
   return (
     <section className="section reviews">
       <p className="eyebrow">CUSTOMER REVIEWS</p>
-      <h2>Built to explore. Designed to learn.</h2>
+      <h2>Explore the DNA collection.</h2>
       <div className="review-grid">
         {[
-          "Browse a responsive catalogue",
-          "Manage products in the dashboard",
-          "Follow a simulated order",
+          "Browse the complete catalogue",
+          "Discover featured collections",
+          "Follow your latest order",
         ].map((x, i) => (
           <article key={x}>
             <span>0{i + 1}</span>
             <h3>{x}</h3>
             <p>
-              Interactive learning task — no real purchases, payments or
-              deliveries.
+              Explore products, categories, releases, and customer favourites.
             </p>
           </article>
         ))}

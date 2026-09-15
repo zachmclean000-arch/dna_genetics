@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { buildOrderEmail } from "../order-email.js";
+import { buildOrderEmail, buildOrderStatusEmail } from "../order-email.js";
 
 function fixture() {
   return {
@@ -29,7 +29,7 @@ function fixture() {
       postalCode: "AB1 2CD",
       country: "GB",
       paymentMethod: "zelle",
-      orderNote: "Classroom test",
+      orderNote: "Order test",
     },
   };
 }
@@ -37,14 +37,14 @@ function fixture() {
 test("builds a styled HTML order email with embedded product images", () => {
   const email = buildOrderEmail(fixture());
   assert.match(email.subject, /D6944990/);
-  assert.match(email.html, /New campaign order/);
-  assert.match(email.html, /cid:product-0@dna-school/);
+  assert.match(email.html, /ORDER RECEIVED/);
+  assert.match(email.html, /cid:product-0@dna-genetics/);
   assert.match(email.html, /Snack Pack Fem Cannabis Seeds/);
   assert.match(email.html, /FREE/);
   assert.ok(
-    email.attachments.some((item) => item.cid === "product-0@dna-school"),
+    email.attachments.some((item) => item.cid === "product-0@dna-genetics"),
   );
-  assert.match(email.text, /No payment was taken/);
+  assert.match(email.text, /Selected payment method: Zelle/);
 });
 
 test("escapes customer content and ignores unsafe image paths", () => {
@@ -54,8 +54,17 @@ test("escapes customer content and ignores unsafe image paths", () => {
   const email = buildOrderEmail(order);
   assert.doesNotMatch(email.html, /<script>/);
   assert.match(email.html, /&lt;script&gt;/);
-  assert.doesNotMatch(email.html, /cid:product-0@dna-school/);
+  assert.doesNotMatch(email.html, /cid:product-0@dna-genetics/);
   assert.ok(
-    !email.attachments.some((item) => item.cid === "product-0@dna-school"),
+    !email.attachments.some((item) => item.cid === "product-0@dna-genetics"),
   );
+});
+
+test("builds matching in-progress and completed status emails", () => {
+  const inProgress = buildOrderStatusEmail(fixture(), "in_progress");
+  assert.match(inProgress.subject, /currently in progress/i);
+  assert.match(inProgress.html, /ORDER IN PROGRESS/);
+  const completed = buildOrderStatusEmail(fixture(), "completed");
+  assert.match(completed.subject, /completed/i);
+  assert.match(completed.html, /ORDER COMPLETED/);
 });

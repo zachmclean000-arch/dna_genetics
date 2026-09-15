@@ -24,7 +24,7 @@ test("orders use server prices and reduce inventory", () => {
   assert.equal(o.total, 21.02);
   assert.equal(s.products[0].stock, 0);
   assert.equal(o.simulated, true);
-  assert.equal(o.status, "simulated");
+  assert.equal(o.status, "pending");
 });
 test("insufficient stock does not create an order or change inventory", () => {
   const s = state();
@@ -76,11 +76,38 @@ test("product validation rejects hotlinks and invalid sale prices", () => {
   );
   assert.equal(productSchema.safeParse({ ...p, salePrice: 20 }).success, false);
   assert.equal(productSchema.safeParse(p).success, true);
+  assert.equal(
+    productSchema.safeParse({
+      ...p,
+      variants: [
+        { size: 1, sku: "S-1-A", price: 15, salePrice: 12, stock: 5 },
+        { size: 2, sku: "S-1-B", price: 25, salePrice: null, stock: 3 },
+      ],
+    }).success,
+    true,
+  );
+  assert.equal(
+    productSchema.safeParse({
+      ...p,
+      variants: [{ size: 1, sku: "S-1-A", price: 15, salePrice: 20, stock: 5 }],
+    }).success,
+    false,
+  );
+  assert.equal(
+    productSchema.safeParse({
+      ...p,
+      variants: [
+        { size: 1, sku: "S-1-A", price: 15, salePrice: null, stock: 5 },
+        { size: 1, sku: "S-1-B", price: 25, salePrice: null, stock: 3 },
+      ],
+    }).success,
+    false,
+  );
 });
 test("passwords are salted and checked correctly", () => {
-  const a = hashPassword("classroom-password"),
-    b = hashPassword("classroom-password");
+  const a = hashPassword("account-password"),
+    b = hashPassword("account-password");
   assert.notEqual(a, b);
-  assert.equal(checkPassword("classroom-password", a), true);
+  assert.equal(checkPassword("account-password", a), true);
   assert.equal(checkPassword("incorrect-password", a), false);
 });

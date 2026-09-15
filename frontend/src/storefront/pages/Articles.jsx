@@ -265,8 +265,8 @@ export function LocationsPage() {
     ? `DNA Genetics Catalogue Information for ${city.name}`
     : "DNA Genetics Locations Directory";
   const description = city
-    ? `Explore DNA Genetics seed catalogue categories and educational product information for ${city.name}, ${city.region}. No local store or delivery is offered by this project.`
-    : "Browse the educational DNA Genetics location directory with regional catalogue information for featured cities in California, Michigan, Texas, and other areas.";
+    ? `Explore DNA Genetics catalogue categories and product information for customers in ${city.name}, ${city.region}.`
+    : "Browse the DNA Genetics location directory with regional catalogue information for featured cities in California, Michigan, Texas, and other areas.";
   const pagePath = city ? `/locations/${city.slug}` : "/locations";
   const schema = React.useMemo(
     () =>
@@ -311,9 +311,7 @@ export function LocationsPage() {
           <div className="dna-container">
             <p>{city.region.toUpperCase()} LOCATION GUIDE</p>
             <h1>DNA Genetics in {city.name}</h1>
-            <span>
-              Educational catalogue and seed-type information for {city.name}.
-            </span>
+            <span>Catalogue and product information for {city.name}.</span>
           </div>
         </div>
         <div className="dna-container dna-city-content">
@@ -324,10 +322,8 @@ export function LocationsPage() {
           <h2>Explore the catalogue from {city.name}</h2>
           <p>
             This page helps visitors in {city.name}, {city.region}, find the
-            educational seed catalogue, product categories, strain information,
-            and project policies in one place. The project demonstrates an
-            ecommerce browsing experience and does not claim to operate a shop
-            or delivery service in {city.name}.
+            seed catalogue, product categories, strain information, and store
+            policies in one place.
           </p>
           <div className="dna-city-sections">
             <section>
@@ -335,15 +331,15 @@ export function LocationsPage() {
               <p>
                 Compare feminized, autoflower, regular, indica, sativa, and
                 hybrid catalogue groupings with product images, descriptions,
-                pack sizes, and simulated pricing.
+                pack sizes, and current pricing.
               </p>
               <Link to="/shop">Explore the shop →</Link>
             </section>
             <section>
               <h3>Shipping and returns information</h3>
               <p>
-                Review how the demonstration checkout models shipping totals and
-                learn why no physical fulfilment or refund is available.
+                Review delivery estimates, shipping charges, and the returns
+                policy before placing an order.
               </p>
               <Link to="/shipping-information">
                 Read shipping information →
@@ -353,24 +349,24 @@ export function LocationsPage() {
           <section className="dna-location-faq">
             <h2>Frequently asked questions</h2>
             <details>
-              <summary>Is there a project store in {city.name}?</summary>
+              <summary>Where can I browse products in {city.name}?</summary>
               <p>
-                No. This is an educational website and has no physical retail
-                location.
+                Browse all currently available products through the online
+                catalogue.
               </p>
             </details>
             <details>
-              <summary>Does this project deliver to {city.name}?</summary>
+              <summary>Where can I find delivery information?</summary>
               <p>
-                No. Cart, checkout, shipping, and order emails demonstrate
-                software behavior only.
+                Check the Shipping Information page for current destinations and
+                delivery estimates.
               </p>
             </details>
             <details>
               <summary>Where can I compare catalogue categories?</summary>
               <p>
                 Use the Shop All Seeds menu or the local shop page to browse all
-                active educational product records.
+                active product records.
               </p>
             </details>
           </section>
@@ -386,18 +382,14 @@ export function LocationsPage() {
         <div className="dna-container">
           <p>DNA GENETICS NEAR YOU</p>
           <h1>Locations</h1>
-          <span>
-            Explore the location directory represented in this educational
-            storefront.
-          </span>
+          <span>Explore catalogue information by location.</span>
         </div>
       </div>
       <div className="dna-container dna-locations-content">
         <h2>Find information by location</h2>
         <p>
-          The original directory groups regional information across many cities.
-          These names reproduce that browsing structure; this project does not
-          operate stores or ship to them.
+          Browse regional catalogue information across featured cities and use
+          the shipping page for current delivery details.
         </p>
         <div className="dna-location-grid">
           {regions.map(([region, cities]) => (

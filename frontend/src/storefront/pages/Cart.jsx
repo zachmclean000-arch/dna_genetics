@@ -12,7 +12,7 @@ function CartFrame({ checkout, children }) {
     >
       <section className="dna-seed-banner">
         <h1>{checkout ? "Checkout" : "Your Cart"}</h1>
-        <p>Review your selection and complete your simulated order.</p>
+        <p>Review your selection and complete your order.</p>
       </section>
       <section className="dna-seed-container dna-cart-content">
         <nav className="dna-seed-breadcrumb" aria-label="Breadcrumb">
@@ -260,7 +260,7 @@ export default function Cart({ checkout = false }) {
                     }
                   }}
                 >
-                  {busy ? "Continuing…" : "Continue"}
+                  {busy ? "Placing order…" : "Place Order"}
                 </button>
               </div>
             ) : (

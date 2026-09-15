@@ -1,7 +1,7 @@
 import "./config.js";
 import express from "express";
 import multer from "multer";
-import { randomBytes } from "node:crypto";
+import { randomBytes, randomUUID } from "node:crypto";
 import { mkdirSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
@@ -9,8 +9,16 @@ import { z } from "zod";
 import { transaction } from "./store.js";
 import { mountReviews } from "./reviews.js";
 import { hashPassword, checkPassword, tokenHash, publicUser } from "./auth.js";
-import { credentials, productSchema, placeOrder } from "./validation.js";
-import { sendOrderNotification } from "./order-email.js";
+import {
+  credentials,
+  loginCredentials,
+  productSchema,
+  placeOrder,
+} from "./validation.js";
+import {
+  sendOrderNotification,
+  sendOrderStatusNotification,
+} from "./order-email.js";
 const app = express(),
   root = fileURLToPath(new URL(".", import.meta.url));
 mkdirSync(path.join(root, "uploads"), { recursive: true });
@@ -85,7 +93,9 @@ for (const mode of ["register", "login"])
   app.post(
     `/api/auth/${mode}`,
     wrap(async (req, res) => {
-      const input = credentials.parse(req.body),
+      const input = (mode === "login" ? loginCredentials : credentials).parse(
+          req.body,
+        ),
         token = randomBytes(32).toString("hex");
       const user = await transaction((s) => {
         let u = s.users.find((u) => u.email === input.email);
@@ -160,8 +170,19 @@ app.get(
     res.json(product);
   }),
 );
+const storefrontProductCategories = [
+  "THCA Flower",
+  "Live Rosin",
+  "Vape",
+  "Concentrate",
+];
 function validateProduct(s, input, id) {
   const p = productSchema.parse(input);
+  if (
+    storefrontProductCategories.includes(p.category) &&
+    !s.categories.includes(p.category)
+  )
+    s.categories.push(p.category);
   if (!s.categories.includes(p.category))
     throw Error("Choose an existing category.");
   if (
@@ -170,7 +191,23 @@ function validateProduct(s, input, id) {
     )
   )
     throw Error("Slug and SKU must be unique.");
-  return p;
+  if (
+    p.variants.some((variant) =>
+      s.products.some(
+        (product) =>
+          product.id !== id &&
+          product.variants?.some((existing) => existing.sku === variant.sku),
+      ),
+    )
+  )
+    throw Error("Variant SKUs must be unique across the catalogue.");
+  return {
+    ...p,
+    variants: p.variants.map((variant) => ({
+      ...variant,
+      id: variant.id || randomUUID(),
+    })),
+  };
 }
 app.post(
   "/api/products/import",
@@ -315,13 +352,19 @@ app.post(
     entry.count += 1;
     campaignAttempts.set(key, entry);
     if (entry.count > 10)
-      return res.status(429).json({ error: "Too many submissions. Try again in a minute." });
+      return res
+        .status(429)
+        .json({ error: "Too many submissions. Try again in a minute." });
     next();
   },
   wrap(async (req, res) => {
     if (!req.body?.contact)
-      return res.status(400).json({ error: "Campaign contact details are required." });
-    const order = await transaction((s) => placeOrder(s, req.user?.id ?? null, req.body, { manageInventory: false }));
+      return res
+        .status(400)
+        .json({ error: "Checkout contact details are required." });
+    const order = await transaction((s) =>
+      placeOrder(s, req.user?.id ?? null, req.body, { manageInventory: false }),
+    );
     let notification;
     try {
       notification = await sendOrderNotification(order);
@@ -349,24 +392,38 @@ app.patch(
   admin,
   wrap(async (req, res) => {
     const status = z
-      .enum(["simulated", "reviewed", "cancelled"])
+      .enum(["pending", "in_progress", "completed", "cancelled"])
       .parse(req.body.status);
-    res.json(
-      await transaction((s) => {
-        const o = s.orders.find((o) => o.id === req.params.id);
-        if (!o) throw Error("Order not found.");
-        if (o.status === "cancelled" && status !== "cancelled")
-          throw Error("Cancelled orders cannot be reopened.");
-        if (status === "cancelled" && o.status !== "cancelled")
-          o.items.forEach((i) => {
-            const p = s.products.find((p) => p.id === i.id);
-            const inventory = i.variantId ? p?.variants?.find((v) => v.id === i.variantId) : p;
-            if (inventory) inventory.stock += i.quantity;
-          });
-        o.status = status;
-        return o;
-      }),
-    );
+    const result = await transaction((s) => {
+      const o = s.orders.find((o) => o.id === req.params.id);
+      if (!o) throw Error("Order not found.");
+      const previousStatus = o.status === "simulated" ? "pending" : o.status;
+      if (o.status === "cancelled" && status !== "cancelled")
+        throw Error("Cancelled orders cannot be reopened.");
+      if (status === "cancelled" && o.status !== "cancelled")
+        o.items.forEach((i) => {
+          const p = s.products.find((p) => p.id === i.id);
+          const inventory = i.variantId
+            ? p?.variants?.find((v) => v.id === i.variantId)
+            : p;
+          if (inventory) inventory.stock += i.quantity;
+        });
+      o.status = status;
+      return { order: o, changed: previousStatus !== status };
+    });
+    let notification = null;
+    if (
+      result.changed &&
+      ["in_progress", "completed"].includes(status) &&
+      result.order.contact
+    ) {
+      try {
+        notification = await sendOrderStatusNotification(result.order, status);
+      } catch {
+        notification = { sent: false, reason: "delivery-failed" };
+      }
+    }
+    res.json({ ...result.order, notification });
   }),
 );
 app.get(
@@ -408,13 +465,21 @@ app.use((err, req, res, next) => {
       postalCode: "Postcode or ZIP code",
       paymentMethod: "Payment option",
       termsAccepted: "Terms and Conditions agreement",
-      consent: "Campaign consent",
+      consent: "Contact consent",
+      name: "Product name",
+      slug: "Product slug",
+      sku: "SKU",
+      price: "Price",
+      salePrice: "Sale price",
+      category: "Storefront page or category",
+      stock: "Stock",
+      status: "Product status",
+      size: "Variant size",
+      variants: "Variable price options",
     };
     const fields = [
       ...new Set(
-        err.issues
-          .map((issue) => labels[issue.path.at(-1)])
-          .filter(Boolean),
+        err.issues.map((issue) => labels[issue.path.at(-1)]).filter(Boolean),
       ),
     ];
     return res.status(400).json({
@@ -427,7 +492,5 @@ app.use((err, req, res, next) => {
   res.status(400).json({ error: err.message || "Request failed." });
 });
 app.listen(process.env.PORT || 3001, "127.0.0.1", () =>
-  console.log(
-    `Educational project API: http://127.0.0.1:${process.env.PORT || 3001}`,
-  ),
+  console.log(`DNA Genetics API: http://127.0.0.1:${process.env.PORT || 3001}`),
 );

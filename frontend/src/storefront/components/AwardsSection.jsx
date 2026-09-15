@@ -24,8 +24,8 @@ export default function AwardsSection() {
             <Link to="/shop/autoflower-seeds">Autoflower</Link> seeds.
           </p>
           <p className="dna-awards-note">
-            This educational storefront presents the USA collection. Visit{" "}
-            <Link to="/about">About DNA</Link> to learn more about the brand.
+            Visit <Link to="/about">About DNA</Link> to learn more about the
+            brand and its award-winning history.
           </p>
         </div>
       </div>

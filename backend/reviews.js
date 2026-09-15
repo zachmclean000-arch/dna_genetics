@@ -1,6 +1,7 @@
 import { z } from "zod";
 
 export const reviewSchema = z.object({
+  productId: z.string().uuid().nullable().default(null),
   author: z.string().trim().min(1).max(80),
   text: z.string().trim().min(1).max(2000),
   rating: z.number().int().min(1).max(5),
@@ -14,7 +15,11 @@ export function mountReviews(app, { transaction, admin, wrap }) {
       res.json(
         await transaction((s) =>
           (s.reviews || [])
-            .filter((r) => r.published)
+            .filter(
+              (r) =>
+                r.published &&
+                (!req.query.productId || r.productId === req.query.productId),
+            )
             .sort((a, b) => b.createdAt.localeCompare(a.createdAt)),
         ),
       );
@@ -32,15 +37,21 @@ export function mountReviews(app, { transaction, admin, wrap }) {
     admin,
     wrap(async (req, res) => {
       const input = reviewSchema.parse(req.body);
-      const review = {
-        ...input,
-        id: crypto.randomUUID(),
-        createdAt: new Date().toISOString(),
-        updatedAt: new Date().toISOString(),
-      };
-      await transaction((s) => {
+      const review = await transaction((s) => {
+        if (
+          input.productId &&
+          !s.products.some((product) => product.id === input.productId)
+        )
+          throw Error("Selected product does not exist.");
         s.reviews ??= [];
+        const review = {
+          ...input,
+          id: crypto.randomUUID(),
+          createdAt: new Date().toISOString(),
+          updatedAt: new Date().toISOString(),
+        };
         s.reviews.push(review);
+        return review;
       });
       res.status(201).json(review);
     }),
@@ -51,6 +62,11 @@ export function mountReviews(app, { transaction, admin, wrap }) {
     wrap(async (req, res) => {
       const input = reviewSchema.parse(req.body);
       const review = await transaction((s) => {
+        if (
+          input.productId &&
+          !s.products.some((product) => product.id === input.productId)
+        )
+          throw Error("Selected product does not exist.");
         const row = (s.reviews || []).find((r) => r.id === req.params.id);
         if (!row) return null;
         Object.assign(row, input, { updatedAt: new Date().toISOString() });

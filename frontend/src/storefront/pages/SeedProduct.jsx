@@ -4,20 +4,29 @@ import { money } from "../../services/api";
 import { SeedCard } from "./FeminizedSeeds";
 import "./SeedProduct.css";
 import { useApp } from "../../hooks/context";
+import ProductReviews from "../components/ProductReviews";
+import Icon from "../components/Icon";
 
 export default function SeedProduct({ product: p, related }) {
   const { add } = useApp();
+  const hasVariants = Boolean(p.variants?.length);
   const [added, setAdded] = useState(null);
   const [params] = useSearchParams();
   const { packSize } = useParams();
   const [size, setSize] = useState(
     Number(packSize?.replace("-seeds", "")) ||
       Number(params.get("size")) ||
-      p.variants[0].size,
+      p.variants?.[0]?.size ||
+      0,
   );
-  const [image, setImage] = useState(p.images[0]);
+  const [image, setImage] = useState(
+    p.images[0] || "/assets/images/products/seed-pack.svg",
+  );
   const [tab, setTab] = useState("Description");
-  const selected = p.variants.find((v) => v.size === size) || p.variants[0];
+  const selected = hasVariants
+    ? p.variants.find((v) => v.size === size) || p.variants[0]
+    : p;
+  const selectedId = hasVariants ? selected.id : p.id;
   return (
     <div className="dna-seed-page">
       <div className="dna-seed-container">
@@ -47,10 +56,6 @@ export default function SeedProduct({ product: p, related }) {
                 ))}
               </div>
             )}
-            <section id="seed-description" className="dna-seed-description">
-              <h2>Product Details</h2>
-              <p>{p.description}</p>
-            </section>
           </div>
           <div className="dna-seed-summary">
             <h1>{p.name}</h1>
@@ -71,76 +76,91 @@ export default function SeedProduct({ product: p, related }) {
                 ))}
             </dl>
             <p className="dna-seed-short">
-              {p.shortDescription} <a href="#seed-description">Read More</a>
+              {p.shortDescription} <a href="#product-information">Read More</a>
             </p>
-            <fieldset className="dna-seed-packs">
-              <legend>Pack sizes</legend>
-              <div>
-                {p.variants.map((v) => (
-                  <label
-                    key={v.id}
-                    className={selected.id === v.id ? "selected" : ""}
-                  >
-                    <input
-                      type="radio"
-                      name="pack-size"
-                      value={v.size}
-                      checked={selected.id === v.id}
-                      onChange={() => setSize(v.size)}
-                    />
-                    <span className="dna-pack-label">{v.size}x</span>
-                    <img src={p.images[0]} alt="" />
-                    <strong>{money(v.salePrice ?? v.price)}</strong>
-                    <span className="dna-pack-discount">
-                      {v.salePrice !== null && (
-                        <>
-                          <del>{money(v.price)}</del>
-                          <span>
-                            {Math.round((1 - v.salePrice / v.price) * 100)}%
-                          </span>
-                        </>
-                      )}
-                    </span>
-                  </label>
-                ))}
-              </div>
-            </fieldset>
-            <p className="dna-selected-pack" aria-live="polite">
-              Selected: {selected.size} seeds ·{" "}
-              {money(selected.salePrice ?? selected.price)}
-            </p>
+            {hasVariants && (
+              <>
+                <fieldset className="dna-seed-packs">
+                  <legend>Pack sizes</legend>
+                  <div>
+                    {p.variants.map((v) => (
+                      <label
+                        key={v.id}
+                        className={selected.id === v.id ? "selected" : ""}
+                      >
+                        <input
+                          type="radio"
+                          name="pack-size"
+                          value={v.size}
+                          checked={selected.id === v.id}
+                          onChange={() => setSize(v.size)}
+                        />
+                        <span className="dna-pack-label">{v.size}x</span>
+                        <img src={p.images[0]} alt="" />
+                        <strong>{money(v.salePrice ?? v.price)}</strong>
+                        <span className="dna-pack-discount">
+                          {v.salePrice !== null && (
+                            <>
+                              <del>{money(v.price)}</del>
+                              <span>
+                                {Math.round((1 - v.salePrice / v.price) * 100)}%
+                              </span>
+                            </>
+                          )}
+                        </span>
+                      </label>
+                    ))}
+                  </div>
+                </fieldset>
+                <p className="dna-selected-pack" aria-live="polite">
+                  Selected: {selected.size} seeds ·{" "}
+                  {money(selected.salePrice ?? selected.price)}
+                </p>
+              </>
+            )}
+            {!hasVariants && (
+              <p className="dna-selected-pack dna-single-product-price">
+                {selected.salePrice !== null && (
+                  <del>{money(selected.price)}</del>
+                )}
+                <strong>{money(selected.salePrice ?? selected.price)}</strong>
+              </p>
+            )}
             <button
               className="dna-seed-purchase"
               onClick={() => {
-                add(p, 1, selected.id);
-                setAdded(selected.id);
+                add(p, 1, hasVariants ? selected.id : undefined);
+                setAdded(selectedId);
               }}
-              aria-describedby="seed-stock-note"
             >
               <span>
                 Add to Cart Now <span aria-hidden="true">→</span>
               </span>
               <strong>{money(selected.salePrice ?? selected.price)}</strong>
             </button>
-            <p id="seed-stock-note" className="dna-seed-stock-note">
-              {selected.stock === 0
-                ? "This pack has no local inventory yet."
-                : "This pack is available for simulated checkout."}
-            </p>
-            {added === selected.id && (
+            {added === selectedId && (
               <p role="status">
-                Added {selected.size}-seed pack to cart.{" "}
+                Added{hasVariants ? ` ${selected.size}-seed pack` : ""} to cart.{" "}
                 <Link to="/cart">View cart →</Link>
               </p>
             )}
             <div className="dna-seed-service-strip">
-              <span>Privacy Guarantee</span>
-              <span>Germination Guarantee</span>
-              <span>Expert Support</span>
+              <span>
+                <Icon name="truck" /> Free shipping on orders over $120
+              </span>
+              <span>
+                <Icon name="privacy" /> Privacy Guarantee
+              </span>
+              <span>
+                <Icon name="star" /> Germination Guarantee
+              </span>
+              <span>
+                <Icon name="refresh" /> Expert Support
+              </span>
             </div>
           </div>
         </div>
-        <section className="dna-seed-tabs">
+        <section id="product-information" className="dna-seed-tabs">
           <div role="tablist" aria-label="Product information">
             {["Description", "Additional information", "Reviews"].map(
               (title) => (
@@ -167,10 +187,12 @@ export default function SeedProduct({ product: p, related }) {
             ) : tab === "Additional information" ? (
               <table>
                 <tbody>
-                  <tr>
-                    <th scope="row">Size</th>
-                    <td>{p.variants.map((v) => v.size).join(", ")}</td>
-                  </tr>
+                  {hasVariants && (
+                    <tr>
+                      <th scope="row">Size</th>
+                      <td>{p.variants.map((v) => v.size).join(", ")}</td>
+                    </tr>
+                  )}
                   <tr>
                     <th scope="row">SKU</th>
                     <td>{p.sku}</td>
@@ -178,7 +200,7 @@ export default function SeedProduct({ product: p, related }) {
                 </tbody>
               </table>
             ) : (
-              <p>No product reviews have been added yet.</p>
+              <ProductReviews productId={p.id} />
             )}
           </div>
         </section>
