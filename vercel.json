@@ -8,9 +8,7 @@
     "backend": {
       "root": "backend",
       "framework": "express",
-      "buildCommand": "npm run db:generate && npm run db:deploy && npm run create-admin",
-      "maxDuration": 30,
-      "includeFiles": "../frontend/public/**"
+      "buildCommand": "npm run db:generate && npm run db:deploy && npm run create-admin"
     }
   },
   "rewrites": [
