@@ -1,6 +1,7 @@
 import "./config.js";
 import express from "express";
 import multer from "multer";
+import { put } from "@vercel/blob";
 import { randomBytes, randomUUID } from "node:crypto";
 import { mkdirSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
@@ -306,7 +307,7 @@ app.delete(
 );
 const upload = multer({
   storage: multer.memoryStorage(),
-  limits: { fileSize: 5 * 1024 * 1024, files: 1 },
+  limits: { fileSize: 4 * 1024 * 1024, files: 1 },
 });
 app.post(
   "/api/uploads",
@@ -326,6 +327,14 @@ app.post(
       ext = "webp";
     else throw Error("Only PNG, JPEG and WebP images are supported.");
     const name = `${crypto.randomUUID()}.${ext}`;
+    if (process.env.BLOB_READ_WRITE_TOKEN) {
+      const blob = await put(`products/${name}`, b, {
+        access: "public",
+        addRandomSuffix: true,
+        contentType: req.file.mimetype,
+      });
+      return res.status(201).json({ path: blob.url });
+    }
     writeFileSync(path.join(root, "uploads", name), b);
     res.status(201).json({ path: `/uploads/${name}` });
   }),
@@ -491,6 +500,11 @@ app.use((err, req, res, next) => {
   }
   res.status(400).json({ error: err.message || "Request failed." });
 });
-app.listen(process.env.PORT || 3001, "127.0.0.1", () =>
-  console.log(`DNA Genetics API: http://127.0.0.1:${process.env.PORT || 3001}`),
-);
+export default app;
+
+if (!process.env.VERCEL)
+  app.listen(process.env.PORT || 3001, "127.0.0.1", () =>
+    console.log(
+      `DNA Genetics API: http://127.0.0.1:${process.env.PORT || 3001}`,
+    ),
+  );

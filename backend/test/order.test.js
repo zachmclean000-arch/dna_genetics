@@ -74,6 +74,15 @@ test("product validation rejects hotlinks and invalid sale prices", () => {
     productSchema.safeParse({ ...p, images: ["/uploads/../secret"] }).success,
     false,
   );
+  assert.equal(
+    productSchema.safeParse({
+      ...p,
+      images: [
+        "https://store-id.public.blob.vercel-storage.com/products/photo-abc123.webp",
+      ],
+    }).success,
+    true,
+  );
   assert.equal(productSchema.safeParse({ ...p, salePrice: 20 }).success, false);
   assert.equal(productSchema.safeParse(p).success, true);
   assert.equal(

@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "concurrently -k \"npm run dev -w backend\" \"npm run dev -w frontend\"",
     "build": "npm run build -w frontend",
+    "vercel-build": "npm run db:generate -w backend && npm run db:deploy -w backend && npm run create-admin -w backend && npm run build -w frontend",
     "start": "npm start -w backend",
     "test": "npm test -w backend",
     "test:browser": "playwright test",

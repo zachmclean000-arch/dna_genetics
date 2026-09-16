@@ -10,6 +10,7 @@
     "create-admin": "node create-admin.js",
     "db:setup": "node setup-db.js",
     "db:generate": "prisma generate",
+    "db:deploy": "prisma migrate deploy",
     "db:validate": "prisma validate",
     "db:migrate": "prisma migrate dev",
     "db:studio": "prisma studio"
@@ -17,6 +18,7 @@
   "dependencies": {
     "@prisma/adapter-pg": "^7.10.0",
     "@prisma/client": "^7.10.0",
+    "@vercel/blob": "^2.8.0",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "multer": "^2.0.2",

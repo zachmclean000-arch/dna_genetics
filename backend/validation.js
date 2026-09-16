@@ -23,8 +23,16 @@ export const productSchema = z
       .array(
         z
           .string()
-          .regex(/^\/(?:assets|uploads)\/[a-zA-Z0-9_./-]+$/)
-          .refine((p) => !p.includes("..")),
+          .max(2048)
+          .refine(
+            (path) =>
+              (/^\/(?:assets|uploads)\/[a-zA-Z0-9_./-]+$/.test(path) &&
+                !path.includes("..")) ||
+              /^https:\/\/[a-z0-9-]+\.public\.blob\.vercel-storage\.com\/[a-zA-Z0-9_./-]+$/i.test(
+                path,
+              ),
+            "Use a local image path or a Vercel Blob image URL.",
+          ),
       )
       .max(12)
       .default([]),

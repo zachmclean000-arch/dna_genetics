@@ -44,6 +44,37 @@ Remove-Item Env:ADMIN_EMAIL
 
 Sign in at `/account`, then open `/admin`. Use fictional customer emails. Customers register through `/account` and cannot use administrative APIs.
 
+## Deploying to Vercel
+
+The repository includes `vercel.json` and an Express function entry point in
+`api/index.js`. Vercel serves the Vite build from its CDN and sends `/api/*`
+requests to the Express application.
+
+1. Import the GitHub repository into Vercel with the repository root selected.
+2. In the Vercel Marketplace, connect a PostgreSQL provider such as Neon,
+   Supabase, or Prisma Postgres. It must provide `DATABASE_URL` to the project.
+3. In project **Settings → Environment Variables**, add these values for
+   Production and Preview:
+
+   - `ADMIN_EMAIL`
+   - `ADMIN_PASSWORD`
+   - `SMTP_USER`
+   - `SMTP_APP_PASSWORD`
+   - `ORDER_NOTIFICATION_EMAIL`
+
+4. In the project **Storage** tab, create and connect a **public Vercel Blob**
+   store. Vercel adds `BLOB_READ_WRITE_TOKEN` automatically.
+5. Deploy. The build generates Prisma Client, applies migrations, provisions
+   the administrator, and builds the frontend.
+
+Do not add `PGHOST=localhost` or local PostgreSQL credentials to Vercel. The
+cloud deployment must use its managed `DATABASE_URL`. Keep all passwords in
+Vercel environment variables; never commit `backend/.env`.
+
+Product images uploaded locally remain in `backend/uploads`. Images uploaded
+from the deployed administrator use Vercel Blob and remain available across
+serverless deployments.
+
 ## Persistence
 
 PostgreSQL is now the default. PostgreSQL 18 was found running on this computer as `postgresql-x64-18` at `localhost:5432`.

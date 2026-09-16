@@ -335,7 +335,7 @@ export default function ProductEditor() {
         <fieldset>
           <legend>Local images</legend>
           <p>
-            PNG, JPEG or WebP · up to 5 MB each · first image is the main image.
+            PNG, JPEG or WebP · up to 4 MB each · first image is the main image.
           </p>
           <input
             type="file"
