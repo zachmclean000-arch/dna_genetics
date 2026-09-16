@@ -292,13 +292,6 @@ export default function SeedCategory({
         ) : (
           <section className="dna-seed-information">
             <h2>{title}</h2>
-            {collection !== "vape" && (
-              <p>
-                This collection brings together the {collection} varieties in
-                our catalogue. Select a product to see its listed parentage,
-                available pack sizes and prices.
-              </p>
-            )}
             <h2>Frequently asked questions</h2>
             <details>
               <summary>Which pack sizes are available?</summary>
