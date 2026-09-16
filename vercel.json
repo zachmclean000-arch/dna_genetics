@@ -1,23 +1,32 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": "vite",
-  "installCommand": "npm install",
-  "buildCommand": "npm run vercel-build",
-  "outputDirectory": "frontend/dist",
-  "functions": {
-    "api/index.js": {
+  "services": {
+    "frontend": {
+      "root": "frontend",
+      "framework": "vite"
+    },
+    "backend": {
+      "root": "backend",
+      "framework": "express",
+      "buildCommand": "npm run db:generate && npm run db:deploy && npm run create-admin",
       "maxDuration": 30,
-      "includeFiles": "frontend/public/**"
+      "includeFiles": "../frontend/public/**"
     }
   },
   "rewrites": [
     {
-      "source": "/api/:path*",
-      "destination": "/api?__path=:path*"
+      "source": "/api/(.*)",
+      "destination": {
+        "type": "service",
+        "service": "backend"
+      }
     },
     {
       "source": "/(.*)",
-      "destination": "/index.html"
+      "destination": {
+        "type": "service",
+        "service": "frontend"
+      }
     }
   ]
 }

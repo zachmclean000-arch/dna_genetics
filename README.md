@@ -46,11 +46,12 @@ Sign in at `/account`, then open `/admin`. Use fictional customer emails. Custom
 
 ## Deploying to Vercel
 
-The repository includes `vercel.json` and an Express function entry point in
-`api/index.js`. Vercel serves the Vite build from its CDN and sends `/api/*`
-requests to the Express application.
+The repository includes a Vercel Services configuration in `vercel.json`.
+Vercel builds `frontend` as a Vite service, builds `backend` as an Express
+service, and sends `/api/*` requests to the backend on the same domain.
 
-1. Import the GitHub repository into Vercel with the repository root selected.
+1. Import the GitHub repository into Vercel, select the **Services** application
+   preset, and keep the repository root selected.
 2. In the Vercel Marketplace, connect a PostgreSQL provider such as Neon,
    Supabase, or Prisma Postgres. It must provide `DATABASE_URL` to the project.
 3. In project **Settings → Environment Variables**, add these values for
