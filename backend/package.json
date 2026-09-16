@@ -8,6 +8,7 @@
     "start": "node server.js",
     "test": "node --test test/*.test.js",
     "create-admin": "node create-admin.js",
+    "seed:catalogue": "node seed-catalogue.js",
     "db:setup": "node setup-db.js",
     "db:generate": "prisma generate",
     "db:deploy": "prisma migrate deploy",

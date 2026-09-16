@@ -8,7 +8,7 @@
     "backend": {
       "root": "backend",
       "framework": "express",
-      "buildCommand": "npm run db:generate && npm run db:deploy && npm run create-admin"
+      "buildCommand": "npm run db:generate && npm run db:deploy && npm run seed:catalogue && npm run create-admin"
     }
   },
   "rewrites": [

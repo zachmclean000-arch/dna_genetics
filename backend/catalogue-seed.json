@@ -1,0 +1,5410 @@
+{
+  "categories": [
+    "Autoflower Seeds",
+    "Beginner-Friendly Seeds",
+    "Best Cannabis Seeds",
+    "Cheap Weed Seeds",
+    "Classic Strains",
+    "Concentrate",
+    "Fast-Flowering Seeds",
+    "Feminized Seeds",
+    "High CBD Seeds",
+    "High THC Seeds",
+    "High Yield Seeds",
+    "Indoor Seeds",
+    "Live Rosin",
+    "Medicinal Seeds",
+    "Mix Packs",
+    "New Strains",
+    "Outdoor Seeds",
+    "Regular Seeds",
+    "Seed Vault Club",
+    "THCA Flower",
+    "Vape"
+  ],
+  "products": [
+    {
+      "id": "e3e2e21c-d129-4511-bbfa-c12922b6cb33",
+      "name": "Purple Chocolope Fem Cannabis Seeds",
+      "slug": "purple-chocolope",
+      "sku": "DNA-REF-305",
+      "strainType": "Sativa",
+      "description": "Purple Chocolope Fem Cannabis Seeds is listed by DNA Genetics as Sativa-dominant Cannabis. Its listed parentage is Chocolate Thai x Cannalope Haze (Purple Pheno). Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Sativa-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Chocolate Thai x Cannalope Haze (Purple Pheno)",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "19–21 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/purple-chocolope-0.webp",
+        "/assets/images/catalogue/purple-chocolope-1.jpeg"
+      ],
+      "featured": false,
+      "bestSeller": true,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/purple-chocolope/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Best Cannabis Seeds"
+      ],
+      "price": 100.05,
+      "salePrice": 79.96,
+      "createdAt": "2026-09-09T20:28:52.351Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:07:54.540Z",
+      "variants": [
+        {
+          "id": "a4cf4142-3b6c-4458-a060-f98e8ff938e7",
+          "size": 5,
+          "sku": "DNA-PCE-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 79.96
+        },
+        {
+          "id": "196e2f9c-42f4-41f0-a986-ae533d8f2b1b",
+          "size": 10,
+          "sku": "DNA-PCE-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.12
+        },
+        {
+          "id": "b7a63fb2-28d6-4fb4-a36a-3c52e46b68d7",
+          "size": 15,
+          "sku": "DNA-PCE-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.11
+        },
+        {
+          "id": "d393b55e-8215-46d9-abae-55118edacfce",
+          "size": 20,
+          "sku": "DNA-PCE-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.63
+        }
+      ]
+    },
+    {
+      "id": "31b895a2-7973-43f5-bb81-c407c94242c5",
+      "name": "Skywalker Kush Fem Cannabis Seeds",
+      "slug": "skywalker-kush-fem",
+      "sku": "DNA-REF-445",
+      "strainType": "Indica",
+      "description": "Skywalker Kush Fem Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Skywalker x OG Kush. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Skywalker x OG Kush",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "18–21 oz./m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/skywalker-kush-fem-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": true,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/skywalker-kush-fem/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Best Cannabis Seeds"
+      ],
+      "price": 100.05,
+      "salePrice": 80.16,
+      "createdAt": "2026-09-09T20:28:52.352Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:08:43.867Z",
+      "variants": [
+        {
+          "id": "0eda1fbf-f6fc-4597-a6be-089b58216005",
+          "size": 5,
+          "sku": "DNA-SWK-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 80.16
+        },
+        {
+          "id": "9e62a387-76fe-44f7-b6e5-c131332dca3b",
+          "size": 10,
+          "sku": "DNA-SWK-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.29
+        },
+        {
+          "id": "023433bd-7fbf-4b76-adb5-e5129e3e124a",
+          "size": 15,
+          "sku": "DNA-SWK-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.34
+        },
+        {
+          "id": "8e6d57b6-fec1-408a-9091-1204d2a65805",
+          "size": 20,
+          "sku": "DNA-SWK-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.88
+        }
+      ]
+    },
+    {
+      "id": "4f2b091d-9f99-4756-a33a-804674adacca",
+      "name": "Chocolope Fem Cannabis Seeds",
+      "slug": "chocolope-fem",
+      "sku": "DNA-REF-3012",
+      "strainType": "Sativa",
+      "description": "Chocolope Fem Cannabis Seeds is listed by DNA Genetics as Sativa-dominant Cannabis. Its listed parentage is OG Chocolate Thai X Cannalope Haze. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Sativa-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "OG Chocolate Thai X Cannalope Haze",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "18–21 oz./m² (indoors), 32oz./plant (outdoors)",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/chocolope-fem-0.webp",
+        "/assets/images/catalogue/chocolope-fem-1.webp",
+        "/assets/images/catalogue/chocolope-fem-2.webp"
+      ],
+      "featured": false,
+      "bestSeller": true,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/chocolope-fem/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "High THC Seeds",
+        "Beginner-Friendly Seeds",
+        "Fast-Flowering Seeds",
+        "Outdoor Seeds",
+        "Best Cannabis Seeds"
+      ],
+      "price": 100.05,
+      "salePrice": 80.12,
+      "createdAt": "2026-09-09T20:28:52.352Z",
+      "updatedAt": "2026-09-09T21:10:28.217Z",
+      "sourceCheckedAt": "2026-09-09T21:07:28.150Z",
+      "variants": [
+        {
+          "id": "e0e17532-add1-45f8-9126-a7c5505e7d2d",
+          "size": 5,
+          "sku": "DNA-CHL-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 80.12
+        },
+        {
+          "id": "20d0d136-f7aa-4124-86d3-569bb57e71e9",
+          "size": 10,
+          "sku": "DNA-CHL-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.23
+        },
+        {
+          "id": "c0dfb8fb-55cb-4b66-8f8f-d7804466b57d",
+          "size": 15,
+          "sku": "DNA-CHL-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.24
+        },
+        {
+          "id": "22ce9683-9833-4c46-9afd-5f4b7523c612",
+          "size": 20,
+          "sku": "DNA-CHL-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "52cfcd60-e8c9-4d98-9836-586be4f80cb7",
+      "name": "Strawberry Banana Fem Cannabis Seeds",
+      "slug": "strawberry-banana-s1",
+      "sku": "DNA-REF-381",
+      "strainType": "Indica",
+      "description": "Strawberry Banana Fem Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Original Strawberry Banana x Strawberry Banana. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Original Strawberry Banana x Strawberry Banana",
+      "thc": "",
+      "floweringTime": "9–10 Weeks",
+      "yield": "16–19 oz./m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/strawberry-banana-s1-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/strawberry-banana-s1/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Outdoor Seeds"
+      ],
+      "price": 100.05,
+      "salePrice": 79.98,
+      "createdAt": "2026-09-09T20:28:52.352Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:08:01.647Z",
+      "variants": [
+        {
+          "id": "9637cae0-84ad-4f61-960a-429a8fe8b3c1",
+          "size": 5,
+          "sku": "DNA-SB1-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 79.98
+        },
+        {
+          "id": "5fe4f689-6fb4-4e9c-9429-f8708a58fed8",
+          "size": 10,
+          "sku": "DNA-SB1-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.1
+        },
+        {
+          "id": "ac004fca-d21c-4acd-9c74-a769861a23fa",
+          "size": 15,
+          "sku": "DNA-SB1-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.11
+        },
+        {
+          "id": "683f5536-28e0-4bfb-9249-28ef0b23412d",
+          "size": 20,
+          "sku": "DNA-SB1-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.63
+        }
+      ]
+    },
+    {
+      "id": "839515c6-92a9-44f8-a892-7452c40dd917",
+      "name": "Bruised Bananas Cannabis Seeds",
+      "slug": "bruised-bananas",
+      "sku": "DNA-REF-430",
+      "strainType": "Hybrid",
+      "description": "Bruised Bananas Cannabis Seeds is listed by DNA Genetics as Hybrid Cannabis. Its listed parentage is Purple Chocolope x Honey Banana. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Hybrid Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Purple Chocolope x Honey Banana",
+      "thc": "",
+      "floweringTime": "8–10 weeks",
+      "yield": "15–21 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/bruised-bananas-0.webp",
+        "/assets/images/catalogue/bruised-bananas-1.jpg"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/bruised-bananas/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [],
+      "price": 100.15,
+      "salePrice": 80.12,
+      "createdAt": "2026-09-09T20:28:52.352Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:07:42.054Z",
+      "variants": [
+        {
+          "id": "e3a0e9f9-80b9-45f8-9dc4-7449d07ef12c",
+          "size": 5,
+          "sku": "DNA-HBP-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 80.12
+        },
+        {
+          "id": "136710f4-d1aa-4307-ab25-d190ec73deb3",
+          "size": 10,
+          "sku": "DNA-HBP-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.51,
+          "salePrice": 95.23
+        },
+        {
+          "id": "1b4bb420-5d03-4c2c-a2b3-8a3e60eb178e",
+          "size": 15,
+          "sku": "DNA-HBP-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.75,
+          "salePrice": 135.24
+        },
+        {
+          "id": "9703a21b-185d-48c1-9a58-7ed7f92114b0",
+          "size": 20,
+          "sku": "DNA-HBP-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "989f96fd-cee2-416a-914a-87f9ccea64b0",
+      "name": "White Widow Feminized Cannabis Seeds",
+      "slug": "white-widow-feminized",
+      "sku": "DNA-REF-9302",
+      "strainType": "Hybrid",
+      "description": "White Widow Feminized Cannabis Seeds is listed by DNA Genetics as Hybrid Cannabis. Its listed parentage is Brazilian Sativa landrace x South Indian Indica. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Hybrid Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Brazilian Sativa landrace x South Indian Indica",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "16–25 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/white-widow-feminized-0.png"
+      ],
+      "featured": true,
+      "bestSeller": true,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/white-widow-feminized/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Indoor Seeds",
+        "High Yield Seeds",
+        "Best Cannabis Seeds",
+        "Classic Strains"
+      ],
+      "price": 100.05,
+      "salePrice": 79.05,
+      "createdAt": "2026-09-09T20:28:52.352Z",
+      "updatedAt": "2026-09-09T21:10:28.217Z",
+      "sourceCheckedAt": "2026-09-09T21:07:26.887Z",
+      "variants": [
+        {
+          "id": "c8664651-643b-46bd-9a24-2cbd231147ce",
+          "size": 5,
+          "sku": "DNA-WHW-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 79.05
+        },
+        {
+          "id": "46e79247-0e88-4887-b341-547e60a86382",
+          "size": 10,
+          "sku": "DNA-WHW-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.13
+        },
+        {
+          "id": "6797cd27-e230-49f5-ab80-f0a2c8bc199d",
+          "size": 15,
+          "sku": "DNA-WHW-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.15
+        },
+        {
+          "id": "7fefa68e-9f37-4986-b0eb-7b9f942e6ec5",
+          "size": 20,
+          "sku": "DNA-WHW-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.67
+        }
+      ]
+    },
+    {
+      "id": "a838b644-8f1f-4f8c-9d9d-edaac8864681",
+      "name": "GG4 Fem Cannabis Seeds",
+      "slug": "gorilla-glue-4-feminized",
+      "sku": "DNA-REF-8593",
+      "strainType": "Hybrid",
+      "description": "GG4 Fem Cannabis Seeds is listed by DNA Genetics as Hybrid Cannabis. Its listed parentage is Chem Sis x Sour Dubb x Chocolate Diesel. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Hybrid Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Chem Sis x Sour Dubb x Chocolate Diesel",
+      "thc": "",
+      "floweringTime": "9–10 weeks",
+      "yield": "17–21 oz./m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/gorilla-glue-4-feminized-0.webp",
+        "/assets/images/catalogue/gorilla-glue-4-feminized-1.jpeg"
+      ],
+      "featured": true,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/gorilla-glue-4-feminized/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "High THC Seeds",
+        "Medicinal Seeds",
+        "Classic Strains"
+      ],
+      "price": 100.05,
+      "salePrice": 79.96,
+      "createdAt": "2026-09-09T20:28:52.352Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:07:52.981Z",
+      "variants": [
+        {
+          "id": "4fa6db48-81b7-46d6-a3ce-a45c70f6349a",
+          "size": 5,
+          "sku": "DNA-GG4-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 79.96
+        },
+        {
+          "id": "a543f888-0dca-4644-be6b-987bad63a199",
+          "size": 10,
+          "sku": "DNA-GG4-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.12
+        },
+        {
+          "id": "c507f75f-4ffe-4760-8603-1acd0e3ed153",
+          "size": 15,
+          "sku": "DNA-GG4-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.11
+        },
+        {
+          "id": "bf4a26bf-b7e0-4e16-88af-885fd84f566b",
+          "size": 20,
+          "sku": "DNA-GG4-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.63
+        }
+      ]
+    },
+    {
+      "id": "eb0feb57-03f0-42d9-a342-e94a31895199",
+      "name": "Blue Dream Feminized Cannabis Seeds",
+      "slug": "blue-dream-feminized",
+      "sku": "DNA-REF-8598",
+      "strainType": "Sativa",
+      "description": "Blue Dream Feminized Cannabis Seeds is listed by DNA Genetics as Sativa-dominant Cannabis. Its listed parentage is Blueberry x Haze #1. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Sativa-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Blueberry x Haze #1",
+      "thc": "",
+      "floweringTime": "8–10 weeks",
+      "yield": "4–24 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/blue-dream-feminized-0.webp"
+      ],
+      "featured": true,
+      "bestSeller": true,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/blue-dream-feminized/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Beginner-Friendly Seeds",
+        "Best Cannabis Seeds",
+        "Classic Strains"
+      ],
+      "price": 100.15,
+      "salePrice": 80.12,
+      "createdAt": "2026-09-09T20:28:52.352Z",
+      "updatedAt": "2026-09-09T21:10:28.217Z",
+      "sourceCheckedAt": "2026-09-09T21:07:25.659Z",
+      "variants": [
+        {
+          "id": "1ca2ab67-9dfc-4103-8f10-3994b1bf1fac",
+          "size": 5,
+          "sku": "DNA-BDS-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 80.12
+        },
+        {
+          "id": "bd1ba295-b9ed-443e-a667-70e091396288",
+          "size": 10,
+          "sku": "DNA-BDS-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.51,
+          "salePrice": 95.23
+        },
+        {
+          "id": "7c79511a-55dd-4129-9934-c91440fc4ee7",
+          "size": 15,
+          "sku": "DNA-BDS-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.75,
+          "salePrice": 135.24
+        },
+        {
+          "id": "bc8c06c1-3c9c-4881-b493-a5d63461de63",
+          "size": 20,
+          "sku": "DNA-BDS-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "107856da-93b3-4756-bd86-ad238cf34de7",
+      "name": "Honey Banana S1 Cannabis Seeds",
+      "slug": "honey-banana-s1",
+      "sku": "DNA-REF-409",
+      "strainType": "Indica",
+      "description": "Honey Banana S1 Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Honey Banana. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 3, 5, 10, 15, 20 seeds.",
+      "genetics": "Honey Banana",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "16–19 oz./m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/honey-banana-s1-0.webp",
+        "/assets/images/catalogue/honey-banana-s1-1.jpg"
+      ],
+      "featured": false,
+      "bestSeller": true,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/honey-banana-s1/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Medicinal Seeds",
+        "Best Cannabis Seeds",
+        "Cheap Weed Seeds"
+      ],
+      "price": 50,
+      "salePrice": 45,
+      "createdAt": "2026-09-09T21:10:28.218Z",
+      "updatedAt": "2026-09-09T21:10:28.218Z",
+      "sourceCheckedAt": "2026-09-09T21:07:37.635Z",
+      "variants": [
+        {
+          "id": "4d3ed89f-ac2d-4818-99c8-b0360eeecc69",
+          "size": 3,
+          "sku": "DNA-HB1-FEMP3",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 50,
+          "salePrice": 45
+        },
+        {
+          "id": "e388f3a9-8aa9-45a9-9870-553dd4861ad2",
+          "size": 5,
+          "sku": "DNA-HB1-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 80.14
+        },
+        {
+          "id": "716e4279-e683-4513-a9ab-c21580671951",
+          "size": 10,
+          "sku": "DNA-HB1-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.27
+        },
+        {
+          "id": "9a929fc4-9857-4249-8461-1b067c783735",
+          "size": 15,
+          "sku": "DNA-HB1-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.3
+        },
+        {
+          "id": "4be80924-1a7d-43cf-a8af-7e43e52d4c9c",
+          "size": 20,
+          "sku": "DNA-HB1-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.84
+        }
+      ]
+    },
+    {
+      "id": "2f2d5aef-f8cc-4b99-bb49-9f0421f1c316",
+      "name": "Four Prophets Fem Cannabis Seeds",
+      "slug": "four-prophets-fem",
+      "sku": "DNA-REF-3007",
+      "strainType": "Indica",
+      "description": "Four Prophets Fem Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is 3X Crazy x Kosher Kush. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "3X Crazy x Kosher Kush",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "16–18 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/four-prophets-fem-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": true,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/four-prophets-fem/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "High THC Seeds",
+        "Fast-Flowering Seeds",
+        "Best Cannabis Seeds"
+      ],
+      "price": 100.75,
+      "salePrice": 80.05,
+      "createdAt": "2026-09-09T21:10:28.218Z",
+      "updatedAt": "2026-09-09T21:10:28.218Z",
+      "sourceCheckedAt": "2026-09-09T21:07:40.079Z",
+      "variants": [
+        {
+          "id": "93a7c80c-f389-4bb3-9e14-cc719b2bd036",
+          "size": 5,
+          "sku": "DNA-FPT-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.75,
+          "salePrice": 80.05
+        },
+        {
+          "id": "ce278971-cfc3-46c5-b3b0-23dc9be927d0",
+          "size": 10,
+          "sku": "DNA-FPT-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.46,
+          "salePrice": 95.18
+        },
+        {
+          "id": "b6d9e223-45b9-4eb5-a777-cf3936c9e2a9",
+          "size": 15,
+          "sku": "DNA-FPT-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.8,
+          "salePrice": 135.21
+        },
+        {
+          "id": "5890eeba-b871-438c-9157-b84e56afcfec",
+          "size": 20,
+          "sku": "DNA-FPT-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 342.18,
+          "salePrice": 170.75
+        }
+      ]
+    },
+    {
+      "id": "4be52674-924e-4aea-b04d-ccaf86d7d7b2",
+      "name": "Challah Bread Cannabis Seeds",
+      "slug": "challah-bread",
+      "sku": "DNA-REF-384",
+      "strainType": "Indica",
+      "description": "Challah Bread Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Bakers Delight x Kosher Kush. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 3, 5, 10, 15, 20 seeds.",
+      "genetics": "Bakers Delight x Kosher Kush",
+      "thc": "",
+      "floweringTime": "9 weeks",
+      "yield": "16–19 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/challah-bread-0.webp",
+        "/assets/images/catalogue/challah-bread-1.png",
+        "/assets/images/catalogue/challah-bread-2.png",
+        "/assets/images/catalogue/challah-bread-3.png"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/challah-bread/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Medicinal Seeds",
+        "Cheap Weed Seeds"
+      ],
+      "price": 50,
+      "salePrice": 45,
+      "createdAt": "2026-09-09T21:10:28.218Z",
+      "updatedAt": "2026-09-09T21:10:28.218Z",
+      "sourceCheckedAt": "2026-09-09T21:07:34.058Z",
+      "variants": [
+        {
+          "id": "6a690488-9802-4465-8c65-9d1d342a9c03",
+          "size": 3,
+          "sku": "DNA-CHB-FEMP3",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 50,
+          "salePrice": 45
+        },
+        {
+          "id": "c88ee392-6735-4a1a-b85c-d227b6a2b953",
+          "size": 5,
+          "sku": "DNA-CHB-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 79.95
+        },
+        {
+          "id": "cfe814c0-e470-4686-98b3-348153c4b84a",
+          "size": 10,
+          "sku": "DNA-CHB-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.13
+        },
+        {
+          "id": "5c6af606-0a55-4955-a877-bf331ff1184d",
+          "size": 15,
+          "sku": "DNA-CHB-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.15
+        },
+        {
+          "id": "cdc9e511-9c0e-4f45-ab1a-103074857854",
+          "size": 20,
+          "sku": "DNA-CHB-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.67
+        }
+      ]
+    },
+    {
+      "id": "6cc0588d-7e4f-41a9-bdd4-c2a2427000fd",
+      "name": "RP 43 AKA RICHARD PETTY Fem Cannabis Seeds",
+      "slug": "rp-43-aka-richard-petty",
+      "sku": "DNA-REF-85",
+      "strainType": "Indica",
+      "description": "RP 43 AKA RICHARD PETTY Fem Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is RP 43’ S1. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 3, 5, 10, 15, 20 seeds.",
+      "genetics": "RP 43’ S1",
+      "thc": "",
+      "floweringTime": "9 weeks",
+      "yield": "14–16 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/rp-43-aka-richard-petty-0.webp",
+        "/assets/images/catalogue/rp-43-aka-richard-petty-1.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/rp-43-aka-richard-petty/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "High THC Seeds",
+        "Cheap Weed Seeds"
+      ],
+      "price": 50,
+      "salePrice": 45,
+      "createdAt": "2026-09-09T21:10:28.218Z",
+      "updatedAt": "2026-09-09T21:10:28.218Z",
+      "sourceCheckedAt": "2026-09-09T21:07:31.735Z",
+      "variants": [
+        {
+          "id": "cb1b6589-dc30-4739-b764-0f751f95e7d5",
+          "size": 3,
+          "sku": "DNA-RP1-FEMP3",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 50,
+          "salePrice": 45
+        },
+        {
+          "id": "7314c8be-9bb0-468b-b628-368501f20a3d",
+          "size": 5,
+          "sku": "DNA-RP1-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.75,
+          "salePrice": 80.14
+        },
+        {
+          "id": "c1716118-4b7e-49f5-a41a-f915bcb10b0f",
+          "size": 10,
+          "sku": "DNA-RP1-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.46,
+          "salePrice": 95.27
+        },
+        {
+          "id": "a27eec28-51fa-4e0b-b048-47e6b3183b81",
+          "size": 15,
+          "sku": "DNA-RP1-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.8,
+          "salePrice": 135.3
+        },
+        {
+          "id": "f45929de-58a5-48e4-80cb-90ec2e238ef2",
+          "size": 20,
+          "sku": "DNA-RP1-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 342.18,
+          "salePrice": 170.84
+        }
+      ]
+    },
+    {
+      "id": "856ffce5-f432-4897-afa6-11ea0d4ba4b7",
+      "name": "L.A. Chocolat Feminized Cannabis Seeds",
+      "slug": "l-a-chocolat-feminized-cannabis-seeds",
+      "sku": "DNA-REF-58917",
+      "strainType": "Indica",
+      "description": "L.A. Chocolat Feminized Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Chocolope x L.A. Confidential. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Chocolope x L.A. Confidential",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "14–17 oz.m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/l-a-chocolat-feminized-cannabis-seeds-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/l-a-chocolat-feminized-cannabis-seeds/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Indoor Seeds"
+      ],
+      "price": 100.15,
+      "salePrice": 80.12,
+      "createdAt": "2026-09-09T21:10:28.218Z",
+      "updatedAt": "2026-09-09T21:10:28.218Z",
+      "sourceCheckedAt": "2026-09-09T21:07:39.306Z",
+      "variants": [
+        {
+          "id": "daea1bd3-0c32-4410-af1f-45893747eb36",
+          "size": 5,
+          "sku": "DNA-LAC-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 80.12
+        },
+        {
+          "id": "6da8dc13-88cc-4419-8cec-76739cc41d8f",
+          "size": 10,
+          "sku": "DNA-LAC-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.51,
+          "salePrice": 95.23
+        },
+        {
+          "id": "61526fd7-7428-4b6a-b002-69d398d4fc6a",
+          "size": 15,
+          "sku": "DNA-LAC-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.75,
+          "salePrice": 135.24
+        },
+        {
+          "id": "72bfaf81-9c4c-4bf8-b1b9-f6cfab60d6a0",
+          "size": 20,
+          "sku": "DNA-LAC-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "b1ffd5c5-c9f8-40a5-b049-201bb9c20553",
+      "name": "Cataract Cake Feminized Cannabis Seeds",
+      "slug": "cataract-cake-feminized-cannabis-seeds",
+      "sku": "DNA-REF-58909",
+      "strainType": "Indica",
+      "description": "Cataract Cake Feminized Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Cataract Kush x Wedding Cake. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Cataract Kush x Wedding Cake",
+      "thc": "",
+      "floweringTime": "8-9 weeks",
+      "yield": "12 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/cataract-cake-feminized-cannabis-seeds-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/cataract-cake-feminized-cannabis-seeds/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Indoor Seeds",
+        "High THC Seeds",
+        "Fast-Flowering Seeds"
+      ],
+      "price": 100.15,
+      "salePrice": 80.12,
+      "createdAt": "2026-09-09T21:10:28.218Z",
+      "updatedAt": "2026-09-09T21:10:28.218Z",
+      "sourceCheckedAt": "2026-09-09T21:07:35.781Z",
+      "variants": [
+        {
+          "id": "c5159885-9fce-4e85-99ff-e570f8c541cc",
+          "size": 5,
+          "sku": "DNA-CCK-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 80.12
+        },
+        {
+          "id": "3aa08d05-607e-4191-8606-5fec1665e5d6",
+          "size": 10,
+          "sku": "DNA-CCK-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.51,
+          "salePrice": 95.23
+        },
+        {
+          "id": "691a6e25-878f-43e7-be2c-a93c7a6535d2",
+          "size": 15,
+          "sku": "DNA-CCK-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.75,
+          "salePrice": 135.24
+        },
+        {
+          "id": "90c5bc88-33cd-49e3-9d3e-ea3ad9be0586",
+          "size": 20,
+          "sku": "DNA-CCK-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "b524dc89-01db-49e1-adff-b350aaef08ab",
+      "name": "Kosher Kush Fem Cannabis Seeds",
+      "slug": "kosher-kush-fem",
+      "sku": "DNA-REF-2991",
+      "strainType": "Indica",
+      "description": "Kosher Kush Fem Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Kosher Kush x Kosher Kush. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Kosher Kush x Kosher Kush",
+      "thc": "",
+      "floweringTime": "9–10 weeks",
+      "yield": "16–19 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/kosher-kush-fem-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": true,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/kosher-kush-fem/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "High THC Seeds",
+        "Beginner-Friendly Seeds",
+        "Best Cannabis Seeds"
+      ],
+      "price": 100.15,
+      "salePrice": 80.12,
+      "createdAt": "2026-09-09T21:10:28.218Z",
+      "updatedAt": "2026-09-09T21:10:28.218Z",
+      "sourceCheckedAt": "2026-09-09T21:07:29.408Z",
+      "variants": [
+        {
+          "id": "80cfb598-2257-430d-8505-7f3fefefba90",
+          "size": 5,
+          "sku": "DNA-KKH-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 80.12
+        },
+        {
+          "id": "d6ef93ca-a8de-4501-8248-cd63afa10ffe",
+          "size": 10,
+          "sku": "DNA-KKH-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.51,
+          "salePrice": 95.23
+        },
+        {
+          "id": "b1229d48-fa44-4175-b9f1-f2267d43edf2",
+          "size": 15,
+          "sku": "DNA-KKH-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.75,
+          "salePrice": 135.24
+        },
+        {
+          "id": "17e3fa6d-67b2-42cc-8f8e-11c9907407e6",
+          "size": 20,
+          "sku": "DNA-KKH-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "b5a9b750-c274-4385-8f63-15a4b002a40c",
+      "name": "DNA Mystery Pack Cannabis Seeds",
+      "slug": "dna-mystery-pack",
+      "sku": "DNA-REF-29548",
+      "strainType": "",
+      "description": "DNA Mystery Pack Cannabis Seeds is listed by DNA Genetics as N/A. Its listed parentage is Various. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "N/A. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Various",
+      "thc": "",
+      "floweringTime": "Various",
+      "yield": "Various",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/dna-mystery-pack-0.webp",
+        "/assets/images/catalogue/dna-mystery-pack-1.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/dna-mystery-pack/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Regular Seeds",
+        "Mix Packs"
+      ],
+      "price": 100.15,
+      "salePrice": 80.12,
+      "createdAt": "2026-09-09T21:10:28.218Z",
+      "updatedAt": "2026-09-09T21:10:28.218Z",
+      "sourceCheckedAt": "2026-09-09T21:07:32.825Z",
+      "variants": [
+        {
+          "id": "47ee4827-33c3-4ac2-a3c4-3ca5b8f2e444",
+          "size": 5,
+          "sku": "DNA-DMP-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 80.12
+        },
+        {
+          "id": "c936c7b4-23e5-41ce-b73f-6dafd912fe59",
+          "size": 10,
+          "sku": "DNA-DMP-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.51,
+          "salePrice": 95.23
+        },
+        {
+          "id": "dea487f2-975f-4bd9-968d-0bd89107e9ca",
+          "size": 15,
+          "sku": "DNA-DMP-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.75,
+          "salePrice": 135.24
+        },
+        {
+          "id": "7faed024-65b2-4746-a4b4-3aa6b9370a0c",
+          "size": 20,
+          "sku": "DNA-DMP-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "d52787c7-6770-416e-be9a-ad67a1d4f6e8",
+      "name": "Green Crack Fem Cannabis Seeds",
+      "slug": "green-crack-feminized",
+      "sku": "DNA-REF-8588",
+      "strainType": "Sativa",
+      "description": "Green Crack Fem Cannabis Seeds is listed by DNA Genetics as Sativa-dominant Cannabis. Its listed parentage is Skunk #1 x Afghan. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Sativa-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Skunk #1 x Afghan",
+      "thc": "",
+      "floweringTime": "8-10 weeks",
+      "yield": "500–600g/m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/green-crack-feminized-0.webp"
+      ],
+      "featured": true,
+      "bestSeller": true,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/green-crack-feminized/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "High Yield Seeds",
+        "High THC Seeds",
+        "Best Cannabis Seeds",
+        "Classic Strains"
+      ],
+      "price": 100.05,
+      "salePrice": 80.12,
+      "createdAt": "2026-09-09T21:10:28.218Z",
+      "updatedAt": "2026-09-09T21:10:28.218Z",
+      "sourceCheckedAt": "2026-09-09T21:07:30.457Z",
+      "variants": [
+        {
+          "id": "9b2de12a-a8a3-4b5d-8759-7aff6fd9ab79",
+          "size": 5,
+          "sku": "DNA-GCS-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 80.12
+        },
+        {
+          "id": "19c482fc-f69c-44f0-a831-6cc4974cc252",
+          "size": 10,
+          "sku": "DNA-GCS-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.23
+        },
+        {
+          "id": "6551b575-dab9-4010-9d6b-c920b9cee0b8",
+          "size": 15,
+          "sku": "DNA-GCS-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.24
+        },
+        {
+          "id": "b55872e5-19ee-4263-83d6-4fbd3584eb89",
+          "size": 20,
+          "sku": "DNA-GCS-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "d53a9031-8d57-483e-9ac4-b4aeaedc6aea",
+      "name": "Gelato Sorbet Fem Cannabis Seeds",
+      "slug": "gelato-sorbet",
+      "sku": "DNA-REF-29553",
+      "strainType": "Indica",
+      "description": "Gelato Sorbet Fem Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Gelato 33 x Sorbet. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 3, 5, 10, 15, 20 seeds.",
+      "genetics": "Gelato 33 x Sorbet",
+      "thc": "",
+      "floweringTime": "8 - 9 weeks",
+      "yield": "15–18 oz./m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/gelato-sorbet-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/gelato-sorbet/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Indoor Seeds",
+        "Cheap Weed Seeds"
+      ],
+      "price": 50,
+      "salePrice": 45,
+      "createdAt": "2026-09-09T21:10:28.218Z",
+      "updatedAt": "2026-09-09T21:10:28.218Z",
+      "sourceCheckedAt": "2026-09-09T21:07:40.860Z",
+      "variants": [
+        {
+          "id": "34b41aa6-98cb-4ec7-9a31-106724951988",
+          "size": 3,
+          "sku": "DNA-GS-FEMP3",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 50,
+          "salePrice": 45
+        },
+        {
+          "id": "2f28b2a6-898e-4b47-8100-589b46426c8d",
+          "size": 5,
+          "sku": "DNA-GS-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 80.12
+        },
+        {
+          "id": "09a9276b-8f21-4c30-8ae1-a27f890ed0c1",
+          "size": 10,
+          "sku": "DNA-GS-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.51,
+          "salePrice": 95.23
+        },
+        {
+          "id": "9b1e0c26-c862-4eab-a591-c46089b9e66e",
+          "size": 15,
+          "sku": "DNA-GS-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.75,
+          "salePrice": 135.24
+        },
+        {
+          "id": "0ef416df-f277-403a-b149-5c378d0ea0d3",
+          "size": 20,
+          "sku": "DNA-GS-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "e35e103e-66b1-4992-9f8e-e3fff32b3dd3",
+      "name": "Double Stuffed Sorbet Fem Cannabis Seeds",
+      "slug": "double-stuffed-sorbet",
+      "sku": "DNA-REF-29550",
+      "strainType": "Indica",
+      "description": "Double Stuffed Sorbet Fem Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Do-Si-Do x Sorbet. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Do-Si-Do x Sorbet",
+      "thc": "",
+      "floweringTime": "8 – 9 weeks",
+      "yield": "18–23 oz./m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/double-stuffed-sorbet-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/double-stuffed-sorbet/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [],
+      "price": 100.15,
+      "salePrice": 80.12,
+      "createdAt": "2026-09-09T21:10:28.218Z",
+      "updatedAt": "2026-09-09T21:10:28.218Z",
+      "sourceCheckedAt": "2026-09-09T21:07:36.532Z",
+      "variants": [
+        {
+          "id": "a26403e3-2e59-498d-8737-cbca5e2fb24b",
+          "size": 5,
+          "sku": "DNA-DSS-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 80.12
+        },
+        {
+          "id": "0f023d90-8d94-4cdb-98e7-2c0b1266f245",
+          "size": 10,
+          "sku": "DNA-DSS-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.51,
+          "salePrice": 95.23
+        },
+        {
+          "id": "58bd8e8b-bece-400c-a3f9-42c18e5a25be",
+          "size": 15,
+          "sku": "DNA-DSS-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.75,
+          "salePrice": 135.24
+        },
+        {
+          "id": "bd93bc32-f049-4200-b09c-dfcd03d98b92",
+          "size": 20,
+          "sku": "DNA-DSS-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "13368b6e-fb41-46b6-a9f5-cee1829082c2",
+      "name": "HG23 AKA MICHAEL JORDAN Fem Cannabis Seeds",
+      "slug": "hg23-aka-michael-jordan-fem",
+      "sku": "DNA-REF-2762",
+      "strainType": "Indica",
+      "description": "HG23 AKA MICHAEL JORDAN Fem Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Holy Grail Kush x Kosher Kush. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Holy Grail Kush x Kosher Kush",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "14–16 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/hg23-aka-michael-jordan-fem-0.webp",
+        "/assets/images/catalogue/hg23-aka-michael-jordan-fem-1.png"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/hg23-aka-michael-jordan-fem/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [],
+      "price": 100.05,
+      "salePrice": 80.12,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:08:56.382Z",
+      "variants": [
+        {
+          "id": "4b7599a9-a6f3-4456-a003-5e942da2e5de",
+          "size": 5,
+          "sku": "DNA-MJK-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 80.12
+        },
+        {
+          "id": "c1e05818-5f6d-49f8-ac7f-b0279a94a8c3",
+          "size": 10,
+          "sku": "DNA-MJK-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.23
+        },
+        {
+          "id": "034aa2d6-79f6-41c6-92e9-b9c27087d04b",
+          "size": 15,
+          "sku": "DNA-MJK-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.24
+        },
+        {
+          "id": "4c2e588d-6dd0-48ec-8e35-f319d7ba0f2e",
+          "size": 20,
+          "sku": "DNA-MJK-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "23a9c33f-aa82-4aee-ba18-65a1208b3c70",
+      "name": "Challah Cake Cannabis Seeds",
+      "slug": "challah-cake",
+      "sku": "DNA-REF-587",
+      "strainType": "Indica",
+      "description": "Challah Cake Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is DNA Cake x Challah Bread. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "DNA Cake x Challah Bread",
+      "thc": "",
+      "floweringTime": "9 weeks",
+      "yield": "16–20 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/challah-cake-0.webp",
+        "/assets/images/catalogue/challah-cake-1.png"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/challah-cake/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [],
+      "price": 100.15,
+      "salePrice": 79.96,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:08:51.749Z",
+      "variants": [
+        {
+          "id": "2f50c268-f20e-46eb-8269-41c87feb422f",
+          "size": 5,
+          "sku": "DNA-CHC-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 79.96
+        },
+        {
+          "id": "308c3f78-5078-4cee-91fd-a7b3d8ed293c",
+          "size": 10,
+          "sku": "DNA-CHC-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.51,
+          "salePrice": 95.03
+        },
+        {
+          "id": "7234f240-8180-4861-a6d9-6fb17cc5ae62",
+          "size": 15,
+          "sku": "DNA-CHC-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.75,
+          "salePrice": 135.04
+        },
+        {
+          "id": "a0289b3c-4e79-4a88-b5e2-a585b6639c06",
+          "size": 20,
+          "sku": "DNA-CHC-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.56
+        }
+      ]
+    },
+    {
+      "id": "266dce51-f48a-40f0-8886-92b484d86a4f",
+      "name": "Chocolate Truffle Shuffle Fem Cannabis Seeds",
+      "slug": "chocolate-truffle-shuffle-fem",
+      "sku": "DNA-REF-304",
+      "strainType": "Indica",
+      "description": "Chocolate Truffle Shuffle Fem Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is GPK x Chocolope Kush (Gorilla Glue x Pure Kush). Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "GPK x Chocolope Kush (Gorilla Glue x Pure Kush)",
+      "thc": "",
+      "floweringTime": "9 weeks",
+      "yield": "14–16 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/chocolate-truffle-shuffle-fem-0.webp",
+        "/assets/images/catalogue/chocolate-truffle-shuffle-fem-1.jpeg"
+      ],
+      "featured": false,
+      "bestSeller": true,
+      "newArrival": true,
+      "sourceUrl": "https://dnagenetics.com/product/chocolate-truffle-shuffle-fem/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "High THC Seeds",
+        "Best Cannabis Seeds",
+        "New Strains"
+      ],
+      "price": 100.05,
+      "salePrice": 80.12,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:07:50.169Z",
+      "variants": [
+        {
+          "id": "743366a1-109c-494e-b083-f741e7211012",
+          "size": 5,
+          "sku": "DNA-CTS-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 80.12
+        },
+        {
+          "id": "83f457a2-061d-4c48-b05b-e2b20c325164",
+          "size": 10,
+          "sku": "DNA-CTS-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.23
+        },
+        {
+          "id": "a6f903bc-8382-4d99-b5e8-bd07c5d90f8c",
+          "size": 15,
+          "sku": "DNA-CTS-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.24
+        },
+        {
+          "id": "e3f63d81-edc1-4e8b-af80-2124c42ef89d",
+          "size": 20,
+          "sku": "DNA-CTS-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "274cca24-f8c5-4597-9b24-24c28194b115",
+      "name": "Sour Garlic x Honey Banana Fem Cannabis Seeds",
+      "slug": "sour-garlic-x-honey-banana",
+      "sku": "DNA-REF-439",
+      "strainType": "Sativa",
+      "description": "Sour Garlic x Honey Banana Fem Cannabis Seeds is listed by DNA Genetics as Sativa-dominant Cannabis. Its listed parentage is Sour Garlic x Honey Banana. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Sativa-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Sour Garlic x Honey Banana",
+      "thc": "",
+      "floweringTime": "9–10 weeks",
+      "yield": "High",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/sour-garlic-x-honey-banana-0.webp",
+        "/assets/images/catalogue/sour-garlic-x-honey-banana-1.jpg"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/sour-garlic-x-honey-banana/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [],
+      "price": 100.75,
+      "salePrice": 80.14,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:07:49.158Z",
+      "variants": [
+        {
+          "id": "55dbe410-585a-43c9-8883-866f66ee90a2",
+          "size": 5,
+          "sku": "DNA-HBS-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.75,
+          "salePrice": 80.14
+        },
+        {
+          "id": "e0c222b2-d9a6-4c09-8c41-7ad3aaa7d60b",
+          "size": 10,
+          "sku": "DNA-HBS-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.46,
+          "salePrice": 95.27
+        },
+        {
+          "id": "8d0b9e69-06ad-4fdd-b38a-782b3ba0f9c2",
+          "size": 15,
+          "sku": "DNA-HBS-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.8,
+          "salePrice": 135.3
+        },
+        {
+          "id": "e43d2de0-dba9-473d-9089-500c6baba547",
+          "size": 20,
+          "sku": "DNA-HBS-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 342.18,
+          "salePrice": 170.84
+        }
+      ]
+    },
+    {
+      "id": "329b18a1-34a4-4583-b87a-b6c15f6d4575",
+      "name": "Chocolope Kush FEM Cannabis Seeds",
+      "slug": "chocolope-kush",
+      "sku": "DNA-REF-29545",
+      "strainType": "Indica",
+      "description": "Chocolope Kush FEM Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Chocolope x OG Kush. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Chocolope x OG Kush",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "12–14 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/chocolope-kush-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/chocolope-kush/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [],
+      "price": 100.15,
+      "salePrice": 80.12,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:08:53.456Z",
+      "variants": [
+        {
+          "id": "2a9fa0b9-8bd5-49db-b299-c6d015f671f4",
+          "size": 5,
+          "sku": "DNA-CHK-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 80.12
+        },
+        {
+          "id": "99a012cd-1e79-46cc-879d-b0ebe2be6e36",
+          "size": 10,
+          "sku": "DNA-CHK-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.51,
+          "salePrice": 95.23
+        },
+        {
+          "id": "ec6d9127-b91f-48c5-b82b-f6f5e6280468",
+          "size": 15,
+          "sku": "DNA-CHK-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.75,
+          "salePrice": 135.24
+        },
+        {
+          "id": "7a4e2dd0-0d20-457e-a920-9f1aab2630e3",
+          "size": 20,
+          "sku": "DNA-CHK-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "3d1bb8f2-94ed-486f-b989-cf899f6a0578",
+      "name": "DNA Cake Fem Cannabis Seeds",
+      "slug": "dna-cake-fem",
+      "sku": "DNA-REF-376",
+      "strainType": "Indica",
+      "description": "DNA Cake Fem Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Gelato Sorbet x Lava Cake. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Gelato Sorbet x Lava Cake",
+      "thc": "",
+      "floweringTime": "9 weeks",
+      "yield": "12–14 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/dna-cake-fem-0.webp",
+        "/assets/images/catalogue/dna-cake-fem-1.png",
+        "/assets/images/catalogue/dna-cake-fem-2.jpeg"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/dna-cake-fem/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [],
+      "price": 100.05,
+      "salePrice": 79.97,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:07:57.754Z",
+      "variants": [
+        {
+          "id": "152ee263-e4e2-40a2-8b2b-b93fba68fe4a",
+          "size": 5,
+          "sku": "DNA-DCK-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 79.97
+        },
+        {
+          "id": "000c10a2-1eae-4408-91c7-7bcd557237ba",
+          "size": 10,
+          "sku": "DNA-DCK-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.14
+        },
+        {
+          "id": "5c02f7a3-bfee-49c9-bf48-0b0e0989eddc",
+          "size": 15,
+          "sku": "DNA-DCK-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.15
+        },
+        {
+          "id": "be3a3dcd-515d-41d3-bbd9-d095b605e131",
+          "size": 20,
+          "sku": "DNA-DCK-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.61
+        }
+      ]
+    },
+    {
+      "id": "45d602d8-e4be-41bf-afb4-5e4d69f6c308",
+      "name": "Banana Sorbet Feminized Cannabis Seeds",
+      "slug": "banana-sorbet-feminized-cannabis-seeds",
+      "sku": "DNA-REF-58903",
+      "strainType": "Indica",
+      "description": "Banana Sorbet Feminized Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Banana OG x Sorbet. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Banana OG x Sorbet",
+      "thc": "",
+      "floweringTime": "8-9 weeks",
+      "yield": "16–18 oz./m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/banana-sorbet-feminized-cannabis-seeds-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/banana-sorbet-feminized-cannabis-seeds/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Indoor Seeds",
+        "High Yield Seeds",
+        "Beginner-Friendly Seeds",
+        "Fast-Flowering Seeds",
+        "Medicinal Seeds"
+      ],
+      "price": 100.15,
+      "salePrice": 80.12,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:08:55.269Z",
+      "variants": [
+        {
+          "id": "ac51ddfa-d4de-41c2-9e1c-cf65e3af379d",
+          "size": 5,
+          "sku": "DNA-BSB-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 80.12
+        },
+        {
+          "id": "05a1935c-be06-48da-aec6-f3e38ad7301e",
+          "size": 10,
+          "sku": "DNA-BSB-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.51,
+          "salePrice": 95.23
+        },
+        {
+          "id": "d398f312-d079-4f46-90af-db7f663fb983",
+          "size": 15,
+          "sku": "DNA-BSB-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.75,
+          "salePrice": 135.24
+        },
+        {
+          "id": "2f84a6ed-e9c5-4f79-8ed5-b9f88415f19a",
+          "size": 20,
+          "sku": "DNA-BSB-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "48e351ce-f3e9-44b3-a2a8-627b98ef3620",
+      "name": "3Peat Fem Cannabis Seeds",
+      "slug": "3peat",
+      "sku": "DNA-REF-87",
+      "strainType": "Indica",
+      "description": "3Peat Fem Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Holy Grail Kush x Kosher Kush x RP 43’. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 3, 5, 10, 15, 20 seeds.",
+      "genetics": "Holy Grail Kush x Kosher Kush x RP 43’",
+      "thc": "",
+      "floweringTime": "9 weeks",
+      "yield": "14–16 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/3peat-0.webp",
+        "/assets/images/catalogue/3peat-1.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/3peat/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Cheap Weed Seeds"
+      ],
+      "price": 50,
+      "salePrice": 45,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:07:47.418Z",
+      "variants": [
+        {
+          "id": "4250cecd-d8c2-4024-be94-791ec9482799",
+          "size": 3,
+          "sku": "DNA-3PT-FEMP3",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 50,
+          "salePrice": 45
+        },
+        {
+          "id": "50c9ca88-ca4c-441a-9afe-c2146c6f1034",
+          "size": 5,
+          "sku": "DNA-3PT-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 79.97
+        },
+        {
+          "id": "b2f64934-44b7-44c4-aa5f-ddd6a7ed9813",
+          "size": 10,
+          "sku": "DNA-3PT-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.11
+        },
+        {
+          "id": "1af0802c-e29e-4eca-ab99-818088672993",
+          "size": 15,
+          "sku": "DNA-3PT-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.13
+        },
+        {
+          "id": "3298fd69-e19e-48a5-a0d3-e9538c0f2cc3",
+          "size": 20,
+          "sku": "DNA-3PT-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.65
+        }
+      ]
+    },
+    {
+      "id": "661bbe98-a0f7-4620-8e93-0b9eaa3ea5a1",
+      "name": "Snack Pack Fem Cannabis Seeds",
+      "slug": "snack-pack",
+      "sku": "DNA-REF-29577",
+      "strainType": "Indica",
+      "description": "Snack Pack Fem Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Do-Si-Dos x OG #18. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Do-Si-Dos x OG #18",
+      "thc": "",
+      "floweringTime": "8 - 9 Weeks",
+      "yield": "350-400 g/m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/snack-pack-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/snack-pack/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Indoor Seeds",
+        "High Yield Seeds"
+      ],
+      "price": 100.05,
+      "salePrice": 79.05,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:09:27.543Z",
+      "variants": [
+        {
+          "id": "f760543f-11f1-4a2d-8f04-15250617456e",
+          "size": 5,
+          "sku": "DNA-SNP-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 79.05
+        },
+        {
+          "id": "8406f9c6-8a69-43cd-b1ae-cabeaa0278b2",
+          "size": 10,
+          "sku": "DNA-SNP-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.13
+        },
+        {
+          "id": "4b89b210-9fd6-4fbb-aff5-e5461416d62b",
+          "size": 15,
+          "sku": "DNA-SNP-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.15
+        },
+        {
+          "id": "86937e7e-7457-4cbe-8be5-0ca9c1983b6e",
+          "size": 20,
+          "sku": "DNA-SNP-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.67
+        }
+      ]
+    },
+    {
+      "id": "7708a647-37cd-4566-a609-ba30d0578837",
+      "name": "Chocolope 256 Fem Cannabis Seeds",
+      "slug": "chocolope-256-fem",
+      "sku": "DNA-REF-3018",
+      "strainType": "Sativa",
+      "description": "Chocolope 256 Fem Cannabis Seeds is listed by DNA Genetics as Sativa-dominant Cannabis. Its listed parentage is Lemon Skunk 256 (Emerald Cup Winning Cut ) x Chocolope. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Sativa-dominant Cannabis. Available pack sizes: 3, 5, 10, 15, 20 seeds.",
+      "genetics": "Lemon Skunk 256 (Emerald Cup Winning Cut ) x Chocolope",
+      "thc": "",
+      "floweringTime": "9 Weeks",
+      "yield": "12–14 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/chocolope-256-fem-0.webp",
+        "/assets/images/catalogue/chocolope-256-fem-1.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/chocolope-256-fem/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "High THC Seeds",
+        "Fast-Flowering Seeds",
+        "Cheap Weed Seeds"
+      ],
+      "price": 50,
+      "salePrice": 45,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:07:45.395Z",
+      "variants": [
+        {
+          "id": "1e1ce096-c808-4d09-a29c-cbf09fa64145",
+          "size": 3,
+          "sku": "DNA-CHO-FEMP3",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 50,
+          "salePrice": 45
+        },
+        {
+          "id": "2cd1c89f-7b73-4887-b65a-578e78e42528",
+          "size": 5,
+          "sku": "DNA-CHO-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.75,
+          "salePrice": 80.14
+        },
+        {
+          "id": "459a07f3-d0c9-48f4-b189-14c1fd755333",
+          "size": 10,
+          "sku": "DNA-CHO-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.46,
+          "salePrice": 95.27
+        },
+        {
+          "id": "d0a6777b-9d90-41b5-a437-0febd2856779",
+          "size": 15,
+          "sku": "DNA-CHO-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.8,
+          "salePrice": 135.3
+        },
+        {
+          "id": "2865e121-cc02-4e80-994b-3fb43892a564",
+          "size": 20,
+          "sku": "DNA-CHO-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 342.18,
+          "salePrice": 170.84
+        }
+      ]
+    },
+    {
+      "id": "892475c3-ae22-4387-8779-95f362bfed52",
+      "name": "Auto bahn Cannabis Seeds",
+      "slug": "auto-bahn",
+      "sku": "DNA-REF-383",
+      "strainType": "Indica",
+      "description": "Auto bahn Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Biscotti Sherb x RP 43’. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Biscotti Sherb x RP 43’",
+      "thc": "",
+      "floweringTime": "9 weeks",
+      "yield": "16–18 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/auto-bahn-0.webp",
+        "/assets/images/catalogue/auto-bahn-1.jpg"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/auto-bahn/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Fast-Flowering Seeds"
+      ],
+      "price": 100.15,
+      "salePrice": 80.12,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:08:54.356Z",
+      "variants": [
+        {
+          "id": "acae1e2e-bb9d-4c1a-b49d-d366ffa79f50",
+          "size": 5,
+          "sku": "DNA-ATB-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 80.12
+        },
+        {
+          "id": "8fa7105e-9e6b-4e19-a2be-03b5c8fe9c48",
+          "size": 10,
+          "sku": "DNA-ATB-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.51,
+          "salePrice": 95.23
+        },
+        {
+          "id": "f02bd249-1c14-4abb-a352-a40f5fb6fa34",
+          "size": 15,
+          "sku": "DNA-ATB-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.75,
+          "salePrice": 135.24
+        },
+        {
+          "id": "6a19e412-1180-4996-9ae1-031dfe8db471",
+          "size": 20,
+          "sku": "DNA-ATB-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "8a2af0d4-b903-4566-a4e5-f22cbbbcaf0f",
+      "name": "You Whoo Fem Cannabis Seeds",
+      "slug": "you-whoo-fem",
+      "sku": "DNA-REF-382",
+      "strainType": "Indica",
+      "description": "You Whoo Fem Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Super Silver L.A. x Chocolope Kush. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 3, 5, 10, 15, 20 seeds.",
+      "genetics": "Super Silver L.A. x Chocolope Kush",
+      "thc": "",
+      "floweringTime": "9 weeks",
+      "yield": "15–17 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/you-whoo-fem-0.webp",
+        "/assets/images/catalogue/you-whoo-fem-1.jpeg"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/you-whoo-fem/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Cheap Weed Seeds"
+      ],
+      "price": 50,
+      "salePrice": 45,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:08:46.197Z",
+      "variants": [
+        {
+          "id": "f300b66c-51b6-4919-995c-f491d766e20e",
+          "size": 3,
+          "sku": "DNA-YUW-FEMP3",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 50,
+          "salePrice": 45
+        },
+        {
+          "id": "022f4e30-dde7-4c34-9274-679c9f940794",
+          "size": 5,
+          "sku": "DNA-YUW-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 79.99,
+          "salePrice": 65.59
+        },
+        {
+          "id": "93303efc-8217-4be1-bb9b-ae393ac618f4",
+          "size": 10,
+          "sku": "DNA-YUW-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 95.11,
+          "salePrice": 77.99
+        },
+        {
+          "id": "206ec158-848c-4f25-81fc-97531e392348",
+          "size": 15,
+          "sku": "DNA-YUW-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 135.08,
+          "salePrice": 110.76
+        },
+        {
+          "id": "42d8f35c-cdf5-4581-9918-7ae086893949",
+          "size": 20,
+          "sku": "DNA-YUW-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 170.65,
+          "salePrice": 139.93
+        }
+      ]
+    },
+    {
+      "id": "8eb34239-754a-4eb0-8baa-ec60d4f83b4a",
+      "name": "Zallah Bread Fem Cannabis Seeds",
+      "slug": "zallah-bread",
+      "sku": "DNA-REF-29590",
+      "strainType": "Indica",
+      "description": "Zallah Bread Fem Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is TK (Triangle Kush) Z x Challah Bread. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "TK (Triangle Kush) Z x Challah Bread",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "15–19 oz./m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/zallah-bread-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/zallah-bread/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [],
+      "price": 100.15,
+      "salePrice": 80.13,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:08:42.450Z",
+      "variants": [
+        {
+          "id": "437cfeb1-6556-49d2-bd58-21700974aca7",
+          "size": 5,
+          "sku": "DNA-ZAB-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 80.13
+        },
+        {
+          "id": "2c455a5c-bad6-4979-926e-38bdf75d43b6",
+          "size": 10,
+          "sku": "DNA-ZAB-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.99,
+          "salePrice": 95.22
+        },
+        {
+          "id": "8aa72786-fa08-4b41-bb01-a8eebde10579",
+          "size": 15,
+          "sku": "DNA-ZAB-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.79,
+          "salePrice": 135.29
+        },
+        {
+          "id": "e8ababf5-3cae-4f59-af62-125b06223880",
+          "size": 20,
+          "sku": "DNA-ZAB-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "9625d7fa-8eab-4cb9-9e93-b0ee8acfbeaf",
+      "name": "Swiss Miss Fem Cannabis Seeds",
+      "slug": "swiss-miss-fem",
+      "sku": "DNA-REF-444",
+      "strainType": "Indica",
+      "description": "Swiss Miss Fem Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Miss DNA x Chocolope Kush. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Miss DNA x Chocolope Kush",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "14–16 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/swiss-miss-fem-0.webp",
+        "/assets/images/catalogue/swiss-miss-fem-1.jpeg"
+      ],
+      "featured": false,
+      "bestSeller": true,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/swiss-miss-fem/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Medicinal Seeds",
+        "Best Cannabis Seeds"
+      ],
+      "price": 100.75,
+      "salePrice": 80.14,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:08:00.598Z",
+      "variants": [
+        {
+          "id": "8e0c97d7-809e-482e-a7fb-31dcc8b0441d",
+          "size": 5,
+          "sku": "DNA-SWM-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.75,
+          "salePrice": 80.14
+        },
+        {
+          "id": "8dece7a4-6520-47b7-9244-60c56305055d",
+          "size": 10,
+          "sku": "DNA-SWM-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.46,
+          "salePrice": 95.27
+        },
+        {
+          "id": "5364233e-db36-4f70-b36d-e600705993a5",
+          "size": 15,
+          "sku": "DNA-SWM-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.8,
+          "salePrice": 135.3
+        },
+        {
+          "id": "7cb6e4da-e68f-4911-a09a-9d6ef70b82af",
+          "size": 20,
+          "sku": "DNA-SWM-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 342.18,
+          "salePrice": 170.84
+        }
+      ]
+    },
+    {
+      "id": "99f4dcbd-158d-4329-9725-3b1e20e5629e",
+      "name": "Bakers Delight Cannabis Seeds",
+      "slug": "bakers-delight",
+      "sku": "DNA-REF-29528",
+      "strainType": "Indica",
+      "description": "Bakers Delight Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Cookies x Sorbet. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 3, 5, 10, 15, 20 seeds.",
+      "genetics": "Cookies x Sorbet",
+      "thc": "",
+      "floweringTime": "8 - 9 weeks",
+      "yield": "15–18 oz./㎡",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/bakers-delight-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/bakers-delight/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Indoor Seeds",
+        "Fast-Flowering Seeds",
+        "Medicinal Seeds",
+        "Cheap Weed Seeds"
+      ],
+      "price": 50,
+      "salePrice": 45,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:08:44.653Z",
+      "variants": [
+        {
+          "id": "80115495-513b-4b06-a3a7-c5d45d93e519",
+          "size": 3,
+          "sku": "DNA-BKD-FEMP3",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 50,
+          "salePrice": 45
+        },
+        {
+          "id": "50a7c7e4-9f00-4318-b486-908c4413709c",
+          "size": 5,
+          "sku": "DNA-BKD-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 79.05
+        },
+        {
+          "id": "9eb8e72c-5479-4e18-b369-953937354813",
+          "size": 10,
+          "sku": "DNA-BKD-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.13
+        },
+        {
+          "id": "eeb0da43-3ffe-420a-9112-f7023605d132",
+          "size": 15,
+          "sku": "DNA-BKD-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.15
+        },
+        {
+          "id": "0fd99d50-b93b-45ff-8fb0-2fb731e1a70d",
+          "size": 20,
+          "sku": "DNA-BKD-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.67
+        }
+      ]
+    },
+    {
+      "id": "a03a90c6-a89f-4b10-92d5-874aca6e4d84",
+      "name": "The Stinking Rose Fem Cannabis Seeds",
+      "slug": "the-stinking-rose",
+      "sku": "DNA-REF-29602",
+      "strainType": "Indica",
+      "description": "The Stinking Rose Fem Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Sour Garlic x Strawberry Banana. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Sour Garlic x Strawberry Banana",
+      "thc": "",
+      "floweringTime": "9 Weeks",
+      "yield": "450 – 500 g/m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/the-stinking-rose-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/the-stinking-rose/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Indoor Seeds",
+        "High Yield Seeds"
+      ],
+      "price": 100.15,
+      "salePrice": 80.13,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:08:48.118Z",
+      "variants": [
+        {
+          "id": "ee4a53ff-d343-4129-a44e-504739e5daa1",
+          "size": 5,
+          "sku": "DNA-TSR-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 80.13
+        },
+        {
+          "id": "b20577d0-2c92-4c2f-9cc6-d39539d7e9ce",
+          "size": 10,
+          "sku": "DNA-TSR-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.99,
+          "salePrice": 95.22
+        },
+        {
+          "id": "408c96d5-f9c1-491d-8c6d-24d081b576e3",
+          "size": 15,
+          "sku": "DNA-TSR-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.79,
+          "salePrice": 135.29
+        },
+        {
+          "id": "358e1dbe-a6a6-4902-a094-48c8c0e71c2d",
+          "size": 20,
+          "sku": "DNA-TSR-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "a0c0e52d-063f-4fd3-9087-bf03c7c1866c",
+      "name": "Double Dipped Strawberries Cannabis Seeds",
+      "slug": "double-dipped-strawberry",
+      "sku": "DNA-REF-432",
+      "strainType": "Indica",
+      "description": "Double Dipped Strawberries Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Strawberry Banana x Honey Banana. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Strawberry Banana x Honey Banana",
+      "thc": "",
+      "floweringTime": "8 weeks",
+      "yield": "16–19 oz./m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/double-dipped-strawberry-0.webp",
+        "/assets/images/catalogue/double-dipped-strawberry-1.jpg"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/double-dipped-strawberry/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [],
+      "price": 100.05,
+      "salePrice": 80.16,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:07:44.360Z",
+      "variants": [
+        {
+          "id": "5141403c-1798-4abb-9d10-9ffaa8eff472",
+          "size": 5,
+          "sku": "DNA-DDS-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 80.16
+        },
+        {
+          "id": "735fb02e-5522-4ef8-8662-6f0ae22db9f7",
+          "size": 10,
+          "sku": "DNA-DDS-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.29
+        },
+        {
+          "id": "3685d858-1a95-4909-8339-fe4dfa66b4bd",
+          "size": 15,
+          "sku": "DNA-DDS-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.34
+        },
+        {
+          "id": "b92ffc97-1c3d-40ad-b398-e04fa37119dc",
+          "size": 20,
+          "sku": "DNA-DDS-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.88
+        }
+      ]
+    },
+    {
+      "id": "b9e6b801-a88e-4be7-acd0-24c12ccda204",
+      "name": "Kosher Dawg Cannabis Seeds",
+      "slug": "kosher-dawg",
+      "sku": "DNA-REF-29558",
+      "strainType": "Indica",
+      "description": "Kosher Dawg Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is StarDawg (Guava) x Kosher Kush. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "StarDawg (Guava) x Kosher Kush",
+      "thc": "",
+      "floweringTime": "9 Weeks",
+      "yield": "18–23 oz./m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/kosher-dawg-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/kosher-dawg/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Indoor Seeds",
+        "High Yield Seeds"
+      ],
+      "price": 100.15,
+      "salePrice": 80.12,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:07:48.440Z",
+      "variants": [
+        {
+          "id": "c01df17c-19fa-4db3-9d3a-43a66602037a",
+          "size": 5,
+          "sku": "DNA-KD-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 80.12
+        },
+        {
+          "id": "b90b5c09-0812-48f7-a57b-424f9971aabe",
+          "size": 10,
+          "sku": "DNA-KD-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.51,
+          "salePrice": 95.23
+        },
+        {
+          "id": "d47f9e3b-1573-4e8e-9dc0-31f819191b15",
+          "size": 15,
+          "sku": "DNA-KD-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.75,
+          "salePrice": 135.24
+        },
+        {
+          "id": "b428d6e9-8d1b-4427-a9ed-4505ed57e47d",
+          "size": 20,
+          "sku": "DNA-KD-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "bc6cf2c8-9293-470a-b5e9-6117d0658b5e",
+      "name": "Strawberry Sorbet Fem Cannabis Seeds",
+      "slug": "strawberry-sorbet",
+      "sku": "DNA-REF-29584",
+      "strainType": "Indica",
+      "description": "Strawberry Sorbet Fem Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Heirloom Swiss Strawberry x Sorbet. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 3, 5, 10, 15, 20 seeds.",
+      "genetics": "Heirloom Swiss Strawberry x Sorbet",
+      "thc": "",
+      "floweringTime": "9 weeks",
+      "yield": "17–23 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/strawberry-sorbet-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/strawberry-sorbet/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Indoor Seeds",
+        "High Yield Seeds",
+        "Fast-Flowering Seeds",
+        "Cheap Weed Seeds"
+      ],
+      "price": 50,
+      "salePrice": 45,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:07:59.425Z",
+      "variants": [
+        {
+          "id": "7723c1b4-12c8-40f2-9c98-16a96a0dcb95",
+          "size": 3,
+          "sku": "DNA-STS-FEMP3",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 50,
+          "salePrice": 45
+        },
+        {
+          "id": "0f327ac3-ac72-46fa-acee-346e7cc2a2af",
+          "size": 5,
+          "sku": "DNA-STS-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 80.12
+        },
+        {
+          "id": "2ad545cc-51b4-42bb-978c-a71e2dfaedf9",
+          "size": 10,
+          "sku": "DNA-STS-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.51,
+          "salePrice": 95.23
+        },
+        {
+          "id": "b14322d2-cd01-4bab-a774-c40492994981",
+          "size": 15,
+          "sku": "DNA-STS-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.75,
+          "salePrice": 135.24
+        },
+        {
+          "id": "e7ba3262-be80-4125-a26b-580acc96d850",
+          "size": 20,
+          "sku": "DNA-STS-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "c5ea98ba-de5a-46fb-9b9e-41b2f4c25a69",
+      "name": "Recon 2.0 Fem Cannabis Seeds",
+      "slug": "recon-2-0",
+      "sku": "DNA-REF-441",
+      "strainType": "Indica",
+      "description": "Recon 2.0 Fem Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is LA Confidential × Cannadential. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "LA Confidential × Cannadential",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "21 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/recon-2-0-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/recon-2-0/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "High THC Seeds",
+        "Medicinal Seeds"
+      ],
+      "price": 100.75,
+      "salePrice": 80.05,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:07:52.056Z",
+      "variants": [
+        {
+          "id": "b2a7e35d-f77e-4988-8339-5ff590d8de9d",
+          "size": 5,
+          "sku": "DNA-RN2-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.75,
+          "salePrice": 80.05
+        },
+        {
+          "id": "964a44f8-7598-4196-8542-d5ac4f6872e3",
+          "size": 10,
+          "sku": "DNA-RN2-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.46,
+          "salePrice": 95.15
+        },
+        {
+          "id": "47cb18dc-e675-4db9-96e9-1f185832e574",
+          "size": 15,
+          "sku": "DNA-RN2-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.8,
+          "salePrice": 135.18
+        },
+        {
+          "id": "c6e776f2-d1bb-40fd-9c66-d05ae1b6aca9",
+          "size": 20,
+          "sku": "DNA-RN2-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 342.18,
+          "salePrice": 170.72
+        }
+      ]
+    },
+    {
+      "id": "db34f22e-e58e-4369-aafa-e1a4595ea2fa",
+      "name": "White Chocolope Fem Cannabis Seeds",
+      "slug": "white-chocolope",
+      "sku": "DNA-REF-443",
+      "strainType": "Sativa",
+      "description": "White Chocolope Fem Cannabis Seeds is listed by DNA Genetics as Sativa-dominant Cannabis. Its listed parentage is White Widow x Chocolope. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Sativa-dominant Cannabis. Available pack sizes: 3, 5, 10, 15, 20 seeds.",
+      "genetics": "White Widow x Chocolope",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "12–14 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/white-chocolope-0.webp",
+        "/assets/images/catalogue/white-chocolope-1.jpeg"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/white-chocolope/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Cheap Weed Seeds"
+      ],
+      "price": 50,
+      "salePrice": 45,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:09:28.393Z",
+      "variants": [
+        {
+          "id": "a72507a8-50bd-4b1a-9beb-efe224600ea0",
+          "size": 3,
+          "sku": "DNA-WHC-FEMP3",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 50,
+          "salePrice": 45
+        },
+        {
+          "id": "9e4029be-cb55-4414-88e4-da2a88f71fad",
+          "size": 5,
+          "sku": "DNA-WHC-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.75,
+          "salePrice": 80.03
+        },
+        {
+          "id": "81ed667b-7234-4707-9654-d4a78e434b92",
+          "size": 10,
+          "sku": "DNA-WHC-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.46,
+          "salePrice": 95.17
+        },
+        {
+          "id": "a469172a-949c-4834-aaa3-b5f96b56e3e8",
+          "size": 15,
+          "sku": "DNA-WHC-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.8,
+          "salePrice": 135.2
+        },
+        {
+          "id": "33d706b8-5678-45f4-b98a-95dd7a23e178",
+          "size": 20,
+          "sku": "DNA-WHC-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 342.18,
+          "salePrice": 170.74
+        }
+      ]
+    },
+    {
+      "id": "dc1eb9fb-c268-43d6-9142-2da7aa2484fe",
+      "name": "Kosher Pie Cannabis Seeds",
+      "slug": "kosher-pie",
+      "sku": "DNA-REF-29561",
+      "strainType": "Indica",
+      "description": "Kosher Pie Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Kosher Kush x Cherry 18. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Kosher Kush x Cherry 18",
+      "thc": "",
+      "floweringTime": "9 weeks",
+      "yield": "400 g/m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/kosher-pie-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/kosher-pie/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Indoor Seeds",
+        "High Yield Seeds",
+        "Beginner-Friendly Seeds",
+        "Fast-Flowering Seeds",
+        "Outdoor Seeds"
+      ],
+      "price": 100.15,
+      "salePrice": 79.99,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:07:51.176Z",
+      "variants": [
+        {
+          "id": "14715407-97c2-4e03-b388-c1f76e7a9af4",
+          "size": 5,
+          "sku": "DNA-KOP-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 79.99
+        },
+        {
+          "id": "64d6a484-3570-4460-b9fa-ba84bfbb35e4",
+          "size": 10,
+          "sku": "DNA-KOP-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.83,
+          "salePrice": 95.23
+        },
+        {
+          "id": "c38e03cd-b468-45d0-90df-ae3654c6b884",
+          "size": 15,
+          "sku": "DNA-KOP-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.79,
+          "salePrice": 135.24
+        },
+        {
+          "id": "605aab4a-45ef-4cc2-b016-5cca13eaecb9",
+          "size": 20,
+          "sku": "DNA-KOP-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.73
+        }
+      ]
+    },
+    {
+      "id": "f3c81095-768f-4127-8892-206f485e0ee9",
+      "name": "GMO Kosher Fem Cannabis Seeds",
+      "slug": "gmo-kosher",
+      "sku": "DNA-REF-29556",
+      "strainType": "Indica",
+      "description": "GMO Kosher Fem Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is GMO x Kosher Kush. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 3, 5, 10, 15, 20 seeds.",
+      "genetics": "GMO x Kosher Kush",
+      "thc": "",
+      "floweringTime": "9 weeks of flowering",
+      "yield": "12–15 oz./m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/gmo-kosher-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/gmo-kosher/",
+      "category": "Feminized Seeds",
+      "additionalCategories": [
+        "Indoor Seeds",
+        "High Yield Seeds",
+        "Medicinal Seeds",
+        "Cheap Weed Seeds"
+      ],
+      "price": 50,
+      "salePrice": 45,
+      "createdAt": "2026-09-09T21:10:28.219Z",
+      "updatedAt": "2026-09-09T21:10:28.219Z",
+      "sourceCheckedAt": "2026-09-09T21:09:26.850Z",
+      "variants": [
+        {
+          "id": "9e35324b-b43e-4088-b6be-c9be5e9db9cc",
+          "size": 3,
+          "sku": "DNA-GMK-FEMP3",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 50,
+          "salePrice": 45
+        },
+        {
+          "id": "005db857-abf6-41f3-b267-c8434626635f",
+          "size": 5,
+          "sku": "DNA-GMK-FEMP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 80.12
+        },
+        {
+          "id": "c26315ce-2750-4986-b6a3-e6cbfaa19adf",
+          "size": 10,
+          "sku": "DNA-GMK-FEMP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.51,
+          "salePrice": 95.23
+        },
+        {
+          "id": "4dcb61c7-0a41-4410-b59a-ad940b61ac52",
+          "size": 15,
+          "sku": "DNA-GMK-FEMP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.75,
+          "salePrice": 135.24
+        },
+        {
+          "id": "5fa55ca2-dd22-4e1d-ae69-3bb50ed0f6b0",
+          "size": 20,
+          "sku": "DNA-GMK-FEMP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "a4766c68-e980-4403-9976-07434375c380",
+      "name": "Skywalker Kush Auto Cannabis Seeds",
+      "slug": "skywalker-kush-auto",
+      "sku": "DNA-REF-29594",
+      "strainType": "Indica",
+      "description": "Skywalker Kush Auto Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Skywalker OG x OG Kush Auto. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 3, 5, 10, 15, 20 seeds.",
+      "genetics": "Skywalker OG x OG Kush Auto",
+      "thc": "",
+      "floweringTime": "8–10 weeks",
+      "yield": "1–1.4 oz./m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/skywalker-kush-auto-0.webp",
+        "/assets/images/catalogue/skywalker-kush-auto-1.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/skywalker-kush-auto/",
+      "category": "Autoflower Seeds",
+      "additionalCategories": [
+        "High THC Seeds",
+        "Beginner-Friendly Seeds",
+        "Medicinal Seeds",
+        "Cheap Weed Seeds"
+      ],
+      "price": 50,
+      "salePrice": 45,
+      "createdAt": "2026-09-10T15:58:36.474Z",
+      "updatedAt": "2026-09-10T15:58:36.474Z",
+      "sourceCheckedAt": "2026-09-10T15:57:10.803Z",
+      "variants": [
+        {
+          "id": "18bb917a-3cf4-4443-bc68-668f7936ac37",
+          "size": 3,
+          "sku": "DNA-SWK-FAUTP3",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 50,
+          "salePrice": 45
+        },
+        {
+          "id": "9882f7a9-ed11-4fa6-9f36-560e06a352c6",
+          "size": 5,
+          "sku": "DNA-SWK-FAUTP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 80.12
+        },
+        {
+          "id": "7991d8bd-1cb7-49d2-ace7-93f5eaa6187b",
+          "size": 10,
+          "sku": "DNA-SWK-FAUTP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.51,
+          "salePrice": 95.23
+        },
+        {
+          "id": "cb11bd4c-3ae0-491b-be65-5d13b0e0228b",
+          "size": 15,
+          "sku": "DNA-SWK-FAUTP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.75,
+          "salePrice": 135.24
+        },
+        {
+          "id": "31a76dda-e0f9-4699-a706-77c09255d7cb",
+          "size": 20,
+          "sku": "DNA-SWK-FAUTP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "a6f73e43-6d96-45ff-9d64-e39fa51208f0",
+      "name": "DNA Auto Mystery Pack Cannabis Seeds",
+      "slug": "dna-auto-mystery-pack-cannabis-seeds",
+      "sku": "DNA-REF-58944",
+      "strainType": "",
+      "description": "DNA Auto Mystery Pack Cannabis Seeds is listed by DNA Genetics as N/A. Its listed parentage is Various. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "N/A. Available pack sizes: 3, 5, 10, 15, 20 seeds.",
+      "genetics": "Various",
+      "thc": "",
+      "floweringTime": "Various",
+      "yield": "Various",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/dna-auto-mystery-pack-cannabis-seeds-0.webp",
+        "/assets/images/catalogue/dna-auto-mystery-pack-cannabis-seeds-1.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/dna-auto-mystery-pack-cannabis-seeds/",
+      "category": "Autoflower Seeds",
+      "additionalCategories": [
+        "Mix Packs",
+        "Cheap Weed Seeds"
+      ],
+      "price": 50,
+      "salePrice": 45,
+      "createdAt": "2026-09-10T15:58:36.474Z",
+      "updatedAt": "2026-09-10T15:58:36.474Z",
+      "sourceCheckedAt": "2026-09-10T15:57:08.668Z",
+      "variants": [
+        {
+          "id": "fa05c5a5-0d66-4ed9-a729-da1995c753c5",
+          "size": 3,
+          "sku": "DNA-DMP-FAUTP3",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 50,
+          "salePrice": 45
+        },
+        {
+          "id": "569e441b-8db3-4a7d-9870-8661d3e11267",
+          "size": 5,
+          "sku": "DNA-DMP-FAUTP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 80.12
+        },
+        {
+          "id": "b15b32a9-224e-4c8a-af39-98c1221be5c4",
+          "size": 10,
+          "sku": "DNA-DMP-FAUTP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.51,
+          "salePrice": 95.23
+        },
+        {
+          "id": "0ea00344-70d1-4b5c-aef7-e729a06ff8cf",
+          "size": 15,
+          "sku": "DNA-DMP-FAUTP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.75,
+          "salePrice": 135.24
+        },
+        {
+          "id": "50f54d57-49b6-4543-b343-5059d8b0bb1e",
+          "size": 20,
+          "sku": "DNA-DMP-FAUTP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "e2b4f00e-238a-4fb9-bec1-66c68f6f8307",
+      "name": "Kosher Dawg Autoflower Cannabis Seeds",
+      "slug": "kosher-dawg-autoflower-cannabis-seeds",
+      "sku": "DNA-REF-58895",
+      "strainType": "Indica",
+      "description": "Kosher Dawg Autoflower Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Kosher Dawg x Ruderalis. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 3, 5, 10, 15, 20 seeds.",
+      "genetics": "Kosher Dawg x Ruderalis",
+      "thc": "",
+      "floweringTime": "9 weeks",
+      "yield": "1–2 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/kosher-dawg-autoflower-cannabis-seeds-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/kosher-dawg-autoflower-cannabis-seeds/",
+      "category": "Autoflower Seeds",
+      "additionalCategories": [
+        "Indoor Seeds",
+        "Beginner-Friendly Seeds",
+        "Cheap Weed Seeds"
+      ],
+      "price": 50,
+      "salePrice": 45,
+      "createdAt": "2026-09-10T15:58:36.474Z",
+      "updatedAt": "2026-09-10T15:58:36.474Z",
+      "sourceCheckedAt": "2026-09-10T15:57:10.017Z",
+      "variants": [
+        {
+          "id": "40ad2359-7bd9-4b2c-8c4c-10bff6c824a6",
+          "size": 3,
+          "sku": "DNA-KD-FAUTP3",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 50,
+          "salePrice": 45
+        },
+        {
+          "id": "f705209b-4b85-4a54-ae9f-fc927198f83c",
+          "size": 5,
+          "sku": "DNA-KD-FAUTP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 80.12
+        },
+        {
+          "id": "ab3b5f58-0d1c-431c-a5f9-ed69a9c12fed",
+          "size": 10,
+          "sku": "DNA-KD-FAUTP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.51,
+          "salePrice": 95.23
+        },
+        {
+          "id": "990be0cb-8d8a-4ca4-b17f-5eda3e40cc1d",
+          "size": 15,
+          "sku": "DNA-KD-FAUTP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.75,
+          "salePrice": 135.24
+        },
+        {
+          "id": "37d0b5c9-fab0-4c56-b29e-39c6e922ce58",
+          "size": 20,
+          "sku": "DNA-KD-FAUTP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "97977989-6a33-42cb-97d6-326886b1874b",
+      "name": "Purple Wreck Auto Cannabis Seeds",
+      "slug": "purple-wreck",
+      "sku": "DNA-REF-29574",
+      "strainType": "Indica",
+      "description": "Purple Wreck Auto Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Purple Wreck x Ruderalis. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Purple Wreck x Ruderalis",
+      "thc": "",
+      "floweringTime": "9 weeks",
+      "yield": "1–1.41 oz./m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/purple-wreck-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/purple-wreck/",
+      "category": "Autoflower Seeds",
+      "additionalCategories": [
+        "Indoor Seeds"
+      ],
+      "price": 100.05,
+      "salePrice": 79.05,
+      "createdAt": "2026-09-10T15:58:36.475Z",
+      "updatedAt": "2026-09-10T15:58:36.475Z",
+      "sourceCheckedAt": "2026-09-10T15:57:12.785Z",
+      "variants": [
+        {
+          "id": "e48ee433-f6b1-458b-a3fe-eab3740ac948",
+          "size": 5,
+          "sku": "DNA-PUW-FAUTP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 79.05
+        },
+        {
+          "id": "5a3562d2-b245-4fbe-8005-37c8f51c908f",
+          "size": 10,
+          "sku": "DNA-PUW-FAUTP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.13
+        },
+        {
+          "id": "63b6b8f7-c3b3-409b-8d73-74a4e786bd4c",
+          "size": 15,
+          "sku": "DNA-PUW-FAUTP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.15
+        },
+        {
+          "id": "6a1fe691-06fe-4ec4-9868-88286fd4c3d2",
+          "size": 20,
+          "sku": "DNA-PUW-FAUTP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.67
+        }
+      ]
+    },
+    {
+      "id": "c92cd0f8-b9d0-4710-950f-408bff8c14d5",
+      "name": "Mac n Me Autoflower Cannabis Seeds",
+      "slug": "mac-n-me",
+      "sku": "DNA-REF-29592",
+      "strainType": "Indica",
+      "description": "Mac n Me Autoflower Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Mac x MAC Auto. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 3, 5, 10, 15, 20 seeds.",
+      "genetics": "Mac x MAC Auto",
+      "thc": "",
+      "floweringTime": "60-70 days",
+      "yield": "28-40 g/m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/mac-n-me-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/mac-n-me/",
+      "category": "Autoflower Seeds",
+      "additionalCategories": [
+        "Cheap Weed Seeds"
+      ],
+      "price": 50,
+      "salePrice": 45,
+      "createdAt": "2026-09-10T15:58:36.475Z",
+      "updatedAt": "2026-09-10T15:58:36.475Z",
+      "sourceCheckedAt": "2026-09-10T15:57:11.919Z",
+      "variants": [
+        {
+          "id": "df1ea451-9170-4ea7-b1db-2a317226163f",
+          "size": 3,
+          "sku": "DNA-MNM-FAUTP3",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 50,
+          "salePrice": 45
+        },
+        {
+          "id": "c3f83b20-0d91-411a-8609-bd3d7e80bf45",
+          "size": 5,
+          "sku": "DNA-MNM-FAUTP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 80.13
+        },
+        {
+          "id": "b1851f46-0a44-4591-bcc3-2dd39f00d269",
+          "size": 10,
+          "sku": "DNA-MNM-FAUTP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.99,
+          "salePrice": 95.22
+        },
+        {
+          "id": "52805bee-2342-4325-b9d6-369326a170f2",
+          "size": 15,
+          "sku": "DNA-MNM-FAUTP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.79,
+          "salePrice": 135.29
+        },
+        {
+          "id": "23fd1f6d-5c42-4d47-a677-8649afe84b72",
+          "size": 20,
+          "sku": "DNA-MNM-FAUTP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "ea1cd5f5-9930-4206-8b89-ea17116188bb",
+      "name": "DNA Cake Auto Cannabis Seeds",
+      "slug": "dna-cake-auto",
+      "sku": "DNA-REF-2748",
+      "strainType": "Indica",
+      "description": "DNA Cake Auto Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Gelato Sorbet x Lava Cake. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 3, 5, 10, 15, 20 seeds.",
+      "genetics": "Gelato Sorbet x Lava Cake",
+      "thc": "",
+      "floweringTime": "9 weeks",
+      "yield": "12–14 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/dna-cake-auto-0.webp",
+        "/assets/images/catalogue/dna-cake-auto-1.png",
+        "/assets/images/catalogue/dna-cake-auto-2.jpeg"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/dna-cake-auto/",
+      "category": "Autoflower Seeds",
+      "additionalCategories": [
+        "Cheap Weed Seeds"
+      ],
+      "price": 50,
+      "salePrice": 45,
+      "createdAt": "2026-09-10T15:58:36.475Z",
+      "updatedAt": "2026-09-10T15:58:36.475Z",
+      "sourceCheckedAt": "2026-09-10T15:57:21.583Z",
+      "variants": [
+        {
+          "id": "aff8f0a4-ecdb-49ec-a6cf-2ead38929e8c",
+          "size": 3,
+          "sku": "DNA-DCK-FAUTP3",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 50,
+          "salePrice": 45
+        },
+        {
+          "id": "814e28dc-73a8-4887-bb49-00f20f0a0988",
+          "size": 5,
+          "sku": "DNA-DCK-FAUTP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 79.97
+        },
+        {
+          "id": "2b08349e-f929-40f2-94a5-329dea994054",
+          "size": 10,
+          "sku": "DNA-DCK-FAUTP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.14
+        },
+        {
+          "id": "9eee6a26-d1d1-458c-9b9a-81f790ea521c",
+          "size": 15,
+          "sku": "DNA-DCK-FAUTP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.15
+        },
+        {
+          "id": "399e83dc-f380-46c8-8442-24cfef4c3fac",
+          "size": 20,
+          "sku": "DNA-DCK-FAUTP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.61
+        }
+      ]
+    },
+    {
+      "id": "f826d31d-6579-449a-94c7-2d9846c29df5",
+      "name": "Miss DNA Auto Cannabis Seeds",
+      "slug": "miss-dna",
+      "sku": "DNA-REF-29568",
+      "strainType": "Indica",
+      "description": "Miss DNA Auto Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Miss DNA x Ruderalis. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Miss DNA x Ruderalis",
+      "thc": "",
+      "floweringTime": "9–10 weeks",
+      "yield": "1– 1.40 oz./m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/miss-dna-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/miss-dna/",
+      "category": "Autoflower Seeds",
+      "additionalCategories": [
+        "Beginner-Friendly Seeds"
+      ],
+      "price": 100.05,
+      "salePrice": 79.05,
+      "createdAt": "2026-09-10T15:58:36.475Z",
+      "updatedAt": "2026-09-10T15:58:36.475Z",
+      "sourceCheckedAt": "2026-09-10T15:57:13.551Z",
+      "variants": [
+        {
+          "id": "56c36b79-9ce8-4642-8bd1-705a4f1ba09b",
+          "size": 5,
+          "sku": "DNA-MS-FAUTP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 79.05
+        },
+        {
+          "id": "3a826fb2-cc8a-4cd6-b82f-274be3f2dbbe",
+          "size": 10,
+          "sku": "DNA-MS-FAUTP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.13
+        },
+        {
+          "id": "cbd8aba6-2bdf-42b6-83e0-1aae561d79b2",
+          "size": 15,
+          "sku": "DNA-MS-FAUTP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.15
+        },
+        {
+          "id": "1549ab72-2686-41fd-8192-0dfa1cb60728",
+          "size": 20,
+          "sku": "DNA-MS-FAUTP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.67
+        }
+      ]
+    },
+    {
+      "id": "fdb982e6-1800-41dc-967f-0413af57fe6e",
+      "name": "MacMelon Auto Cannabis Seeds",
+      "slug": "macmelon-auto",
+      "sku": "DNA-REF-471",
+      "strainType": "Hybrid",
+      "description": "MacMelon Auto Cannabis Seeds is listed by DNA Genetics as Hybrid Cannabis. Its listed parentage is Watermelon x MAC Auto. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Hybrid Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Watermelon x MAC Auto",
+      "thc": "",
+      "floweringTime": "9–10 weeks",
+      "yield": "18 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/macmelon-auto-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/macmelon-auto/",
+      "category": "Autoflower Seeds",
+      "additionalCategories": [],
+      "price": 100.05,
+      "salePrice": 80.18,
+      "createdAt": "2026-09-10T15:58:36.475Z",
+      "updatedAt": "2026-09-10T15:58:36.475Z",
+      "sourceCheckedAt": "2026-09-10T15:57:23.168Z",
+      "variants": [
+        {
+          "id": "793c6d0a-7c0c-4601-8e69-e2ac4d803a8c",
+          "size": 5,
+          "sku": "DNA-MCM-FAUTP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 80.18
+        },
+        {
+          "id": "6c1f4bc4-c499-4a21-9fcf-bf0d20e6db85",
+          "size": 10,
+          "sku": "DNA-MCM-FAUTP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.31
+        },
+        {
+          "id": "632046f5-4723-4e3a-8c1e-dbc692eeea26",
+          "size": 15,
+          "sku": "DNA-MCM-FAUTP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.36
+        },
+        {
+          "id": "700ae5f2-baa0-474f-89a5-bebef043697f",
+          "size": 20,
+          "sku": "DNA-MCM-FAUTP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.92
+        }
+      ]
+    },
+    {
+      "id": "8a25aecf-9f83-468a-9f1f-8dbe09a3df4e",
+      "name": "CheMACal Romance Auto Cannabis Seeds",
+      "slug": "chemacal-romance-auto",
+      "sku": "DNA-REF-466",
+      "strainType": "Hybrid",
+      "description": "CheMACal Romance Auto Cannabis Seeds is listed by DNA Genetics as Balanced Hybrid Cannabis. Its listed parentage is Chem x MAC Auto. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Balanced Hybrid Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Chem x MAC Auto",
+      "thc": "",
+      "floweringTime": "6–7 weeks",
+      "yield": "1.5–4 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/chemacal-romance-auto-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/chemacal-romance-auto/",
+      "category": "Autoflower Seeds",
+      "additionalCategories": [
+        "High THC Seeds",
+        "Fast-Flowering Seeds"
+      ],
+      "price": 100.05,
+      "salePrice": 80.18,
+      "createdAt": "2026-09-10T15:58:36.476Z",
+      "updatedAt": "2026-09-10T15:58:36.476Z",
+      "sourceCheckedAt": "2026-09-10T15:57:24.051Z",
+      "variants": [
+        {
+          "id": "0b657f11-2dce-4f32-bd16-8814000e58e4",
+          "size": 5,
+          "sku": "DNA-MAR-FAUTP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 80.18
+        },
+        {
+          "id": "81c0321f-9566-4567-84e0-4acddf2e1e55",
+          "size": 10,
+          "sku": "DNA-MAR-FAUTP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.31
+        },
+        {
+          "id": "19d4ba1a-b693-43bd-b829-ad0c37cfc5cd",
+          "size": 15,
+          "sku": "DNA-MAR-FAUTP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.36
+        },
+        {
+          "id": "4ae63e13-9eb4-4a25-ad2b-e6efdbbeae38",
+          "size": 20,
+          "sku": "DNA-MAR-FAUTP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.92
+        }
+      ]
+    },
+    {
+      "id": "ac7b0204-ae36-47f5-9f46-256b18a9e12e",
+      "name": "Return of the Mac Auto Cannabis Seeds",
+      "slug": "return-of-the-mac-auto",
+      "sku": "DNA-REF-465",
+      "strainType": "Indica",
+      "description": "Return of the Mac Auto Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is OG Kush Auto x Mac. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "OG Kush Auto x Mac",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "28-40 g/m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/return-of-the-mac-auto-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/return-of-the-mac-auto/",
+      "category": "Autoflower Seeds",
+      "additionalCategories": [],
+      "price": 100.05,
+      "salePrice": 80.17,
+      "createdAt": "2026-09-10T15:58:36.476Z",
+      "updatedAt": "2026-09-10T15:58:36.476Z",
+      "sourceCheckedAt": "2026-09-10T15:57:25.597Z",
+      "variants": [
+        {
+          "id": "3876f161-aee9-4d1e-a20b-7e6b187250f8",
+          "size": 5,
+          "sku": "DNA-ROM-FAUTP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 80.17
+        },
+        {
+          "id": "6306cb6d-5b1e-42b2-a2e1-f22b330810f5",
+          "size": 10,
+          "sku": "DNA-ROM-FAUTP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.24
+        },
+        {
+          "id": "0010cb62-e9ca-462b-a705-43d2ccad790d",
+          "size": 15,
+          "sku": "DNA-ROM-FAUTP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.29
+        },
+        {
+          "id": "6597a31c-467b-4e57-af80-55b607daf55e",
+          "size": 20,
+          "sku": "DNA-ROM-FAUTP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.83
+        }
+      ]
+    },
+    {
+      "id": "17b144b5-e311-40e4-936e-fbeaac5e31db",
+      "name": "HG23 AKA MICHAEL JORDAN AUTO Cannabis Seeds",
+      "slug": "hg23-aka-michael-jordan-auto",
+      "sku": "DNA-REF-90",
+      "strainType": "Indica",
+      "description": "HG23 AKA MICHAEL JORDAN AUTO Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is HG23 x OG Kush Auto. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "HG23 x OG Kush Auto",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "18 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/hg23-aka-michael-jordan-auto-0.webp",
+        "/assets/images/catalogue/hg23-aka-michael-jordan-auto-1.png"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/hg23-aka-michael-jordan-auto/",
+      "category": "Autoflower Seeds",
+      "additionalCategories": [],
+      "price": 100.05,
+      "salePrice": 80.12,
+      "createdAt": "2026-09-10T15:58:36.477Z",
+      "updatedAt": "2026-09-10T15:58:36.477Z",
+      "sourceCheckedAt": "2026-09-10T15:57:36.218Z",
+      "variants": [
+        {
+          "id": "9f09e4e6-03d9-4771-9c20-c24014fdb951",
+          "size": 5,
+          "sku": "DNA-MJK-FAUTP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 80.12
+        },
+        {
+          "id": "76b73ac4-323f-4ebd-a801-cc539ca6ac61",
+          "size": 10,
+          "sku": "DNA-MJK-FAUTP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.23
+        },
+        {
+          "id": "ab39d7a3-beeb-4828-9c7c-c2f198835e71",
+          "size": 15,
+          "sku": "DNA-MJK-FAUTP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.24
+        },
+        {
+          "id": "534f3588-0e7d-4c86-9bc9-6de1b15b763d",
+          "size": 20,
+          "sku": "DNA-MJK-FAUTP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "4c3a04f4-5144-44a7-8fc3-080e03af6ecb",
+      "name": "Patrick Swayze Auto Cannabis Seeds",
+      "slug": "patrick-swayze-auto",
+      "sku": "DNA-REF-463",
+      "strainType": "Hybrid",
+      "description": "Patrick Swayze Auto Cannabis Seeds is listed by DNA Genetics as Hybrid Cannabis. Its listed parentage is Ghost OG x MAC Auto. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Hybrid Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Ghost OG x MAC Auto",
+      "thc": "",
+      "floweringTime": "8–10 weeks",
+      "yield": "11 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/patrick-swayze-auto-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/patrick-swayze-auto/",
+      "category": "Autoflower Seeds",
+      "additionalCategories": [
+        "Medicinal Seeds"
+      ],
+      "price": 100.05,
+      "salePrice": 80.18,
+      "createdAt": "2026-09-10T15:58:36.477Z",
+      "updatedAt": "2026-09-10T15:58:36.477Z",
+      "sourceCheckedAt": "2026-09-10T15:57:27.157Z",
+      "variants": [
+        {
+          "id": "9dc95267-d782-418e-a3a3-bf3234a52474",
+          "size": 5,
+          "sku": "DNA-PSZ-FAUTP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 80.18
+        },
+        {
+          "id": "e4ec9179-c277-4e9c-88de-d1be5fb928e0",
+          "size": 10,
+          "sku": "DNA-PSZ-FAUTP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.31
+        },
+        {
+          "id": "19e87f02-b64f-4a06-af2c-6b1f310d78c9",
+          "size": 15,
+          "sku": "DNA-PSZ-FAUTP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.36
+        },
+        {
+          "id": "fdadddf1-5d01-4508-8eeb-473f382b267b",
+          "size": 20,
+          "sku": "DNA-PSZ-FAUTP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.92
+        }
+      ]
+    },
+    {
+      "id": "803b3d86-903d-45f0-8cc1-cb90807043cf",
+      "name": "MacNana auto Cannabis Seeds",
+      "slug": "macnana-auto-seeds",
+      "sku": "DNA-REF-434",
+      "strainType": "Hybrid",
+      "description": "MacNana auto Cannabis Seeds is listed by DNA Genetics as Hybrid Cannabis. Its listed parentage is Strawberry Banana x MAC Auto. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Hybrid Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Strawberry Banana x MAC Auto",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "14–19 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/macnana-auto-seeds-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/macnana-auto-seeds/",
+      "category": "Autoflower Seeds",
+      "additionalCategories": [
+        "High THC Seeds"
+      ],
+      "price": 100.05,
+      "salePrice": 80.18,
+      "createdAt": "2026-09-10T15:58:36.477Z",
+      "updatedAt": "2026-09-10T15:58:36.477Z",
+      "sourceCheckedAt": "2026-09-10T15:57:31.270Z",
+      "variants": [
+        {
+          "id": "f65e6295-5fe9-4a0e-888d-26be97776ea0",
+          "size": 5,
+          "sku": "DNA-MCN-FAUTP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 80.18
+        },
+        {
+          "id": "b69a952d-7549-49f5-abb6-d834dadb5b47",
+          "size": 10,
+          "sku": "DNA-MCN-FAUTP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.31
+        },
+        {
+          "id": "19a19a5f-768c-4007-9b2a-d2b2002edeee",
+          "size": 15,
+          "sku": "DNA-MCN-FAUTP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.36
+        },
+        {
+          "id": "4fe473f4-ffd2-4607-aded-61d312da6ff7",
+          "size": 20,
+          "sku": "DNA-MCN-FAUTP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.92
+        }
+      ]
+    },
+    {
+      "id": "84a1968d-8a33-402f-b22d-cb5b9beff92e",
+      "name": "The Big Mac Auto Cannabis Seeds",
+      "slug": "the-big-mac-auto",
+      "sku": "DNA-REF-446",
+      "strainType": "Indica",
+      "description": "The Big Mac Auto Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Mac x OG Kush Auto. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Mac x OG Kush Auto",
+      "thc": "",
+      "floweringTime": "7–9 weeks",
+      "yield": "Moderate",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/the-big-mac-auto-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": true,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/the-big-mac-auto/",
+      "category": "Autoflower Seeds",
+      "additionalCategories": [
+        "Fast-Flowering Seeds",
+        "Medicinal Seeds",
+        "Best Cannabis Seeds"
+      ],
+      "price": 100.05,
+      "salePrice": 80.16,
+      "createdAt": "2026-09-10T15:58:36.477Z",
+      "updatedAt": "2026-09-10T15:58:36.477Z",
+      "sourceCheckedAt": "2026-09-10T15:57:30.297Z",
+      "variants": [
+        {
+          "id": "60aecc50-6211-4d64-8b73-45757d47192f",
+          "size": 5,
+          "sku": "DNA-MCD-FAUTP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 80.16
+        },
+        {
+          "id": "bc7252ec-5d3c-4191-aa21-0084bf7e4833",
+          "size": 10,
+          "sku": "DNA-MCD-FAUTP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.29
+        },
+        {
+          "id": "b6d7186d-0455-42d8-bd6d-567aba4968e7",
+          "size": 15,
+          "sku": "DNA-MCD-FAUTP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.34
+        },
+        {
+          "id": "7d80a7b8-de24-4032-8e34-ca6a8c7a090c",
+          "size": 20,
+          "sku": "DNA-MCD-FAUTP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.88
+        }
+      ]
+    },
+    {
+      "id": "db9a4be9-e04c-4e27-a085-b7afd17ec64a",
+      "name": "Purple People Eater Auto Cannabis Seeds",
+      "slug": "purple-people-eater-auto-seeds",
+      "sku": "DNA-REF-183",
+      "strainType": "Indica",
+      "description": "Purple People Eater Auto Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Sweet & Sour Purple x OG Kush Auto. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Sweet & Sour Purple x OG Kush Auto",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "14–18 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/purple-people-eater-auto-seeds-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/purple-people-eater-auto-seeds/",
+      "category": "Autoflower Seeds",
+      "additionalCategories": [
+        "Medicinal Seeds",
+        "High CBD Seeds"
+      ],
+      "price": 100.05,
+      "salePrice": 80.16,
+      "createdAt": "2026-09-10T15:58:36.477Z",
+      "updatedAt": "2026-09-10T15:58:36.477Z",
+      "sourceCheckedAt": "2026-09-10T15:57:35.286Z",
+      "variants": [
+        {
+          "id": "777f9765-b139-4d57-bf7b-9b1858f67de6",
+          "size": 5,
+          "sku": "DNA-PPE-FAUTP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 80.16
+        },
+        {
+          "id": "ee64c814-05f1-4e1d-b413-4fbadc9b31e7",
+          "size": 10,
+          "sku": "DNA-PPE-FAUTP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.29
+        },
+        {
+          "id": "3e902abb-313e-4807-8eb4-05723c1dc141",
+          "size": 15,
+          "sku": "DNA-PPE-FAUTP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.34
+        },
+        {
+          "id": "500d3708-d428-4aa1-9635-0421e4deee8c",
+          "size": 20,
+          "sku": "DNA-PPE-FAUTP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.88
+        }
+      ]
+    },
+    {
+      "id": "ee712b1a-30be-4ca0-a03f-780a10f7f471",
+      "name": "Canelo auto Cannabis Seeds",
+      "slug": "canelo-auto-seeds",
+      "sku": "DNA-REF-428",
+      "strainType": "Indica",
+      "description": "Canelo auto Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Strawberry Banana x OG Kush Auto. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Strawberry Banana x OG Kush Auto",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "14–17 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/canelo-auto-seeds-0.webp",
+        "/assets/images/catalogue/canelo-auto-seeds-1.png",
+        "/assets/images/catalogue/canelo-auto-seeds-2.png",
+        "/assets/images/catalogue/canelo-auto-seeds-3.png"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/canelo-auto-seeds/",
+      "category": "Autoflower Seeds",
+      "additionalCategories": [
+        "Fast-Flowering Seeds",
+        "Medicinal Seeds"
+      ],
+      "price": 100.05,
+      "salePrice": 80.16,
+      "createdAt": "2026-09-10T15:58:36.477Z",
+      "updatedAt": "2026-09-10T15:58:36.477Z",
+      "sourceCheckedAt": "2026-09-10T15:57:32.882Z",
+      "variants": [
+        {
+          "id": "9a837ce2-9509-43c7-b599-f5fdc9c8a1c6",
+          "size": 5,
+          "sku": "DNA-CNA-FAUTP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 80.16
+        },
+        {
+          "id": "5659bfe7-dc8b-4ff3-9a58-9acf4f682e8a",
+          "size": 10,
+          "sku": "DNA-CNA-FAUTP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.29
+        },
+        {
+          "id": "3705e7ab-cba8-4b77-862f-cdac2f9ff598",
+          "size": 15,
+          "sku": "DNA-CNA-FAUTP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.34
+        },
+        {
+          "id": "e7206846-d409-4284-997a-9b4d11020718",
+          "size": 20,
+          "sku": "DNA-CNA-FAUTP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.88
+        }
+      ]
+    },
+    {
+      "id": "f26fcfd7-5a1a-4a27-bf15-740ebe389d50",
+      "name": "Watermelon Man Auto Cannabis Seeds",
+      "slug": "watermelon-man-auto-seeds",
+      "sku": "DNA-REF-426",
+      "strainType": "Indica",
+      "description": "Watermelon Man Auto Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Watermelon x OG Kush Auto. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Watermelon x OG Kush Auto",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "18 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/watermelon-man-auto-seeds-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/watermelon-man-auto-seeds/",
+      "category": "Autoflower Seeds",
+      "additionalCategories": [],
+      "price": 100.05,
+      "salePrice": 80.16,
+      "createdAt": "2026-09-10T15:58:36.477Z",
+      "updatedAt": "2026-09-10T15:58:36.477Z",
+      "sourceCheckedAt": "2026-09-10T15:57:34.418Z",
+      "variants": [
+        {
+          "id": "fda6a51b-55da-4344-a675-8121b8f717e1",
+          "size": 5,
+          "sku": "DNA-WMM-FAUTP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 80.16
+        },
+        {
+          "id": "5f10a956-1c46-46cd-b868-5053e1bfa3e1",
+          "size": 10,
+          "sku": "DNA-WMM-FAUTP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.29
+        },
+        {
+          "id": "b25e1d5b-20aa-412d-90ce-1f713d4d7c33",
+          "size": 15,
+          "sku": "DNA-WMM-FAUTP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.34
+        },
+        {
+          "id": "93f095b7-febd-4284-a697-77e0265ffc48",
+          "size": 20,
+          "sku": "DNA-WMM-FAUTP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.88
+        }
+      ]
+    },
+    {
+      "id": "c58b24d7-a6e6-40d5-a75d-d6222087d2c8",
+      "name": "Swiss Miss Reg Cannabis Seeds",
+      "slug": "swiss-miss",
+      "sku": "DNA-REF-29586",
+      "strainType": "Indica",
+      "description": "Swiss Miss Reg Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Chocolope Kush x OG #18. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Chocolope Kush x OG #18",
+      "thc": "",
+      "floweringTime": "8 - 9 weeks",
+      "yield": "14–16 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/swiss-miss-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/swiss-miss/",
+      "category": "Regular Seeds",
+      "additionalCategories": [
+        "Indoor Seeds",
+        "High Yield Seeds",
+        "Beginner-Friendly Seeds",
+        "Cheap Weed Seeds"
+      ],
+      "price": 100.15,
+      "salePrice": 80.12,
+      "createdAt": "2026-09-10T16:06:41.983Z",
+      "updatedAt": "2026-09-10T16:06:41.983Z",
+      "sourceCheckedAt": "2026-09-10T16:04:07.737Z",
+      "variants": [
+        {
+          "id": "c882b6bd-45e3-42b9-86ef-4342fb884c63",
+          "size": 5,
+          "sku": "DNA-SWM-REG5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.15,
+          "salePrice": 80.12
+        },
+        {
+          "id": "8d3da12d-8fb0-45e6-a7eb-72e64e603551",
+          "size": 10,
+          "sku": "DNA-SWM-REG10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 129.51,
+          "salePrice": 95.23
+        },
+        {
+          "id": "5796d1ca-8ee5-43ec-854a-8cb58e704c73",
+          "size": 15,
+          "sku": "DNA-SWM-REG15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 194.75,
+          "salePrice": 135.24
+        },
+        {
+          "id": "4b66a281-52ff-4761-8a1e-7ca94044a0ee",
+          "size": 20,
+          "sku": "DNA-SWM-REG20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 256.14,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "4026abd9-9559-485b-95bb-723904f5fc40",
+      "name": "Chocolate Truffle Shuffle Reg Cannabis Seeds",
+      "slug": "chocolate-truffle-shuffle-reg",
+      "sku": "DNA-REF-3023",
+      "strainType": "Indica",
+      "description": "Chocolate Truffle Shuffle Reg Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is GPK x Chocolope Kush (Gorilla Glue x Pure Kush). Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "GPK x Chocolope Kush (Gorilla Glue x Pure Kush)",
+      "thc": "",
+      "floweringTime": "9 weeks",
+      "yield": "14–16 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/chocolate-truffle-shuffle-reg-0.webp",
+        "/assets/images/catalogue/chocolate-truffle-shuffle-reg-1.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": true,
+      "sourceUrl": "https://dnagenetics.com/product/chocolate-truffle-shuffle-reg/",
+      "category": "Regular Seeds",
+      "additionalCategories": [
+        "High THC Seeds",
+        "Beginner-Friendly Seeds",
+        "New Strains",
+        "Cheap Weed Seeds"
+      ],
+      "price": 100.05,
+      "salePrice": 80.12,
+      "createdAt": "2026-09-10T16:06:41.984Z",
+      "updatedAt": "2026-09-10T16:06:41.984Z",
+      "sourceCheckedAt": "2026-09-10T16:04:15.720Z",
+      "variants": [
+        {
+          "id": "57204256-00df-4f90-a95d-1a4b654719b6",
+          "size": 5,
+          "sku": "DNA-CTS-REGP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 80.12
+        },
+        {
+          "id": "e453a224-b4f4-43ef-9f61-d90bdac00704",
+          "size": 10,
+          "sku": "DNA-CTS-REGP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.23
+        },
+        {
+          "id": "b89d6063-e36c-408f-af62-d0a349fefc2b",
+          "size": 15,
+          "sku": "DNA-CTS-REGP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.24
+        },
+        {
+          "id": "e8b98565-6bbb-45aa-b9b1-ef5386db4b86",
+          "size": 20,
+          "sku": "DNA-CTS-REGP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "167edee7-aa44-4788-8909-b66107b585d5",
+      "name": "Elons-X Reg Cannabis Seeds",
+      "slug": "elons-x-reg",
+      "sku": "DNA-REF-408",
+      "strainType": "Indica",
+      "description": "Elons-X Reg Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Strawberry Banana x X18 Pure Pakistani. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Strawberry Banana x X18 Pure Pakistani",
+      "thc": "",
+      "floweringTime": "8–9 Weeks",
+      "yield": "12–14 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/elons-x-reg-0.webp",
+        "/assets/images/catalogue/elons-x-reg-1.webp"
+      ],
+      "featured": false,
+      "bestSeller": true,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/elons-x-reg/",
+      "category": "Regular Seeds",
+      "additionalCategories": [
+        "High THC Seeds",
+        "Medicinal Seeds",
+        "Best Cannabis Seeds",
+        "Cheap Weed Seeds"
+      ],
+      "price": 100.75,
+      "salePrice": 80.06,
+      "createdAt": "2026-09-10T16:06:41.985Z",
+      "updatedAt": "2026-09-10T16:06:41.985Z",
+      "sourceCheckedAt": "2026-09-10T16:04:36.968Z",
+      "variants": [
+        {
+          "id": "f9027a59-ab24-4743-95c5-44632c739c82",
+          "size": 5,
+          "sku": "DNA-ELX-REGP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.75,
+          "salePrice": 80.06
+        },
+        {
+          "id": "096632b2-3d5f-4130-97c2-75adb0a3ccf7",
+          "size": 10,
+          "sku": "DNA-ELX-REGP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.46,
+          "salePrice": 95.14
+        },
+        {
+          "id": "2fff8096-153d-444a-a9b9-bfde37ad4919",
+          "size": 15,
+          "sku": "DNA-ELX-REGP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.8,
+          "salePrice": 135.17
+        },
+        {
+          "id": "fd4a08fe-a419-483c-9008-b34dd40e5148",
+          "size": 20,
+          "sku": "DNA-ELX-REGP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 342.18,
+          "salePrice": 170.71
+        }
+      ]
+    },
+    {
+      "id": "1e0ecc7c-0a9e-4129-9c69-ed12db1690cc",
+      "name": "You Whoo Reg Cannabis Seeds",
+      "slug": "you-whoo-reg",
+      "sku": "DNA-REF-3002",
+      "strainType": "Indica",
+      "description": "You Whoo Reg Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Super Silver L.A. x Chocolope Kush. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Super Silver L.A. x Chocolope Kush",
+      "thc": "",
+      "floweringTime": "9 weeks",
+      "yield": "15–17 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/you-whoo-reg-0.webp",
+        "/assets/images/catalogue/you-whoo-reg-1.jpeg"
+      ],
+      "featured": false,
+      "bestSeller": true,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/you-whoo-reg/",
+      "category": "Regular Seeds",
+      "additionalCategories": [
+        "Best Cannabis Seeds",
+        "Cheap Weed Seeds"
+      ],
+      "price": 79.99,
+      "salePrice": 65.59,
+      "createdAt": "2026-09-10T16:06:41.985Z",
+      "updatedAt": "2026-09-10T16:06:41.985Z",
+      "sourceCheckedAt": "2026-09-10T16:04:19.936Z",
+      "variants": [
+        {
+          "id": "224a5c6f-d7d9-4672-9ffe-c3efc89cf340",
+          "size": 5,
+          "sku": "DNA-YUW-REGP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 79.99,
+          "salePrice": 65.59
+        },
+        {
+          "id": "e44bdd3e-b5bd-4ba5-9ed7-079841f598fb",
+          "size": 10,
+          "sku": "DNA-YUW-REGP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 95.11,
+          "salePrice": 77.99
+        },
+        {
+          "id": "44a6da74-ef5f-4b60-bf05-72342191da1f",
+          "size": 15,
+          "sku": "DNA-YUW-REGP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 135.08,
+          "salePrice": 110.76
+        },
+        {
+          "id": "e408f97b-84fc-4850-8da5-805250359461",
+          "size": 20,
+          "sku": "DNA-YUW-REGP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 170.65,
+          "salePrice": 139.93
+        }
+      ]
+    },
+    {
+      "id": "4f6da6d1-4e90-4afc-94cc-db5c55c08bd0",
+      "name": "Generation X-18 Reg Cannabis Seeds",
+      "slug": "generation-x-18-reg",
+      "sku": "DNA-REF-436",
+      "strainType": "Indica",
+      "description": "Generation X-18 Reg Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Banana Stardawg x X18 Pure Pakistani. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Banana Stardawg x X18 Pure Pakistani",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "12–14 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/generation-x-18-reg-0.webp",
+        "/assets/images/catalogue/generation-x-18-reg-1.jpeg"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/generation-x-18-reg/",
+      "category": "Regular Seeds",
+      "additionalCategories": [
+        "Cheap Weed Seeds"
+      ],
+      "price": 80.18,
+      "salePrice": 65.75,
+      "createdAt": "2026-09-10T16:06:41.985Z",
+      "updatedAt": "2026-09-10T16:06:41.985Z",
+      "sourceCheckedAt": "2026-09-10T16:04:30.142Z",
+      "variants": [
+        {
+          "id": "5027cd6a-21f3-48ab-b23d-6d850582ad4b",
+          "size": 5,
+          "sku": "DNA-G18-REGP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 80.18,
+          "salePrice": 65.75
+        },
+        {
+          "id": "aa65d7a9-f2c2-4197-b110-9a6883b7c9fa",
+          "size": 10,
+          "sku": "DNA-G18-REGP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 95.31,
+          "salePrice": 78.15
+        },
+        {
+          "id": "da43ffb7-a686-4a92-b039-50f92d404392",
+          "size": 15,
+          "sku": "DNA-G18-REGP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 110.99,
+          "salePrice": 91.01
+        },
+        {
+          "id": "9827ac11-41b8-40df-8c60-182c47fd5a54",
+          "size": 20,
+          "sku": "DNA-G18-REGP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 140.15,
+          "salePrice": 114.93
+        }
+      ]
+    },
+    {
+      "id": "56c03e99-d87f-4924-8bc2-44c52cca2064",
+      "name": "Kosher Kush Reg Cannabis Seeds",
+      "slug": "kosher-kush-reg",
+      "sku": "DNA-REF-179",
+      "strainType": "Indica",
+      "description": "Kosher Kush Reg Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Kosher Kush x Kosher Kush. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Kosher Kush x Kosher Kush",
+      "thc": "",
+      "floweringTime": "9–10 weeks",
+      "yield": "16–19 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/kosher-kush-reg-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/kosher-kush-reg/",
+      "category": "Regular Seeds",
+      "additionalCategories": [
+        "High THC Seeds"
+      ],
+      "price": 100.05,
+      "salePrice": 80.12,
+      "createdAt": "2026-09-10T16:06:41.985Z",
+      "updatedAt": "2026-09-10T16:06:41.985Z",
+      "sourceCheckedAt": "2026-09-10T16:04:44.382Z",
+      "variants": [
+        {
+          "id": "512cb9dd-0364-4e31-989a-f674a171285c",
+          "size": 5,
+          "sku": "DNA-KKH-REGP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 80.12
+        },
+        {
+          "id": "4278edbf-ffc0-4f69-9aeb-2826664c65e8",
+          "size": 10,
+          "sku": "DNA-KKH-REGP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.23
+        },
+        {
+          "id": "cd946a2a-28c8-4d7c-8566-b1b5396d7434",
+          "size": 15,
+          "sku": "DNA-KKH-REGP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.24
+        },
+        {
+          "id": "8584cabc-dd30-4ed7-8ea3-989095b13cc1",
+          "size": 20,
+          "sku": "DNA-KKH-REGP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "5fcac808-269a-43e6-951c-b4dde640c68b",
+      "name": "Tangielope Kush Reg Cannabis Seeds",
+      "slug": "24k-x-chocolope-kush-seeds",
+      "sku": "DNA-REF-388",
+      "strainType": "Indica",
+      "description": "Tangielope Kush Reg Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is 24K Gold x Chocolope Kush. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "24K Gold x Chocolope Kush",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "13–17 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/24k-x-chocolope-kush-seeds-0.webp",
+        "/assets/images/catalogue/24k-x-chocolope-kush-seeds-1.jpg"
+      ],
+      "featured": false,
+      "bestSeller": true,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/24k-x-chocolope-kush-seeds/",
+      "category": "Regular Seeds",
+      "additionalCategories": [
+        "Best Cannabis Seeds"
+      ],
+      "price": 100.05,
+      "salePrice": 79.98,
+      "createdAt": "2026-09-10T16:06:41.985Z",
+      "updatedAt": "2026-09-10T16:06:41.985Z",
+      "sourceCheckedAt": "2026-09-10T16:04:41.168Z",
+      "variants": [
+        {
+          "id": "1c3589f4-9134-493e-8770-f7db486871f0",
+          "size": 5,
+          "sku": "DNA-TLK-REGP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 79.98
+        },
+        {
+          "id": "0ab63899-72f3-4058-b292-8daa0704d172",
+          "size": 10,
+          "sku": "DNA-TLK-REGP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.13
+        },
+        {
+          "id": "31fee257-98d6-40b5-8aeb-93a2bfaeed70",
+          "size": 15,
+          "sku": "DNA-TLK-REGP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.14
+        },
+        {
+          "id": "f146ec72-64ba-4f97-a9f2-9af19281386f",
+          "size": 20,
+          "sku": "DNA-TLK-REGP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.66
+        }
+      ]
+    },
+    {
+      "id": "df60794c-ba62-47af-a54e-fbbb36fde794",
+      "name": "Golden Fortunes Reg Cannabis Seeds",
+      "slug": "golden-fortunes-reg",
+      "sku": "DNA-REF-585",
+      "strainType": "Indica",
+      "description": "Golden Fortunes Reg Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Cookies x Kosher Kush. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Cookies x Kosher Kush",
+      "thc": "",
+      "floweringTime": "9 Weeks",
+      "yield": "350-400 g/m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/golden-fortunes-reg-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/golden-fortunes-reg/",
+      "category": "Regular Seeds",
+      "additionalCategories": [
+        "Cheap Weed Seeds"
+      ],
+      "price": 77.96,
+      "salePrice": 63.92,
+      "createdAt": "2026-09-10T16:06:41.985Z",
+      "updatedAt": "2026-09-10T16:06:41.985Z",
+      "sourceCheckedAt": "2026-09-10T16:04:26.496Z",
+      "variants": [
+        {
+          "id": "ec000189-f93a-47e2-a812-1d9ff1a653f5",
+          "size": 5,
+          "sku": "DNA-GFS-REGP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 77.96,
+          "salePrice": 63.92
+        },
+        {
+          "id": "331c0349-b9f6-4d5c-985b-a67e6bd89898",
+          "size": 10,
+          "sku": "DNA-GFS-REGP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 95.08,
+          "salePrice": 77.96
+        },
+        {
+          "id": "56fb3a0b-d86a-4ca7-82c5-77344138283c",
+          "size": 15,
+          "sku": "DNA-GFS-REGP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 135.08,
+          "salePrice": 110.76
+        },
+        {
+          "id": "44ab9fef-c2c0-41c6-87b2-6091f1a3bb46",
+          "size": 20,
+          "sku": "DNA-GFS-REGP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 170.58,
+          "salePrice": 139.87
+        }
+      ]
+    },
+    {
+      "id": "5536d7ec-3f49-4a75-9424-9281a881cd4d",
+      "name": "Skywalker Kush Reg Cannabis Seeds",
+      "slug": "skylwalker-kush-reg",
+      "sku": "DNA-REF-88",
+      "strainType": "Indica",
+      "description": "Skywalker Kush Reg Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is Skywalker x OG Kush. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Skywalker x OG Kush",
+      "thc": "",
+      "floweringTime": "8–9 Weeks",
+      "yield": "18–21 oz./m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/skylwalker-kush-reg-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/skylwalker-kush-reg/",
+      "category": "Regular Seeds",
+      "additionalCategories": [],
+      "price": 100.05,
+      "salePrice": 79.97,
+      "createdAt": "2026-09-10T16:06:41.986Z",
+      "updatedAt": "2026-09-10T16:06:41.986Z",
+      "sourceCheckedAt": "2026-09-10T16:05:19.570Z",
+      "variants": [
+        {
+          "id": "f15518f5-6fe2-4fbc-b046-c8fb36be5697",
+          "size": 5,
+          "sku": "DNA-SWK-REGP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 79.97
+        },
+        {
+          "id": "dfe430a4-5376-40d4-bbce-b3623c6b0317",
+          "size": 10,
+          "sku": "DNA-SWK-REGP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.14
+        },
+        {
+          "id": "6c8227d1-e839-4586-8009-83441e1a2c2f",
+          "size": 15,
+          "sku": "DNA-SWK-REGP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.12
+        },
+        {
+          "id": "bf63b6b5-21c4-4017-99b2-edd1a12c682c",
+          "size": 20,
+          "sku": "DNA-SWK-REGP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.61
+        }
+      ]
+    },
+    {
+      "id": "7095483e-fb6a-4c93-a48b-3bd09b7037a2",
+      "name": "Four Prophets Reg Cannabis Seeds",
+      "slug": "four-prophets-reg",
+      "sku": "DNA-REF-181",
+      "strainType": "Indica",
+      "description": "Four Prophets Reg Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is 3X Crazy x Kosher Kush. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "3X Crazy x Kosher Kush",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "16–18 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/four-prophets-reg-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/four-prophets-reg/",
+      "category": "Regular Seeds",
+      "additionalCategories": [
+        "High THC Seeds",
+        "Cheap Weed Seeds"
+      ],
+      "price": 100.75,
+      "salePrice": 80.05,
+      "createdAt": "2026-09-10T16:06:41.986Z",
+      "updatedAt": "2026-09-10T16:06:41.986Z",
+      "sourceCheckedAt": "2026-09-10T16:05:12.757Z",
+      "variants": [
+        {
+          "id": "b29e56f6-1749-4b81-a221-5d0144f83b4e",
+          "size": 5,
+          "sku": "DNA-FPT-REGP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.75,
+          "salePrice": 80.05
+        },
+        {
+          "id": "d036dc42-2eb9-4fc5-8afd-a6acf6b41a79",
+          "size": 10,
+          "sku": "DNA-FPT-REGP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.46,
+          "salePrice": 95.18
+        },
+        {
+          "id": "f670735f-e1d5-4653-b730-2ee4ee876f58",
+          "size": 15,
+          "sku": "DNA-FPT-REGP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.8,
+          "salePrice": 135.21
+        },
+        {
+          "id": "87a78bc4-ac57-4253-ac20-b8f9555574af",
+          "size": 20,
+          "sku": "DNA-FPT-REGP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 342.18,
+          "salePrice": 170.75
+        }
+      ]
+    },
+    {
+      "id": "a6caf394-4422-4f29-91e2-5fdce9599539",
+      "name": "Chocolope Kush Reg Cannabis Seeds",
+      "slug": "chocolope-kush-reg",
+      "sku": "DNA-REF-375",
+      "strainType": "Indica",
+      "description": "Chocolope Kush Reg Cannabis Seeds is listed by DNA Genetics as Indica-dominant Cannabis. Its listed parentage is OG Kush x Chocolope. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Indica-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "OG Kush x Chocolope",
+      "thc": "",
+      "floweringTime": "8–9 weeks",
+      "yield": "12–14 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/chocolope-kush-reg-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/chocolope-kush-reg/",
+      "category": "Regular Seeds",
+      "additionalCategories": [
+        "High THC Seeds"
+      ],
+      "price": 100.05,
+      "salePrice": 80.12,
+      "createdAt": "2026-09-10T16:06:41.986Z",
+      "updatedAt": "2026-09-10T16:06:41.986Z",
+      "sourceCheckedAt": "2026-09-10T16:04:50.545Z",
+      "variants": [
+        {
+          "id": "196646b7-49c6-4cd3-a6ef-b4c6b57ad045",
+          "size": 5,
+          "sku": "DNA-CHK-REGP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.05,
+          "salePrice": 80.12
+        },
+        {
+          "id": "4c459572-c360-4070-9ae7-f491d5cc15b4",
+          "size": 10,
+          "sku": "DNA-CHK-REGP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.6,
+          "salePrice": 95.23
+        },
+        {
+          "id": "94818648-44fd-4c48-8b18-0f3e21ff41c7",
+          "size": 15,
+          "sku": "DNA-CHK-REGP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.92,
+          "salePrice": 135.24
+        },
+        {
+          "id": "b517ad37-370e-4736-95a7-383658c24003",
+          "size": 20,
+          "sku": "DNA-CHK-REGP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 340,
+          "salePrice": 170.76
+        }
+      ]
+    },
+    {
+      "id": "acb6026f-b5ba-4b60-a3bc-4aa32fb02912",
+      "name": "TANGIE REG Cannabis Seeds",
+      "slug": "tangie-reg",
+      "sku": "DNA-REF-185",
+      "strainType": "Sativa",
+      "description": "TANGIE REG Cannabis Seeds is listed by DNA Genetics as Sativa-dominant Cannabis. Its listed parentage is Clone Only x Crockett’s Selection. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Sativa-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Clone Only x Crockett’s Selection",
+      "thc": "",
+      "floweringTime": "9+ weeks",
+      "yield": "16–19 oz./m2",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/tangie-reg-0.webp"
+      ],
+      "featured": false,
+      "bestSeller": true,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/tangie-reg/",
+      "category": "Regular Seeds",
+      "additionalCategories": [
+        "Best Cannabis Seeds"
+      ],
+      "price": 100.75,
+      "salePrice": 80.14,
+      "createdAt": "2026-09-10T16:06:41.986Z",
+      "updatedAt": "2026-09-10T16:06:41.986Z",
+      "sourceCheckedAt": "2026-09-10T16:05:01.138Z",
+      "variants": [
+        {
+          "id": "a89d184a-4134-4771-afc1-e22073ea5e94",
+          "size": 5,
+          "sku": "DNA-TAN-REGP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.75,
+          "salePrice": 80.14
+        },
+        {
+          "id": "5ebff6cd-dc06-4795-8c39-7f47a42d9aeb",
+          "size": 10,
+          "sku": "DNA-TAN-REGP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.46,
+          "salePrice": 95.27
+        },
+        {
+          "id": "bbed381d-3fc8-4f7d-9d79-6ed51cad028e",
+          "size": 15,
+          "sku": "DNA-TAN-REGP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.8,
+          "salePrice": 135.3
+        },
+        {
+          "id": "898a7421-ced5-435e-bbad-7449e5093f0c",
+          "size": 20,
+          "sku": "DNA-TAN-REGP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 342.18,
+          "salePrice": 170.84
+        }
+      ]
+    },
+    {
+      "id": "ed698cc3-01b8-4f7b-96cc-1407c9747914",
+      "name": "Chocolope 256 Reg Cannabis Seeds",
+      "slug": "chocolope-256-reg",
+      "sku": "DNA-REF-306",
+      "strainType": "Sativa",
+      "description": "Chocolope 256 Reg Cannabis Seeds is listed by DNA Genetics as Sativa-dominant Cannabis. Its listed parentage is Lemon Skunk 256 (Emerald Cup Winning Cut ) x Chocolope. Pack options and reference prices were checked on the individual product page.",
+      "shortDescription": "Sativa-dominant Cannabis. Available pack sizes: 5, 10, 15, 20 seeds.",
+      "genetics": "Lemon Skunk 256 (Emerald Cup Winning Cut ) x Chocolope",
+      "thc": "",
+      "floweringTime": "9 Weeks",
+      "yield": "12–14 oz./m²",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/catalogue/chocolope-256-reg-0.webp",
+        "/assets/images/catalogue/chocolope-256-reg-1.jpeg"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": "https://dnagenetics.com/product/chocolope-256-reg/",
+      "category": "Regular Seeds",
+      "additionalCategories": [
+        "High THC Seeds"
+      ],
+      "price": 100.75,
+      "salePrice": 80.14,
+      "createdAt": "2026-09-10T16:06:41.986Z",
+      "updatedAt": "2026-09-10T16:06:41.986Z",
+      "sourceCheckedAt": "2026-09-10T16:04:54.221Z",
+      "variants": [
+        {
+          "id": "263f63ef-fe3c-43ea-a2ea-c608fcc37492",
+          "size": 5,
+          "sku": "DNA-CHO-REGP5",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 100.75,
+          "salePrice": 80.14
+        },
+        {
+          "id": "02177dd0-88ec-418e-8f1f-e0602baab19d",
+          "size": 10,
+          "sku": "DNA-CHO-REGP10",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 149.46,
+          "salePrice": 95.27
+        },
+        {
+          "id": "a2405365-567b-4c8b-8c50-7f4e1eaf77fe",
+          "size": 15,
+          "sku": "DNA-CHO-REGP15",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 239.8,
+          "salePrice": 135.3
+        },
+        {
+          "id": "5431f2e0-e202-4b3e-bfbf-ac187361f229",
+          "size": 20,
+          "sku": "DNA-CHO-REGP20",
+          "stock": 0,
+          "sourceAvailable": true,
+          "price": 342.18,
+          "salePrice": 170.84
+        }
+      ]
+    },
+    {
+      "id": "4221f67c-4010-4640-919c-743857cb5f70",
+      "name": "Seed Vault Club Membership",
+      "slug": "seed-vault-club-membership",
+      "sku": "DNA-SVC-MEMBERSHIP",
+      "strainType": "",
+      "description": "A simulated annual membership for the educational project. No payment, enrollment, renewal, or shipment takes place. Inventory is a classroom example, not real membership availability.",
+      "shortDescription": "Annual membership simulation with a one-time registration component.",
+      "genetics": "",
+      "thc": "",
+      "floweringTime": "",
+      "yield": "",
+      "stock": 0,
+      "status": "draft",
+      "images": [
+        "/assets/images/club/season-2.webp"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": null,
+      "category": "Seed Vault Club",
+      "additionalCategories": [],
+      "price": 620,
+      "salePrice": null,
+      "createdAt": "2026-09-12T22:16:19.204Z",
+      "updatedAt": "2026-09-12T22:28:59.478Z",
+      "sourceCheckedAt": null,
+      "variants": []
+    },
+    {
+      "id": "e276956e-2a8d-41f0-bf74-f855eaaa5b96",
+      "name": "THC Live Rosin",
+      "slug": "live-rosin",
+      "sku": "Live_rosin",
+      "strainType": "Concentrate",
+      "description": "Elevate your cannabis experience with Chronic Guru’s premium concentrate—Live Rosin. Known for its purity and rich terpene profile, this solventless extract offers a clean and potent journey into cannabis refinement. Whether you’re new to concentrates or a seasoned enthusiast, this product delivers unmatched flavor, potency, and authenticity.\n\nRead the full profile\nWhat Makes It Special?\nFull-Spectrum Cannabinoids\nPreserving the natural balance of cannabinoids and terpenes, this concentrate reflects the plant’s essence for an authentic and diverse profile.\n\nFresh Extraction Process\nMade from uncured, fresh cannabis, the product bursts with natural aroma and flavor, providing a truly rich experience.\n\nChemical-Free Production\nCreated without solvents, it guarantees a pure and clean product, free from residual chemicals.\n\nWhy Choose Our Premium Concentrate?\nTop-Tier Quality\nRigorous lab testing ensures safety, purity, and consistent results for every batch.\n\nVibrant Flavors and Aromas\nThe extraction method retains the original terpenes, offering bold flavors that stand out.\n\nVersatile Use\nWhether you dab, vape, or infuse your edibles, this product adapts to suit your preferred consumption method.\n\nHow to Enjoy It\nDabbing:\nUse a dab rig to vaporize for intense and fast-acting effects.\n\nVaping:\nA concentrate-compatible vaporizer delivers clean and flavorful vapor.\n\nInfusing Edibles:\nIncorporate into oils or butter to add a rich cannabinoid profile to your favorite recipes.\n\nFrequently Asked Questions\nWhat is it?\nA solventless concentrate made from fresh cannabis, preserving the plant’s natural properties.\n\nHow should it be stored?\nKeep in an airtight container in a cool, dark location to maintain freshness and potency.\n\nIs it suitable for beginners?\nYes, beginners can start with small doses to gauge their tolerance and enjoy the product responsibly.\n\nHow does this differ from other concentrates?\nIt’s extracted without solvents, ensuring a clean and natural experience free from residual chemicals.",
+      "shortDescription": "Chronic Guru Live Rosin: Pure, solventless concentrate with bold flavor and versatility. Perfect for dabbing, vaping, or edibles—experience premium cannabis refinement!",
+      "genetics": "",
+      "thc": "",
+      "floweringTime": "",
+      "yield": "",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/products/uploads/ad9bef0b-42f5-49bc-82e9-916f5cd7ad4a.png"
+      ],
+      "featured": true,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": null,
+      "category": "Live Rosin",
+      "additionalCategories": [],
+      "price": 45,
+      "salePrice": null,
+      "createdAt": "2026-09-15T19:23:34.327Z",
+      "updatedAt": "2026-09-15T19:24:21.517Z",
+      "sourceCheckedAt": null,
+      "variants": []
+    },
+    {
+      "id": "90d9cfb0-a896-4e8b-896e-fb46992023b9",
+      "name": "GeekVape H45 Classic 45W Vape Kit",
+      "slug": "geekvape-h45-classic-45w-vape-kit",
+      "sku": "vape-pk",
+      "strainType": "Vape",
+      "description": "Introducing the GeekVape H45 Classic 45W Vape Kit, exuding the classic Aegis aesthetic and designed to fit perfectly in your hand. This kit features the H45 Classic Device, which comes with a built-in 1400mAh battery and a wattage output range of 5W to 45W. The device boasts an ultra-lightweight design, making it 15% lighter than the previous generation. It is also IP68 rated, ensuring durability and reliability. The top airflow leakproof design enhances its convenience and usability.\n\nThe H45 Pod has a 4mL capacity and supports top filling, adjustable airflow, and a removable coil method for easy maintenance. Each kit includes the H45 Classic Device, H45 Pod 4mL, spare MTL drip tip, two B Series Coils, a USB Type-C cable, and a coil tool.\n\nFor vape shop owners looking to offer their customers a reliable and high-performance vape kit, the GeekVape H45 Classic 45W Vape Kit is an excellent addition to any product lineup.\n\nGeekVape H45 Classic 45W Vape Kit Features:\nDimensions: 44.8mm X 30mm X 92mm.\nBattery: Built-In 1400mAh.\nWattage Output Range: 5W -45W.\nCoil Lifespan: Up To 30ml.\nResistance Range: 0.1ohm - 0.2ohm.\nDisplay: 0.96-Inch TFT.\nUltra Light.\nTop Airflow Leakproof Design.\nIP68 Rating.\nH45 Pod Features:\nCapacity: 4mL.\nTop Filling.\nAdjustable Airflow.\nRemovable Coil Method.\nIncludes:\n1 X H45 Classic Device.\n1 X H45 Pod 4mL.\n1 X Spare MTL Drip Tip.\n2 X B Series Coils(Pre-Installed: 0.4? 25-35W, Spare Coil: 0.6? 15-25W).\n1 X USB Cable (Type-C).",
+      "shortDescription": "Introducing the GeekVape H45 Classic 45W Vape Kit, exuding the classic Aegis aesthetic and designed to fit perfectly in your hand.",
+      "genetics": "",
+      "thc": "",
+      "floweringTime": "",
+      "yield": "",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/products/uploads/99d97268-7fad-47e4-b360-ed3fe8109d39.jpg"
+      ],
+      "featured": true,
+      "bestSeller": true,
+      "newArrival": true,
+      "sourceUrl": null,
+      "category": "Vape",
+      "additionalCategories": [],
+      "price": 42.62,
+      "salePrice": null,
+      "createdAt": "2026-09-15T20:38:38.730Z",
+      "updatedAt": "2026-09-15T20:38:38.730Z",
+      "sourceCheckedAt": null,
+      "variants": []
+    },
+    {
+      "id": "b9cf1688-55c3-4827-b586-c39e5dc26cb8",
+      "name": "SL Concentrate 1g - Strawberry Kush",
+      "slug": "concentrate1g-strawberry-kush",
+      "sku": "concentrate1g-strawberry-kush",
+      "strainType": "",
+      "description": "Concentrated cannabis products come in a wide variety of consistencies, compositions, and potencies. Cannabinoids are isolated and removed from plant material via extraction, agitation, compression, or other methods to create generally a very potent product. Concentrates have an immediate activation time and are generally used by experienced consumers.",
+      "shortDescription": "",
+      "genetics": "",
+      "thc": "",
+      "floweringTime": "",
+      "yield": "",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/products/uploads/38d672e3-7ec7-4522-99a2-fdc828d3d75b.jpg"
+      ],
+      "featured": true,
+      "bestSeller": true,
+      "newArrival": true,
+      "sourceUrl": null,
+      "category": "Concentrate",
+      "additionalCategories": [],
+      "price": 4.29,
+      "salePrice": null,
+      "createdAt": "2026-09-15T20:42:25.507Z",
+      "updatedAt": "2026-09-15T20:59:21.642Z",
+      "sourceCheckedAt": null,
+      "variants": []
+    },
+    {
+      "id": "3af5e609-8148-46d3-9720-212b5b29d364",
+      "name": "RP43 (AKA Richard Petty) THCa Flower",
+      "slug": "dna-genetics-thca-flower-rp43-aka-richard-petty",
+      "sku": "RP43",
+      "strainType": "Indica-Dominant Hybrid",
+      "description": "What happens when DNA Genetics releases their most prized elite clone to the public? You get RP43 THCa Flower—18% of pure, gassy perfection that earned its place in the vault for a reason. Named after “The King” Richard Petty, winner of 200 NASCAR races, this strain is a champion in every sense. This is the genetics that serious connoisseurs whisper about. The one that’s been used to create other legendary crosses.\n\nReady to experience what happens when DNA Genetics shares their secret weapon?\n\nThe genetics that earned elite status\n\nRP43 started as a one-of-a-kind phenotype that DNA Genetics’ expert breeders selected for its exceptional indica traits, massive resin production, and unforgettable aroma. It performed so well in test grows that it earned “elite clone” status—the highest honor in their genetic vault. The nickname “Richard Petty” pays tribute to the racing legend who dominated NASCAR in car #43, because this strain dominates everything it’s crossed with.\n\nWhat does this mean for you? You’re smoking the same genetics that DNA Genetics guards closely and uses as a breeding parent for new hybrids. The S1 self-pollination process preserves every characteristic of the original elite clone—nothing lost, nothing diluted. When you buy RP43, you’re getting the real thing, the same champion that earned its place among DNA’s most prized cultivars.\n\nTaste the high-octane\n\nThe first thing you’ll notice? That unmistakable gasoline aroma that announces itself the moment you crack the seal. Pungent, deeply dank, and impossible to ignore—this is fuel-forward cannabis for those who appreciate bold profiles. Gearheads will love the petroleum punch, backed by earthy depth that grounds the experience.\n\nThe flavor profile is surprisingly smooth despite the aggressive nose. Initial hits deliver that signature diesel with spicy undertones from dominant caryophyllene. Mid-session brings earthy humulene notes forward—like a damp forest floor after rain. The finish? Subtle citrus brightness from limonene that lifts the entire experience. This isn’t one-dimensional gas. This is a complex terpene symphony powered by myrcene, limonene, humulene, and caryophyllene working in perfect harmony.\n\nThe high that takes the checkered flag\n\nHere’s what makes RP43 special: it races through phases like Petty through a speedway. The initial onset hits with surprising energy—euphoric, creative, focus-sharpening. Some say it reduces inhibitions, making social situations more enjoyable. You’ll feel motivated, engaged, and ready to tackle whatever’s in front of you.\n\nBut here’s where The King shows its true colors: as the initial lap completes, deep relaxation takes the wheel. Your body settles into profound comfort. Limbs grow heavy. Eyelids follow. The indica dominance reveals itself in full force, delivering that championship-level body calm that serious consumers crave. This makes RP43 THCa flower perfect for evening use or days off when you can let the full experience unfold.\n\nUsers describe the transition as seamless—creative energy giving way to blissful sedation without jarring shifts. It’s perfect for those seeking serious relaxation, potential help with sleep difficulties, or simply wanting to experience what elite genetics feel like. Medical cannabis patients particularly appreciate how it addresses tension, restlessness, and appetite challenges.\n\nVisual appeal meets vault-worthy genetics\n\nOpen your package and understand why this strain earned elite status. RP43 buds showcase classic indica structure—dense, compact nugs with a thick, bushy appearance that speaks to its heritage. Deep green coloring contrasts with glistening trichome coverage that coats every surface like morning frost on race day.\n\nThis isn’t just beautiful flower. At 18% THCa, you’re looking at potency that matches the pedigree. Every bud is sticky with resin production that made this clone famous, hand-trimmed to perfection, and cured to preserve that signature gas profile. When you buy RP43 THCa flower, you’re choosing genetics that DNA Genetics trusted enough to keep in their vault—and trusted enough to breed their next generation of champions.\n\nWhy RP43 delivers\n\nThe answer is simple: elite clone genetics, unforgettable gas flavor, championship relaxation. This strain represents DNA Genetics at their most exclusive—releasing a closely guarded phenotype that earned its place through performance, not marketing.\n\nYou get the pungent gasoline profile that serious connoisseurs demand. You get the phased effects that start creative and finish sedating. You get 18% THCa that’s lab-tested, compliant, and backed by elite genetics. Most importantly, you get access to the same strain that DNA Genetics uses as a foundation for future champions.\n\nThis is the strain for cannabis veterans who appreciate pedigree. For indica lovers seeking serious relaxation. For anyone who believes their flower should have a story worth telling.\n\nExperience The King\n\nRP43 THCa Flower isn’t just another hemp product. It’s a piece of DNA Genetics history—an elite clone that earned its nickname through dominance, finally available to consumers who appreciate what “vault-worthy” really means.\n\nThe pungent gas aroma that announces quality before you light up. The euphoric onset that transitions into deep body calm. The sedating finish that makes evenings disappear into comfort. The dense, resin-coated buds that look like they belong in a breeder’s private collection. Every element of this strain says elite.\n\nDon’t settle for ordinary flower when you can smoke royalty. Add RP43 to your collection and discover why this strain earned the right to be called The King.",
+      "shortDescription": "The King has arrived. RP43 THCa Flower—named after NASCAR legend Richard Petty and his iconic #43 car—delivers 18% THCa of pure, high-octane indica power that starts with euphoric energy and finishes with championship-level relaxation. This isn't just premium hemp flower—it's DNA Genetics' secret weapon, an elite clone finally available to the public.",
+      "genetics": "DNA Genetics Elite Clone (S1)",
+      "thc": "Pungent gasoline, deep earth, spicy, citrus undertones",
+      "floweringTime": "",
+      "yield": "",
+      "stock": 0,
+      "status": "active",
+      "images": [
+        "/assets/images/products/uploads/f79c1aee-2775-4851-9eb7-ca5701d45632.jpg"
+      ],
+      "featured": false,
+      "bestSeller": false,
+      "newArrival": false,
+      "sourceUrl": null,
+      "category": "THCA Flower",
+      "additionalCategories": [],
+      "price": 0,
+      "salePrice": null,
+      "createdAt": "2026-09-15T21:06:36.978Z",
+      "updatedAt": "2026-09-15T21:06:36.978Z",
+      "sourceCheckedAt": null,
+      "variants": [
+        {
+          "id": "0ee1caf8-0969-42d7-a53c-7f16e8a47302",
+          "size": 1,
+          "sku": "PRODUCT-1",
+          "stock": 0,
+          "sourceAvailable": null,
+          "price": 39.99,
+          "salePrice": null
+        },
+        {
+          "id": "a45b0bf4-9d98-4448-b494-410c1afc9bb4",
+          "size": 2,
+          "sku": "PRODUCT-2",
+          "stock": 0,
+          "sourceAvailable": null,
+          "price": 57.74,
+          "salePrice": null
+        },
+        {
+          "id": "ff21f0f8-d14e-4a16-a1ef-ebf57b734d0d",
+          "size": 3,
+          "sku": "PRODUCT-3",
+          "stock": 0,
+          "sourceAvailable": null,
+          "price": 111,
+          "salePrice": null
+        },
+        {
+          "id": "85e09e14-9105-4891-b825-ad8bcbc4fea7",
+          "size": 4,
+          "sku": "PRODUCT-4",
+          "stock": 0,
+          "sourceAvailable": null,
+          "price": 226,
+          "salePrice": null
+        }
+      ]
+    }
+  ]
+}
