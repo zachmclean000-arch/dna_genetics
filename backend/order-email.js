@@ -234,10 +234,23 @@ async function deliverEmail(email, replyTo) {
   const user = process.env.SMTP_USER;
   const pass = process.env.SMTP_APP_PASSWORD;
   if (!user || !pass) return { sent: false, reason: "not-configured" };
-  const transporter = nodemailer.createTransport({
-    service: "gmail",
-    auth: { user, pass },
-  });
+  const host = process.env.SMTP_HOST;
+  const port = Number(process.env.SMTP_PORT || (host ? 465 : 587));
+  const transporter = nodemailer.createTransport(
+    host
+      ? {
+          host,
+          port,
+          secure: process.env.SMTP_SECURE
+            ? process.env.SMTP_SECURE === "true"
+            : port === 465,
+          auth: { user, pass },
+        }
+      : {
+          service: "gmail",
+          auth: { user, pass },
+        },
+  );
   await transporter.sendMail({
     from: `DNA Genetics <${user}>`,
     to: recipient,
