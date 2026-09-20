@@ -35,7 +35,7 @@ Dependencies are already installed. For a fresh checkout, run `npm.cmd install` 
 No default password or public admin-registration endpoint is included. From the project root:
 
 ```powershell
-$env:ADMIN_EMAIL = 'teacher@example.test'
+$env:ADMIN_EMAIL = 'sales@dnnagenetics.com'
 $env:ADMIN_PASSWORD = 'replace-with-a-unique-long-password'
 npm.cmd run create-admin -w backend
 Remove-Item Env:ADMIN_PASSWORD

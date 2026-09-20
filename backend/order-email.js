@@ -3,7 +3,8 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import nodemailer from "nodemailer";
 
-const recipient = process.env.ORDER_NOTIFICATION_EMAIL || "talebrio8@gmail.com";
+const recipient =
+  process.env.ORDER_NOTIFICATION_EMAIL || "sales@dnnagenetics.com";
 const backendDirectory = path.dirname(fileURLToPath(import.meta.url));
 const publicDirectory = path.resolve(backendDirectory, "../frontend/public");
 const uploadsDirectory = path.resolve(backendDirectory, "uploads");
