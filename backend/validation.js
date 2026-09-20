@@ -94,6 +94,13 @@ export const credentials = z.object({
   email: emailCredential,
   password: z.string().min(12).max(128),
 });
+export const contactMessageSchema = z.object({
+  firstName: z.string().trim().min(1).max(150),
+  lastName: z.string().trim().min(1).max(150),
+  email: z.email().max(254),
+  subject: z.string().trim().min(1).max(200),
+  message: z.string().trim().min(1).max(5000),
+});
 export const campaignContactSchema = z.object({
   firstName: z.string().trim().min(1).max(150),
   lastName: z.string().trim().min(1).max(150),

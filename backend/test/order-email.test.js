@@ -1,6 +1,10 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { buildOrderEmail, buildOrderStatusEmail } from "../order-email.js";
+import {
+  buildContactEmail,
+  buildOrderEmail,
+  buildOrderStatusEmail,
+} from "../order-email.js";
 
 function fixture() {
   return {
@@ -67,4 +71,22 @@ test("builds matching in-progress and completed status emails", () => {
   const completed = buildOrderStatusEmail(fixture(), "completed");
   assert.match(completed.subject, /completed/i);
   assert.match(completed.html, /ORDER COMPLETED/);
+});
+
+test("builds a styled and escaped contact notification", () => {
+  const email = buildContactEmail({
+    firstName: "Test",
+    lastName: "Customer",
+    email: "customer@example.com",
+    subject: "Product question\r\nInjected header",
+    message: '<script>alert("x")</script> Please contact me.',
+  });
+  assert.equal(
+    email.subject,
+    "DNA GENETICS contact: Product question Injected header",
+  );
+  assert.match(email.text, /customer@example\.com/);
+  assert.match(email.html, /New contact message/);
+  assert.doesNotMatch(email.html, /<script>/);
+  assert.match(email.html, /&lt;script&gt;/);
 });

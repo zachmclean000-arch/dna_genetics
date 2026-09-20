@@ -310,6 +310,14 @@
   color: #174d3c;
   line-height: 1.5;
 }
+.dna-contact-error {
+  margin: 20px 0 0;
+  padding: 15px;
+  border-left: 4px solid #a12e25;
+  background: #f7e9e7;
+  color: #8e251d;
+  line-height: 1.5;
+}
 .dna-brochure-actions {
   display: flex;
   align-items: center;

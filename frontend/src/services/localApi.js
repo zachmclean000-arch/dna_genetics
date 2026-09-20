@@ -15,6 +15,8 @@ export async function localApi(url, options = {}) {
       return structuredClone(product);
     }
   }
+  if (method === "POST" && path === "/contact")
+    return { message: "Thank you for contacting us." };
   throw Error(
     "This feature will be connected when we work on the backend. Nothing has been submitted.",
   );

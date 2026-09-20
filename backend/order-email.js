@@ -200,7 +200,37 @@ export function buildOrderStatusEmail(order, status) {
   };
 }
 
-async function deliverOrderEmail(order, email) {
+export function buildContactEmail(contact) {
+  const name = `${contact.firstName} ${contact.lastName}`;
+  const subject = contact.subject.replace(/[\r\n]+/g, " ");
+  return {
+    subject: `DNA GENETICS contact: ${subject}`,
+    text: [
+      "New website contact message",
+      "",
+      `Name: ${name}`,
+      `Email: ${contact.email}`,
+      `Subject: ${contact.subject}`,
+      "",
+      contact.message,
+    ].join("\n"),
+    html: `<!doctype html><html lang="en"><body style="margin:0;background:#eeeae2;font-family:Arial,Helvetica,sans-serif;color:#202020">
+      <table role="presentation" width="100%" cellspacing="0" cellpadding="0"><tr><td align="center" style="padding:24px 10px">
+      <table role="presentation" width="620" cellspacing="0" cellpadding="0" style="width:100%;max-width:620px;background:#fff;border-radius:12px;overflow:hidden">
+        <tr><td style="height:8px;background:#f5ca3c"></td></tr>
+        <tr><td style="padding:24px 32px;background:#174d3c;color:#fff"><strong style="font-size:21px">DNA GENETICS</strong><div style="margin-top:5px;color:#dce9e3">New contact message</div></td></tr>
+        <tr><td style="padding:28px 32px">
+          <h1 style="margin:0 0 20px;color:#174d3c;font-size:24px">${escapeHtml(contact.subject)}</h1>
+          <p style="line-height:1.7"><strong>From:</strong> ${escapeHtml(name)}<br><strong>Email:</strong> <a href="mailto:${escapeHtml(contact.email)}" style="color:#174d3c">${escapeHtml(contact.email)}</a></p>
+          <div style="margin-top:22px;padding:20px;background:#f8f6f1;border-left:4px solid #f5ca3c;line-height:1.7;white-space:pre-wrap">${escapeHtml(contact.message)}</div>
+        </td></tr>
+      </table></td></tr></table>
+    </body></html>`,
+    attachments: [],
+  };
+}
+
+async function deliverEmail(email, replyTo) {
   const user = process.env.SMTP_USER;
   const pass = process.env.SMTP_APP_PASSWORD;
   if (!user || !pass) return { sent: false, reason: "not-configured" };
@@ -209,18 +239,22 @@ async function deliverOrderEmail(order, email) {
     auth: { user, pass },
   });
   await transporter.sendMail({
-    from: `DNA Genetics checkout <${user}>`,
+    from: `DNA Genetics <${user}>`,
     to: recipient,
-    replyTo: order.contact.email,
+    replyTo,
     ...email,
   });
   return { sent: true };
 }
 
 export async function sendOrderNotification(order) {
-  return deliverOrderEmail(order, buildOrderEmail(order));
+  return deliverEmail(buildOrderEmail(order), order.contact.email);
 }
 
 export async function sendOrderStatusNotification(order, status) {
-  return deliverOrderEmail(order, buildOrderStatusEmail(order, status));
+  return deliverEmail(buildOrderStatusEmail(order, status), order.contact.email);
+}
+
+export async function sendContactNotification(contact) {
+  return deliverEmail(buildContactEmail(contact), contact.email);
 }

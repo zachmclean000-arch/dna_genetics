@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { termsReference } from "../../data/termsReference";
+import { api } from "../../services/api";
 import "./UsefulPages.css";
 
 const faqGroups = [
@@ -346,7 +347,7 @@ const pages = {
 };
 
 function ContactPage() {
-  const [sent, setSent] = useState(false);
+  const [state, setState] = useState({ sending: false, sent: false, error: "" });
   return (
     <div className="dna-useful-contact">
       <div>
@@ -354,10 +355,20 @@ function ContactPage() {
         <h1>Contact</h1>
       </div>
       <form
-        onSubmit={(event) => {
+        onSubmit={async (event) => {
           event.preventDefault();
-          setSent(true);
-          event.currentTarget.reset();
+          const form = event.currentTarget;
+          setState({ sending: true, sent: false, error: "" });
+          try {
+            await api("/contact", {
+              method: "POST",
+              body: Object.fromEntries(new FormData(form)),
+            });
+            form.reset();
+            setState({ sending: false, sent: true, error: "" });
+          } catch (error) {
+            setState({ sending: false, sent: false, error: error.message });
+          }
         }}
       >
         <h2>Send us a message</h2>
@@ -378,12 +389,17 @@ function ContactPage() {
         <label>
           Message *<textarea name="message" rows="7" />
         </label>
-        <button className="button gold" type="submit">
-          SUBMIT MESSAGE
+        <button className="button gold" type="submit" disabled={state.sending}>
+          {state.sending ? "SENDING..." : "SUBMIT MESSAGE"}
         </button>
-        {sent && (
+        {state.sent && (
           <p className="dna-contact-success" role="status">
             Thank you for contacting us.
+          </p>
+        )}
+        {state.error && (
+          <p className="dna-contact-error" role="alert">
+            {state.error}
           </p>
         )}
       </form>

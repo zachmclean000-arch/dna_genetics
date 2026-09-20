@@ -12,6 +12,7 @@ import { mountReviews } from "./reviews.js";
 import { hashPassword, checkPassword, tokenHash, publicUser } from "./auth.js";
 import {
   credentials,
+  contactMessageSchema,
   loginCredentials,
   productSchema,
   placeOrder,
@@ -19,6 +20,7 @@ import {
 import {
   sendOrderNotification,
   sendOrderStatusNotification,
+  sendContactNotification,
 } from "./order-email.js";
 const app = express(),
   root = fileURLToPath(new URL(".", import.meta.url));
@@ -441,6 +443,34 @@ app.get(
   wrap(async (req, res) =>
     res.json(await transaction((s) => s.users.map(publicUser))),
   ),
+);
+app.post(
+  "/api/contact",
+  wrap(async (req, res) => {
+    const now = Date.now();
+    const key = `contact:${req.ip}`;
+    const entry = campaignAttempts.get(key) || {
+      count: 0,
+      until: now + 60000,
+    };
+    if (entry.until < now) {
+      entry.count = 0;
+      entry.until = now + 60000;
+    }
+    entry.count += 1;
+    campaignAttempts.set(key, entry);
+    if (entry.count > 5)
+      return res
+        .status(429)
+        .json({ error: "Too many messages. Try again in a minute." });
+    const contact = contactMessageSchema.parse(req.body);
+    const notification = await sendContactNotification(contact);
+    if (!notification.sent)
+      return res.status(503).json({
+        error: "Email delivery is not configured. Please try again later.",
+      });
+    res.status(201).json({ message: "Thank you for contacting us." });
+  }),
 );
 app.post(
   "/api/newsletter",
