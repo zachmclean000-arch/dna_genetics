@@ -300,12 +300,6 @@ export default function Cart({ checkout = false }) {
             <p className="dna-order-reference">
               Reference #{order.id.slice(0, 8)}
             </p>
-            {order.notification?.sent === false && (
-              <p className="dna-order-email-status">
-                Your order was saved. The email notification is awaiting mail
-                configuration.
-              </p>
-            )}
             <button
               type="button"
               className="button gold"
