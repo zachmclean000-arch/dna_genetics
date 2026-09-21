@@ -857,6 +857,12 @@ dd {
   font-weight: 800;
   cursor: pointer;
 }
+.admin-order-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  white-space: nowrap;
+}
 .admin-order-delete:hover:not(:disabled),
 .admin-order-delete:focus-visible {
   background: #a02d25;

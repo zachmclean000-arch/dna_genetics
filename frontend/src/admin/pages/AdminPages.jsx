@@ -647,7 +647,6 @@ export default function AdminPages() {
                       <th>Total</th>
                       <th>Status</th>
                       <th>Details</th>
-                      <th>Action</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -734,68 +733,68 @@ export default function AdminPages() {
                             </select>
                           </td>
                           <td data-label="Details">
-                            <details className="admin-order-details">
-                              <summary>View</summary>
-                              {o.contact && (
-                                <div>
-                                  <strong>
-                                    {o.contact.firstName} {o.contact.lastName}
-                                  </strong>
-                                  <p>
-                                    {o.contact.email}
-                                    <br />
-                                    {o.contact.phone}
-                                  </p>
-                                  <p>
-                                    {[
-                                      o.contact.address,
-                                      o.contact.address2,
-                                      o.contact.city,
-                                      o.contact.region,
-                                      o.contact.postalCode,
-                                      o.contact.country,
-                                    ]
-                                      .filter(Boolean)
-                                      .join(", ")}
-                                  </p>
-                                  <small>
-                                    Payment choice: {o.contact.paymentMethod}
-                                  </small>
-                                </div>
-                              )}
-                            </details>
-                          </td>
-                          <td data-label="Action">
-                            <button
-                              type="button"
-                              className="admin-order-delete"
-                              disabled={busy}
-                              onClick={() => {
-                                if (
-                                  !window.confirm(
-                                    `Delete order #${o.id.slice(0, 8).toUpperCase()}? This cannot be undone.`,
+                            <div className="admin-order-actions">
+                              <details className="admin-order-details">
+                                <summary>View</summary>
+                                {o.contact && (
+                                  <div>
+                                    <strong>
+                                      {o.contact.firstName} {o.contact.lastName}
+                                    </strong>
+                                    <p>
+                                      {o.contact.email}
+                                      <br />
+                                      {o.contact.phone}
+                                    </p>
+                                    <p>
+                                      {[
+                                        o.contact.address,
+                                        o.contact.address2,
+                                        o.contact.city,
+                                        o.contact.region,
+                                        o.contact.postalCode,
+                                        o.contact.country,
+                                      ]
+                                        .filter(Boolean)
+                                        .join(", ")}
+                                    </p>
+                                    <small>
+                                      Payment choice: {o.contact.paymentMethod}
+                                    </small>
+                                  </div>
+                                )}
+                              </details>
+                              <button
+                                type="button"
+                                className="admin-order-delete"
+                                disabled={busy}
+                                onClick={() => {
+                                  if (
+                                    !window.confirm(
+                                      `Delete order #${o.id.slice(0, 8).toUpperCase()}? This cannot be undone.`,
+                                    )
                                   )
-                                )
-                                  return;
-                                action(async () => {
-                                  await api(`/orders/${o.id}`, {
-                                    method: "DELETE",
+                                    return;
+                                  action(async () => {
+                                    await api(`/orders/${o.id}`, {
+                                      method: "DELETE",
+                                    });
+                                    setMessage(
+                                      `Order #${o.id.slice(0, 8).toUpperCase()} deleted.`,
+                                    );
                                   });
-                                  setMessage(
-                                    `Order #${o.id.slice(0, 8).toUpperCase()} deleted.`,
-                                  );
-                                });
-                              }}
-                            >
-                              Delete
-                            </button>
+                                }}
+                              >
+                                Delete
+                              </button>
+                            </div>
                           </td>
                         </tr>
                       );
                     })}
                     {!visibleOrders.length && (
                       <tr>
-                        <td colSpan="8" className="admin-empty-table">
+                        <td colSpan="7" className="admin-empty-table">
                           {orders.length
                             ? "No orders match your search or filter."
                             : "No orders yet."}
