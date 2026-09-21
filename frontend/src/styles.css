@@ -872,6 +872,71 @@ dd {
   cursor: not-allowed;
   opacity: 0.45;
 }
+.admin-confirm-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgb(10 18 15 / 72%);
+}
+.admin-confirm-modal {
+  width: min(100%, 460px);
+  padding: 34px;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 24px 70px rgb(0 0 0 / 35%);
+  text-align: center;
+}
+.admin-confirm-icon {
+  display: grid;
+  width: 58px;
+  height: 58px;
+  margin: 0 auto 18px;
+  place-items: center;
+  border-radius: 50%;
+  background: #f4dfdc;
+  color: #a02d25;
+  font-size: 32px;
+  font-weight: 900;
+}
+.admin-confirm-modal h2 {
+  margin: 0 0 12px;
+  color: #171b18;
+  font-size: 28px;
+}
+.admin-confirm-modal p {
+  margin: 0;
+  color: #555;
+  line-height: 1.6;
+}
+.admin-confirm-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 28px;
+}
+.admin-confirm-actions button {
+  min-height: 46px;
+  border-radius: 5px;
+  font-weight: 900;
+  cursor: pointer;
+}
+.admin-confirm-actions button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+.admin-confirm-cancel {
+  border: 1px solid #bbb;
+  background: #fff;
+  color: #222;
+}
+.admin-confirm-delete {
+  border: 1px solid #a02d25;
+  background: #a02d25;
+  color: #fff;
+}
 .admin-orders-results {
   margin: 10px 0 14px;
   color: #777;

@@ -225,6 +225,7 @@ export default function AdminPages() {
     [orderFilter, setOrderFilter] = useState("all"),
     [orderPage, setOrderPage] = useState(1),
     [orderPageSize, setOrderPageSize] = useState(10),
+    [orderToDelete, setOrderToDelete] = useState(null),
     [message, setMessage] = useState(""),
     [loading, setLoading] = useState(true),
     [busy, setBusy] = useState(false);
@@ -768,22 +769,7 @@ export default function AdminPages() {
                                 type="button"
                                 className="admin-order-delete"
                                 disabled={busy}
-                                onClick={() => {
-                                  if (
-                                    !window.confirm(
-                                      `Delete order #${o.id.slice(0, 8).toUpperCase()}? This cannot be undone.`,
-                                    )
-                                  )
-                                    return;
-                                  action(async () => {
-                                    await api(`/orders/${o.id}`, {
-                                      method: "DELETE",
-                                    });
-                                    setMessage(
-                                      `Order #${o.id.slice(0, 8).toUpperCase()} deleted.`,
-                                    );
-                                  });
-                                }}
+                                onClick={() => setOrderToDelete(o)}
                               >
                                 Delete
                               </button>
@@ -829,6 +815,62 @@ export default function AdminPages() {
                     Next
                   </button>
                 </nav>
+              )}
+              {orderToDelete && (
+                <div
+                  className="admin-confirm-backdrop"
+                  role="presentation"
+                  onMouseDown={(event) => {
+                    if (event.target === event.currentTarget && !busy)
+                      setOrderToDelete(null);
+                  }}
+                >
+                  <section
+                    className="admin-confirm-modal"
+                    role="dialog"
+                    aria-modal="true"
+                    aria-labelledby="delete-order-title"
+                  >
+                    <span className="admin-confirm-icon" aria-hidden="true">
+                      !
+                    </span>
+                    <h2 id="delete-order-title">Delete order?</h2>
+                    <p>
+                      Order <strong>#{orderToDelete.id.slice(0, 8).toUpperCase()}</strong>{" "}
+                      will be permanently deleted. This cannot be undone.
+                    </p>
+                    <div className="admin-confirm-actions">
+                      <button
+                        type="button"
+                        className="admin-confirm-cancel"
+                        disabled={busy}
+                        onClick={() => setOrderToDelete(null)}
+                      >
+                        Cancel
+                      </button>
+                      <button
+                        type="button"
+                        className="admin-confirm-delete"
+                        disabled={busy}
+                        autoFocus
+                        onClick={() => {
+                          const order = orderToDelete;
+                          action(async () => {
+                            await api(`/orders/${order.id}`, {
+                              method: "DELETE",
+                            });
+                            setMessage(
+                              `Order #${order.id.slice(0, 8).toUpperCase()} deleted.`,
+                            );
+                            setOrderToDelete(null);
+                          });
+                        }}
+                      >
+                        {busy ? "Deleting…" : "Delete order"}
+                      </button>
+                    </div>
+                  </section>
+                </div>
               )}
             </div>
           )}
