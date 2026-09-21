@@ -358,6 +358,18 @@ function ContactPage() {
           <p>
             <a href="tel:+17246138597">+1 724 613 8597</a>
           </p>
+          <div className="dna-contact-method">
+            <h2>WhatsApp</h2>
+            <p>
+              <a
+                href="https://wa.me/19295918532"
+                target="_blank"
+                rel="noreferrer"
+              >
+                +1 929 591 8532
+              </a>
+            </p>
+          </div>
         </div>
       </div>
       <form
