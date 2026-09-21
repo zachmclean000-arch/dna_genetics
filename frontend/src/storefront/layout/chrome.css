@@ -50,6 +50,7 @@
   color: #222;
 }
 .dna-announcement {
+  position: relative;
   height: 30px;
   display: flex;
   align-items: center;
@@ -62,7 +63,21 @@
     Arial,
     sans-serif;
 }
-.dna-announcement span {
+.dna-announcement strong {
+  color: #ffcb00;
+}
+.dna-announcement-shipping-mobile {
+  display: none;
+}
+.dna-announcement a {
+  position: absolute;
+  right: 20px;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+.dna-announcement a:hover,
+.dna-announcement a:focus-visible {
   color: #ffcb00;
 }
 .dna-header {
@@ -463,6 +478,11 @@
     sans-serif;
   color: #bfbfbf;
 }
+.dna-footer .dna-footer-phone {
+  margin: 0 0 18px;
+  color: #fff;
+  font: 700 13px/20px "DNA Roboto", Arial, sans-serif;
+}
 .dna-footer h3.dna-footer-secondary-title {
   margin: 50px 0 25px;
 }
@@ -805,7 +825,19 @@
     max-width: none;
   }
   .dna-announcement {
-    font-size: 14px;
+    justify-content: flex-start;
+    padding: 0 8px;
+    font-size: 11px;
+  }
+  .dna-announcement-shipping {
+    display: none;
+  }
+  .dna-announcement-shipping-mobile {
+    display: inline;
+  }
+  .dna-announcement a {
+    right: 8px;
+    font-size: 10px;
   }
   .dna-header-inner {
     max-width: none;

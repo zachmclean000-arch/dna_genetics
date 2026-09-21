@@ -136,6 +136,9 @@ export default function Footer() {
             </div>
             <div className="dna-footer-useful">
               <h3>USEFUL LINKS</h3>
+              <a className="dna-footer-phone" href="tel:+17246138597">
+                Call us: +1 724 613 8597
+              </a>
               <LinkList items={usefulLinks} />
             </div>
             <div className="dna-footer-shop">

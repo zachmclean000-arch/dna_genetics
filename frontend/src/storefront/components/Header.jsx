@@ -62,7 +62,13 @@ export default function Header() {
       }}
     >
       <div className="dna-announcement">
-        FREE SHIPPING ON ORDERS <span>£120</span> AND OVER
+        <span className="dna-announcement-shipping">
+          FREE SHIPPING ON ORDERS <strong>£120</strong> AND OVER
+        </span>
+        <span className="dna-announcement-shipping-mobile">
+          FREE SHIPPING <strong>£120+</strong>
+        </span>
+        <a href="tel:+17246138597">CALL US: +1 724 613 8597</a>
       </div>
       <header className="dna-header">
         <div className="dna-header-inner">

@@ -353,6 +353,12 @@ function ContactPage() {
       <div>
         <p className="dna-useful-kicker">CONTACT DNA</p>
         <h1>Contact</h1>
+        <div className="dna-contact-card">
+          <h2>Call us</h2>
+          <p>
+            <a href="tel:+17246138597">+1 724 613 8597</a>
+          </p>
+        </div>
       </div>
       <form
         onSubmit={async (event) => {
