@@ -402,6 +402,30 @@ export default function AdminPages() {
                     ))}
                   </select>
                 </label>
+                <button
+                  type="button"
+                  className="admin-danger-button"
+                  disabled={busy || orders.length === 0}
+                  onClick={() => {
+                    if (
+                      !window.confirm(
+                        `Delete all ${orders.length} orders? This cannot be undone.`,
+                      )
+                    )
+                      return;
+                    action(async () => {
+                      const result = await api("/orders", {
+                        method: "DELETE",
+                      });
+                      setMessage(
+                        `${result.deleted} orders deleted. Dashboard order totals are now zero.`,
+                      );
+                      setOrderPage(1);
+                    });
+                  }}
+                >
+                  Delete all orders
+                </button>
               </div>
               <div className="admin-orders-results" aria-live="polite">
                 Showing {visibleProducts.length} of {filteredProducts.length}{" "}

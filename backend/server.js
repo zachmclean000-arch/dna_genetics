@@ -398,6 +398,18 @@ app.get(
     ),
   ),
 );
+app.delete(
+  "/api/orders",
+  admin,
+  wrap(async (req, res) => {
+    const deleted = await transaction((s) => {
+      const count = s.orders.length;
+      s.orders = [];
+      return count;
+    });
+    res.json({ deleted });
+  }),
+);
 app.patch(
   "/api/orders/:id",
   admin,
