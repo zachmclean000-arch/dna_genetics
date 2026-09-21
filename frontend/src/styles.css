@@ -847,10 +847,9 @@ dd {
   border: 1px solid #cfcfc6;
   background: #fff;
 }
-.admin-danger-button {
-  align-self: end;
-  min-height: 44px;
-  padding: 0 18px;
+.admin-order-delete {
+  min-height: 36px;
+  padding: 0 14px;
   border: 1px solid #a02d25;
   border-radius: 4px;
   background: #fff;
@@ -858,12 +857,12 @@ dd {
   font-weight: 800;
   cursor: pointer;
 }
-.admin-danger-button:hover:not(:disabled),
-.admin-danger-button:focus-visible {
+.admin-order-delete:hover:not(:disabled),
+.admin-order-delete:focus-visible {
   background: #a02d25;
   color: #fff;
 }
-.admin-danger-button:disabled {
+.admin-order-delete:disabled {
   cursor: not-allowed;
   opacity: 0.45;
 }

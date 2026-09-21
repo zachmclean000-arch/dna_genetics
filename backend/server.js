@@ -399,15 +399,15 @@ app.get(
   ),
 );
 app.delete(
-  "/api/orders",
+  "/api/orders/:id",
   admin,
   wrap(async (req, res) => {
     const deleted = await transaction((s) => {
-      const count = s.orders.length;
-      s.orders = [];
-      return count;
+      const index = s.orders.findIndex((order) => order.id === req.params.id);
+      if (index < 0) throw Error("Order not found.");
+      return s.orders.splice(index, 1)[0];
     });
-    res.json({ deleted });
+    res.json({ id: deleted.id });
   }),
 );
 app.patch(

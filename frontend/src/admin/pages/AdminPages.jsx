@@ -402,30 +402,6 @@ export default function AdminPages() {
                     ))}
                   </select>
                 </label>
-                <button
-                  type="button"
-                  className="admin-danger-button"
-                  disabled={busy || orders.length === 0}
-                  onClick={() => {
-                    if (
-                      !window.confirm(
-                        `Delete all ${orders.length} orders? This cannot be undone.`,
-                      )
-                    )
-                      return;
-                    action(async () => {
-                      const result = await api("/orders", {
-                        method: "DELETE",
-                      });
-                      setMessage(
-                        `${result.deleted} orders deleted. Dashboard order totals are now zero.`,
-                      );
-                      setOrderPage(1);
-                    });
-                  }}
-                >
-                  Delete all orders
-                </button>
               </div>
               <div className="admin-orders-results" aria-live="polite">
                 Showing {visibleProducts.length} of {filteredProducts.length}{" "}
@@ -671,6 +647,7 @@ export default function AdminPages() {
                       <th>Total</th>
                       <th>Status</th>
                       <th>Details</th>
+                      <th>Action</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -788,12 +765,37 @@ export default function AdminPages() {
                               )}
                             </details>
                           </td>
+                          <td data-label="Action">
+                            <button
+                              type="button"
+                              className="admin-order-delete"
+                              disabled={busy}
+                              onClick={() => {
+                                if (
+                                  !window.confirm(
+                                    `Delete order #${o.id.slice(0, 8).toUpperCase()}? This cannot be undone.`,
+                                  )
+                                )
+                                  return;
+                                action(async () => {
+                                  await api(`/orders/${o.id}`, {
+                                    method: "DELETE",
+                                  });
+                                  setMessage(
+                                    `Order #${o.id.slice(0, 8).toUpperCase()} deleted.`,
+                                  );
+                                });
+                              }}
+                            >
+                              Delete
+                            </button>
+                          </td>
                         </tr>
                       );
                     })}
                     {!visibleOrders.length && (
                       <tr>
-                        <td colSpan="7" className="admin-empty-table">
+                        <td colSpan="8" className="admin-empty-table">
                           {orders.length
                             ? "No orders match your search or filter."
                             : "No orders yet."}
